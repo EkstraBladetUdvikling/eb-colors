@@ -1,0 +1,46 @@
+/*
+---
+title: All general site colors
+section: General site colors
+---
+
+Generates all section specific color classes
+
+*/
+@import "all";
+
+$colornames: $general, $greyscale, $socialmedia;
+
+@each $color in $colornames {
+  @each $key, $value in $color {
+/*
+---
+title: #{$key}
+section: General site colors
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-gb--#{$key}">
+            #{$key}
+        </div>
+        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
+            #{map-get($value, 'main')}
+        </p>
+    </div>
+```
+*/
+      .eb-gb--#{$key} {
+          background: map-get($value, 'main');
+          color: map-get($value, 'foreground');
+      }
+
+      .eb-color--#{$key} {
+         color: map-get($value, 'main');
+      }
+
+  }
+
+}
