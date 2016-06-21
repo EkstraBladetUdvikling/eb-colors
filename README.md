@@ -7,21 +7,21 @@
 
 To just get the variables and maps,  use the following
 
-@import "[pathtofolder]/source/all.scss";
+`@import "[pathtofolder]/source/all.scss";`
 
 To get the variables, maps and classes created,  use the following
 
-@import "[pathtofolder]/source/all-with-classes.scss";
+`@import "[pathtofolder]/source/all-with-classes.scss";`
 
 
 General colors can be imported from (eb main color is part of the general list)
 
-@import "[pathtofolder]/source/general/all[-with-classes].scss";
+`@import "[pathtofolder]/source/general/all[-with-classes].scss";`
 
 
 Section specific colors can be imported from
 
-@import "[pathtofolder]/source/sections/all[-with-classes].scss";
+`@import "[pathtofolder]/source/sections/all[-with-classes].scss";`
 
 
 ## all colors
@@ -71,16 +71,18 @@ The following functions are only include when using one of the three collection 
 
 Sets both background-color and color, to ensure correct usage
 
-Usage
+```
 .selector {
   @include eb-background('colorname');
 }
+```
 
 ### foreground (color:)
 
 Returns the main color
 
-Usage
+```
 .selector {
   color: eb-color-get('colorname');
 }
+```
