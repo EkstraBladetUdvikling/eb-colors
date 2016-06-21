@@ -1,0 +1,16 @@
+/*
+*/
+
+@function color-pair($background, $foreground: $background) {
+  $newBackground: eb-color-get($background);
+  $color-to-get: 'main';
+
+  @if ($foreground == $background) {
+    $color-to-get: 'foreground';
+  }
+
+  $newColor: eb-color-get($foreground, $color-to-get);
+  $newPair: ('background': $newBackground, 'color': $newColor);
+
+  @return $newPair;
+}

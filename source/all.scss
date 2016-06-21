@@ -4,3 +4,8 @@ $eb-color-classes: false !default;
 @import "sections/all";
 
 $eb-colors: map-merge($eb-colors-general, $eb-colors-sections);
+
+
+.new-class {
+    @include eb-background('eb');
+}
