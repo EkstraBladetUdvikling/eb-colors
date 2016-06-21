@@ -1,30 +1,30 @@
-$eb-color-forbrug: (
+$eb-color-nationen: (
 
-    'forbrug': (
-        'main'          : #31769b,
-        'foreground'    : #fff,
-    ),
-    'forbrug2' : (
-        'main'          : #4fa8df,
-        'foreground'    : #000,
-    )
+  'nationen': (
+      'main'          : #e58202,
+      'foreground'    : #fff,
+  ),
+  'nationen2': (
+      'main'          : #e5ad02,
+      'foreground'    : #000,
+  )
 
 );
 
-$color: $eb-color-forbrug;
+$color: $eb-color-nationen;
 @each $key, $value in $color {
 /*
 ---
 title: #{$key}
 section: Section specific colors
-variable: eb-color-forbrug
+variable: eb-color-nationen
 ---
 
 Generates all section specific color classes
 
 ```example:html
     <div class="color_example">
-        <div class="color_swap eb-gb--#{$key}">
+        <div class="color_swap eb-bg--#{$key}">
             #{$key}
         </div>
         <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
@@ -33,9 +33,8 @@ Generates all section specific color classes
     </div>
 ```
 */
-
   @if ($eb-color-classes == true) {
-    .eb-gb--#{$key} {
+    .eb-bg--#{$key} {
         background: map-get($value, 'main');
         color: map-get($value, 'foreground');
     }
@@ -44,4 +43,14 @@ Generates all section specific color classes
     }
 
   }
+}
+
+
+@if ($eb-colors-cssvars == true) {
+    :root {
+        @each $key, $value in $color {
+            --eb-color--#{$key}: map-get($value, 'main');
+            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
+        }
+    }
 }

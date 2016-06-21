@@ -67,7 +67,7 @@ Generates all section specific color classes
 
 ```example:css
     <div class="color_example">
-        <div class="color_swap eb-gb--#{$key}">
+        <div class="color_swap eb-bg--#{$key}">
             #{$key}
         </div>
         <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
@@ -78,7 +78,7 @@ Generates all section specific color classes
 
 ```example:html
     <div class="color_example">
-        <div class="color_swap eb-gb--#{$key}">
+        <div class="color_swap eb-bg--#{$key}">
             #{$key}
         </div>
         <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
@@ -87,7 +87,7 @@ Generates all section specific color classes
     </div>
 ```
 */
-      .eb-gb--#{$key} {
+      .eb-bg--#{$key} {
           background: map-get($value, 'main');
           color: map-get($value, 'foreground');
       }
@@ -98,4 +98,14 @@ Generates all section specific color classes
 
   }
 
+}
+
+
+@if ($eb-colors-cssvars == true) {
+    :root {
+        @each $key, $value in $color {
+            --eb-color--#{$key}: map-get($value, 'main');
+            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
+        }
+    }
 }

@@ -1,0 +1,771 @@
+/*
+*/
+/*
+---
+title: map-collect
+section: functions
+---
+
+```example:usage
+
+$new-variable: map-collect($map1, $map2, $map3, $map4);
+
+```
+*/
+:root {
+  --eb-color--eb: #bd1118;
+  --eb-fgcolor--eb: #fff;
+  --eb-color--eb2: #900;
+  --eb-fgcolor--eb2: #fff;
+  --eb-color--breaking: #ff0;
+  --eb-fgcolor--breaking: #000;
+  --eb-color--breaking2: #ffcc01;
+  --eb-fgcolor--breaking2: #fff;
+  --eb-color--bruger: #4fa8df;
+  --eb-fgcolor--bruger: #fff;
+  --eb-color--bruger2: #82c3ec;
+  --eb-fgcolor--bruger2: #fff;
+  --eb-color--live: #000;
+  --eb-fgcolor--live: #fff;
+  --eb-color--live2: #fff;
+  --eb-fgcolor--live2: #000;
+  --eb-color--native: #cec4a6;
+  --eb-fgcolor--native: #000;
+  --eb-color--native2: #84a8c4;
+  --eb-fgcolor--native2: #fff;
+  --eb-color--stylespotter: #ec939c;
+  --eb-fgcolor--stylespotter: #fff; }
+
+/*
+---
+title: black
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--black">
+            black
+        </div>
+        <p class="eb-color--black" style="background-color: #fff">
+            #000
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa1
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa1">
+            graa1
+        </div>
+        <p class="eb-color--graa1" style="background-color: #fff">
+            #3c3c3c
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa2
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa2">
+            graa2
+        </div>
+        <p class="eb-color--graa2" style="background-color: #fff">
+            #484848
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa3
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa3">
+            graa3
+        </div>
+        <p class="eb-color--graa3" style="background-color: #fff">
+            #999
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa4
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa4">
+            graa4
+        </div>
+        <p class="eb-color--graa4" style="background-color: #000">
+            #c8c8c8
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa5
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa5">
+            graa5
+        </div>
+        <p class="eb-color--graa5" style="background-color: #000">
+            #ddd
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: graa6
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--graa6">
+            graa6
+        </div>
+        <p class="eb-color--graa6" style="background-color: #000">
+            #e5e5e5
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: white
+section: General site colors
+variable: eb-colors-greyscale
+---
+
+Generates all section specific color classes
+
+
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--white">
+            white
+        </div>
+        <p class="eb-color--white" style="background-color: #000">
+            #fff
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--black: #000;
+  --eb-fgcolor--black: #fff;
+  --eb-color--graa1: #3c3c3c;
+  --eb-fgcolor--graa1: #fff;
+  --eb-color--graa2: #484848;
+  --eb-fgcolor--graa2: #fff;
+  --eb-color--graa3: #999;
+  --eb-fgcolor--graa3: #fff;
+  --eb-color--graa4: #c8c8c8;
+  --eb-fgcolor--graa4: #000;
+  --eb-color--graa5: #ddd;
+  --eb-fgcolor--graa5: #000;
+  --eb-color--graa6: #e5e5e5;
+  --eb-fgcolor--graa6: #000;
+  --eb-color--white: #fff;
+  --eb-fgcolor--white: #000; }
+
+:root {
+  --eb-color--black: #000;
+  --eb-fgcolor--black: #fff;
+  --eb-color--graa1: #3c3c3c;
+  --eb-fgcolor--graa1: #fff;
+  --eb-color--graa2: #484848;
+  --eb-fgcolor--graa2: #fff;
+  --eb-color--graa3: #999;
+  --eb-fgcolor--graa3: #fff;
+  --eb-color--graa4: #c8c8c8;
+  --eb-fgcolor--graa4: #000;
+  --eb-color--graa5: #ddd;
+  --eb-fgcolor--graa5: #000;
+  --eb-color--graa6: #e5e5e5;
+  --eb-fgcolor--graa6: #000;
+  --eb-color--white: #fff;
+  --eb-fgcolor--white: #000; }
+
+/*
+*/
+/*
+---
+title: map-collect
+section: functions
+---
+
+```example:usage
+
+$new-variable: map-collect($map1, $map2, $map3, $map4);
+
+```
+*/
+/*
+---
+title: ekstra
+section: Section specific colors
+variable: eb-color-ekstra
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--ekstra">
+            ekstra
+        </div>
+        <p class="eb-color--ekstra" style="background-color: #fff">
+            #bd1118
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: ekstra2
+section: Section specific colors
+variable: eb-color-ekstra
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--ekstra2">
+            ekstra2
+        </div>
+        <p class="eb-color--ekstra2" style="background-color: #fff">
+            #fbba00
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--ekstra: #bd1118;
+  --eb-fgcolor--ekstra: #fff;
+  --eb-color--ekstra2: #fbba00;
+  --eb-fgcolor--ekstra2: #fff; }
+
+/*
+---
+title: filmmagasinet
+section: Section specific colors
+variable: eb-color-filmmagasinet
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--filmmagasinet">
+            filmmagasinet
+        </div>
+        <p class="eb-color--filmmagasinet" style="background-color: #fff">
+            #650188
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: filmmagasinet2
+section: Section specific colors
+variable: eb-color-filmmagasinet
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--filmmagasinet2">
+            filmmagasinet2
+        </div>
+        <p class="eb-color--filmmagasinet2" style="background-color: #000">
+            #c876e5
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--filmmagasinet: #650188;
+  --eb-fgcolor--filmmagasinet: #fff;
+  --eb-color--filmmagasinet2: #c876e5;
+  --eb-fgcolor--filmmagasinet2: #000; }
+
+/*
+---
+title: flash
+section: Section specific colors
+variable: eb-color-flash
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--flash">
+            flash
+        </div>
+        <p class="eb-color--flash" style="background-color: #fff">
+            #900
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: flash2
+section: Section specific colors
+variable: eb-color-flash
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--flash2">
+            flash2
+        </div>
+        <p class="eb-color--flash2" style="background-color: #fff">
+            #bd1118
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--flash: #900;
+  --eb-fgcolor--flash: #fff;
+  --eb-color--flash2: #bd1118;
+  --eb-fgcolor--flash2: #fff; }
+
+/*
+---
+title: forbrug
+section: Section specific colors
+variable: eb-color-forbrug
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--forbrug">
+            forbrug
+        </div>
+        <p class="eb-color--forbrug" style="background-color: #fff">
+            #31769b
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: forbrug2
+section: Section specific colors
+variable: eb-color-forbrug
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--forbrug2">
+            forbrug2
+        </div>
+        <p class="eb-color--forbrug2" style="background-color: #000">
+            #4fa8df
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--forbrug: #31769b;
+  --eb-fgcolor--forbrug: #fff;
+  --eb-color--forbrug2: #4fa8df;
+  --eb-fgcolor--forbrug2: #000; }
+
+/*
+---
+title: livescore
+section: Section specific colors
+variable: eb-color-livescore
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--livescore">
+            livescore
+        </div>
+        <p class="eb-color--livescore" style="background-color: #fff">
+            #32a237
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: livescore2
+section: Section specific colors
+variable: eb-color-livescore
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--livescore2">
+            livescore2
+        </div>
+        <p class="eb-color--livescore2" style="background-color: #000">
+            #cbfe33
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--livescore: #32a237;
+  --eb-fgcolor--livescore: #fff;
+  --eb-color--livescore2: #cbfe33;
+  --eb-fgcolor--livescore2: #000; }
+
+/*
+---
+title: nationen
+section: Section specific colors
+variable: eb-color-nationen
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--nationen">
+            nationen
+        </div>
+        <p class="eb-color--nationen" style="background-color: #fff">
+            #e58202
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: nationen2
+section: Section specific colors
+variable: eb-color-nationen
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--nationen2">
+            nationen2
+        </div>
+        <p class="eb-color--nationen2" style="background-color: #000">
+            #e5ad02
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--nationen: #e58202;
+  --eb-fgcolor--nationen: #fff;
+  --eb-color--nationen2: #e5ad02;
+  --eb-fgcolor--nationen2: #000; }
+
+/*
+---
+title: nyheder
+section: Section specific colors
+variable: eb-color-nyheder
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--nyheder">
+            nyheder
+        </div>
+        <p class="eb-color--nyheder" style="background-color: #fff">
+            #000
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: nyheder2
+section: Section specific colors
+variable: eb-color-nyheder
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--nyheder2">
+            nyheder2
+        </div>
+        <p class="eb-color--nyheder2" style="background-color: #fff">
+            #12507b
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--nyheder: #000;
+  --eb-fgcolor--nyheder: #fff;
+  --eb-color--nyheder2: #12507b;
+  --eb-fgcolor--nyheder2: #fff; }
+
+/*
+---
+title: sex-samliv
+section: Section specific colors
+variable: eb-color-sex-samliv
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--sex-samliv">
+            sex-samliv
+        </div>
+        <p class="eb-color--sex-samliv" style="background-color: #fff">
+            #8a0c36
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: sex-samliv2
+section: Section specific colors
+variable: eb-color-sex-samliv
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--sex-samliv2">
+            sex-samliv2
+        </div>
+        <p class="eb-color--sex-samliv2" style="background-color: #000">
+            #dc7095
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--sex-samliv: #8a0c36;
+  --eb-fgcolor--sex-samliv: #fff;
+  --eb-color--sex-samliv2: #dc7095;
+  --eb-fgcolor--sex-samliv2: #000; }
+
+/*
+---
+title: skolefodbold
+section: Section specific colors
+variable: eb-color-skolefodbold
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--skolefodbold">
+            skolefodbold
+        </div>
+        <p class="eb-color--skolefodbold" style="background-color: #fff">
+            #93b923
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: skolefodbold2
+section: Section specific colors
+variable: eb-color-skolefodbold
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--skolefodbold2">
+            skolefodbold2
+        </div>
+        <p class="eb-color--skolefodbold2" style="background-color: #fff">
+            #32a237
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--skolefodbold: #93b923;
+  --eb-fgcolor--skolefodbold: #fff;
+  --eb-color--skolefodbold2: #32a237;
+  --eb-fgcolor--skolefodbold2: #fff; }
+
+/*
+---
+title: sport
+section: Section specific colors
+variable: eb-color-sport
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--sport">
+            sport
+        </div>
+        <p class="eb-color--sport" style="background-color: #fff">
+            #32a237
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: sport2
+section: Section specific colors
+variable: eb-color-sport
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--sport2">
+            sport2
+        </div>
+        <p class="eb-color--sport2" style="background-color: #fff">
+            #2f7820
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--sport: #32a237;
+  --eb-fgcolor--sport: #fff;
+  --eb-color--sport2: #2f7820;
+  --eb-fgcolor--sport2: #fff; }
+
+/*
+---
+title: tv
+section: Section specific colors
+variable: eb-color-tv
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--tv">
+            tv
+        </div>
+        <p class="eb-color--tv" style="background-color: #fff">
+            #000
+        </p>
+    </div>
+```
+*/
+/*
+---
+title: tv2
+section: Section specific colors
+variable: eb-color-tv
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-bg--tv2">
+            tv2
+        </div>
+        <p class="eb-color--tv2" style="background-color: #fff">
+            #bd1118
+        </p>
+    </div>
+```
+*/
+:root {
+  --eb-color--tv: #000;
+  --eb-fgcolor--tv: #fff;
+  --eb-color--tv2: #bd1118;
+  --eb-fgcolor--tv2: #fff; }
+
+/*# sourceMappingURL=eb-colors.css.map */

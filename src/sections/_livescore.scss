@@ -1,30 +1,30 @@
-$eb-color-tv: (
+$eb-color-livescore: (
 
-    'tv': (
-        'main'          : #000,
+    'livescore': (
+        'main'          : #32a237,
         'foreground'    : #fff,
     ),
-    'tv2': (
-        'main'          : #bd1118,
-        'foreground'    : #fff,
+    'livescore2': (
+        'main'          : #cbfe33,
+        'foreground'    : #000,
     )
 
 );
 
-$color: $eb-color-tv;
+$color: $eb-color-livescore;
 @each $key, $value in $color {
 /*
 ---
 title: #{$key}
 section: Section specific colors
-variable: eb-color-tv
+variable: eb-color-livescore
 ---
 
 Generates all section specific color classes
 
 ```example:html
     <div class="color_example">
-        <div class="color_swap eb-gb--#{$key}">
+        <div class="color_swap eb-bg--#{$key}">
             #{$key}
         </div>
         <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
@@ -35,7 +35,7 @@ Generates all section specific color classes
 */
 
   @if ($eb-color-classes == true) {
-    .eb-gb--#{$key} {
+    .eb-bg--#{$key} {
         background: map-get($value, 'main');
         color: map-get($value, 'foreground');
     }
@@ -44,4 +44,14 @@ Generates all section specific color classes
     }
 
   }
+}
+
+
+@if ($eb-colors-cssvars == true) {
+    :root {
+        @each $key, $value in $color {
+            --eb-color--#{$key}: map-get($value, 'main');
+            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
+        }
+    }
 }

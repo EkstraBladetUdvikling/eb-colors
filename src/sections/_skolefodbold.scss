@@ -1,30 +1,30 @@
-$eb-color-ekstra: (
+$eb-color-skolefodbold: (
 
-    'ekstra': (
-        'main'          : #bd1118,
+    'skolefodbold': (
+        'main'          : #93b923,
         'foreground'    : #fff,
     ),
-    'ekstra2': (
-        'main'          : #fbba00,
+    'skolefodbold2': (
+        'main'          : #32a237,
         'foreground'    : #fff,
     )
 
 );
 
-$color: $eb-color-ekstra;
+$color: $eb-color-skolefodbold;
 @each $key, $value in $color {
 /*
 ---
 title: #{$key}
 section: Section specific colors
-variable: eb-color-ekstra
+variable: eb-color-skolefodbold
 ---
 
 Generates all section specific color classes
 
 ```example:html
     <div class="color_example">
-        <div class="color_swap eb-gb--#{$key}">
+        <div class="color_swap eb-bg--#{$key}">
             #{$key}
         </div>
         <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
@@ -33,9 +33,9 @@ Generates all section specific color classes
     </div>
 ```
 */
-
   @if ($eb-color-classes == true) {
-    .eb-gb--#{$key} {
+
+    .eb-bg--#{$key} {
         background: map-get($value, 'main');
         color: map-get($value, 'foreground');
     }
@@ -44,4 +44,14 @@ Generates all section specific color classes
     }
 
   }
+}
+
+
+@if ($eb-colors-cssvars == true) {
+    :root {
+        @each $key, $value in $color {
+            --eb-color--#{$key}: map-get($value, 'main');
+            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
+        }
+    }
 }
