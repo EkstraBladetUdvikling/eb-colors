@@ -1,4 +1,4 @@
-$forbrug: (
+$eb-color-forbrug: (
 
     'forbrug': (
         'main'          : #31769b,
@@ -10,3 +10,38 @@ $forbrug: (
     )
 
 );
+
+$color: $eb-color-forbrug;
+@each $key, $value in $color {
+/*
+---
+title: #{$key}
+section: Section specific colors
+variable: eb-color-forbrug
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-gb--#{$key}">
+            #{$key}
+        </div>
+        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
+            #{map-get($value, 'main')}
+        </p>
+    </div>
+```
+*/
+
+  @if ($eb-color-classes == true) {
+    .eb-gb--#{$key} {
+        background: map-get($value, 'main');
+        color: map-get($value, 'foreground');
+    }
+    .eb-color--#{$key} {
+       color: map-get($value, 'main');
+    }
+
+  }
+}

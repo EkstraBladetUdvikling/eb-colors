@@ -1,3 +1,13 @@
-@import "general";
+$eb-color-classes: false !default;
+
+@import "../functions/map-collect";
+
+@import "main";
 @import "greyscale";
 @import "socialmedia";
+
+$eb-colors-general: map-collect(
+  $eb-color-main,
+  $eb-color-greyscale,
+  $eb-color-socialmedia
+);

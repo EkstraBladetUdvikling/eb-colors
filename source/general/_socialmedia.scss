@@ -1,4 +1,4 @@
-$socialmedia: (
+$eb-color-socialmedia: (
 
   'facebook': (
       'main' : #3a5998,
@@ -46,3 +46,39 @@ $socialmedia: (
   )
 
 );
+
+$color: $eb-color-greyscale;
+@if ($eb-color-classes == true) {
+  @each $key, $value in $color {
+/*
+---
+title: #{$key}
+section: General site colors
+variable: eb-color-greyscale
+---
+
+Generates all section specific color classes
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-gb--#{$key}">
+            #{$key}
+        </div>
+        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
+            #{map-get($value, 'main')}
+        </p>
+    </div>
+```
+*/
+      .eb-gb--#{$key} {
+          background: map-get($value, 'main');
+          color: map-get($value, 'foreground');
+      }
+
+      .eb-color--#{$key} {
+         color: map-get($value, 'main');
+      }
+
+  }
+
+}

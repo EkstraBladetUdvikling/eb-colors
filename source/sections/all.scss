@@ -1,3 +1,7 @@
+$eb-color-classes: false !default;
+
+@import "../functions/map-collect";
+
 @import "ekstra";
 @import "filmmagasinet";
 @import "flash";
@@ -9,3 +13,17 @@
 @import "skolefodbold";
 @import "sport";
 @import "tv";
+
+$eb-colors-sections: map-collect(
+  $eb-color-ekstra,
+  $eb-color-filmmagasinet,
+  $eb-color-flash,
+  $eb-color-forbrug,
+  $eb-color-livescore,
+  $eb-color-nationen,
+  $eb-color-nyheder,
+  $eb-color-sex-samliv,
+  $eb-color-skolefodbold,
+  $eb-color-sport,
+  $eb-color-tv
+);

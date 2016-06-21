@@ -1,0 +1,101 @@
+$eb-color-main: (
+
+    'eb': (
+        'main'          : #bd1118,
+        'foreground'    : #fff,
+    ),
+    'eb2': (
+        'main'          : #900,
+        'foreground'    : #fff,
+    ),
+    'breaking': (
+        'main'          : #ff0,
+        'foreground'    : #000,
+    ),
+    'breaking2': (
+        'main'          : #ffcc01,
+        'foreground'    : #fff,
+    ),
+
+    'bruger': (
+        'main'          : #4fa8df,
+        'foreground'    : #fff,
+    ),
+
+    'bruger2': (
+        'main'          : #82c3ec,
+        'foreground'    : #fff,
+    ),
+
+    'live': (
+        'main'          : #000,
+        'foreground'    : #fff,
+    ),
+
+    'live2': (
+        'main'          : #fff,
+        'foreground'    : #000,
+    ),
+
+    'native': (
+        'main'          : #cec4a6,
+        'foreground'    : #000,
+    ),
+    'native2': (
+        'main'          : #84a8c4,
+        'foreground'    : #fff,
+    ),
+
+    'stylespotter': (
+        'main'          : #ec939c,
+        'foreground'    : #fff,
+    )
+
+);
+
+$color: $eb-color-main;
+@if ($eb-color-classes == true) {
+  @each $key, $value in $color {
+/*
+---
+title: #{$key}
+section: General site colors
+variable: eb-color-main
+---
+
+Generates all section specific color classes
+
+```example:css
+    <div class="color_example">
+        <div class="color_swap eb-gb--#{$key}">
+            #{$key}
+        </div>
+        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
+            #{map-get($value, 'main')}
+        </p>
+    </div>
+```
+
+```example:html
+    <div class="color_example">
+        <div class="color_swap eb-gb--#{$key}">
+            #{$key}
+        </div>
+        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
+            #{map-get($value, 'main')}
+        </p>
+    </div>
+```
+*/
+      .eb-gb--#{$key} {
+          background: map-get($value, 'main');
+          color: map-get($value, 'foreground');
+      }
+
+      .eb-color--#{$key} {
+         color: map-get($value, 'main');
+      }
+
+  }
+
+}
