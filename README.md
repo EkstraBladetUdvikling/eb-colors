@@ -1,47 +1,50 @@
 # EB Colors
 
-`npm install ebudvikling/eb-colors`
+> EB colors for SCSS and CSS
 
+## Installation
 
-## usage
+```bash
+npm install ebudvikling/eb-colors
+```
 
-To just get the variables and maps,  use the following
+## Usage
+
+Variables and maps:
 
 ```scss
 @import "node_modules/eb-colors/src/all.scss";
 ```
 
-To get the variables, maps and classes created, use the following
+Variables, maps and classes:
 
 ```scss
 @import "node_modules/eb-colors/src/all-with-classes.scss";
 ```
 
-General colors can be imported from (eb main color is part of the general list)
+General colors:
 
 ```scss
 @import "node_modules/eb-colors/src/general/all[-with-classes].scss";
 ```
 
-Section specific colors can be imported from
+All Section specific colors:
 
 ```scss
 @import "node_modules/eb-colors/src/sections/all[-with-classes].scss";
 ```
 
-```cli
-sass src/all-css-var.scss dist/eb-colors.css
-```
+### All colors
 
-## all colors
+Found in [src](src/)
 
-Found in src
-Full map of all eb colors $eb-colors
+Full map of all eb-colors `$eb-colors`
 
-## main colors
+### Main colors
 
-Found in src/general
-Full map of section colors $eb-colors-general
+Found in [src/general](src/general)
+
+Full map of section colors `$eb-colors-general`
 
 | File names            | Map names                |
 | ---                   | ---                      |
@@ -49,11 +52,11 @@ Full map of section colors $eb-colors-general
 | _greyscale.scss       | $eb-color-greyscale      |
 | _socialmedia.scss     | $eb-color-socialmedia    |
 
-## section specific colors
+### Section specific colors
 
-Found in src/sections
+Found in [src/sections](src/sections)
 
-Full map of section colors $eb-colors-sections
+Full map of section colors `$eb-colors-sections`
 
 | File names            | Map names                 |
 | ---                   | ---                       |
@@ -69,11 +72,11 @@ Full map of section colors $eb-colors-sections
 | _sport.scss           | $eb-color-sport           |
 | _tv.scss              | $eb-color-tv              |
 
-## color functions
+### Color functions
 
-The following functions are only include when using one of the three collection options (all, general or sections)  
+The following functions are include when using one of the three collection options (all, general or sections).
 
-### background (background-color: & color:)
+### Background (background-color: & color:)
 
 Sets both background-color and color, to ensure correct usage
 
@@ -97,4 +100,14 @@ Returns the main color
 }
 ```
 
-TODO: scss eksempel
+## Development
+
+To build the CSS version of eb-colors:
+
+```bash
+sass src/all-css-var.scss dist/eb-colors.css
+```
+
+## License
+
+Apache-2 © Ekstra Bladet
