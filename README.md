@@ -40,6 +40,7 @@ Found in [src](src/)
 
 Full map of all eb-colors `$eb-colors`
 
+
 ### Main colors
 
 Found in [src/general](src/general)
@@ -76,6 +77,26 @@ Full map of section colors `$eb-colors-sections`
 
 The following functions are include when using one of the three collection options (all, general or sections).
 
+Without the included functions the colors can be accessed through [map-deep-get](https://css-tricks.com/snippets/sass/deep-getset-maps/#article-header-id-0)
+
+#### Example map structure
+
+```scss
+$eb-colors: (
+
+    '[colorname]': (
+        'main'          : #32a237,
+        'foreground'    : #fff,
+    ),
+    // These only exist for certain colors(e.g. not found in greyscale)
+    '[colorname]2': (
+        'main'          : #2f7820,
+        'foreground'    : #fff,
+    )
+
+);
+```
+
 ### Background (background-color: & color:)
 
 Sets both background-color and color, to ensure correct usage
@@ -99,8 +120,6 @@ Returns the main color
   color: eb-color-get('colorname');
 }
 ```
-
-TODO: scss eksempel
 
 ## Color pallette
 
