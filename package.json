@@ -1,7 +1,7 @@
 {
   "name": "eb-colors",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.0-1",
+  "description": "EB colors for SCSS and CSS",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebudvikling/eb-colors.git"
