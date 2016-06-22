@@ -1,6 +1,3 @@
-/*
-*/
-
 @function color-pair($background, $foreground: $background) {
   $newBackground: eb-color-get($background);
   $color-to-get: 'main';

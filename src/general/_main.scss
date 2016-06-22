@@ -56,37 +56,7 @@ $eb-color-main: (
 $color: $eb-color-main;
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {
-/*
----
-title: #{$key}
-section: General site colors
-variable: eb-color-main
----
-
-Generates all section specific color classes
-
-```example:css
-    <div class="color_example">
-        <div class="color_swap eb-bg--#{$key}">
-            #{$key}
-        </div>
-        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
-            #{map-get($value, 'main')}
-        </p>
-    </div>
-```
-
-```example:html
-    <div class="color_example">
-        <div class="color_swap eb-bg--#{$key}">
-            #{$key}
-        </div>
-        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
-            #{map-get($value, 'main')}
-        </p>
-    </div>
-```
-*/
+      
       .eb-bg--#{$key} {
           background: map-get($value, 'main');
           color: map-get($value, 'foreground');

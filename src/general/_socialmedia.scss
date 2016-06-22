@@ -47,7 +47,7 @@ $eb-color-socialmedia: (
 
 );
 
-$color: $eb-color-greyscale;
+$color: $eb-color-socialmedia;
 @if ($eb-color-classes == true) {
     @each $key, $value in $color {
 

@@ -43,28 +43,6 @@ $eb-color-greyscale: (
 
 $color: $eb-color-greyscale;
 @each $key, $value in $color {
-/*
----
-title: #{$key}
-section: General site colors
-variable: eb-colors-greyscale
----
-
-Generates all section specific color classes
-
-
-
-```example:html
-    <div class="color_example">
-        <div class="color_swap eb-bg--#{$key}">
-            #{$key}
-        </div>
-        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
-            #{map-get($value, 'main')}
-        </p>
-    </div>
-```
-*/
   @if ($eb-color-classes == true) {
       .eb-bg--#{$key} {
           background: map-get($value, 'main');

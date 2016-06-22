@@ -13,26 +13,7 @@ $eb-color-skolefodbold: (
 
 $color: $eb-color-skolefodbold;
 @each $key, $value in $color {
-/*
----
-title: #{$key}
-section: Section specific colors
-variable: eb-color-skolefodbold
----
-
-Generates all section specific color classes
-
-```example:html
-    <div class="color_example">
-        <div class="color_swap eb-bg--#{$key}">
-            #{$key}
-        </div>
-        <p class="eb-color--#{$key}" style="background-color: #{map-get($value, 'foreground')}">
-            #{map-get($value, 'main')}
-        </p>
-    </div>
-```
-*/
+    
   @if ($eb-color-classes == true) {
 
     .eb-bg--#{$key} {

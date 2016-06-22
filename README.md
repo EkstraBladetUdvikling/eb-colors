@@ -98,3 +98,7 @@ Returns the main color
 ```
 
 TODO: scss eksempel
+
+## Color pallette
+
+![](example/eb-colors-example.png)

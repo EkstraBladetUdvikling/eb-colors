@@ -1,15 +1,3 @@
-/*
----
-title: map-collect
-section: functions
----
-
-```example:usage
-
-$new-variable: map-collect($map1, $map2, $map3, $map4);
-
-```
-*/
 @function map-collect($maps...) {
   $collection: ();
 
