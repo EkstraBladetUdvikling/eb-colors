@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
     "stylelint": "^6.7.1",
-    "stylelint-config-eb": "^1.0.0"
+    "stylelint-config-eb": "^1.0.5"
   },
   "stylelint": {
     "extends": "stylelint-config-eb"
