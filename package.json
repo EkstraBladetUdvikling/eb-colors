@@ -2,10 +2,10 @@
   "name": "eb-colors",
   "version": "1.0.0-2",
   "description": "EB colors for SCSS and CSS",
-  "script": {
+  "scripts": {
     "lint": "npm run lint-scss && npm run lint-css",
-    "lint-css": "stylelint dist/**/*.css",
-    "lint-scss": "stylelint src/**/*.scss"
+    "lint-css": "stylelint \"dist/*.css\"",
+    "lint-scss": "stylelint \"src/**/*.scss\""
   },
   "repository": {
     "type": "git",
