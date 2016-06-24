@@ -2,6 +2,11 @@
   "name": "eb-colors",
   "version": "1.0.0-2",
   "description": "EB colors for SCSS and CSS",
+  "script": {
+    "lint": "npm run lint-scss && npm run lint-css",
+    "lint-css": "stylelint dist/**/*.css",
+    "lint-scss": "stylelint src/**/*.scss"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebudvikling/eb-colors.git"
@@ -11,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ebudvikling/eb-colors/issues"
   },
-  "homepage": "https://github.com/ebudvikling/eb-colors#readme"
+  "homepage": "https://github.com/ebudvikling/eb-colors#readme",
+  "devDependencies": {
+    "stylelint": "^6.7.1",
+    "stylelint-config-eb": "^1.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-eb"
+  }
 }
