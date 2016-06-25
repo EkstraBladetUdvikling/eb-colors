@@ -12,20 +12,18 @@ $eb-color-tv: (
 );
 
 $color: $eb-color-tv;
+
 @each $key, $value in $color {
-
-  @if ($eb-color-classes == true) {
-    .eb-bg--#{$key} {
-        background: map-get($value, 'main');
-        color: map-get($value, 'foreground');
+    @if ($eb-color-classes == true) {
+        .eb-bg--#{$key} {
+            background: map-get($value, 'main');
+            color: map-get($value, 'foreground');
+        }
+        .eb-color--#{$key} {
+            color: map-get($value, 'main');
+        }
     }
-    .eb-color--#{$key} {
-       color: map-get($value, 'main');
-    }
-
-  }
 }
-
 
 @if ($eb-colors-cssvars == true) {
     :root {

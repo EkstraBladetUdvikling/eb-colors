@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "npm run lint-scss && npm run lint-css",
     "lint-css": "stylelint \"dist/*.css\"",
-    "lint-scss": "stylelint \"src/**/*.scss\""
+    "lint-scss": "stylelint \"src/**/*.scss\" --syntax scss"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "stylelint-config-eb": "^1.0.5"
   },
   "stylelint": {
+    "syntax": "scss",
     "extends": "stylelint-config-eb"
   }
 }

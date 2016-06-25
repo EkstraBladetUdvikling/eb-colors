@@ -1,12 +1,11 @@
-
 @function eb-color-get($key, $color-to-get: 'main') {
     $map: $eb-colors-general;
 
-    @if  map-has-key($map, $key) == false {
+    @if map-has-key($map, $key) == false {
         $map: $eb-colors-sections;
     }
 
-    @if  map-has-key($map, $key) == false {
+    @if map-has-key($map, $key) == false {
         $map: $eb-colors;
     }
 
