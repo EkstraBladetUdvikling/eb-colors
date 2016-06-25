@@ -22,7 +22,6 @@
     "stylelint-config-eb": "^1.0.5"
   },
   "stylelint": {
-    "syntax": "scss",
     "extends": "stylelint-config-eb"
   }
 }
