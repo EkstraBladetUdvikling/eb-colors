@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install ebudvikling/eb-colors
+npm install ebudvikling/eb-colors --save
 ```
 
 ## Usage
