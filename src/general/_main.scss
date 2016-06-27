@@ -54,22 +54,22 @@ $eb-color-main: (
 );
 
 $color: $eb-color-main;
+
 @if ($eb-color-classes == true) {
-  @each $key, $value in $color {
-      
-      .eb-bg--#{$key} {
-          background: map-get($value, 'main');
-          color: map-get($value, 'foreground');
-      }
+    @each $key, $value in $color {
 
-      .eb-color--#{$key} {
-         color: map-get($value, 'main');
-      }
+        .eb-bg--#{$key} {
+            background: map-get($value, 'main');
+            color: map-get($value, 'foreground');
+        }
 
-  }
+        .eb-color--#{$key} {
+            color: map-get($value, 'main');
+        }
+
+    }
 
 }
-
 
 @if ($eb-colors-cssvars == true) {
     :root {
