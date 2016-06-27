@@ -1,6 +1,6 @@
 {
   "name": "eb-colors",
-  "version": "1.0.0-2",
+  "version": "1.0.0",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "lint": "npm run lint-scss && npm run lint-css",
