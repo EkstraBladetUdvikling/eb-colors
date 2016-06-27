@@ -132,7 +132,7 @@ The colors and their names contained in eb-colors
 To build the CSS variables version of eb-colors:
 
 ```bash
-sass src/all-css-var.scss dist/eb-colors.css
+npm build
 ```
 
 ## License

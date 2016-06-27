@@ -1,8 +1,9 @@
 {
   "name": "eb-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
+    "build": "sass src/all-css-var.scss dist/eb-colors.css",
     "lint": "npm run lint-scss && npm run lint-css",
     "lint-css": "stylelint \"dist/*.css\"",
     "lint-scss": "stylelint \"src/**/*.scss\" --syntax scss"
