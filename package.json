@@ -1,12 +1,13 @@
 {
   "name": "eb-colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
-    "build": "sass src/all-css-var.scss dist/eb-colors.css",
-    "lint": "npm run lint-scss && npm run lint-css",
-    "lint-css": "stylelint \"dist/*.css\"",
-    "lint-scss": "stylelint \"src/**/*.scss\" --syntax scss"
+    "build": "npm run lint-scss && npm run build-css-vars && npm run build-css-classes",
+    "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --sourcemap=none",
+    "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --sourcemap=none",
+    "lint-scss": "stylelint \"src/**/*.scss\" --syntax scss",
+    "test": "sass \"example/test.scss\" \"example/test.css\" --sourcemap=none"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,9 @@
   },
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
-    "stylelint": "^6.7.1",
-    "stylelint-config-eb": "^1.0.5"
+    "stylelint": "^7.7.1",
+    "stylelint-config-eb": "^1.0.11",
+    "stylelint-scss": "^1.4.1"
   },
   "stylelint": {
     "extends": "stylelint-config-eb"
