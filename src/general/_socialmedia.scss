@@ -1,75 +1,72 @@
 $eb-color-socialmedia: (
 
-    'facebook': (
-        'main' : #3a5998,
-        'foreground' : #fff,
-    ),
-    'facebook2': (
-        'main' : #d7e0eb,
-        'foreground' : #000,
-    ),
+  'facebook': (
+    'main' : #3a5998,
+    'foreground' : #fff,
+  ),
 
-    'twitter': (
-        'main' : #59adec,
-        'foreground' : #fff,
-    ),
-    'twitter2': (
-        'main' : #1285b2,
-        'foreground' : #000,
-    ),
+  'facebook2': (
+    'main' : #d7e0eb,
+    'foreground' : #000,
+  ),
 
-    'instagram': (
-        'main' : #2d5d82,
-        'foreground' : #fff,
-    ),
-    'instagram2': (
-        'main' : #e7ded2,
-        'foreground' : #000,
-    ),
+  'twitter': (
+    'main' : #59adec,
+    'foreground' : #fff,
+  ),
 
-    'linkedin': (
-        'main' : #e58202,
-        'foreground' : #fff,
-    ),
-    'linkedin2': (
-        'main' : #e5e5e5,
-        'foreground' : #000,
-    ),
+  'twitter2': (
+    'main' : #1285b2,
+    'foreground' : #000,
+  ),
 
-    'googleplus': (
-        'main' : #db4c3e,
-        'foreground' : #fff,
-    ),
-    'googleplus2': (
-        'main' : #e5e5e5,
-        'foreground' : #000,
-    )
+  'instagram': (
+    'main' : #2d5d82,
+    'foreground' : #fff,
+  ),
+
+  'instagram2': (
+    'main' : #e7ded2,
+    'foreground' : #000,
+  ),
+
+  'linkedin': (
+    'main' : #e58202,
+    'foreground' : #fff,
+  ),
+
+  'linkedin2': (
+    'main' : #e5e5e5,
+    'foreground' : #000,
+  ),
+
+  'googleplus': (
+    'main' : #db4c3e,
+    'foreground' : #fff,
+  ),
+
+  'googleplus2': (
+    'main' : #e5e5e5,
+    'foreground' : #000,
+  )
 
 );
 
+$eb-print-bg: true !default;
+$eb-print-color: true !default;
 $color: $eb-color-socialmedia;
 
 @if ($eb-color-classes == true) {
-    @each $key, $value in $color {
-
-        .eb-bg--#{$key} {
-            background: map-get($value, 'main');
-            color: map-get($value, 'foreground');
-        }
-
-        .eb-color--#{$key} {
-            color: map-get($value, 'main');
-        }
-
-    }
-
+  @each $key, $value in $color {
+    @include eb-create-classes($key, $value, $eb-print-bg, $eb-print-color);
+  }
 }
 
 @if ($eb-colors-cssvars == true) {
-    :root {
-        @each $key, $value in $color {
-            --eb-color--#{$key}: map-get($value, 'main');
-            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
-        }
+  :root {
+    @each $key, $value in $color {
+      --eb-color--#{$key}: map-get($value, 'main');
+      --eb-fgcolor--#{$key}: map-get($value, 'foreground');
     }
+  }
 }

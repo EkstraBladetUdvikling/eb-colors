@@ -1,0 +1,69 @@
+.eb-bg--black {
+  background: #000;
+  color: #fff; }
+
+.eb-bg--graa1 {
+  background: #3c3c3c;
+  color: #fff; }
+
+.eb-bg--graa2 {
+  background: #484848;
+  color: #fff; }
+
+.eb-bg--graa3 {
+  background: #999;
+  color: #fff; }
+
+.eb-bg--graa4 {
+  background: #c8c8c8;
+  color: #000; }
+
+.eb-bg--graa5 {
+  background: #ddd;
+  color: #000; }
+
+.eb-bg--graa6 {
+  background: #e5e5e5;
+  color: #000; }
+
+.eb-bg--white {
+  background: #fff;
+  color: #000; }
+
+.eb-bg--ekstra {
+  background: #bd1118;
+  color: #fff; }
+
+.eb-bg--ekstra2 {
+  background: #fbba00;
+  color: #fff; }
+
+.eb-color--black {
+  color: #000; }
+
+.eb-color--graa1 {
+  color: #3c3c3c; }
+
+.eb-color--graa2 {
+  color: #484848; }
+
+.eb-color--graa3 {
+  color: #999; }
+
+.eb-color--graa4 {
+  color: #c8c8c8; }
+
+.eb-color--graa5 {
+  color: #ddd; }
+
+.eb-color--graa6 {
+  color: #e5e5e5; }
+
+.eb-color--white {
+  color: #fff; }
+
+.eb-color--ekstra {
+  color: #bd1118; }
+
+.eb-color--ekstra2 {
+  color: #fbba00; }

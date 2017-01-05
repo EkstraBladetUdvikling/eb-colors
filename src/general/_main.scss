@@ -1,81 +1,77 @@
 $eb-color-main: (
 
-    'eb': (
-        'main'          : #bd1118,
-        'foreground'    : #fff,
-    ),
-    'eb2': (
-        'main'          : #900,
-        'foreground'    : #fff,
-    ),
-    'breaking': (
-        'main'          : #ff0,
-        'foreground'    : #000,
-    ),
-    'breaking2': (
-        'main'          : #ffcc01,
-        'foreground'    : #fff,
-    ),
+  'eb': (
+    'main'          : #bd1118,
+    'foreground'    : #fff,
+  ),
 
-    'bruger': (
-        'main'          : #4fa8df,
-        'foreground'    : #fff,
-    ),
+  'eb2': (
+    'main'          : #900,
+    'foreground'    : #fff,
+  ),
 
-    'bruger2': (
-        'main'          : #82c3ec,
-        'foreground'    : #fff,
-    ),
+  'breaking': (
+    'main'          : #ff0,
+    'foreground'    : #000,
+  ),
 
-    'live': (
-        'main'          : #000,
-        'foreground'    : #fff,
-    ),
+  'breaking2': (
+    'main'          : #ffcc01,
+    'foreground'    : #fff,
+  ),
 
-    'live2': (
-        'main'          : #fff,
-        'foreground'    : #000,
-    ),
+  'bruger': (
+    'main'          : #4fa8df,
+    'foreground'    : #fff,
+  ),
 
-    'native': (
-        'main'          : #cec4a6,
-        'foreground'    : #000,
-    ),
-    'native2': (
-        'main'          : #84a8c4,
-        'foreground'    : #fff,
-    ),
+  'bruger2': (
+    'main'          : #82c3ec,
+    'foreground'    : #fff,
+  ),
 
-    'stylespotter': (
-        'main'          : #ec939c,
-        'foreground'    : #fff,
-    )
+  'live': (
+    'main'          : #000,
+    'foreground'    : #fff,
+  ),
+
+  'live2': (
+    'main'          : #fff,
+    'foreground'    : #000,
+  ),
+
+  'native': (
+    'main'          : #cec4a6,
+    'foreground'    : #000,
+  ),
+
+  'native2': (
+    'main'          : #84a8c4,
+    'foreground'    : #fff,
+  ),
+
+  'stylespotter': (
+    'main'          : #ec939c,
+    'foreground'    : #fff,
+  )
 
 );
 
+$eb-print-bg: true !default;
+$eb-print-color: true !default;
 $color: $eb-color-main;
 
 @if ($eb-color-classes == true) {
-    @each $key, $value in $color {
-
-        .eb-bg--#{$key} {
-            background: map-get($value, 'main');
-            color: map-get($value, 'foreground');
-        }
-
-        .eb-color--#{$key} {
-            color: map-get($value, 'main');
-        }
-
-    }
-
+  @each $key, $value in $color {
+    @include eb-create-classes($key, $value, $eb-print-bg, $eb-print-color);
+  }
 }
 
 @if ($eb-colors-cssvars == true) {
-    :root {
-        @each $key, $value in $color {
-            --eb-color--#{$key}: map-get($value, 'main');
-            --eb-fgcolor--#{$key}: map-get($value, 'foreground');
-        }
+  :root {
+    @each $key, $value in $color {
+      --eb-color--#{$key}: map-get($value, 'main');
+      --eb-fgcolor--#{$key}: map-get($value, 'foreground');
     }
+  }
 }

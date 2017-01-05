@@ -1,13 +1,13 @@
 @function eb-color-get($key, $color-to-get: 'main') {
-    $map: $eb-colors-general;
+  $map: $eb-colors-general;
 
-    @if map-has-key($map, $key) == false {
-        $map: $eb-colors-sections;
-    }
+  @if map-has-key($map, $key) == false {
+    $map: $eb-colors-sections;
+  }
 
-    @if map-has-key($map, $key) == false {
-        $map: $eb-colors;
-    }
+  @if map-has-key($map, $key) == false {
+    $map: $eb-colors;
+  }
 
-    @return map-deep-get($map, $key, $color-to-get);
+  @return map-deep-get($map, $key, $color-to-get);
 }
