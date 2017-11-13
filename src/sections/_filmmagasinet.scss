@@ -25,8 +25,8 @@ $color: $eb-color-filmmagasinet;
 @if ($eb-colors-cssvars == true) {
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: map-get($value, 'main');
-      --eb-fgcolor--#{$key}: map-get($value, 'foreground');
+      --eb-color--#{$key}: #{map-get($value, 'main')};
+      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
     }
   }
 }
