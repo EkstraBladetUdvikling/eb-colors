@@ -99,9 +99,9 @@
   --eb-fgcolor--nationen2: #000; }
 
 :root {
-  --eb-color--nyheder: #000;
+  --eb-color--nyheder: #12507b;
   --eb-fgcolor--nyheder: #fff;
-  --eb-color--nyheder2: #12507b;
+  --eb-color--nyheder2: #000;
   --eb-fgcolor--nyheder2: #fff; }
 
 :root {
@@ -123,9 +123,9 @@
   --eb-fgcolor--sport2: #fff; }
 
 :root {
-  --eb-color--tv: #000;
+  --eb-color--tv: #bd1118;
   --eb-fgcolor--tv: #fff;
-  --eb-color--tv2: #bd1118;
+  --eb-color--tv2: #000;
   --eb-fgcolor--tv2: #fff; }
 
 :root {
@@ -229,9 +229,9 @@
   --eb-fgcolor--nationen2: #000; }
 
 :root {
-  --eb-color--nyheder: #000;
+  --eb-color--nyheder: #12507b;
   --eb-fgcolor--nyheder: #fff;
-  --eb-color--nyheder2: #12507b;
+  --eb-color--nyheder2: #000;
   --eb-fgcolor--nyheder2: #fff; }
 
 :root {
@@ -253,7 +253,7 @@
   --eb-fgcolor--sport2: #fff; }
 
 :root {
-  --eb-color--tv: #000;
+  --eb-color--tv: #bd1118;
   --eb-fgcolor--tv: #fff;
-  --eb-color--tv2: #bd1118;
+  --eb-color--tv2: #000;
   --eb-fgcolor--tv2: #fff; }

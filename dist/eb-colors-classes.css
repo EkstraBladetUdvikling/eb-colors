@@ -163,11 +163,11 @@
   color: #000; }
 
 .eb-bg--nyheder {
-  background: #000;
+  background: #12507b;
   color: #fff; }
 
 .eb-bg--nyheder2 {
-  background: #12507b;
+  background: #000;
   color: #fff; }
 
 .eb-bg--sex-samliv {
@@ -195,11 +195,11 @@
   color: #fff; }
 
 .eb-bg--tv {
-  background: #000;
+  background: #bd1118;
   color: #fff; }
 
 .eb-bg--tv2 {
-  background: #bd1118;
+  background: #000;
   color: #fff; }
 
 .eb-color--eb {
@@ -326,10 +326,10 @@
   color: #e5ad02; }
 
 .eb-color--nyheder {
-  color: #000; }
+  color: #12507b; }
 
 .eb-color--nyheder2 {
-  color: #12507b; }
+  color: #000; }
 
 .eb-color--sex-samliv {
   color: #8a0c36; }
@@ -350,7 +350,7 @@
   color: #2f7820; }
 
 .eb-color--tv {
-  color: #000; }
+  color: #bd1118; }
 
 .eb-color--tv2 {
-  color: #bd1118; }
+  color: #000; }
