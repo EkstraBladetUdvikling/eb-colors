@@ -22,6 +22,7 @@ $color: $eb-color-nationen;
 }
 
 @if ($eb-colors-cssvars == true) {
+
   :root {
     @each $key, $value in $color {
       --eb-color--#{$key}: #{map-get($value, 'main')};

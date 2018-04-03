@@ -1,12 +1,12 @@
 $eb-color-tv: (
 
   'tv': (
-    'main'          : #000,
+    'main'          : #bd1118,
     'foreground'    : #fff,
   ),
 
   'tv2': (
-    'main'          : #bd1118,
+    'main'          : #000,
     'foreground'    : #fff,
   )
 
@@ -23,6 +23,7 @@ $color: $eb-color-tv;
 }
 
 @if ($eb-colors-cssvars == true) {
+
   :root {
     @each $key, $value in $color {
       --eb-color--#{$key}: #{map-get($value, 'main')};

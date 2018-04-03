@@ -68,6 +68,7 @@ $color: $eb-color-main;
 }
 
 @if ($eb-colors-cssvars == true) {
+
   :root {
     @each $key, $value in $color {
       --eb-color--#{$key}: #{map-get($value, 'main')};

@@ -1,5 +1,6 @@
 @mixin eb-create-classes($key, $value, $eb-print-bg: false, $eb-print-color: false) {
   @if ($eb-print-bg == true) {
+
     .eb-bg--#{$key} {
       background: map-get($value, 'main');
       color: map-get($value, 'foreground');
@@ -7,6 +8,7 @@
   }
 
   @if ($eb-print-color == true) {
+
     .eb-color--#{$key} {
       color: map-get($value, 'main');
     }
