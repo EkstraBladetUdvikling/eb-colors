@@ -1,5 +1,5 @@
 {
-  "name": "eb-colors",
+  "name": "@ekstra-bladet/eb-colors",
   "version": "1.0.5",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
