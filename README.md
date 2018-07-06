@@ -134,11 +134,8 @@ CSS classes are generated after the following pattern
 .eb-color--[sectionname] {
     color: [main section color];
 }
-```
 
-Working example
-
-```css
+/** Real world example */
 .eb-bg--eb {
     background-color: var(--eb-color--eb);
     color: var(--eb-fgcolor--eb);
@@ -147,6 +144,14 @@ Working example
 .eb-color--eb {
     color: var(--eb-color--eb);
 }
+```
+
+Working example
+
+```html
+<div class="eb-bg--eb">
+    This will have the eb background color and the corresponding foreground color.
+</div>
 ```
 
 ## Color pallette
