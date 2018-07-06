@@ -136,6 +136,19 @@ CSS classes are generated after the following pattern
 }
 ```
 
+Working example
+
+```css
+.eb-bg--eb {
+    background-color: var(--eb-color--eb);
+    color: var(--eb-fgcolor--eb);
+}
+
+.eb-color--eb {
+    color: var(--eb-color--eb);
+}
+```
+
 ## Color pallette
 
 The colors and their names contained in eb-colors
