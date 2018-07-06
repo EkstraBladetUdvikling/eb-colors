@@ -121,6 +121,21 @@ Returns the main color
 }
 ```
 
+### CSS classes
+
+CSS classes are generated after the following pattern
+
+```css
+.eb-bg--[sectionname] {
+    background-color: [main section color];
+    color: [foreground section color];
+}
+
+.eb-color--[sectionname] {
+    color: [main section color];
+}
+```
+
 ## Color pallette
 
 The colors and their names contained in eb-colors
