@@ -59,7 +59,6 @@ Full map of general colors `$eb-colors-general` & section colors
 | File names            | Map names                |
 | ---                   | ---                      |
 | _main.scss            | $eb-color-main           |
-| _greyscale.scss       | $eb-color-greyscale      |
 | _socialmedia.scss     | $eb-color-socialmedia    |
 
 ### Section specific colors
