@@ -1,12 +1,29 @@
-$eb-color-nyheder: (
+$eb-color-green: (
 
-  'nyheder' : map-get($eb-color-blue, 'bluedark'),
-  'nyheder2': map-get($eb-color-greyscale, 'black'),
+  'greendark': (
+    'main'          : #2f7820,
+    'foreground'    : #fff,
+  ),
+
+  'green': (
+    'main'          : #32a237,
+    'foreground'    : #fff,
+  ),
+
+  'greenlight': (
+    'main'          : #93b923,
+    'foreground'    : #fff,
+  ),
+
+  'lime': (
+    'main'          : #cbfe33,
+    'foreground'    : #000,
+  )
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-nyheder;
+$color: $eb-color-green;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

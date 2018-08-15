@@ -1,12 +1,30 @@
-$eb-color-nyheder: (
+$eb-color-red: (
 
-  'nyheder' : map-get($eb-color-blue, 'bluedark'),
-  'nyheder2': map-get($eb-color-greyscale, 'black'),
+  'bordeaux': (
+    'main'          : #8a0c36,
+    'foreground'    : #fff,
+  ),
+
+  'reddark': (
+    'main'          : #900,
+    'foreground'    : #fff,
+  ),
+
+  'red': (
+    'main'          : #bd1118,
+    'foreground'    : #fff,
+  ),
+
+  'rose': (
+    'main'          : #dc7095,
+    'foreground'    : #fff,
+  )
+
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-nyheder;
+$color: $eb-color-red;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

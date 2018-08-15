@@ -1,15 +1,6 @@
 $eb-color-forbrug: (
 
-  'forbrug': (
-    'main'          : #31769b,
-    'foreground'    : #fff,
-  ),
-
-  'forbrug2' : (
-    'main'          : #4fa8df,
-    'foreground'    : #000,
-  )
-
+  'forbrug' : map-get($eb-color-blue, 'blue'),
 );
 
 $eb-print-bg: true !default;

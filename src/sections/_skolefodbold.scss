@@ -1,15 +1,6 @@
 $eb-color-skolefodbold: (
 
-  'skolefodbold': (
-    'main'          : #93b923,
-    'foreground'    : #fff,
-  ),
-
-  'skolefodbold2': (
-    'main'          : #32a237,
-    'foreground'    : #fff,
-  )
-
+  'skolefodbold' : map-get($eb-color-green, 'greenlight'),
 );
 
 $eb-print-bg: true !default;

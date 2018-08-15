@@ -1,6 +1,6 @@
 {
   "name": "@ekstra-bladet/eb-colors",
-  "version": "1.0.5",
+  "version": "1.1",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "dist": "npm run build",
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
-    "stylelint": "^7.13.0",
+    "stylelint": "^9.4.0",
     "stylelint-config-eb": "^1.0.14",
-    "stylelint-scss": "^1.5.2"
+    "stylelint-scss": "^3.3.0"
   },
   "stylelint": {
     "extends": "stylelint-config-eb"

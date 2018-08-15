@@ -5,11 +5,9 @@ $eb-print-color: false !default;
 
 @import "../functions/all";
 @import "main";
-@import "greyscale";
 @import "socialmedia";
 
 $eb-colors-general: map-collect(
   $eb-color-main,
-  $eb-color-greyscale,
   $eb-color-socialmedia
 );
