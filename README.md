@@ -54,7 +54,7 @@ Full map of all colors `$eb-colors-colors`
 
 Found in [src/general](src/general)
 
-Full map of general colors `$eb-colors-general` & section colors
+Full map of general colors `$eb-colors-general`
 
 | File names            | Map names                |
 | ---                   | ---                      |
@@ -92,15 +92,7 @@ Without the included functions the colors can be accessed through [map-deep-get]
 ```scss
 $eb-colors: (
 
-    '[colorname]': (
-        'main'          : #32a237,
-        'foreground'    : #fff,
-    ),
-    // These only exist for certain colors(e.g. not found in greyscale)
-    '[colorname]2': (
-        'main'          : #2f7820,
-        'foreground'    : #fff,
-    )
+    '[colorname]': map-get($eb-color-[map-name], 'key'),
 
 );
 ```
@@ -113,7 +105,7 @@ Sets both background-color and color, to ensure correct usage
 @import "node_modules/eb-colors/src/all";
 
 .selector {
-  @include eb-background('colorname');
+  @include .eb-bg--[colorname];
 }
 ```
 
@@ -125,7 +117,7 @@ Returns the main color
 @import "node_modules/eb-colors/src/all";
 
 .selector {
-  color: eb-color-get('colorname');
+  color: var(--eb-color--[colorname]);
 }
 ```
 
