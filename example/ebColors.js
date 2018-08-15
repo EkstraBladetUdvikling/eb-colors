@@ -1,5 +1,5 @@
-[
-  {
+var ebColors = {
+  bgColors: {
     "eb-bg--bordeaux": {
       "background": "#8a0c36",
       "color": "#fff"
@@ -255,7 +255,7 @@
       "color": "#fff"
     }
   },
-  {
+  colors: {
     "eb-color--bordeaux": {
       "color": "#8a0c36"
     },
@@ -460,4 +460,4 @@
       "color": "#b1118"
     }
   }
-]
+};

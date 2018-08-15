@@ -46,55 +46,34 @@
 
         <div id="fnColors"></div>
 
+        <script type="text/javascript" src="ebColors.js"></script>
         <script>
             var fnColors = document.getElementById('fnColors');
-            var request = new XMLHttpRequest();
-            request.open('GET', 'ebColors.json', true);
 
-            request.onload = function() {
-                if (request.status >= 200 && request.status < 400) {
-                    var data = JSON.parse(request.responseText);
-                    //console.log(data[0]);
+            var bgColorsData = ebColors.bgColors;
+            var colorsData = ebColors.colors;
+            var dataLength = Object.keys(bgColorsData).length;
+            var colorsBgObj = Object.keys(bgColorsData);
 
-                    var colorsBgObj = Object.keys(data[0]);
-                    var colorsObj = data[1];
+            for (var i = 0; i < dataLength; i++) {
+                var colorBgClass = colorsBgObj[i];
+                var colorBgName = colorBgClass.split('--')[1];
 
-                    for(var i = 0; i < colorsBgObj.length; i++) {
-                        //console.log('class-name: ', colorsBgObj[i]);
-                        //console.log('class-info: ', Object.values(data[0])[i]);
+                var colorClass = Object.keys(colorsData)[i];
 
-                        var colorBgClass = colorsBgObj[i];
-                        var colorBgName = colorBgClass.split('--')[1];
-                        //console.log(colorBgClass, colorBgName);
+                var colorCode = Object.values(colorsData)[i];
+                var getColor = Object.values(colorCode)[0];
 
-                        var colorClass = Object.keys(colorsObj)[i];
-                        //console.log('colorClass: ', colorClass);
-                        var colorCode = Object.values(colorsObj)[i];
-                        var getColor = Object.values(colorCode)[0];
-                        //console.log('colorCode: ', getColor);
+                fnColors.innerHTML +=   '<div class="color-example">' +
+                                            '<div class="'+ colorBgClass +'">' +
+                                                '<p>'+ colorBgName +'</p>' +
+                                            '</div>' +
+                                            '<div class="'+ colorClass +'">' +
+                                                '<div class="color-code">'+ getColor +'</div>' +
+                                            '</div>' +
+                                        '</div>'
 
-                        fnColors.innerHTML += '<div class="color-example">' +
-                            '<div class="'+ colorBgClass +'">' +
-                            '<p>'+ colorBgName +'</p>' +
-                            '</div>' +
-                            '<div class="'+ colorClass +'">' +
-                            getColor +
-                            '</div>' +
-                            '</div>'
-                    }
-                    //console.log(colorsBgObj);
-                    //console.log(Object.values(colorsObj));
-                } else {
-                    // We reached our target server, but it returned an error
-
-                }
-            };
-
-            request.onerror = function() {
-                // There was a connection error of some sort
-            };
-
-            request.send();
+            }
         </script>
 
     </body>
