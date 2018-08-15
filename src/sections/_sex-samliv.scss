@@ -1,6 +1,7 @@
 $eb-color-sex-samliv: (
 
   'sex-samliv' : map-get($eb-color-red, 'bordeaux'),
+  'sex-samliv2': map-get($eb-color-red, 'rose'),
 );
 
 $eb-print-bg: true !default;

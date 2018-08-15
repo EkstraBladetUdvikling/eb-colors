@@ -1,4 +1,5 @@
 # EB Colors
+Version: 1.1
 
 > EB colors for SCSS and CSS
 
@@ -36,16 +37,24 @@ All Section specific colors:
 
 ### All colors
 
-Found in [src](src/)
+Found in [src/colors](src/colors)
 
-Full map of all eb-colors `$eb-colors`
+Full map of all colors `$eb-colors-colors`
 
+| File names            | Map names                |
+| ---                   | ---                      |
+| _blue.scss            | $eb-color-blue           |
+| _green.scss           | $eb-color-green          |
+| _greyscale.scss       | $eb-color-greyscale      |
+| _orange.scss          | $eb-color-orange         |
+| _red.scss             | $eb-color-red            |
+| _yellow.scss          | $eb-color-yellow         |
 
 ### Main colors
 
 Found in [src/general](src/general)
 
-Full map of section colors `$eb-colors-general`
+Full map of general colors `$eb-colors-general` & section colors
 
 | File names            | Map names                |
 | ---                   | ---                      |
@@ -119,6 +128,16 @@ Returns the main color
 .selector {
   color: eb-color-get('colorname');
 }
+```
+
+### Mapping colors
+
+Each of general colors `$eb-colors-general` (found in [src/general](src/general)) & section colors `$eb-colors-sections` (found in [src/sections](src/sections)) are mapped from all colors `$eb-colors-colors`
+
+```scss
+$eb-color-[new-map-name]: (
+  'sport' : map-get($eb-color-[map-name], 'key'),
+)
 ```
 
 ### CSS classes
