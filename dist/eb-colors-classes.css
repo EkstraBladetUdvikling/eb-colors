@@ -28,7 +28,7 @@
 
 .eb-bg--yellowlight {
   background: #ff0;
-  color: #fff; }
+  color: #000; }
 
 .eb-bg--sand {
   background: #cec4a6;
@@ -116,7 +116,7 @@
 
 .eb-bg--breaking {
   background: #ff0;
-  color: #fff; }
+  color: #000; }
 
 .eb-bg--bruger {
   background: #4fa8df;
@@ -184,6 +184,10 @@
 
 .eb-bg--sex-samliv {
   background: #8a0c36;
+  color: #fff; }
+
+.eb-bg--sex-samliv2 {
+  background: #dc7095;
   color: #fff; }
 
 .eb-bg--skolefodbold {
@@ -338,6 +342,9 @@
 
 .eb-color--sex-samliv {
   color: #8a0c36; }
+
+.eb-color--sex-samliv2 {
+  color: #dc7095; }
 
 .eb-color--skolefodbold {
   color: #93b923; }
