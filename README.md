@@ -1,12 +1,12 @@
 # EB Colors
-Version: 1.1
+Version: 1.1.0
 
 > EB colors for SCSS and CSS
 
 ## Installation
 
 ```bash
-npm install ebudvikling/eb-colors --save
+npm install "@ekstra-bladet/eb-colors" --save
 ```
 
 ## Usage
