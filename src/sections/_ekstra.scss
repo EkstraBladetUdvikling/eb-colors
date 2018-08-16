@@ -1,6 +1,6 @@
 $eb-color-ekstra: (
 
-  'ekstra': map-get($eb-color-red, 'red'),
+  'ekstra': map-get($eb-colors-colors, 'red'),
 );
 
 $eb-print-bg: true !default;

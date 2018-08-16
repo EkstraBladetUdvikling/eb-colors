@@ -1,7 +1,7 @@
 $eb-color-socialmedia: (
 
-  'facebook' : map-get($eb-color-blue, 'blue'),
-  'twitter'  : map-get($eb-color-blue, 'bluelight'),
+  'facebook' : map-get($eb-colors-colors, 'blue'),
+  'twitter'  : map-get($eb-colors-colors, 'bluelight'),
 );
 
 $eb-print-bg: true !default;

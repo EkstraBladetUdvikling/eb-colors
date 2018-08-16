@@ -1,12 +1,12 @@
 $eb-color-main: (
 
-  'eb'       : map-get($eb-color-red, 'red'),
-  'eb2'      : map-get($eb-color-red, 'reddark'),
-  'breaking' : map-get($eb-color-yellow, 'yellowlight'),
-  'bruger'   : map-get($eb-color-blue, 'bluelight'),
-  'live'     : map-get($eb-color-greyscale, 'black'),
-  'native'   : map-get($eb-color-yellow, 'sand'),
-  'native2'  : map-get($eb-color-blue, 'sea')
+  'eb'       : map-get($eb-colors-colors, 'red'),
+  'eb2'      : map-get($eb-colors-colors, 'reddark'),
+  'breaking' : map-get($eb-colors-colors, 'yellowlight'),
+  'bruger'   : map-get($eb-colors-colors, 'bluelight'),
+  'live'     : map-get($eb-colors-colors, 'black'),
+  'native'   : map-get($eb-colors-colors, 'sand'),
+  'native2'  : map-get($eb-colors-colors, 'sea')
 );
 
 $eb-print-bg: true !default;

@@ -1,6 +1,6 @@
 $eb-color-flash: (
 
-  'flash' : map-get($eb-color-red, 'reddark'),
+  'flash' : map-get($eb-colors-colors, 'reddark'),
 );
 
 $eb-print-bg: true !default;

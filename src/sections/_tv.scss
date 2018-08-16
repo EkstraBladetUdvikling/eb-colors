@@ -1,6 +1,6 @@
 $eb-color-tv: (
 
-  'tv' : map-get($eb-color-red, 'red'),
+  'tv' : map-get($eb-colors-colors, 'red'),
 );
 
 $eb-print-bg: true !default;

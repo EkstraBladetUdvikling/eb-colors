@@ -1,7 +1,7 @@
 $eb-color-livescore: (
 
-  'livescore' : map-get($eb-color-green, 'green'),
-  'livescore2': map-get($eb-color-green, 'lime'),
+  'livescore' : map-get($eb-colors-colors, 'green'),
+  'livescore2': map-get($eb-colors-colors, 'lime'),
 );
 
 $eb-print-bg: true !default;

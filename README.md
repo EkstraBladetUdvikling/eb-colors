@@ -92,7 +92,7 @@ Without the included functions the colors can be accessed through [map-deep-get]
 ```scss
 $eb-colors: (
 
-    '[colorname]': map-get($eb-color-[map-name], 'key'),
+    '[colorname]': map-get($eb-colors-colors, 'key'),
 
 );
 ```
@@ -127,7 +127,7 @@ Each of general colors `$eb-colors-general` (found in [src/general](src/general)
 
 ```scss
 $eb-color-[new-map-name]: (
-  'sport' : map-get($eb-color-[map-name], 'key'),
+  'sport' : map-get($eb-colors-colors, 'key'),
 )
 ```
 

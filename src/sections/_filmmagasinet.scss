@@ -1,6 +1,6 @@
 $eb-color-filmmagasinet: (
 
-  'filmmagasinet': map-get($eb-color-blue, 'purpledark'),
+  'filmmagasinet': map-get($eb-colors-colors, 'purpledark'),
 );
 
 $eb-print-bg: true !default;

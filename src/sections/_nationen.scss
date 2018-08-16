@@ -1,7 +1,7 @@
 $eb-color-nationen: (
 
-  'nationen' : map-get($eb-color-orange, 'orangedark'),
-  'nationen2': map-get($eb-color-orange, 'orange'),
+  'nationen' : map-get($eb-colors-colors, 'orangedark'),
+  'nationen2': map-get($eb-colors-colors, 'orange'),
 );
 
 $eb-print-bg: true !default;
