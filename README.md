@@ -1,5 +1,6 @@
 # EB Colors
-Version: 1.1.0
+
+Version: 1.1.1
 
 > EB colors for SCSS and CSS
 
