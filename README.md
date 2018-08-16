@@ -15,25 +15,25 @@ npm install "@ekstra-bladet/eb-colors" --save
 Variables and maps:
 
 ```scss
-@import "node_modules/eb-colors/src/all.scss";
+@import "node_modules/@ekstra-bladet/eb-colors/src/all.scss";
 ```
 
 Variables, maps and classes:
 
 ```scss
-@import "node_modules/eb-colors/src/all-with-classes.scss";
+@import "node_modules/@ekstra-bladet/eb-colors/src/all-with-classes.scss";
 ```
 
 General colors:
 
 ```scss
-@import "node_modules/eb-colors/src/general/all[-with-classes].scss";
+@import "node_modules/@ekstra-bladet/eb-colors/src/general/all[-with-classes].scss";
 ```
 
 All Section specific colors:
 
 ```scss
-@import "node_modules/eb-colors/src/sections/all[-with-classes].scss";
+@import "node_modules/@ekstra-bladet/eb-colors/src/sections/all[-with-classes].scss";
 ```
 
 ### All colors
@@ -103,7 +103,7 @@ $eb-colors: (
 Sets both background-color and color, to ensure correct usage
 
 ```scss
-@import "node_modules/eb-colors/src/all";
+@import "node_modules/@ekstra-bladet/eb-colors/src/all";
 
 .selector {
   @include .eb-bg--[colorname];
@@ -115,7 +115,7 @@ Sets both background-color and color, to ensure correct usage
 Returns the main color
 
 ```scss
-@import "node_modules/eb-colors/src/all";
+@import "node_modules/@ekstra-bladet/eb-colors/src/all";
 
 .selector {
   color: var(--eb-color--[colorname]);
