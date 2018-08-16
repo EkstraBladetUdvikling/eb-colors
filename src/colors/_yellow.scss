@@ -1,11 +1,25 @@
-$eb-color-forbrug: (
+$eb-color-yellow: (
 
-  'forbrug' : map-get($eb-colors-colors, 'blue'),
+  'yellow': (
+    'main'          : #fae500,
+    'foreground'    : #fff,
+  ),
+
+  'yellowlight': (
+    'main'          : #ff0,
+    'foreground'    : #000,
+  ),
+
+  'sand': (
+    'main'          : #cec4a6,
+    'foreground'    : #fff,
+  )
+
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-forbrug;
+$color: $eb-color-yellow;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

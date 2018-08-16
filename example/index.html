@@ -1,550 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>eb-colors example</title>
-    <link href="eb-colors.css" rel="stylesheet" type="text/css" />
-    <style>
-      :root {
-        --circle-dim: 75px;
-        font-size: 10px;
-      }
-      .color-example {
-        float: left;
-        margin: 10px;
-        text-align: center;
-        width: calc(var(--circle-dim) + 10);
-      }
-      div[class*=eb-bg] {
-        box-sizing: border-box;
-        border-radius: 50%;
-        line-height: var(--circle-dim);
-        height: var(--circle-dim);
-        width: var(--circle-dim);
-      }
-      p {
-        margin: 0;
-      }
-      .eb-bg--white,
-      .eb-bg--live2 {
-        border: 1px solid #000;
-        line-height: var(--circle-dim);
-        height: var(--circle-dim);
-        width: var(--circle-dim);
-      }
-    </style>
-
-  </head>
-  <body>
-
-    <div class="color-example">
-        <div class="eb-bg--eb">
-            <p>eb</p>
-        </div>
-        <div class="eb-color--eb">
-            #bd1118
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--eb2">
-            <p>eb2</p>
-        </div>
-        <div class="eb-color--eb2">
-            #900
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--breaking">
-            <p>breaking</p>
-        </div>
-        <div class="eb-color--breaking">
-            #ff0
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--breaking2">
-            <p>breaking2</p>
-        </div>
-        <div class="eb-color--breaking2">
-            #ffcc01
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--bruger">
-            <p>bruger</p>
-        </div>
-        <div class="eb-color--bruger">
-            #4fa8df
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--bruger2">
-            <p>bruger2</p>
-        </div>
-        <div class="eb-color--bruger2">
-            #82c3ec
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--live">
-            <p>live</p>
-        </div>
-        <div class="eb-color--live">
-            #000
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--live2">
-            <p>live2</p>
-        </div>
-        <div class="eb-color--live2">
-            #fff
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--native">
-            <p>native</p>
-        </div>
-        <div class="eb-color--native">
-            #cec4a6
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--native2">
-            <p>native2</p>
-        </div>
-        <div class="eb-color--native2">
-            #84a8c4
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--stylespotter">
-            <p>stylespotter</p>
-        </div>
-        <div class="eb-color--stylespotter">
-            #ec939c
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--black">
-            <p>black</p>
-        </div>
-        <div class="eb-color--black">
-            #000
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa1">
-            <p>graa1</p>
-        </div>
-        <div class="eb-color--graa1">
-            #3c3c3c
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa2">
-            <p>graa2</p>
-        </div>
-        <div class="eb-color--graa2">
-            #484848
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa3">
-            <p>graa3</p>
-        </div>
-        <div class="eb-color--graa3">
-            #999
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa4">
-            <p>graa4</p>
-        </div>
-        <div class="eb-color--graa4">
-            #c8c8c8
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa5">
-            <p>graa5</p>
-        </div>
-        <div class="eb-color--graa5">
-            #ddd
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--graa6">
-            <p>graa6</p>
-        </div>
-        <div class="eb-color--graa6">
-            #e5e5e5
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--white">
-            <p>white</p>
-        </div>
-        <div class="eb-color--white">
-            #fff
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--facebook">
-            <p>facebook</p>
-        </div>
-        <div class="eb-color--facebook">
-            #3a5998
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--facebook2">
-            <p>facebook2</p>
-        </div>
-        <div class="eb-color--facebook2">
-            #d7e0eb
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--twitter">
-            <p>twitter</p>
-        </div>
-        <div class="eb-color--twitter">
-            #59adec
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--twitter2">
-            <p>twitter2</p>
-        </div>
-        <div class="eb-color--twitter2">
-            #1285b2
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--instagram">
-            <p>instagram</p>
-        </div>
-        <div class="eb-color--instagram">
-            #2d5d82
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--instagram2">
-            <p>instagram2</p>
-        </div>
-        <div class="eb-color--instagram2">
-            #e7ded2
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--linkedin">
-            <p>linkedin</p>
-        </div>
-        <div class="eb-color--linkedin">
-            #e58202
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--linkedin2">
-            <p>linkedin2</p>
-        </div>
-        <div class="eb-color--linkedin2">
-            #e5e5e5
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--googleplus">
-            <p>googleplus</p>
-        </div>
-        <div class="eb-color--googleplus">
-            #db4c3e
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--googleplus2">
-            <p>googleplus2</p>
-        </div>
-        <div class="eb-color--googleplus2">
-            #e5e5e5
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--ekstra">
-            <p>ekstra</p>
-        </div>
-        <div class="eb-color--ekstra">
-            #bd1118
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--ekstra2">
-            <p>ekstra2</p>
-        </div>
-        <div class="eb-color--ekstra2">
-            #fbba00
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--filmmagasinet">
-            <p>filmmagasinet</p>
-        </div>
-        <div class="eb-color--filmmagasinet">
-            #650188
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--filmmagasinet2">
-            <p>filmmagasinet2</p>
-        </div>
-        <div class="eb-color--filmmagasinet2">
-            #c876e5
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--flash">
-            <p>flash</p>
-        </div>
-        <div class="eb-color--flash">
-            #900
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--flash2">
-            <p>flash2</p>
-        </div>
-        <div class="eb-color--flash2">
-            #bd1118
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--forbrug">
-            <p>forbrug</p>
-        </div>
-        <div class="eb-color--forbrug">
-            #31769b
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--forbrug2">
-            <p>forbrug2</p>
-        </div>
-        <div class="eb-color--forbrug2">
-            #4fa8df
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--livescore">
-            <p>livescore</p>
-        </div>
-        <div class="eb-color--livescore">
-            #32a237
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--livescore2">
-            <p>livescore2</p>
-        </div>
-        <div class="eb-color--livescore2">
-            #cbfe33
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--nationen">
-            <p>nationen</p>
-        </div>
-        <div class="eb-color--nationen">
-            #e58202
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--nationen2">
-            <p>nationen2</p>
-        </div>
-        <div class="eb-color--nationen2">
-            #e5ad02
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--nyheder">
-            <p>nyheder</p>
-        </div>
-        <div class="eb-color--nyheder">
-            #000
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--nyheder2">
-            <p>nyheder2</p>
-        </div>
-        <div class="eb-color--nyheder2">
-            #12507b
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--sex-samliv">
-            <p>sex-samliv</p>
-        </div>
-        <div class="eb-color--sex-samliv">
-            #8a0c36
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--sex-samliv2">
-            <p>sex-samliv2</p>
-        </div>
-        <div class="eb-color--sex-samliv2">
-            #dc7095
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--skolefodbold">
-            <p>skolefodbold</p>
-        </div>
-        <div class="eb-color--skolefodbold">
-            #93b923
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--skolefodbold2">
-            <p>skolefodbold2</p>
-        </div>
-        <div class="eb-color--skolefodbold2">
-            #32a237
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--sport">
-            <p>sport</p>
-        </div>
-        <div class="eb-color--sport">
-            #32a237
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--sport2">
-            <p>sport2</p>
-        </div>
-        <div class="eb-color--sport2">
-            #2f7820
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--tv">
-            <p>tv</p>
-        </div>
-        <div class="eb-color--tv">
-            #000
-        </div>
-    </div>
-
-
-    <div class="color-example">
-        <div class="eb-bg--tv2">
-            <p>tv2</p>
-        </div>
-        <div class="eb-color--tv2">
-            #bd1118
-        </div>
-    </div>
-
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>eb-colors example</title>
+        <link href="test.css" rel="stylesheet" type="text/css" />
+        <style>
+            :root {
+                --circle-dim: 100px;
+                font-size: 10px;
+            }
+            .color-example {
+                float: left;
+                margin: 10px;
+                text-align: center;
+                width: calc(var(--circle-dim) + 10);
+                font-size: 14px;
+                font-family: 'Arial', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            div[class*=eb-bg] {
+                box-sizing: border-box;
+                border-radius: 50%;
+                line-height: var(--circle-dim);
+                height: var(--circle-dim);
+                width: var(--circle-dim);
+            }
+            p {
+                margin: 0;
+            }
+            .color-code {
+                margin: 5px 0;
+            }
+            .eb-bg--white,
+            .eb-bg--live2 {
+                border: 1px solid #000;
+                line-height: var(--circle-dim);
+                height: var(--circle-dim);
+                width: var(--circle-dim);
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div id="fnColors"></div>
+
+        <script type="text/javascript" src="ebColors.js"></script>
+        <script>
+            var fnColors = document.getElementById('fnColors');
+
+            var bgColorsData = ebColors.bgColors;
+            var colorsData = ebColors.colors;
+            var dataLength = Object.keys(bgColorsData).length;
+            var colorsBgObj = Object.keys(bgColorsData);
+
+            for (var i = 0; i < dataLength; i++) {
+                var colorBgClass = colorsBgObj[i];
+                var colorBgName = colorBgClass.split('--')[1];
+
+                var colorClass = Object.keys(colorsData)[i];
+
+                var colorCode = Object.values(colorsData)[i];
+                var getColor = Object.values(colorCode)[0];
+
+                fnColors.innerHTML +=   '<div class="color-example">' +
+                                            '<div class="'+ colorBgClass +'">' +
+                                                '<p>'+ colorBgName +'</p>' +
+                                            '</div>' +
+                                            '<div class="'+ colorClass +'">' +
+                                                '<div class="color-code">'+ getColor +'</div>' +
+                                            '</div>' +
+                                        '</div>'
+
+            }
+        </script>
+
+    </body>
 </html>

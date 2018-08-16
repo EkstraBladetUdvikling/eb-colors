@@ -1,15 +1,6 @@
 $eb-color-sport: (
 
-  'sport': (
-    'main'          : #32a237,
-    'foreground'    : #fff,
-  ),
-
-  'sport2': (
-    'main'          : #2f7820,
-    'foreground'    : #fff,
-  )
-
+  'sport' : map-get($eb-colors-colors, 'green'),
 );
 
 $eb-print-bg: true !default;

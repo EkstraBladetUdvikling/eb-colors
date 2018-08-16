@@ -1,26 +1,48 @@
 :root {
-  --eb-color--eb: #bd1118;
-  --eb-fgcolor--eb: #fff;
-  --eb-color--eb2: #900;
-  --eb-fgcolor--eb2: #fff;
-  --eb-color--breaking: #ff0;
-  --eb-fgcolor--breaking: #000;
-  --eb-color--breaking2: #ffcc01;
-  --eb-fgcolor--breaking2: #fff;
-  --eb-color--bruger: #4fa8df;
-  --eb-fgcolor--bruger: #fff;
-  --eb-color--bruger2: #82c3ec;
-  --eb-fgcolor--bruger2: #fff;
-  --eb-color--live: #000;
-  --eb-fgcolor--live: #fff;
-  --eb-color--live2: #fff;
-  --eb-fgcolor--live2: #000;
-  --eb-color--native: #cec4a6;
-  --eb-fgcolor--native: #000;
-  --eb-color--native2: #84a8c4;
-  --eb-fgcolor--native2: #fff;
-  --eb-color--stylespotter: #ec939c;
-  --eb-fgcolor--stylespotter: #fff; }
+  --eb-color--bordeaux: #8a0c36;
+  --eb-fgcolor--bordeaux: #fff;
+  --eb-color--reddark: #900;
+  --eb-fgcolor--reddark: #fff;
+  --eb-color--red: #bd1118;
+  --eb-fgcolor--red: #fff;
+  --eb-color--rose: #dc7095;
+  --eb-fgcolor--rose: #fff; }
+
+:root {
+  --eb-color--orangedark: #e38121;
+  --eb-fgcolor--orangedark: #fff;
+  --eb-color--orange: #e5ad02;
+  --eb-fgcolor--orange: #fff; }
+
+:root {
+  --eb-color--yellow: #fae500;
+  --eb-fgcolor--yellow: #fff;
+  --eb-color--yellowlight: #ff0;
+  --eb-fgcolor--yellowlight: #000;
+  --eb-color--sand: #cec4a6;
+  --eb-fgcolor--sand: #fff; }
+
+:root {
+  --eb-color--greendark: #2f7820;
+  --eb-fgcolor--greendark: #fff;
+  --eb-color--green: #32a237;
+  --eb-fgcolor--green: #fff;
+  --eb-color--greenlight: #93b923;
+  --eb-fgcolor--greenlight: #fff;
+  --eb-color--lime: #cbfe33;
+  --eb-fgcolor--lime: #000; }
+
+:root {
+  --eb-color--purpledark: #650188;
+  --eb-fgcolor--purpledark: #fff;
+  --eb-color--bluedark: #12507b;
+  --eb-fgcolor--bluedark: #fff;
+  --eb-color--blue: #31769b;
+  --eb-fgcolor--blue: #fff;
+  --eb-color--bluelight: #4fa8df;
+  --eb-fgcolor--bluelight: #fff;
+  --eb-color--sea: #84a8c4;
+  --eb-fgcolor--sea: #fff; }
 
 :root {
   --eb-color--black: #000;
@@ -37,54 +59,48 @@
   --eb-fgcolor--graa5: #000;
   --eb-color--graa6: #e5e5e5;
   --eb-fgcolor--graa6: #000;
+  --eb-color--graa7: #efefef;
+  --eb-fgcolor--graa7: #000;
   --eb-color--white: #fff;
   --eb-fgcolor--white: #000; }
 
 :root {
-  --eb-color--facebook: #3a5998;
+  --eb-color--eb: #bd1118;
+  --eb-fgcolor--eb: #fff;
+  --eb-color--eb2: #900;
+  --eb-fgcolor--eb2: #fff;
+  --eb-color--breaking: #ff0;
+  --eb-fgcolor--breaking: #000;
+  --eb-color--bruger: #4fa8df;
+  --eb-fgcolor--bruger: #fff;
+  --eb-color--live: #000;
+  --eb-fgcolor--live: #fff;
+  --eb-color--native: #cec4a6;
+  --eb-fgcolor--native: #fff;
+  --eb-color--native2: #84a8c4;
+  --eb-fgcolor--native2: #fff; }
+
+:root {
+  --eb-color--facebook: #31769b;
   --eb-fgcolor--facebook: #fff;
-  --eb-color--facebook2: #d7e0eb;
-  --eb-fgcolor--facebook2: #000;
-  --eb-color--twitter: #59adec;
-  --eb-fgcolor--twitter: #fff;
-  --eb-color--twitter2: #1285b2;
-  --eb-fgcolor--twitter2: #000;
-  --eb-color--instagram: #2d5d82;
-  --eb-fgcolor--instagram: #fff;
-  --eb-color--instagram2: #e7ded2;
-  --eb-fgcolor--instagram2: #000;
-  --eb-color--linkedin: #e58202;
-  --eb-fgcolor--linkedin: #fff;
-  --eb-color--linkedin2: #e5e5e5;
-  --eb-fgcolor--linkedin2: #000;
-  --eb-color--googleplus: #db4c3e;
-  --eb-fgcolor--googleplus: #fff;
-  --eb-color--googleplus2: #e5e5e5;
-  --eb-fgcolor--googleplus2: #000; }
+  --eb-color--twitter: #4fa8df;
+  --eb-fgcolor--twitter: #fff; }
 
 :root {
   --eb-color--ekstra: #bd1118;
-  --eb-fgcolor--ekstra: #fff;
-  --eb-color--ekstra2: #fbba00;
-  --eb-fgcolor--ekstra2: #fff; }
+  --eb-fgcolor--ekstra: #fff; }
 
 :root {
   --eb-color--filmmagasinet: #650188;
-  --eb-fgcolor--filmmagasinet: #fff;
-  --eb-color--filmmagasinet2: #c876e5;
-  --eb-fgcolor--filmmagasinet2: #000; }
+  --eb-fgcolor--filmmagasinet: #fff; }
 
 :root {
   --eb-color--flash: #900;
-  --eb-fgcolor--flash: #fff;
-  --eb-color--flash2: #bd1118;
-  --eb-fgcolor--flash2: #fff; }
+  --eb-fgcolor--flash: #fff; }
 
 :root {
   --eb-color--forbrug: #31769b;
-  --eb-fgcolor--forbrug: #fff;
-  --eb-color--forbrug2: #4fa8df;
-  --eb-fgcolor--forbrug2: #000; }
+  --eb-fgcolor--forbrug: #fff; }
 
 :root {
   --eb-color--livescore: #32a237;
@@ -93,10 +109,10 @@
   --eb-fgcolor--livescore2: #000; }
 
 :root {
-  --eb-color--nationen: #e58202;
+  --eb-color--nationen: #e38121;
   --eb-fgcolor--nationen: #fff;
   --eb-color--nationen2: #e5ad02;
-  --eb-fgcolor--nationen2: #000; }
+  --eb-fgcolor--nationen2: #fff; }
 
 :root {
   --eb-color--nyheder: #12507b;
@@ -108,49 +124,65 @@
   --eb-color--sex-samliv: #8a0c36;
   --eb-fgcolor--sex-samliv: #fff;
   --eb-color--sex-samliv2: #dc7095;
-  --eb-fgcolor--sex-samliv2: #000; }
+  --eb-fgcolor--sex-samliv2: #fff; }
 
 :root {
   --eb-color--skolefodbold: #93b923;
-  --eb-fgcolor--skolefodbold: #fff;
-  --eb-color--skolefodbold2: #32a237;
-  --eb-fgcolor--skolefodbold2: #fff; }
+  --eb-fgcolor--skolefodbold: #fff; }
 
 :root {
   --eb-color--sport: #32a237;
-  --eb-fgcolor--sport: #fff;
-  --eb-color--sport2: #2f7820;
-  --eb-fgcolor--sport2: #fff; }
+  --eb-fgcolor--sport: #fff; }
 
 :root {
   --eb-color--tv: #bd1118;
-  --eb-fgcolor--tv: #fff;
-  --eb-color--tv2: #000;
-  --eb-fgcolor--tv2: #fff; }
+  --eb-fgcolor--tv: #fff; }
 
 :root {
-  --eb-color--eb: #bd1118;
-  --eb-fgcolor--eb: #fff;
-  --eb-color--eb2: #900;
-  --eb-fgcolor--eb2: #fff;
-  --eb-color--breaking: #ff0;
-  --eb-fgcolor--breaking: #000;
-  --eb-color--breaking2: #ffcc01;
-  --eb-fgcolor--breaking2: #fff;
-  --eb-color--bruger: #4fa8df;
-  --eb-fgcolor--bruger: #fff;
-  --eb-color--bruger2: #82c3ec;
-  --eb-fgcolor--bruger2: #fff;
-  --eb-color--live: #000;
-  --eb-fgcolor--live: #fff;
-  --eb-color--live2: #fff;
-  --eb-fgcolor--live2: #000;
-  --eb-color--native: #cec4a6;
-  --eb-fgcolor--native: #000;
-  --eb-color--native2: #84a8c4;
-  --eb-fgcolor--native2: #fff;
-  --eb-color--stylespotter: #ec939c;
-  --eb-fgcolor--stylespotter: #fff; }
+  --eb-color--bordeaux: #8a0c36;
+  --eb-fgcolor--bordeaux: #fff;
+  --eb-color--reddark: #900;
+  --eb-fgcolor--reddark: #fff;
+  --eb-color--red: #bd1118;
+  --eb-fgcolor--red: #fff;
+  --eb-color--rose: #dc7095;
+  --eb-fgcolor--rose: #fff; }
+
+:root {
+  --eb-color--orangedark: #e38121;
+  --eb-fgcolor--orangedark: #fff;
+  --eb-color--orange: #e5ad02;
+  --eb-fgcolor--orange: #fff; }
+
+:root {
+  --eb-color--yellow: #fae500;
+  --eb-fgcolor--yellow: #fff;
+  --eb-color--yellowlight: #ff0;
+  --eb-fgcolor--yellowlight: #000;
+  --eb-color--sand: #cec4a6;
+  --eb-fgcolor--sand: #fff; }
+
+:root {
+  --eb-color--greendark: #2f7820;
+  --eb-fgcolor--greendark: #fff;
+  --eb-color--green: #32a237;
+  --eb-fgcolor--green: #fff;
+  --eb-color--greenlight: #93b923;
+  --eb-fgcolor--greenlight: #fff;
+  --eb-color--lime: #cbfe33;
+  --eb-fgcolor--lime: #000; }
+
+:root {
+  --eb-color--purpledark: #650188;
+  --eb-fgcolor--purpledark: #fff;
+  --eb-color--bluedark: #12507b;
+  --eb-fgcolor--bluedark: #fff;
+  --eb-color--blue: #31769b;
+  --eb-fgcolor--blue: #fff;
+  --eb-color--bluelight: #4fa8df;
+  --eb-fgcolor--bluelight: #fff;
+  --eb-color--sea: #84a8c4;
+  --eb-fgcolor--sea: #fff; }
 
 :root {
   --eb-color--black: #000;
@@ -167,54 +199,48 @@
   --eb-fgcolor--graa5: #000;
   --eb-color--graa6: #e5e5e5;
   --eb-fgcolor--graa6: #000;
+  --eb-color--graa7: #efefef;
+  --eb-fgcolor--graa7: #000;
   --eb-color--white: #fff;
   --eb-fgcolor--white: #000; }
 
 :root {
-  --eb-color--facebook: #3a5998;
+  --eb-color--eb: #bd1118;
+  --eb-fgcolor--eb: #fff;
+  --eb-color--eb2: #900;
+  --eb-fgcolor--eb2: #fff;
+  --eb-color--breaking: #ff0;
+  --eb-fgcolor--breaking: #000;
+  --eb-color--bruger: #4fa8df;
+  --eb-fgcolor--bruger: #fff;
+  --eb-color--live: #000;
+  --eb-fgcolor--live: #fff;
+  --eb-color--native: #cec4a6;
+  --eb-fgcolor--native: #fff;
+  --eb-color--native2: #84a8c4;
+  --eb-fgcolor--native2: #fff; }
+
+:root {
+  --eb-color--facebook: #31769b;
   --eb-fgcolor--facebook: #fff;
-  --eb-color--facebook2: #d7e0eb;
-  --eb-fgcolor--facebook2: #000;
-  --eb-color--twitter: #59adec;
-  --eb-fgcolor--twitter: #fff;
-  --eb-color--twitter2: #1285b2;
-  --eb-fgcolor--twitter2: #000;
-  --eb-color--instagram: #2d5d82;
-  --eb-fgcolor--instagram: #fff;
-  --eb-color--instagram2: #e7ded2;
-  --eb-fgcolor--instagram2: #000;
-  --eb-color--linkedin: #e58202;
-  --eb-fgcolor--linkedin: #fff;
-  --eb-color--linkedin2: #e5e5e5;
-  --eb-fgcolor--linkedin2: #000;
-  --eb-color--googleplus: #db4c3e;
-  --eb-fgcolor--googleplus: #fff;
-  --eb-color--googleplus2: #e5e5e5;
-  --eb-fgcolor--googleplus2: #000; }
+  --eb-color--twitter: #4fa8df;
+  --eb-fgcolor--twitter: #fff; }
 
 :root {
   --eb-color--ekstra: #bd1118;
-  --eb-fgcolor--ekstra: #fff;
-  --eb-color--ekstra2: #fbba00;
-  --eb-fgcolor--ekstra2: #fff; }
+  --eb-fgcolor--ekstra: #fff; }
 
 :root {
   --eb-color--filmmagasinet: #650188;
-  --eb-fgcolor--filmmagasinet: #fff;
-  --eb-color--filmmagasinet2: #c876e5;
-  --eb-fgcolor--filmmagasinet2: #000; }
+  --eb-fgcolor--filmmagasinet: #fff; }
 
 :root {
   --eb-color--flash: #900;
-  --eb-fgcolor--flash: #fff;
-  --eb-color--flash2: #bd1118;
-  --eb-fgcolor--flash2: #fff; }
+  --eb-fgcolor--flash: #fff; }
 
 :root {
   --eb-color--forbrug: #31769b;
-  --eb-fgcolor--forbrug: #fff;
-  --eb-color--forbrug2: #4fa8df;
-  --eb-fgcolor--forbrug2: #000; }
+  --eb-fgcolor--forbrug: #fff; }
 
 :root {
   --eb-color--livescore: #32a237;
@@ -223,10 +249,10 @@
   --eb-fgcolor--livescore2: #000; }
 
 :root {
-  --eb-color--nationen: #e58202;
+  --eb-color--nationen: #e38121;
   --eb-fgcolor--nationen: #fff;
   --eb-color--nationen2: #e5ad02;
-  --eb-fgcolor--nationen2: #000; }
+  --eb-fgcolor--nationen2: #fff; }
 
 :root {
   --eb-color--nyheder: #12507b;
@@ -238,22 +264,16 @@
   --eb-color--sex-samliv: #8a0c36;
   --eb-fgcolor--sex-samliv: #fff;
   --eb-color--sex-samliv2: #dc7095;
-  --eb-fgcolor--sex-samliv2: #000; }
+  --eb-fgcolor--sex-samliv2: #fff; }
 
 :root {
   --eb-color--skolefodbold: #93b923;
-  --eb-fgcolor--skolefodbold: #fff;
-  --eb-color--skolefodbold2: #32a237;
-  --eb-fgcolor--skolefodbold2: #fff; }
+  --eb-fgcolor--skolefodbold: #fff; }
 
 :root {
   --eb-color--sport: #32a237;
-  --eb-fgcolor--sport: #fff;
-  --eb-color--sport2: #2f7820;
-  --eb-fgcolor--sport2: #fff; }
+  --eb-fgcolor--sport: #fff; }
 
 :root {
   --eb-color--tv: #bd1118;
-  --eb-fgcolor--tv: #fff;
-  --eb-color--tv2: #000;
-  --eb-fgcolor--tv2: #fff; }
+  --eb-fgcolor--tv: #fff; }

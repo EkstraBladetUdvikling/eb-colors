@@ -1,15 +1,7 @@
 $eb-color-nyheder: (
 
-  'nyheder': (
-    'main'          : #12507b,
-    'foreground'    : #fff,
-  ),
-
-  'nyheder2': (
-    'main'          : #000,
-    'foreground'    : #fff,
-  )
-
+  'nyheder' : map-get($eb-colors-colors, 'bluedark'),
+  'nyheder2': map-get($eb-colors-colors, 'black'),
 );
 
 $eb-print-bg: true !default;

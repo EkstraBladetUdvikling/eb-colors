@@ -1,11 +1,29 @@
-$eb-color-forbrug: (
+$eb-color-green: (
 
-  'forbrug' : map-get($eb-colors-colors, 'blue'),
+  'greendark': (
+    'main'          : #2f7820,
+    'foreground'    : #fff,
+  ),
+
+  'green': (
+    'main'          : #32a237,
+    'foreground'    : #fff,
+  ),
+
+  'greenlight': (
+    'main'          : #93b923,
+    'foreground'    : #fff,
+  ),
+
+  'lime': (
+    'main'          : #cbfe33,
+    'foreground'    : #000,
+  )
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-forbrug;
+$color: $eb-color-green;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

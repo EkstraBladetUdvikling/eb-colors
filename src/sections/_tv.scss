@@ -1,15 +1,6 @@
 $eb-color-tv: (
 
-  'tv': (
-    'main'          : #bd1118,
-    'foreground'    : #fff,
-  ),
-
-  'tv2': (
-    'main'          : #000,
-    'foreground'    : #fff,
-  )
-
+  'tv' : map-get($eb-colors-colors, 'red'),
 );
 
 $eb-print-bg: true !default;

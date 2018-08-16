@@ -1,15 +1,7 @@
 $eb-color-sex-samliv: (
 
-  'sex-samliv': (
-    'main'          : #8a0c36,
-    'foreground'    : #fff,
-  ),
-
-  'sex-samliv2': (
-    'main'          : #dc7095,
-    'foreground'    : #000,
-  )
-
+  'sex-samliv' : map-get($eb-colors-colors, 'bordeaux'),
+  'sex-samliv2': map-get($eb-colors-colors, 'rose'),
 );
 
 $eb-print-bg: true !default;

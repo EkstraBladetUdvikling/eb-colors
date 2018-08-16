@@ -1,4 +1,5 @@
 # EB Colors
+Version: 1.1
 
 > EB colors for SCSS and CSS
 
@@ -36,21 +37,28 @@ All Section specific colors:
 
 ### All colors
 
-Found in [src](src/)
+Found in [src/colors](src/colors)
 
-Full map of all eb-colors `$eb-colors`
+Full map of all colors `$eb-colors-colors`
 
+| File names            | Map names                |
+| ---                   | ---                      |
+| _blue.scss            | $eb-color-blue           |
+| _green.scss           | $eb-color-green          |
+| _greyscale.scss       | $eb-color-greyscale      |
+| _orange.scss          | $eb-color-orange         |
+| _red.scss             | $eb-color-red            |
+| _yellow.scss          | $eb-color-yellow         |
 
 ### Main colors
 
 Found in [src/general](src/general)
 
-Full map of section colors `$eb-colors-general`
+Full map of general colors `$eb-colors-general`
 
 | File names            | Map names                |
 | ---                   | ---                      |
 | _main.scss            | $eb-color-main           |
-| _greyscale.scss       | $eb-color-greyscale      |
 | _socialmedia.scss     | $eb-color-socialmedia    |
 
 ### Section specific colors
@@ -84,15 +92,7 @@ Without the included functions the colors can be accessed through [map-deep-get]
 ```scss
 $eb-colors: (
 
-    '[colorname]': (
-        'main'          : #32a237,
-        'foreground'    : #fff,
-    ),
-    // These only exist for certain colors(e.g. not found in greyscale)
-    '[colorname]2': (
-        'main'          : #2f7820,
-        'foreground'    : #fff,
-    )
+    '[colorname]': map-get($eb-colors-colors, 'key'),
 
 );
 ```
@@ -105,7 +105,7 @@ Sets both background-color and color, to ensure correct usage
 @import "node_modules/eb-colors/src/all";
 
 .selector {
-  @include eb-background('colorname');
+  @include .eb-bg--[colorname];
 }
 ```
 
@@ -117,8 +117,18 @@ Returns the main color
 @import "node_modules/eb-colors/src/all";
 
 .selector {
-  color: eb-color-get('colorname');
+  color: var(--eb-color--[colorname]);
 }
+```
+
+### Mapping colors
+
+Each of general colors `$eb-colors-general` (found in [src/general](src/general)) & section colors `$eb-colors-sections` (found in [src/sections](src/sections)) are mapped from all colors `$eb-colors-colors`
+
+```scss
+$eb-color-[new-map-name]: (
+  'sport' : map-get($eb-colors-colors, 'key'),
+)
 ```
 
 ### CSS classes

@@ -1,45 +1,73 @@
-.eb-bg--eb {
-  background: #bd1118;
+.eb-bg--bordeaux {
+  background: #8a0c36;
   color: #fff; }
 
-.eb-bg--eb2 {
+.eb-bg--reddark {
   background: #900;
   color: #fff; }
 
-.eb-bg--breaking {
+.eb-bg--red {
+  background: #bd1118;
+  color: #fff; }
+
+.eb-bg--rose {
+  background: #dc7095;
+  color: #fff; }
+
+.eb-bg--orangedark {
+  background: #e38121;
+  color: #fff; }
+
+.eb-bg--orange {
+  background: #e5ad02;
+  color: #fff; }
+
+.eb-bg--yellow {
+  background: #fae500;
+  color: #fff; }
+
+.eb-bg--yellowlight {
   background: #ff0;
   color: #000; }
 
-.eb-bg--breaking2 {
-  background: #ffcc01;
+.eb-bg--sand {
+  background: #cec4a6;
   color: #fff; }
 
-.eb-bg--bruger {
+.eb-bg--greendark {
+  background: #2f7820;
+  color: #fff; }
+
+.eb-bg--green {
+  background: #32a237;
+  color: #fff; }
+
+.eb-bg--greenlight {
+  background: #93b923;
+  color: #fff; }
+
+.eb-bg--lime {
+  background: #cbfe33;
+  color: #000; }
+
+.eb-bg--purpledark {
+  background: #650188;
+  color: #fff; }
+
+.eb-bg--bluedark {
+  background: #12507b;
+  color: #fff; }
+
+.eb-bg--blue {
+  background: #31769b;
+  color: #fff; }
+
+.eb-bg--bluelight {
   background: #4fa8df;
   color: #fff; }
 
-.eb-bg--bruger2 {
-  background: #82c3ec;
-  color: #fff; }
-
-.eb-bg--live {
-  background: #000;
-  color: #fff; }
-
-.eb-bg--live2 {
-  background: #fff;
-  color: #000; }
-
-.eb-bg--native {
-  background: #cec4a6;
-  color: #000; }
-
-.eb-bg--native2 {
+.eb-bg--sea {
   background: #84a8c4;
-  color: #fff; }
-
-.eb-bg--stylespotter {
-  background: #ec939c;
   color: #fff; }
 
 .eb-bg--black {
@@ -70,81 +98,65 @@
   background: #e5e5e5;
   color: #000; }
 
+.eb-bg--graa7 {
+  background: #efefef;
+  color: #000; }
+
 .eb-bg--white {
   background: #fff;
   color: #000; }
 
-.eb-bg--facebook {
-  background: #3a5998;
-  color: #fff; }
-
-.eb-bg--facebook2 {
-  background: #d7e0eb;
-  color: #000; }
-
-.eb-bg--twitter {
-  background: #59adec;
-  color: #fff; }
-
-.eb-bg--twitter2 {
-  background: #1285b2;
-  color: #000; }
-
-.eb-bg--instagram {
-  background: #2d5d82;
-  color: #fff; }
-
-.eb-bg--instagram2 {
-  background: #e7ded2;
-  color: #000; }
-
-.eb-bg--linkedin {
-  background: #e58202;
-  color: #fff; }
-
-.eb-bg--linkedin2 {
-  background: #e5e5e5;
-  color: #000; }
-
-.eb-bg--googleplus {
-  background: #db4c3e;
-  color: #fff; }
-
-.eb-bg--googleplus2 {
-  background: #e5e5e5;
-  color: #000; }
-
-.eb-bg--ekstra {
+.eb-bg--eb {
   background: #bd1118;
   color: #fff; }
 
-.eb-bg--ekstra2 {
-  background: #fbba00;
+.eb-bg--eb2 {
+  background: #900;
+  color: #fff; }
+
+.eb-bg--breaking {
+  background: #ff0;
+  color: #000; }
+
+.eb-bg--bruger {
+  background: #4fa8df;
+  color: #fff; }
+
+.eb-bg--live {
+  background: #000;
+  color: #fff; }
+
+.eb-bg--native {
+  background: #cec4a6;
+  color: #fff; }
+
+.eb-bg--native2 {
+  background: #84a8c4;
+  color: #fff; }
+
+.eb-bg--facebook {
+  background: #31769b;
+  color: #fff; }
+
+.eb-bg--twitter {
+  background: #4fa8df;
+  color: #fff; }
+
+.eb-bg--ekstra {
+  background: #bd1118;
   color: #fff; }
 
 .eb-bg--filmmagasinet {
   background: #650188;
   color: #fff; }
 
-.eb-bg--filmmagasinet2 {
-  background: #c876e5;
-  color: #000; }
-
 .eb-bg--flash {
   background: #900;
-  color: #fff; }
-
-.eb-bg--flash2 {
-  background: #bd1118;
   color: #fff; }
 
 .eb-bg--forbrug {
   background: #31769b;
   color: #fff; }
-
-.eb-bg--forbrug2 {
-  background: #4fa8df;
-  color: #000; }
 
 .eb-bg--livescore {
   background: #32a237;
@@ -155,12 +167,12 @@
   color: #000; }
 
 .eb-bg--nationen {
-  background: #e58202;
+  background: #e38121;
   color: #fff; }
 
 .eb-bg--nationen2 {
   background: #e5ad02;
-  color: #000; }
+  color: #fff; }
 
 .eb-bg--nyheder {
   background: #12507b;
@@ -176,64 +188,73 @@
 
 .eb-bg--sex-samliv2 {
   background: #dc7095;
-  color: #000; }
+  color: #fff; }
 
 .eb-bg--skolefodbold {
   background: #93b923;
-  color: #fff; }
-
-.eb-bg--skolefodbold2 {
-  background: #32a237;
   color: #fff; }
 
 .eb-bg--sport {
   background: #32a237;
   color: #fff; }
 
-.eb-bg--sport2 {
-  background: #2f7820;
-  color: #fff; }
-
 .eb-bg--tv {
   background: #bd1118;
   color: #fff; }
 
-.eb-bg--tv2 {
-  background: #000;
-  color: #fff; }
+.eb-color--bordeaux {
+  color: #8a0c36; }
 
-.eb-color--eb {
-  color: #bd1118; }
-
-.eb-color--eb2 {
+.eb-color--reddark {
   color: #900; }
 
-.eb-color--breaking {
+.eb-color--red {
+  color: #bd1118; }
+
+.eb-color--rose {
+  color: #dc7095; }
+
+.eb-color--orangedark {
+  color: #e38121; }
+
+.eb-color--orange {
+  color: #e5ad02; }
+
+.eb-color--yellow {
+  color: #fae500; }
+
+.eb-color--yellowlight {
   color: #ff0; }
 
-.eb-color--breaking2 {
-  color: #ffcc01; }
-
-.eb-color--bruger {
-  color: #4fa8df; }
-
-.eb-color--bruger2 {
-  color: #82c3ec; }
-
-.eb-color--live {
-  color: #000; }
-
-.eb-color--live2 {
-  color: #fff; }
-
-.eb-color--native {
+.eb-color--sand {
   color: #cec4a6; }
 
-.eb-color--native2 {
-  color: #84a8c4; }
+.eb-color--greendark {
+  color: #2f7820; }
 
-.eb-color--stylespotter {
-  color: #ec939c; }
+.eb-color--green {
+  color: #32a237; }
+
+.eb-color--greenlight {
+  color: #93b923; }
+
+.eb-color--lime {
+  color: #cbfe33; }
+
+.eb-color--purpledark {
+  color: #650188; }
+
+.eb-color--bluedark {
+  color: #12507b; }
+
+.eb-color--blue {
+  color: #31769b; }
+
+.eb-color--bluelight {
+  color: #4fa8df; }
+
+.eb-color--sea {
+  color: #84a8c4; }
 
 .eb-color--black {
   color: #000; }
@@ -256,62 +277,50 @@
 .eb-color--graa6 {
   color: #e5e5e5; }
 
+.eb-color--graa7 {
+  color: #efefef; }
+
 .eb-color--white {
   color: #fff; }
 
-.eb-color--facebook {
-  color: #3a5998; }
+.eb-color--eb {
+  color: #bd1118; }
 
-.eb-color--facebook2 {
-  color: #d7e0eb; }
+.eb-color--eb2 {
+  color: #900; }
+
+.eb-color--breaking {
+  color: #ff0; }
+
+.eb-color--bruger {
+  color: #4fa8df; }
+
+.eb-color--live {
+  color: #000; }
+
+.eb-color--native {
+  color: #cec4a6; }
+
+.eb-color--native2 {
+  color: #84a8c4; }
+
+.eb-color--facebook {
+  color: #31769b; }
 
 .eb-color--twitter {
-  color: #59adec; }
-
-.eb-color--twitter2 {
-  color: #1285b2; }
-
-.eb-color--instagram {
-  color: #2d5d82; }
-
-.eb-color--instagram2 {
-  color: #e7ded2; }
-
-.eb-color--linkedin {
-  color: #e58202; }
-
-.eb-color--linkedin2 {
-  color: #e5e5e5; }
-
-.eb-color--googleplus {
-  color: #db4c3e; }
-
-.eb-color--googleplus2 {
-  color: #e5e5e5; }
+  color: #4fa8df; }
 
 .eb-color--ekstra {
   color: #bd1118; }
 
-.eb-color--ekstra2 {
-  color: #fbba00; }
-
 .eb-color--filmmagasinet {
   color: #650188; }
-
-.eb-color--filmmagasinet2 {
-  color: #c876e5; }
 
 .eb-color--flash {
   color: #900; }
 
-.eb-color--flash2 {
-  color: #bd1118; }
-
 .eb-color--forbrug {
   color: #31769b; }
-
-.eb-color--forbrug2 {
-  color: #4fa8df; }
 
 .eb-color--livescore {
   color: #32a237; }
@@ -320,7 +329,7 @@
   color: #cbfe33; }
 
 .eb-color--nationen {
-  color: #e58202; }
+  color: #e38121; }
 
 .eb-color--nationen2 {
   color: #e5ad02; }
@@ -340,17 +349,8 @@
 .eb-color--skolefodbold {
   color: #93b923; }
 
-.eb-color--skolefodbold2 {
-  color: #32a237; }
-
 .eb-color--sport {
   color: #32a237; }
 
-.eb-color--sport2 {
-  color: #2f7820; }
-
 .eb-color--tv {
   color: #bd1118; }
-
-.eb-color--tv2 {
-  color: #000; }
