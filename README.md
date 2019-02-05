@@ -48,6 +48,7 @@ Full map of all colors `$eb-colors-colors`
 | _green.scss           | $eb-color-green          |
 | _greyscale.scss       | $eb-color-greyscale      |
 | _orange.scss          | $eb-color-orange         |
+| _pastel.scss          | $eb-color-pastel         |
 | _red.scss             | $eb-color-red            |
 | _yellow.scss          | $eb-color-yellow         |
 
@@ -92,9 +93,7 @@ Without the included functions the colors can be accessed through [map-deep-get]
 
 ```scss
 $eb-colors: (
-
-    '[colorname]': map-get($eb-colors-colors, 'key'),
-
+  '[colorname]': map-get($eb-colors-colors, 'key'),
 );
 ```
 

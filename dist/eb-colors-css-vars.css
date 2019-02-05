@@ -6,13 +6,15 @@
   --eb-color--red: #bd1118;
   --eb-fgcolor--red: #fff;
   --eb-color--rose: #dc7095;
-  --eb-fgcolor--rose: #fff; }
+  --eb-fgcolor--rose: #fff;
+}
 
 :root {
   --eb-color--orangedark: #e38121;
   --eb-fgcolor--orangedark: #fff;
   --eb-color--orange: #e5ad02;
-  --eb-fgcolor--orange: #fff; }
+  --eb-fgcolor--orange: #fff;
+}
 
 :root {
   --eb-color--yellow: #fae500;
@@ -20,7 +22,8 @@
   --eb-color--yellowlight: #ff0;
   --eb-fgcolor--yellowlight: #000;
   --eb-color--sand: #cec4a6;
-  --eb-fgcolor--sand: #fff; }
+  --eb-fgcolor--sand: #fff;
+}
 
 :root {
   --eb-color--greendark: #2f7820;
@@ -30,7 +33,8 @@
   --eb-color--greenlight: #93b923;
   --eb-fgcolor--greenlight: #fff;
   --eb-color--lime: #cbfe33;
-  --eb-fgcolor--lime: #000; }
+  --eb-fgcolor--lime: #000;
+}
 
 :root {
   --eb-color--purpledark: #650188;
@@ -42,7 +46,8 @@
   --eb-color--bluelight: #4fa8df;
   --eb-fgcolor--bluelight: #fff;
   --eb-color--sea: #84a8c4;
-  --eb-fgcolor--sea: #fff; }
+  --eb-fgcolor--sea: #fff;
+}
 
 :root {
   --eb-color--black: #000;
@@ -62,7 +67,23 @@
   --eb-color--graa7: #efefef;
   --eb-fgcolor--graa7: #000;
   --eb-color--white: #fff;
-  --eb-fgcolor--white: #000; }
+  --eb-fgcolor--white: #000;
+}
+
+:root {
+  --eb-color--pastel-red: #db5040;
+  --eb-fgcolor--pastel-red: #fff;
+  --eb-color--pastel-darkred: #954839;
+  --eb-fgcolor--pastel-darkred: #fff;
+  --eb-color--pastel-lightred: #d67e9b;
+  --eb-fgcolor--pastel-lightred: #fff;
+  --eb-color--pastel-green: #9fc29c;
+  --eb-fgcolor--pastel-green: #fff;
+  --eb-color--pastel-darkgreen: #91a34f;
+  --eb-fgcolor--pastel-darkgreen: #fff;
+  --eb-color--pastel-yellow: #d4c564;
+  --eb-fgcolor--pastel-yellow: #fff;
+}
 
 :root {
   --eb-color--eb: #bd1118;
@@ -78,65 +99,78 @@
   --eb-color--native: #cec4a6;
   --eb-fgcolor--native: #fff;
   --eb-color--native2: #84a8c4;
-  --eb-fgcolor--native2: #fff; }
+  --eb-fgcolor--native2: #fff;
+}
 
 :root {
   --eb-color--facebook: #31769b;
   --eb-fgcolor--facebook: #fff;
   --eb-color--twitter: #4fa8df;
-  --eb-fgcolor--twitter: #fff; }
+  --eb-fgcolor--twitter: #fff;
+}
 
 :root {
   --eb-color--ekstra: #bd1118;
-  --eb-fgcolor--ekstra: #fff; }
+  --eb-fgcolor--ekstra: #fff;
+}
 
 :root {
   --eb-color--filmmagasinet: #650188;
-  --eb-fgcolor--filmmagasinet: #fff; }
+  --eb-fgcolor--filmmagasinet: #fff;
+}
 
 :root {
   --eb-color--flash: #900;
-  --eb-fgcolor--flash: #fff; }
+  --eb-fgcolor--flash: #fff;
+}
 
 :root {
   --eb-color--forbrug: #31769b;
-  --eb-fgcolor--forbrug: #fff; }
+  --eb-fgcolor--forbrug: #fff;
+}
 
 :root {
   --eb-color--livescore: #32a237;
   --eb-fgcolor--livescore: #fff;
   --eb-color--livescore2: #cbfe33;
-  --eb-fgcolor--livescore2: #000; }
+  --eb-fgcolor--livescore2: #000;
+}
 
 :root {
   --eb-color--nationen: #e38121;
   --eb-fgcolor--nationen: #fff;
   --eb-color--nationen2: #e5ad02;
-  --eb-fgcolor--nationen2: #fff; }
+  --eb-fgcolor--nationen2: #fff;
+}
 
 :root {
   --eb-color--nyheder: #12507b;
   --eb-fgcolor--nyheder: #fff;
   --eb-color--nyheder2: #000;
-  --eb-fgcolor--nyheder2: #fff; }
+  --eb-fgcolor--nyheder2: #fff;
+}
 
 :root {
   --eb-color--sex-samliv: #8a0c36;
   --eb-fgcolor--sex-samliv: #fff;
   --eb-color--sex-samliv2: #dc7095;
-  --eb-fgcolor--sex-samliv2: #fff; }
+  --eb-fgcolor--sex-samliv2: #fff;
+}
 
 :root {
   --eb-color--skolefodbold: #93b923;
-  --eb-fgcolor--skolefodbold: #fff; }
+  --eb-fgcolor--skolefodbold: #fff;
+}
 
 :root {
   --eb-color--sport: #32a237;
-  --eb-fgcolor--sport: #fff; }
+  --eb-fgcolor--sport: #fff;
+}
 
 :root {
   --eb-color--tv: #bd1118;
-  --eb-fgcolor--tv: #fff; }
+  --eb-fgcolor--tv: #fff;
+}
 
 :root {
   --eb-color--bordeaux: #8a0c36;
@@ -146,13 +180,15 @@
   --eb-color--red: #bd1118;
   --eb-fgcolor--red: #fff;
   --eb-color--rose: #dc7095;
-  --eb-fgcolor--rose: #fff; }
+  --eb-fgcolor--rose: #fff;
+}
 
 :root {
   --eb-color--orangedark: #e38121;
   --eb-fgcolor--orangedark: #fff;
   --eb-color--orange: #e5ad02;
-  --eb-fgcolor--orange: #fff; }
+  --eb-fgcolor--orange: #fff;
+}
 
 :root {
   --eb-color--yellow: #fae500;
@@ -160,7 +196,8 @@
   --eb-color--yellowlight: #ff0;
   --eb-fgcolor--yellowlight: #000;
   --eb-color--sand: #cec4a6;
-  --eb-fgcolor--sand: #fff; }
+  --eb-fgcolor--sand: #fff;
+}
 
 :root {
   --eb-color--greendark: #2f7820;
@@ -170,7 +207,8 @@
   --eb-color--greenlight: #93b923;
   --eb-fgcolor--greenlight: #fff;
   --eb-color--lime: #cbfe33;
-  --eb-fgcolor--lime: #000; }
+  --eb-fgcolor--lime: #000;
+}
 
 :root {
   --eb-color--purpledark: #650188;
@@ -182,7 +220,8 @@
   --eb-color--bluelight: #4fa8df;
   --eb-fgcolor--bluelight: #fff;
   --eb-color--sea: #84a8c4;
-  --eb-fgcolor--sea: #fff; }
+  --eb-fgcolor--sea: #fff;
+}
 
 :root {
   --eb-color--black: #000;
@@ -202,7 +241,23 @@
   --eb-color--graa7: #efefef;
   --eb-fgcolor--graa7: #000;
   --eb-color--white: #fff;
-  --eb-fgcolor--white: #000; }
+  --eb-fgcolor--white: #000;
+}
+
+:root {
+  --eb-color--pastel-red: #db5040;
+  --eb-fgcolor--pastel-red: #fff;
+  --eb-color--pastel-darkred: #954839;
+  --eb-fgcolor--pastel-darkred: #fff;
+  --eb-color--pastel-lightred: #d67e9b;
+  --eb-fgcolor--pastel-lightred: #fff;
+  --eb-color--pastel-green: #9fc29c;
+  --eb-fgcolor--pastel-green: #fff;
+  --eb-color--pastel-darkgreen: #91a34f;
+  --eb-fgcolor--pastel-darkgreen: #fff;
+  --eb-color--pastel-yellow: #d4c564;
+  --eb-fgcolor--pastel-yellow: #fff;
+}
 
 :root {
   --eb-color--eb: #bd1118;
@@ -218,62 +273,75 @@
   --eb-color--native: #cec4a6;
   --eb-fgcolor--native: #fff;
   --eb-color--native2: #84a8c4;
-  --eb-fgcolor--native2: #fff; }
+  --eb-fgcolor--native2: #fff;
+}
 
 :root {
   --eb-color--facebook: #31769b;
   --eb-fgcolor--facebook: #fff;
   --eb-color--twitter: #4fa8df;
-  --eb-fgcolor--twitter: #fff; }
+  --eb-fgcolor--twitter: #fff;
+}
 
 :root {
   --eb-color--ekstra: #bd1118;
-  --eb-fgcolor--ekstra: #fff; }
+  --eb-fgcolor--ekstra: #fff;
+}
 
 :root {
   --eb-color--filmmagasinet: #650188;
-  --eb-fgcolor--filmmagasinet: #fff; }
+  --eb-fgcolor--filmmagasinet: #fff;
+}
 
 :root {
   --eb-color--flash: #900;
-  --eb-fgcolor--flash: #fff; }
+  --eb-fgcolor--flash: #fff;
+}
 
 :root {
   --eb-color--forbrug: #31769b;
-  --eb-fgcolor--forbrug: #fff; }
+  --eb-fgcolor--forbrug: #fff;
+}
 
 :root {
   --eb-color--livescore: #32a237;
   --eb-fgcolor--livescore: #fff;
   --eb-color--livescore2: #cbfe33;
-  --eb-fgcolor--livescore2: #000; }
+  --eb-fgcolor--livescore2: #000;
+}
 
 :root {
   --eb-color--nationen: #e38121;
   --eb-fgcolor--nationen: #fff;
   --eb-color--nationen2: #e5ad02;
-  --eb-fgcolor--nationen2: #fff; }
+  --eb-fgcolor--nationen2: #fff;
+}
 
 :root {
   --eb-color--nyheder: #12507b;
   --eb-fgcolor--nyheder: #fff;
   --eb-color--nyheder2: #000;
-  --eb-fgcolor--nyheder2: #fff; }
+  --eb-fgcolor--nyheder2: #fff;
+}
 
 :root {
   --eb-color--sex-samliv: #8a0c36;
   --eb-fgcolor--sex-samliv: #fff;
   --eb-color--sex-samliv2: #dc7095;
-  --eb-fgcolor--sex-samliv2: #fff; }
+  --eb-fgcolor--sex-samliv2: #fff;
+}
 
 :root {
   --eb-color--skolefodbold: #93b923;
-  --eb-fgcolor--skolefodbold: #fff; }
+  --eb-fgcolor--skolefodbold: #fff;
+}
 
 :root {
   --eb-color--sport: #32a237;
-  --eb-fgcolor--sport: #fff; }
+  --eb-fgcolor--sport: #fff;
+}
 
 :root {
   --eb-color--tv: #bd1118;
-  --eb-fgcolor--tv: #fff; }
+  --eb-fgcolor--tv: #fff;
+}

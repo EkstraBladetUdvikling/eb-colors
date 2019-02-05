@@ -15,4 +15,8 @@ $eb-print-color: true;
 @import "general/all";
 @import "sections/all";
 
-$eb-colors: map-collect($eb-colors-colors, $eb-colors-general, $eb-colors-sections);
+$eb-colors: map-collect(
+  $eb-colors-colors,
+  $eb-colors-general,
+  $eb-colors-sections
+);

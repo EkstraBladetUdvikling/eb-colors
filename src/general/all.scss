@@ -7,7 +7,4 @@ $eb-print-color: false !default;
 @import "main";
 @import "socialmedia";
 
-$eb-colors-general: map-collect(
-  $eb-color-main,
-  $eb-color-socialmedia
-);
+$eb-colors-general: map-collect($eb-color-main, $eb-color-socialmedia);

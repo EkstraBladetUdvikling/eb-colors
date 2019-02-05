@@ -1,6 +1,5 @@
 $eb-color-skolefodbold: (
-
-  'skolefodbold' : map-get($eb-colors-colors, 'greenlight'),
+  "skolefodbold": map-get($eb-colors-colors, "greenlight")
 );
 
 $eb-print-bg: true !default;
@@ -14,11 +13,10 @@ $color: $eb-color-skolefodbold;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }
