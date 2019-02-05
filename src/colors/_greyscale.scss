@@ -1,50 +1,40 @@
 $eb-color-greyscale: (
-
-  'black': (
-    'main'          : #000,
-    'foreground'    : #fff,
+  "black": (
+    "main": #000,
+    "foreground": #fff
   ),
-
-  'graa1': (
-    'main'          : #3c3c3c,
-    'foreground'    : #fff,
+  "graa1": (
+    "main": #3c3c3c,
+    "foreground": #fff
   ),
-
-  'graa2': (
-    'main'          : #484848,
-    'foreground'    : #fff,
+  "graa2": (
+    "main": #484848,
+    "foreground": #fff
   ),
-
-  'graa3': (
-    'main'          : #999,
-    'foreground'    : #fff,
+  "graa3": (
+    "main": #999,
+    "foreground": #fff
   ),
-
-  'graa4': (
-    'main'          : #c8c8c8,
-    'foreground'    : #000,
+  "graa4": (
+    "main": #c8c8c8,
+    "foreground": #000
   ),
-
-  'graa5': (
-    'main'          : #ddd,
-    'foreground'    : #000,
+  "graa5": (
+    "main": #ddd,
+    "foreground": #000
   ),
-
-  'graa6': (
-    'main'          : #e5e5e5,
-    'foreground'    : #000,
+  "graa6": (
+    "main": #e5e5e5,
+    "foreground": #000
   ),
-
-  'graa7': (
-    'main'          : #efefef,
-    'foreground'    : #000,
+  "graa7": (
+    "main": #efefef,
+    "foreground": #000
   ),
-
-  'white': (
-    'main'          : #fff,
-    'foreground'    : #000,
+  "white": (
+    "main": #fff,
+    "foreground": #000
   )
-
 );
 
 $eb-print-bg: true !default;
@@ -58,11 +48,10 @@ $color: $eb-color-greyscale;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

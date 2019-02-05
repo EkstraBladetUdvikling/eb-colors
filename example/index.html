@@ -1,80 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>eb-colors example</title>
-        <link href="test.css" rel="stylesheet" type="text/css" />
-        <style>
-            :root {
-                --circle-dim: 100px;
-                font-size: 10px;
-            }
-            .color-example {
-                float: left;
-                margin: 10px;
-                text-align: center;
-                width: calc(var(--circle-dim) + 10);
-                font-size: 14px;
-                font-family: 'Arial', sans-serif;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-            }
-            div[class*=eb-bg] {
-                box-sizing: border-box;
-                border-radius: 50%;
-                line-height: var(--circle-dim);
-                height: var(--circle-dim);
-                width: var(--circle-dim);
-            }
-            p {
-                margin: 0;
-            }
-            .color-code {
-                margin: 5px 0;
-            }
-            .eb-bg--white,
-            .eb-bg--live2 {
-                border: 1px solid #000;
-                line-height: var(--circle-dim);
-                height: var(--circle-dim);
-                width: var(--circle-dim);
-            }
-        </style>
 
-    </head>
-    <body>
+<head>
+  <meta charset="utf-8">
+  <title>eb-colors example</title>
+  <link href="../dist/eb-colors-classes.css" rel="stylesheet" type="text/css" />
+  <style>
+    :root {
+      --circle-dim: 100px;
+      font-size: 10px;
+    }
+    .color-example {
+      float: left;
+      margin: 10px;
+      text-align: center;
+      width: calc(var(--circle-dim) + 10);
+      font-size: 14px;
+      font-family: 'Arial', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    div[class*=eb-bg] {
+      box-sizing: border-box;
+      border-radius: 50%;
+      line-height: var(--circle-dim);
+      height: var(--circle-dim);
+      width: var(--circle-dim);
+    }
+    p {
+      margin: 0;
+    }
+    .color-code {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .eb-bg--white,
+    .eb-bg--live2 {
+      border: 1px solid #000;
+      line-height: var(--circle-dim);
+      height: var(--circle-dim);
+      width: var(--circle-dim);
+    }
+  </style>
 
-        <div id="fnColors"></div>
+</head>
 
-        <script type="text/javascript" src="ebColors.js"></script>
-        <script>
-            var fnColors = document.getElementById('fnColors');
+<body>
 
-            var bgColorsData = ebColors.bgColors;
-            var colorsData = ebColors.colors;
-            var dataLength = Object.keys(bgColorsData).length;
-            var colorsBgObj = Object.keys(bgColorsData);
+  <div id="fnColors"></div>
+  <script src="eb-colors-classes.js"></script>
+  <script src="color-render.js"></script>
 
-            for (var i = 0; i < dataLength; i++) {
-                var colorBgClass = colorsBgObj[i];
-                var colorBgName = colorBgClass.split('--')[1];
+</body>
 
-                var colorClass = Object.keys(colorsData)[i];
-
-                var colorCode = Object.values(colorsData)[i];
-                var getColor = Object.values(colorCode)[0];
-
-                fnColors.innerHTML +=   '<div class="color-example">' +
-                                            '<div class="'+ colorBgClass +'">' +
-                                                '<p>'+ colorBgName +'</p>' +
-                                            '</div>' +
-                                            '<div class="'+ colorClass +'">' +
-                                                '<div class="color-code">'+ getColor +'</div>' +
-                                            '</div>' +
-                                        '</div>'
-
-            }
-        </script>
-
-    </body>
 </html>

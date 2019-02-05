@@ -1,20 +1,16 @@
 $eb-color-yellow: (
-
-  'yellow': (
-    'main'          : #fae500,
-    'foreground'    : #fff,
+  "yellow": (
+    "main": #fae500,
+    "foreground": #fff
   ),
-
-  'yellowlight': (
-    'main'          : #ff0,
-    'foreground'    : #000,
+  "yellowlight": (
+    "main": #ff0,
+    "foreground": #000
   ),
-
-  'sand': (
-    'main'          : #cec4a6,
-    'foreground'    : #fff,
+  "sand": (
+    "main": #cec4a6,
+    "foreground": #fff
   )
-
 );
 
 $eb-print-bg: true !default;
@@ -28,11 +24,10 @@ $color: $eb-color-yellow;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

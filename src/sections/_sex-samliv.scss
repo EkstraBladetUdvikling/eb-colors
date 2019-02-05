@@ -1,7 +1,6 @@
 $eb-color-sex-samliv: (
-
-  'sex-samliv' : map-get($eb-colors-colors, 'bordeaux'),
-  'sex-samliv2': map-get($eb-colors-colors, 'rose'),
+  "sex-samliv": map-get($eb-colors-colors, "bordeaux"),
+  "sex-samliv2": map-get($eb-colors-colors, "rose")
 );
 
 $eb-print-bg: true !default;
@@ -15,11 +14,10 @@ $color: $eb-color-sex-samliv;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

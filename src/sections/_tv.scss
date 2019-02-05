@@ -1,6 +1,5 @@
 $eb-color-tv: (
-
-  'tv' : map-get($eb-colors-colors, 'red'),
+  "tv": map-get($eb-colors-colors, "red")
 );
 
 $eb-print-bg: true !default;
@@ -14,11 +13,10 @@ $color: $eb-color-tv;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

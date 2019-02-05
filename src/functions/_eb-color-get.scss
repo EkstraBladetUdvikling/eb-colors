@@ -1,4 +1,4 @@
-@function eb-color-get($key, $color-to-get: 'main') {
+@function eb-color-get($key, $color-to-get: "main") {
   $map: $eb-colors-colors;
 
   $map: $eb-colors-general;

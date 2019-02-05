@@ -1,25 +1,33 @@
-$eb-color-green: (
-  "greendark": (
-    "main": #2f7820,
+$eb-color-pastel: (
+  "pastel-red": (
+    "main": #db5040,
     "foreground": #fff
   ),
-  "green": (
-    "main": #32a237,
+  "pastel-darkred": (
+    "main": #954839,
     "foreground": #fff
   ),
-  "greenlight": (
-    "main": #93b923,
+  "pastel-lightred": (
+    "main": #d67e9b,
     "foreground": #fff
   ),
-  "lime": (
-    "main": #cbfe33,
-    "foreground": #000
+  "pastel-green": (
+    "main": #9fc29c,
+    "foreground": #fff
+  ),
+  "pastel-darkgreen": (
+    "main": #91a34f,
+    "foreground": #fff
+  ),
+  "pastel-yellow": (
+    "main": #d4c564,
+    "foreground": #fff
   )
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-green;
+$color: $eb-color-pastel;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

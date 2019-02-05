@@ -1,6 +1,10 @@
-@mixin eb-background-opacity($bg-colorname, $opacity: .75, $colorname: $bg-colorname) {
+@mixin eb-background-opacity(
+  $bg-colorname,
+  $opacity: 0.75,
+  $colorname: $bg-colorname
+) {
   $colors: eb-color-pair($bg-colorname, $colorname);
 
-  background: rgba(map-get($colors, 'background'), $opacity);
-  color: map-get($colors, 'color');
+  background: rgba(map-get($colors, "background"), $opacity);
+  color: map-get($colors, "color");
 }

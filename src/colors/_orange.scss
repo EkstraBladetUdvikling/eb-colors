@@ -1,15 +1,12 @@
 $eb-color-orange: (
-
-  'orangedark': (
-    'main'          : #e38121,
-    'foreground'    : #fff,
+  "orangedark": (
+    "main": #e38121,
+    "foreground": #fff
   ),
-
-  'orange': (
-    'main'          : #e5ad02,
-    'foreground'    : #fff,
+  "orange": (
+    "main": #e5ad02,
+    "foreground": #fff
   )
-
 );
 
 $eb-print-bg: true !default;
@@ -23,11 +20,10 @@ $color: $eb-color-orange;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

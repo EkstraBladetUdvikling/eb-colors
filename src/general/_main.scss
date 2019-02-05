@@ -1,12 +1,11 @@
 $eb-color-main: (
-
-  'eb'       : map-get($eb-colors-colors, 'red'),
-  'eb2'      : map-get($eb-colors-colors, 'reddark'),
-  'breaking' : map-get($eb-colors-colors, 'yellowlight'),
-  'bruger'   : map-get($eb-colors-colors, 'bluelight'),
-  'live'     : map-get($eb-colors-colors, 'black'),
-  'native'   : map-get($eb-colors-colors, 'sand'),
-  'native2'  : map-get($eb-colors-colors, 'sea')
+  "eb": map-get($eb-colors-colors, "red"),
+  "eb2": map-get($eb-colors-colors, "reddark"),
+  "breaking": map-get($eb-colors-colors, "yellowlight"),
+  "bruger": map-get($eb-colors-colors, "bluelight"),
+  "live": map-get($eb-colors-colors, "black"),
+  "native": map-get($eb-colors-colors, "sand"),
+  "native2": map-get($eb-colors-colors, "sea")
 );
 
 $eb-print-bg: true !default;
@@ -20,11 +19,10 @@ $color: $eb-color-main;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }

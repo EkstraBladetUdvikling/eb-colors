@@ -1,25 +1,20 @@
 $eb-color-red: (
-
-  'bordeaux': (
-    'main'          : #8a0c36,
-    'foreground'    : #fff,
+  "bordeaux": (
+    "main": #8a0c36,
+    "foreground": #fff
   ),
-
-  'reddark': (
-    'main'          : #900,
-    'foreground'    : #fff,
+  "reddark": (
+    "main": #900,
+    "foreground": #fff
   ),
-
-  'red': (
-    'main'          : #bd1118,
-    'foreground'    : #fff,
+  "red": (
+    "main": #bd1118,
+    "foreground": #fff
   ),
-
-  'rose': (
-    'main'          : #dc7095,
-    'foreground'    : #fff,
+  "rose": (
+    "main": #dc7095,
+    "foreground": #fff
   )
-
 );
 
 $eb-print-bg: true !default;
@@ -33,11 +28,10 @@ $color: $eb-color-red;
 }
 
 @if ($eb-colors-cssvars == true) {
-
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, 'main')};
-      --eb-fgcolor--#{$key}: #{map-get($value, 'foreground')};
+      --eb-color--#{$key}: #{map-get($value, "main")};
+      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }
