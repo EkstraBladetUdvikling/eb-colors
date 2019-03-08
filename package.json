@@ -3,7 +3,7 @@
   "version": "1.1.3",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
-    "prepublish": "npm run prettier && npm run build && npm run example",
+    "prepare": "npm run prettier && npm run build && npm run example",
     "build": "npm run build-css-vars && npm run build-css-classes",
     "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
     "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
