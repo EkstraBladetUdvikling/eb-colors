@@ -16,4 +16,10 @@
       color: map-get($value, "main");
     }
   }
+
+  @if ($eb-print-border == true) {
+    .border--#{$key} {
+      border-color: map-get($value, "main");
+    }
+  }
 }

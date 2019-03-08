@@ -345,3 +345,24 @@
   --eb-color--tv: #bd1118;
   --eb-fgcolor--tv: #fff;
 }
+
+:root {
+  --eb-color--black: #000;
+  --eb-fgcolor--black: #fff;
+  --eb-color--graa1: #3c3c3c;
+  --eb-fgcolor--graa1: #fff;
+  --eb-color--graa2: #484848;
+  --eb-fgcolor--graa2: #fff;
+  --eb-color--graa3: #999;
+  --eb-fgcolor--graa3: #fff;
+  --eb-color--graa4: #c8c8c8;
+  --eb-fgcolor--graa4: #000;
+  --eb-color--graa5: #ddd;
+  --eb-fgcolor--graa5: #000;
+  --eb-color--graa6: #e5e5e5;
+  --eb-fgcolor--graa6: #000;
+  --eb-color--graa7: #efefef;
+  --eb-fgcolor--graa7: #000;
+  --eb-color--white: #fff;
+  --eb-fgcolor--white: #000;
+}

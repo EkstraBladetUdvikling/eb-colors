@@ -510,3 +510,39 @@
 .eb-color--tv {
   color: #bd1118;
 }
+
+.border--black {
+  border-color: #000;
+}
+
+.border--graa1 {
+  border-color: #3c3c3c;
+}
+
+.border--graa2 {
+  border-color: #484848;
+}
+
+.border--graa3 {
+  border-color: #999;
+}
+
+.border--graa4 {
+  border-color: #c8c8c8;
+}
+
+.border--graa5 {
+  border-color: #ddd;
+}
+
+.border--graa6 {
+  border-color: #e5e5e5;
+}
+
+.border--graa7 {
+  border-color: #efefef;
+}
+
+.border--white {
+  border-color: #fff;
+}
