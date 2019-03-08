@@ -3,6 +3,7 @@ $eb-color-classes: false !default;
 
 $eb-print-bg: true;
 $eb-print-color: false;
+$eb-print-border: false;
 
 @import "colors/all";
 @import "general/all";
@@ -10,10 +11,17 @@ $eb-print-color: false;
 
 $eb-print-bg: false;
 $eb-print-color: true;
+$eb-print-border: false;
 
 @import "colors/all";
 @import "general/all";
 @import "sections/all";
+
+$eb-print-bg: false;
+$eb-print-color: false;
+$eb-print-border: true;
+
+@import "colors/greyscale";
 
 $eb-colors: map-collect(
   $eb-colors-colors,
