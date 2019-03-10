@@ -1,0 +1,368 @@
+:root {
+  --eb-color--bordeaux: rgb(138, 12, 54);
+  --eb-fgcolor--bordeaux: rgb(255, 255, 255);
+  --eb-color--reddark: rgb(153, 0, 0);
+  --eb-fgcolor--reddark: rgb(255, 255, 255);
+  --eb-color--red: rgb(189, 17, 24);
+  --eb-fgcolor--red: rgb(255, 255, 255);
+  --eb-color--rose: rgb(220, 112, 149);
+  --eb-fgcolor--rose: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--orangedark: rgb(227, 129, 33);
+  --eb-fgcolor--orangedark: rgb(255, 255, 255);
+  --eb-color--orange: rgb(229, 173, 2);
+  --eb-fgcolor--orange: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--yellow: rgb(250, 229, 0);
+  --eb-fgcolor--yellow: rgb(255, 255, 255);
+  --eb-color--yellowlight: rgb(255, 255, 0);
+  --eb-fgcolor--yellowlight: rgb(0, 0, 0);
+  --eb-color--sand: rgb(206, 196, 166);
+  --eb-fgcolor--sand: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--greendark: rgb(47, 120, 32);
+  --eb-fgcolor--greendark: rgb(255, 255, 255);
+  --eb-color--green: rgb(50, 162, 55);
+  --eb-fgcolor--green: rgb(255, 255, 255);
+  --eb-color--greenlight: rgb(147, 185, 35);
+  --eb-fgcolor--greenlight: rgb(255, 255, 255);
+  --eb-color--lime: rgb(203, 254, 51);
+  --eb-fgcolor--lime: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--purpledark: rgb(101, 1, 136);
+  --eb-fgcolor--purpledark: rgb(255, 255, 255);
+  --eb-color--bluedark: rgb(18, 80, 123);
+  --eb-fgcolor--bluedark: rgb(255, 255, 255);
+  --eb-color--blue: rgb(49, 118, 155);
+  --eb-fgcolor--blue: rgb(255, 255, 255);
+  --eb-color--bluelight: rgb(79, 168, 223);
+  --eb-fgcolor--bluelight: rgb(255, 255, 255);
+  --eb-color--sea: rgb(132, 168, 196);
+  --eb-fgcolor--sea: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--black: rgb(0, 0, 0);
+  --eb-fgcolor--black: rgb(255, 255, 255);
+  --eb-color--graa1: rgb(60, 60, 60);
+  --eb-fgcolor--graa1: rgb(255, 255, 255);
+  --eb-color--graa2: rgb(72, 72, 72);
+  --eb-fgcolor--graa2: rgb(255, 255, 255);
+  --eb-color--graa3: rgb(153, 153, 153);
+  --eb-fgcolor--graa3: rgb(255, 255, 255);
+  --eb-color--graa4: rgb(200, 200, 200);
+  --eb-fgcolor--graa4: rgb(0, 0, 0);
+  --eb-color--graa5: rgb(221, 221, 221);
+  --eb-fgcolor--graa5: rgb(0, 0, 0);
+  --eb-color--graa6: rgb(229, 229, 229);
+  --eb-fgcolor--graa6: rgb(0, 0, 0);
+  --eb-color--graa7: rgb(239, 239, 239);
+  --eb-fgcolor--graa7: rgb(0, 0, 0);
+  --eb-color--white: rgb(255, 255, 255);
+  --eb-fgcolor--white: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--pastel-red: rgb(219, 80, 64);
+  --eb-fgcolor--pastel-red: rgb(255, 255, 255);
+  --eb-color--pastel-darkred: rgb(149, 72, 57);
+  --eb-fgcolor--pastel-darkred: rgb(255, 255, 255);
+  --eb-color--pastel-lightred: rgb(214, 126, 155);
+  --eb-fgcolor--pastel-lightred: rgb(255, 255, 255);
+  --eb-color--pastel-green: rgb(159, 194, 156);
+  --eb-fgcolor--pastel-green: rgb(255, 255, 255);
+  --eb-color--pastel-darkgreen: rgb(145, 163, 79);
+  --eb-fgcolor--pastel-darkgreen: rgb(255, 255, 255);
+  --eb-color--pastel-yellow: rgb(212, 197, 100);
+  --eb-fgcolor--pastel-yellow: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--eb: rgb(189, 17, 24);
+  --eb-fgcolor--eb: rgb(255, 255, 255);
+  --eb-color--eb2: rgb(153, 0, 0);
+  --eb-fgcolor--eb2: rgb(255, 255, 255);
+  --eb-color--breaking: rgb(255, 255, 0);
+  --eb-fgcolor--breaking: rgb(0, 0, 0);
+  --eb-color--bruger: rgb(79, 168, 223);
+  --eb-fgcolor--bruger: rgb(255, 255, 255);
+  --eb-color--live: rgb(0, 0, 0);
+  --eb-fgcolor--live: rgb(255, 255, 255);
+  --eb-color--native: rgb(206, 196, 166);
+  --eb-fgcolor--native: rgb(255, 255, 255);
+  --eb-color--native2: rgb(132, 168, 196);
+  --eb-fgcolor--native2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--facebook: rgb(49, 118, 155);
+  --eb-fgcolor--facebook: rgb(255, 255, 255);
+  --eb-color--twitter: rgb(79, 168, 223);
+  --eb-fgcolor--twitter: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--ekstra: rgb(189, 17, 24);
+  --eb-fgcolor--ekstra: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--filmmagasinet: rgb(101, 1, 136);
+  --eb-fgcolor--filmmagasinet: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--flash: rgb(153, 0, 0);
+  --eb-fgcolor--flash: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--forbrug: rgb(49, 118, 155);
+  --eb-fgcolor--forbrug: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--livescore: rgb(50, 162, 55);
+  --eb-fgcolor--livescore: rgb(255, 255, 255);
+  --eb-color--livescore2: rgb(203, 254, 51);
+  --eb-fgcolor--livescore2: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--nationen: rgb(227, 129, 33);
+  --eb-fgcolor--nationen: rgb(255, 255, 255);
+  --eb-color--nationen2: rgb(229, 173, 2);
+  --eb-fgcolor--nationen2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--nyheder: rgb(18, 80, 123);
+  --eb-fgcolor--nyheder: rgb(255, 255, 255);
+  --eb-color--nyheder2: rgb(0, 0, 0);
+  --eb-fgcolor--nyheder2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--sex-samliv: rgb(138, 12, 54);
+  --eb-fgcolor--sex-samliv: rgb(255, 255, 255);
+  --eb-color--sex-samliv2: rgb(220, 112, 149);
+  --eb-fgcolor--sex-samliv2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--skolefodbold: rgb(147, 185, 35);
+  --eb-fgcolor--skolefodbold: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--sport: rgb(50, 162, 55);
+  --eb-fgcolor--sport: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--tv: rgb(189, 17, 24);
+  --eb-fgcolor--tv: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--bordeaux: rgb(138, 12, 54);
+  --eb-fgcolor--bordeaux: rgb(255, 255, 255);
+  --eb-color--reddark: rgb(153, 0, 0);
+  --eb-fgcolor--reddark: rgb(255, 255, 255);
+  --eb-color--red: rgb(189, 17, 24);
+  --eb-fgcolor--red: rgb(255, 255, 255);
+  --eb-color--rose: rgb(220, 112, 149);
+  --eb-fgcolor--rose: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--orangedark: rgb(227, 129, 33);
+  --eb-fgcolor--orangedark: rgb(255, 255, 255);
+  --eb-color--orange: rgb(229, 173, 2);
+  --eb-fgcolor--orange: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--yellow: rgb(250, 229, 0);
+  --eb-fgcolor--yellow: rgb(255, 255, 255);
+  --eb-color--yellowlight: rgb(255, 255, 0);
+  --eb-fgcolor--yellowlight: rgb(0, 0, 0);
+  --eb-color--sand: rgb(206, 196, 166);
+  --eb-fgcolor--sand: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--greendark: rgb(47, 120, 32);
+  --eb-fgcolor--greendark: rgb(255, 255, 255);
+  --eb-color--green: rgb(50, 162, 55);
+  --eb-fgcolor--green: rgb(255, 255, 255);
+  --eb-color--greenlight: rgb(147, 185, 35);
+  --eb-fgcolor--greenlight: rgb(255, 255, 255);
+  --eb-color--lime: rgb(203, 254, 51);
+  --eb-fgcolor--lime: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--purpledark: rgb(101, 1, 136);
+  --eb-fgcolor--purpledark: rgb(255, 255, 255);
+  --eb-color--bluedark: rgb(18, 80, 123);
+  --eb-fgcolor--bluedark: rgb(255, 255, 255);
+  --eb-color--blue: rgb(49, 118, 155);
+  --eb-fgcolor--blue: rgb(255, 255, 255);
+  --eb-color--bluelight: rgb(79, 168, 223);
+  --eb-fgcolor--bluelight: rgb(255, 255, 255);
+  --eb-color--sea: rgb(132, 168, 196);
+  --eb-fgcolor--sea: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--black: rgb(0, 0, 0);
+  --eb-fgcolor--black: rgb(255, 255, 255);
+  --eb-color--graa1: rgb(60, 60, 60);
+  --eb-fgcolor--graa1: rgb(255, 255, 255);
+  --eb-color--graa2: rgb(72, 72, 72);
+  --eb-fgcolor--graa2: rgb(255, 255, 255);
+  --eb-color--graa3: rgb(153, 153, 153);
+  --eb-fgcolor--graa3: rgb(255, 255, 255);
+  --eb-color--graa4: rgb(200, 200, 200);
+  --eb-fgcolor--graa4: rgb(0, 0, 0);
+  --eb-color--graa5: rgb(221, 221, 221);
+  --eb-fgcolor--graa5: rgb(0, 0, 0);
+  --eb-color--graa6: rgb(229, 229, 229);
+  --eb-fgcolor--graa6: rgb(0, 0, 0);
+  --eb-color--graa7: rgb(239, 239, 239);
+  --eb-fgcolor--graa7: rgb(0, 0, 0);
+  --eb-color--white: rgb(255, 255, 255);
+  --eb-fgcolor--white: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--pastel-red: rgb(219, 80, 64);
+  --eb-fgcolor--pastel-red: rgb(255, 255, 255);
+  --eb-color--pastel-darkred: rgb(149, 72, 57);
+  --eb-fgcolor--pastel-darkred: rgb(255, 255, 255);
+  --eb-color--pastel-lightred: rgb(214, 126, 155);
+  --eb-fgcolor--pastel-lightred: rgb(255, 255, 255);
+  --eb-color--pastel-green: rgb(159, 194, 156);
+  --eb-fgcolor--pastel-green: rgb(255, 255, 255);
+  --eb-color--pastel-darkgreen: rgb(145, 163, 79);
+  --eb-fgcolor--pastel-darkgreen: rgb(255, 255, 255);
+  --eb-color--pastel-yellow: rgb(212, 197, 100);
+  --eb-fgcolor--pastel-yellow: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--eb: rgb(189, 17, 24);
+  --eb-fgcolor--eb: rgb(255, 255, 255);
+  --eb-color--eb2: rgb(153, 0, 0);
+  --eb-fgcolor--eb2: rgb(255, 255, 255);
+  --eb-color--breaking: rgb(255, 255, 0);
+  --eb-fgcolor--breaking: rgb(0, 0, 0);
+  --eb-color--bruger: rgb(79, 168, 223);
+  --eb-fgcolor--bruger: rgb(255, 255, 255);
+  --eb-color--live: rgb(0, 0, 0);
+  --eb-fgcolor--live: rgb(255, 255, 255);
+  --eb-color--native: rgb(206, 196, 166);
+  --eb-fgcolor--native: rgb(255, 255, 255);
+  --eb-color--native2: rgb(132, 168, 196);
+  --eb-fgcolor--native2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--facebook: rgb(49, 118, 155);
+  --eb-fgcolor--facebook: rgb(255, 255, 255);
+  --eb-color--twitter: rgb(79, 168, 223);
+  --eb-fgcolor--twitter: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--ekstra: rgb(189, 17, 24);
+  --eb-fgcolor--ekstra: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--filmmagasinet: rgb(101, 1, 136);
+  --eb-fgcolor--filmmagasinet: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--flash: rgb(153, 0, 0);
+  --eb-fgcolor--flash: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--forbrug: rgb(49, 118, 155);
+  --eb-fgcolor--forbrug: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--livescore: rgb(50, 162, 55);
+  --eb-fgcolor--livescore: rgb(255, 255, 255);
+  --eb-color--livescore2: rgb(203, 254, 51);
+  --eb-fgcolor--livescore2: rgb(0, 0, 0);
+}
+
+:root {
+  --eb-color--nationen: rgb(227, 129, 33);
+  --eb-fgcolor--nationen: rgb(255, 255, 255);
+  --eb-color--nationen2: rgb(229, 173, 2);
+  --eb-fgcolor--nationen2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--nyheder: rgb(18, 80, 123);
+  --eb-fgcolor--nyheder: rgb(255, 255, 255);
+  --eb-color--nyheder2: rgb(0, 0, 0);
+  --eb-fgcolor--nyheder2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--sex-samliv: rgb(138, 12, 54);
+  --eb-fgcolor--sex-samliv: rgb(255, 255, 255);
+  --eb-color--sex-samliv2: rgb(220, 112, 149);
+  --eb-fgcolor--sex-samliv2: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--skolefodbold: rgb(147, 185, 35);
+  --eb-fgcolor--skolefodbold: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--sport: rgb(50, 162, 55);
+  --eb-fgcolor--sport: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--tv: rgb(189, 17, 24);
+  --eb-fgcolor--tv: rgb(255, 255, 255);
+}
+
+:root {
+  --eb-color--black: rgb(0, 0, 0);
+  --eb-fgcolor--black: rgb(255, 255, 255);
+  --eb-color--graa1: rgb(60, 60, 60);
+  --eb-fgcolor--graa1: rgb(255, 255, 255);
+  --eb-color--graa2: rgb(72, 72, 72);
+  --eb-fgcolor--graa2: rgb(255, 255, 255);
+  --eb-color--graa3: rgb(153, 153, 153);
+  --eb-fgcolor--graa3: rgb(255, 255, 255);
+  --eb-color--graa4: rgb(200, 200, 200);
+  --eb-fgcolor--graa4: rgb(0, 0, 0);
+  --eb-color--graa5: rgb(221, 221, 221);
+  --eb-fgcolor--graa5: rgb(0, 0, 0);
+  --eb-color--graa6: rgb(229, 229, 229);
+  --eb-fgcolor--graa6: rgb(0, 0, 0);
+  --eb-color--graa7: rgb(239, 239, 239);
+  --eb-fgcolor--graa7: rgb(0, 0, 0);
+  --eb-color--white: rgb(255, 255, 255);
+  --eb-fgcolor--white: rgb(0, 0, 0);
+}

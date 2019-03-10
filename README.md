@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 1.1.1
+Version: 1.1.4
 
 > EB colors for SCSS and CSS
 
@@ -10,7 +10,27 @@ Version: 1.1.1
 npm install "@ekstra-bladet/eb-colors" --save
 ```
 
-## Usage
+## CSS Usage
+
+### All CSS classes
+
+```css
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-classes.scss";
+```
+
+### HEX CSS variables
+
+```css
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-css-vars.scss";
+```
+
+### RGB CSS variables
+
+```css
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-vars-rgb.scss";
+```
+
+## SCSS Usage
 
 Variables and maps:
 
