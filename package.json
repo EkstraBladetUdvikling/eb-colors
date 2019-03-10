@@ -1,6 +1,6 @@
 {
   "name": "@ekstra-bladet/eb-colors",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "npm run build-css-vars && npm run build-css-classes && npm run convert-rgb",
