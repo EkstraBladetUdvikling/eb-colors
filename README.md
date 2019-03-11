@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 1.1.4
+Version: 1.1.5
 
 > EB colors for SCSS and CSS
 
@@ -15,19 +15,27 @@ npm install "@ekstra-bladet/eb-colors" --save
 ### All CSS classes
 
 ```css
-@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-classes.scss";
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-classes.css";
 ```
 
 ### HEX CSS variables
 
 ```css
-@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-css-vars.scss";
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-css-vars.css";
+
+.use-hex-color {
+  background: var(--eb-color--red);
+}
 ```
 
 ### RGB CSS variables
 
 ```css
-@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-vars-rgb.scss";
+@import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-vars-rgb.css";
+
+.use-rgb-color {
+  background: rgb(var(--rgb-color--red));
+}
 ```
 
 ## SCSS Usage
