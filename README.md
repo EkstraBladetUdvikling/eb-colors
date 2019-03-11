@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 1.1.5
+Version: 2.0.0
 
 > EB colors for SCSS and CSS
 
@@ -18,13 +18,21 @@ npm install "@ekstra-bladet/eb-colors" --save
 @import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-classes.css";
 ```
 
+```html
+<div class="bg--white color--red">
+  White background <br/>
+  Red color
+</div>
+```
+
 ### HEX CSS variables
 
 ```css
 @import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-css-vars.css";
 
 .use-hex-color {
-  background: var(--eb-color--red);
+  background: var(--color--red);
+  color: var(--fgcolor--red);
 }
 ```
 
@@ -133,7 +141,7 @@ Sets both background-color and color, to ensure correct usage
 @import "node_modules/@ekstra-bladet/eb-colors/src/all";
 
 .selector {
-  @include .eb-bg--[colorname];
+  @include .bg--[colorname];
 }
 ```
 
@@ -164,22 +172,22 @@ $eb-color-[new-map-name]: (
 CSS classes are generated after the following pattern
 
 ```css
-.eb-bg--[sectionname] {
+.bg--[sectionname] {
     background-color: [main section color];
     color: [foreground section color];
 }
 
-.eb-color--[sectionname] {
+.color--[sectionname] {
     color: [main section color];
 }
 
 /** Real world example */
-.eb-bg--eb {
+.bg--eb {
     background-color: var(--eb-color--eb);
     color: var(--eb-fgcolor--eb);
 }
 
-.eb-color--eb {
+.color--eb {
     color: var(--eb-color--eb);
 }
 ```

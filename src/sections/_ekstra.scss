@@ -16,8 +16,8 @@ $color: $eb-color-ekstra;
 @if ($eb-colors-cssvars == true) {
   :root {
     @each $key, $value in $color {
-      --eb-color--#{$key}: #{map-get($value, "main")};
-      --eb-fgcolor--#{$key}: #{map-get($value, "foreground")};
+      --color--#{$key}: #{map-get($value, "main")};
+      --fgcolor--#{$key}: #{map-get($value, "foreground")};
     }
   }
 }
