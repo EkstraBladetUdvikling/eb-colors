@@ -24,7 +24,8 @@ npm install "@ekstra-bladet/eb-colors" --save
 @import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-css-vars.css";
 
 .use-hex-color {
-  background: var(--eb-color--red);
+  background: var(--color--red);
+  color: var(--fgcolor--red);
 }
 ```
 
