@@ -1,6 +1,6 @@
 {
   "name": "@ekstra-bladet/eb-colors",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "npm run build-css-vars && npm run build-css-classes && npm run convert-rgb",
@@ -9,7 +9,8 @@
     "parse": "cssparser \"./dist/eb-colors-classes.css\" -o \"./example/eb-colors-classes.json\"",
     "example": "npm run parse && node createExample.js",
     "prettier": "prettier \"./src/**/*.scss\" --write",
-    "convert-rgb": "postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./dist/eb-colors-vars-rgb.css"
+    "convert-rgb": "postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
+    "postconvert-rgb": "node convertrgb"
   },
   "repository": {
     "type": "git",
