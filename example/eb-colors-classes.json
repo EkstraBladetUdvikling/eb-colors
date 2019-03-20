@@ -5,7 +5,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--bordeaux"
+                ".bg--bordeaux"
             ],
             "declarations": {
                 "background": "#8a0c36",
@@ -15,7 +15,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--reddark"
+                ".bg--reddark"
             ],
             "declarations": {
                 "background": "#900",
@@ -25,7 +25,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--red"
+                ".bg--red"
             ],
             "declarations": {
                 "background": "#bd1118",
@@ -35,7 +35,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--rose"
+                ".bg--rose"
             ],
             "declarations": {
                 "background": "#dc7095",
@@ -45,7 +45,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--orangedark"
+                ".bg--orangedark"
             ],
             "declarations": {
                 "background": "#e38121",
@@ -55,7 +55,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--orange"
+                ".bg--orange"
             ],
             "declarations": {
                 "background": "#e5ad02",
@@ -65,7 +65,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--yellow"
+                ".bg--yellow"
             ],
             "declarations": {
                 "background": "#fae500",
@@ -75,7 +75,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--yellowlight"
+                ".bg--yellowlight"
             ],
             "declarations": {
                 "background": "#ff0",
@@ -85,7 +85,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--sand"
+                ".bg--sand"
             ],
             "declarations": {
                 "background": "#cec4a6",
@@ -95,7 +95,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--greendark"
+                ".bg--greendark"
             ],
             "declarations": {
                 "background": "#2f7820",
@@ -105,7 +105,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--green"
+                ".bg--green"
             ],
             "declarations": {
                 "background": "#32a237",
@@ -115,7 +115,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--greenlight"
+                ".bg--greenlight"
             ],
             "declarations": {
                 "background": "#93b923",
@@ -125,7 +125,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--lime"
+                ".bg--lime"
             ],
             "declarations": {
                 "background": "#cbfe33",
@@ -135,7 +135,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--purpledark"
+                ".bg--purpledark"
             ],
             "declarations": {
                 "background": "#650188",
@@ -145,7 +145,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--bluedark"
+                ".bg--bluedark"
             ],
             "declarations": {
                 "background": "#12507b",
@@ -155,7 +155,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--blue"
+                ".bg--blue"
             ],
             "declarations": {
                 "background": "#31769b",
@@ -165,7 +165,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--bluelight"
+                ".bg--bluelight"
             ],
             "declarations": {
                 "background": "#4fa8df",
@@ -175,7 +175,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--sea"
+                ".bg--sea"
             ],
             "declarations": {
                 "background": "#84a8c4",
@@ -185,7 +185,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--black"
+                ".bg--black"
             ],
             "declarations": {
                 "background": "#000",
@@ -195,7 +195,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa1"
+                ".bg--graa1"
             ],
             "declarations": {
                 "background": "#3c3c3c",
@@ -205,7 +205,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa2"
+                ".bg--graa2"
             ],
             "declarations": {
                 "background": "#484848",
@@ -215,7 +215,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa3"
+                ".bg--graa3"
             ],
             "declarations": {
                 "background": "#999",
@@ -225,7 +225,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa4"
+                ".bg--graa4"
             ],
             "declarations": {
                 "background": "#c8c8c8",
@@ -235,7 +235,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa5"
+                ".bg--graa5"
             ],
             "declarations": {
                 "background": "#ddd",
@@ -245,7 +245,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa6"
+                ".bg--graa6"
             ],
             "declarations": {
                 "background": "#e5e5e5",
@@ -255,7 +255,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--graa7"
+                ".bg--graa7"
             ],
             "declarations": {
                 "background": "#efefef",
@@ -265,7 +265,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--white"
+                ".bg--white"
             ],
             "declarations": {
                 "background": "#fff",
@@ -275,7 +275,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-red"
+                ".bg--pastel-red"
             ],
             "declarations": {
                 "background": "#db5040",
@@ -285,7 +285,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-darkred"
+                ".bg--pastel-darkred"
             ],
             "declarations": {
                 "background": "#954839",
@@ -295,7 +295,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-lightred"
+                ".bg--pastel-lightred"
             ],
             "declarations": {
                 "background": "#d67e9b",
@@ -305,7 +305,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-green"
+                ".bg--pastel-green"
             ],
             "declarations": {
                 "background": "#9fc29c",
@@ -315,7 +315,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-darkgreen"
+                ".bg--pastel-darkgreen"
             ],
             "declarations": {
                 "background": "#91a34f",
@@ -325,7 +325,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--pastel-yellow"
+                ".bg--pastel-yellow"
             ],
             "declarations": {
                 "background": "#d4c564",
@@ -335,7 +335,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--eb"
+                ".bg--eb"
             ],
             "declarations": {
                 "background": "#bd1118",
@@ -345,7 +345,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--eb2"
+                ".bg--eb2"
             ],
             "declarations": {
                 "background": "#900",
@@ -355,7 +355,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--breaking"
+                ".bg--breaking"
             ],
             "declarations": {
                 "background": "#ff0",
@@ -365,7 +365,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--bruger"
+                ".bg--bruger"
             ],
             "declarations": {
                 "background": "#4fa8df",
@@ -375,7 +375,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--live"
+                ".bg--live"
             ],
             "declarations": {
                 "background": "#000",
@@ -385,7 +385,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--native"
+                ".bg--native"
             ],
             "declarations": {
                 "background": "#cec4a6",
@@ -395,7 +395,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--native2"
+                ".bg--native2"
             ],
             "declarations": {
                 "background": "#84a8c4",
@@ -405,7 +405,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--facebook"
+                ".bg--facebook"
             ],
             "declarations": {
                 "background": "#31769b",
@@ -415,7 +415,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--twitter"
+                ".bg--twitter"
             ],
             "declarations": {
                 "background": "#4fa8df",
@@ -425,7 +425,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--ekstra"
+                ".bg--ekstra"
             ],
             "declarations": {
                 "background": "#bd1118",
@@ -435,7 +435,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--filmmagasinet"
+                ".bg--filmmagasinet"
             ],
             "declarations": {
                 "background": "#650188",
@@ -445,7 +445,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--flash"
+                ".bg--flash"
             ],
             "declarations": {
                 "background": "#900",
@@ -455,7 +455,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--forbrug"
+                ".bg--forbrug"
             ],
             "declarations": {
                 "background": "#31769b",
@@ -465,7 +465,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--livescore"
+                ".bg--livescore"
             ],
             "declarations": {
                 "background": "#32a237",
@@ -475,7 +475,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--livescore2"
+                ".bg--livescore2"
             ],
             "declarations": {
                 "background": "#cbfe33",
@@ -485,7 +485,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--nationen"
+                ".bg--nationen"
             ],
             "declarations": {
                 "background": "#e38121",
@@ -495,7 +495,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--nationen2"
+                ".bg--nationen2"
             ],
             "declarations": {
                 "background": "#e5ad02",
@@ -505,7 +505,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--nyheder"
+                ".bg--nyheder"
             ],
             "declarations": {
                 "background": "#12507b",
@@ -515,7 +515,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--nyheder2"
+                ".bg--nyheder2"
             ],
             "declarations": {
                 "background": "#000",
@@ -525,7 +525,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--sex-samliv"
+                ".bg--sex-samliv"
             ],
             "declarations": {
                 "background": "#8a0c36",
@@ -535,7 +535,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--sex-samliv2"
+                ".bg--sex-samliv2"
             ],
             "declarations": {
                 "background": "#dc7095",
@@ -545,7 +545,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--skolefodbold"
+                ".bg--skolefodbold"
             ],
             "declarations": {
                 "background": "#93b923",
@@ -555,7 +555,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--sport"
+                ".bg--sport"
             ],
             "declarations": {
                 "background": "#32a237",
@@ -565,7 +565,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-bg--tv"
+                ".bg--tv"
             ],
             "declarations": {
                 "background": "#bd1118",
@@ -575,7 +575,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--bordeaux"
+                ".color--bordeaux"
             ],
             "declarations": {
                 "color": "#8a0c36"
@@ -584,7 +584,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--reddark"
+                ".color--reddark"
             ],
             "declarations": {
                 "color": "#900"
@@ -593,7 +593,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--red"
+                ".color--red"
             ],
             "declarations": {
                 "color": "#bd1118"
@@ -602,7 +602,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--rose"
+                ".color--rose"
             ],
             "declarations": {
                 "color": "#dc7095"
@@ -611,7 +611,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--orangedark"
+                ".color--orangedark"
             ],
             "declarations": {
                 "color": "#e38121"
@@ -620,7 +620,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--orange"
+                ".color--orange"
             ],
             "declarations": {
                 "color": "#e5ad02"
@@ -629,7 +629,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--yellow"
+                ".color--yellow"
             ],
             "declarations": {
                 "color": "#fae500"
@@ -638,7 +638,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--yellowlight"
+                ".color--yellowlight"
             ],
             "declarations": {
                 "color": "#ff0"
@@ -647,7 +647,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--sand"
+                ".color--sand"
             ],
             "declarations": {
                 "color": "#cec4a6"
@@ -656,7 +656,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--greendark"
+                ".color--greendark"
             ],
             "declarations": {
                 "color": "#2f7820"
@@ -665,7 +665,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--green"
+                ".color--green"
             ],
             "declarations": {
                 "color": "#32a237"
@@ -674,7 +674,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--greenlight"
+                ".color--greenlight"
             ],
             "declarations": {
                 "color": "#93b923"
@@ -683,7 +683,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--lime"
+                ".color--lime"
             ],
             "declarations": {
                 "color": "#cbfe33"
@@ -692,7 +692,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--purpledark"
+                ".color--purpledark"
             ],
             "declarations": {
                 "color": "#650188"
@@ -701,7 +701,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--bluedark"
+                ".color--bluedark"
             ],
             "declarations": {
                 "color": "#12507b"
@@ -710,7 +710,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--blue"
+                ".color--blue"
             ],
             "declarations": {
                 "color": "#31769b"
@@ -719,7 +719,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--bluelight"
+                ".color--bluelight"
             ],
             "declarations": {
                 "color": "#4fa8df"
@@ -728,7 +728,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--sea"
+                ".color--sea"
             ],
             "declarations": {
                 "color": "#84a8c4"
@@ -737,7 +737,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--black"
+                ".color--black"
             ],
             "declarations": {
                 "color": "#000"
@@ -746,7 +746,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa1"
+                ".color--graa1"
             ],
             "declarations": {
                 "color": "#3c3c3c"
@@ -755,7 +755,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa2"
+                ".color--graa2"
             ],
             "declarations": {
                 "color": "#484848"
@@ -764,7 +764,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa3"
+                ".color--graa3"
             ],
             "declarations": {
                 "color": "#999"
@@ -773,7 +773,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa4"
+                ".color--graa4"
             ],
             "declarations": {
                 "color": "#c8c8c8"
@@ -782,7 +782,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa5"
+                ".color--graa5"
             ],
             "declarations": {
                 "color": "#ddd"
@@ -791,7 +791,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa6"
+                ".color--graa6"
             ],
             "declarations": {
                 "color": "#e5e5e5"
@@ -800,7 +800,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--graa7"
+                ".color--graa7"
             ],
             "declarations": {
                 "color": "#efefef"
@@ -809,7 +809,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--white"
+                ".color--white"
             ],
             "declarations": {
                 "color": "#fff"
@@ -818,7 +818,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-red"
+                ".color--pastel-red"
             ],
             "declarations": {
                 "color": "#db5040"
@@ -827,7 +827,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-darkred"
+                ".color--pastel-darkred"
             ],
             "declarations": {
                 "color": "#954839"
@@ -836,7 +836,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-lightred"
+                ".color--pastel-lightred"
             ],
             "declarations": {
                 "color": "#d67e9b"
@@ -845,7 +845,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-green"
+                ".color--pastel-green"
             ],
             "declarations": {
                 "color": "#9fc29c"
@@ -854,7 +854,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-darkgreen"
+                ".color--pastel-darkgreen"
             ],
             "declarations": {
                 "color": "#91a34f"
@@ -863,7 +863,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--pastel-yellow"
+                ".color--pastel-yellow"
             ],
             "declarations": {
                 "color": "#d4c564"
@@ -872,7 +872,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--eb"
+                ".color--eb"
             ],
             "declarations": {
                 "color": "#bd1118"
@@ -881,7 +881,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--eb2"
+                ".color--eb2"
             ],
             "declarations": {
                 "color": "#900"
@@ -890,7 +890,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--breaking"
+                ".color--breaking"
             ],
             "declarations": {
                 "color": "#ff0"
@@ -899,7 +899,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--bruger"
+                ".color--bruger"
             ],
             "declarations": {
                 "color": "#4fa8df"
@@ -908,7 +908,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--live"
+                ".color--live"
             ],
             "declarations": {
                 "color": "#000"
@@ -917,7 +917,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--native"
+                ".color--native"
             ],
             "declarations": {
                 "color": "#cec4a6"
@@ -926,7 +926,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--native2"
+                ".color--native2"
             ],
             "declarations": {
                 "color": "#84a8c4"
@@ -935,7 +935,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--facebook"
+                ".color--facebook"
             ],
             "declarations": {
                 "color": "#31769b"
@@ -944,7 +944,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--twitter"
+                ".color--twitter"
             ],
             "declarations": {
                 "color": "#4fa8df"
@@ -953,7 +953,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--ekstra"
+                ".color--ekstra"
             ],
             "declarations": {
                 "color": "#bd1118"
@@ -962,7 +962,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--filmmagasinet"
+                ".color--filmmagasinet"
             ],
             "declarations": {
                 "color": "#650188"
@@ -971,7 +971,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--flash"
+                ".color--flash"
             ],
             "declarations": {
                 "color": "#900"
@@ -980,7 +980,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--forbrug"
+                ".color--forbrug"
             ],
             "declarations": {
                 "color": "#31769b"
@@ -989,7 +989,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--livescore"
+                ".color--livescore"
             ],
             "declarations": {
                 "color": "#32a237"
@@ -998,7 +998,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--livescore2"
+                ".color--livescore2"
             ],
             "declarations": {
                 "color": "#cbfe33"
@@ -1007,7 +1007,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--nationen"
+                ".color--nationen"
             ],
             "declarations": {
                 "color": "#e38121"
@@ -1016,7 +1016,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--nationen2"
+                ".color--nationen2"
             ],
             "declarations": {
                 "color": "#e5ad02"
@@ -1025,7 +1025,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--nyheder"
+                ".color--nyheder"
             ],
             "declarations": {
                 "color": "#12507b"
@@ -1034,7 +1034,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--nyheder2"
+                ".color--nyheder2"
             ],
             "declarations": {
                 "color": "#000"
@@ -1043,7 +1043,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--sex-samliv"
+                ".color--sex-samliv"
             ],
             "declarations": {
                 "color": "#8a0c36"
@@ -1052,7 +1052,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--sex-samliv2"
+                ".color--sex-samliv2"
             ],
             "declarations": {
                 "color": "#dc7095"
@@ -1061,7 +1061,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--skolefodbold"
+                ".color--skolefodbold"
             ],
             "declarations": {
                 "color": "#93b923"
@@ -1070,7 +1070,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--sport"
+                ".color--sport"
             ],
             "declarations": {
                 "color": "#32a237"
@@ -1079,7 +1079,7 @@
         {
             "type": "rule",
             "selectors": [
-                ".eb-color--tv"
+                ".color--tv"
             ],
             "declarations": {
                 "color": "#bd1118"
