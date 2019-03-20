@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 2.0.0
+Version: 2.0.1
 
 > EB colors for SCSS and CSS
 
@@ -153,7 +153,7 @@ Returns the main color
 @import "node_modules/@ekstra-bladet/eb-colors/src/all";
 
 .selector {
-  color: var(--eb-color--[colorname]);
+  color: var(--color--[colorname]);
 }
 ```
 
@@ -183,19 +183,19 @@ CSS classes are generated after the following pattern
 
 /** Real world example */
 .bg--eb {
-    background-color: var(--eb-color--eb);
-    color: var(--eb-fgcolor--eb);
+    background-color: var(--color--eb);
+    color: var(--fgcolor--eb);
 }
 
 .color--eb {
-    color: var(--eb-color--eb);
+    color: var(--color--eb);
 }
 ```
 
 Working example
 
 ```html
-<div class="eb-bg--eb">
+<div class="bg--eb">
     This will have the eb background color and the corresponding foreground color.
 </div>
 ```
