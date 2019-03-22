@@ -2,7 +2,7 @@ var fs = require("fs");
 
 createSnippetFile('eb-colors-css-vars');
 createSnippetFile('eb-colors-vars-rgb');
-createSnippetFile('eb-colors-classes', 'html,jsp,java');
+createSnippetFile('eb-colors-classes', 'html');
 
 function createSnippetFile (filename, scope = 'css,scss,sass') {
     fs.readFile("./temp/" + filename + ".json", "utf8", function(err, data) {

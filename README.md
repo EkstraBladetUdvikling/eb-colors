@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 2.0.2
+Version: 2.0.3
 
 > EB colors for SCSS and CSS
 
@@ -214,6 +214,14 @@ To use generated Visual Studio Code snippets for a project, make sure the Visual
 curl -o .vscode/eb-colors-classes.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-classes.code-snippets
 curl -o .vscode/eb-colors-css-vars.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-css-vars.code-snippets
 curl -o .vscode/eb-colors-vars-rgb.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-vars-rgb.code-snippets
+```
+
+To enable snippets in .jsp files, add the following to user or workspace-settings:
+
+```json
+"files.associations": {
+        "*.jsp": "html"
+    }
 ```
 
 ## Development
