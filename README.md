@@ -1,6 +1,6 @@
 # EB Colors
 
-Version: 2.0.1
+Version: 2.0.2
 
 > EB colors for SCSS and CSS
 
@@ -205,6 +205,16 @@ Working example
 The colors and their names contained in eb-colors
 
 ![](example/eb-colors-example.png)
+
+## Visual Studio Code Snippets
+
+To use generated Visual Studio Code snippets for a project, make sure the Visual Studio Code configuration directory is present (%PROJECTROOT%/.vscode) and run following bash commands in project root:
+
+```bash
+curl -o .vscode/eb-colors-classes.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-classes.code-snippets
+curl -o .vscode/eb-colors-css-vars.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-css-vars.code-snippets
+curl -o .vscode/eb-colors-vars-rgb.code-snippets https://raw.githubusercontent.com/EkstraBladetUdvikling/eb-colors/master/snippets/eb-colors-vars-rgb.code-snippets
+```
 
 ## Development
 
