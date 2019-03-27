@@ -448,7 +448,7 @@ var ebColorMap = {
                 ".bg--flash"
             ],
             "declarations": {
-                "background": "#900",
+                "background": "#e5ad02",
                 "color": "#fff"
             }
         },
@@ -974,7 +974,7 @@ var ebColorMap = {
                 ".color--flash"
             ],
             "declarations": {
-                "color": "#900"
+                "color": "#e5ad02"
             }
         },
         {
