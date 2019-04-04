@@ -1,8 +1,8 @@
 # EB Colors
 
-Version: 2.1.0
+Version: 2.2.0
 
-> EB colors for SCSS and CSS
+> EB colors for CSS (SCSS only available through repo)
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install "@ekstra-bladet/eb-colors" --save
 
 ## CSS Usage
 
-### All CSS classes
+### All CSS classes (NPM module)
 
 ```css
 @import "node_modules/@ekstra-bladet/eb-colors/dist/eb-colors-classes.css";
@@ -46,7 +46,7 @@ npm install "@ekstra-bladet/eb-colors" --save
 }
 ```
 
-## SCSS Usage
+## SCSS Usage (Not availiable in NPM module)
 
 Variables and maps:
 
@@ -229,7 +229,18 @@ To enable snippets in .jsp files, add the following to user or workspace-setting
 To build the CSS variables version of eb-colors:
 
 ```bash
+git clone git@github.com:EkstraBladetUdvikling/eb-colors.git
+cd eb-colors
 npm build
+```
+
+To build a new version of VS Code Snippets and Example:
+
+```bash
+git clone git@github.com:EkstraBladetUdvikling/eb-colors.git
+cd eb-colors
+npm run build-vscode-snippets
+npm run example
 ```
 
 ## License
