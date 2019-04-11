@@ -4,14 +4,14 @@
     "dist/",
     "example/"
   ],
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "npm run build-css-vars && npm run build-css-classes && npm run convert-rgb",
     "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
     "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
-    "parse": "cssparser \"./dist/eb-colors-classes.css\" -o \"./example/eb-colors-classes.json\"",
-    "example": "npm run parse && node createExample.js",
+    "build-ts-vars": "npm run parse-snippets && node handleTS",
+    "example": "npm run parse-snippets && node createExample",
     "prettier": "prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
     "postconvert-rgb": "node convertrgb",
