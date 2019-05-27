@@ -19,9 +19,10 @@ function createVarName(selector) {
 
 const fileContentArray = [];
 const objectWrapper = {
-  named: {},
+  hex: {},
   rgb: {}
 };
+const backgroundWrapper = {};
 /**
  * Generate variables from hex values
  * * output example: export const Red = '#bd1118';
@@ -33,11 +34,14 @@ values.forEach(cssRule => {
   if (cssRule.selectors[0].indexOf(splitter) !== -1) {
     const ruleName = cssRule.selectors[0].split(splitter)[1];
     const varName = createVarName(ruleName);
-    const color = cssRule.declarations.background;
-    const declaration = `export const ${varName} = '${color}'`;
-    objectWrapper.named[varName] = {
-      color,
-      fgcolor: cssRule.declarations.color
+    const backgroundColor = cssRule.declarations.background;
+    const declaration = `export const ${varName} = '${backgroundColor}'`;
+    backgroundWrapper[varName] = {
+      backgroundColor,
+      color: cssRule.declarations.color
+    };
+    objectWrapper.hex[varName] = {
+      color: backgroundColor
     };
     fileContentArray.push(declaration);
   }
@@ -68,5 +72,8 @@ const fileTS = fs.readFileSync("./ts-src/alpha.ts", "utf8");
 
 const tsFileContent = `${fileContentArray.join(
   ";"
-)};export const Colors = ${JSON.stringify(objectWrapper)}; ${fileTS}`;
+)};export const Colors = ${JSON.stringify(
+  objectWrapper
+)};export const Background = ${JSON.stringify(backgroundWrapper)}; ${fileTS}`;
 fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
+fs.writeFileSync("./dist/eb-colors.js", tsFileContent);
