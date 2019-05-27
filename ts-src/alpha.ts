@@ -1,4 +1,8 @@
-function hexToRgb(hex: string) {
+/**
+ * @description Converting hex code to rgb
+ * @param hex string
+ */
+function hexToRgb(hex) {
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
   hex = hex.replace(shorthandRegex, function(m, r, g, b) {
@@ -20,7 +24,7 @@ function hexToRgb(hex: string) {
  * @param color string takes EbColors
  * @param alpha number
  */
-export const createAlpha = (color: string, alpha: number) => {
+export const createAlpha = (color, alpha) => {
   let newColor = color;
   if (newColor.indexOf("#") === 0) {
     const newRgbAsObject = hexToRgb(color);
