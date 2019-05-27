@@ -30,10 +30,10 @@
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
     "cssparser": "^0.9.4",
-    "prettier": "^1.16.4"
+    "prettier": "^1.17.1"
   },
   "dependencies": {
-    "postcss": "^7.0.14",
+    "postcss": "^7.0.16",
     "postcss-cli": "^6.1.2",
     "postcss-rgb-plz": "^2.0.2"
   }
