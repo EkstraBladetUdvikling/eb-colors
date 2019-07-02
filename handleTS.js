@@ -76,4 +76,12 @@ const tsFileContent = `${fileContentArray.join(
   objectWrapper
 )};export const Background = ${JSON.stringify(backgroundWrapper)}; ${fileTS}`;
 fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
-fs.writeFileSync("./dist/eb-colors.js", tsFileContent);
+const { exec } = require("child_process");
+exec(`tsc ./dist/eb-colors.ts --outDir ./dist`, err => {
+  if (err) {
+    // node couldn't execute the command
+    return;
+  }
+  console.log(`typescript ./dist/eb-colors.ts -> ./dist/eb-colors.js`);
+});
+// fs.writeFileSync("./dist/eb-colors.js", tsFileContent);
