@@ -4,19 +4,20 @@
     "dist/",
     "example/"
   ],
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
-    "build": "npm run build-css-vars && npm run build-css-classes && npm run convert-rgb && npm run build-ts-vars",
+    "build": "yarn build-css-vars && yarn build-css-classes && yarn convert-rgb && yarn build-ts-vars && yarn lint",
     "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
     "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
-    "build-ts-vars": "npm run parse-snippets && node handleTS",
-    "example": "npm run parse-snippets && node createExample",
+    "build-ts-vars": "yarn parse-snippets && node handleTS",
+    "example": "yarn parse-snippets && node createExample",
     "prettier": "prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "yarn postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
     "postconvert-rgb": "node convertrgb",
     "parse-snippets": "cssparser \"./dist/eb-colors-css-vars.css\" -o \"./temp/eb-colors-css-vars.json\" && cssparser \"./dist/eb-colors-vars-rgb.css\" -o \"./temp/eb-colors-vars-rgb.json\" && cssparser \"./dist/eb-colors-classes.css\" -o \"./temp/eb-colors-classes.json\"",
-    "build-vscode-snippets": "npm run parse-snippets && node create-vscode-snippets"
+    "build-vscode-snippets": "yarn parse-snippets && node create-vscode-snippets",
+    "lint": "tslint -c tslint.json './ts-src/**/*.ts' && tslint -c tslint.json './dist/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
   "dependencies": {
     "postcss": "^7.0.17",
     "postcss-cli": "^6.1.2",
-    "postcss-rgb-plz": "^2.0.2"
+    "postcss-rgb-plz": "^2.0.2",
+    "tslint-config-prettier": "^1.18.0"
   }
 }
