@@ -1,29 +1,20 @@
-/**
- * @description Converting hex code to rgb
- * @param hex string
- */
-function hexToRgb(hex: string) {
+function hexToRgb(HEX: string) {
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-  hex = hex.replace(shorthandRegex, function(m, r, g, b) {
-    return r + r + g + g + b + b;
+  HEX = HEX.replace(shorthandRegex, (_M, R, G, B) => {
+    return R + R + G + G + B + B;
   });
 
-  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result
+  const RESULT = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(HEX);
+  return RESULT
     ? {
-        r: parseInt(result[1], 16),
-        g: parseInt(result[2], 16),
-        b: parseInt(result[3], 16)
+        b: parseInt(RESULT[3], 16),
+        g: parseInt(RESULT[2], 16),
+        r: parseInt(RESULT[1], 16)
       }
     : null;
 }
 
-/**
- * @description Create rgba version of given color
- * @param color string takes EbColors
- * @param alpha number
- */
 export const createAlpha = (color: string, alpha: number) => {
   let newColor = color;
   if (newColor.indexOf("#") === 0) {
