@@ -1,57 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>eb-colors example</title>
+    <link href="eb-colors-classes.css" rel="stylesheet" type="text/css" />
+    <style>
+      :root {
+              font-size: 10px;
 
-<head>
-  <meta charset="utf-8">
-  <title>eb-colors example</title>
-  <link href="../dist/eb-colors-classes.css" rel="stylesheet" type="text/css" />
-  <style>
-    :root {
-      --circle-dim: 100px;
-      font-size: 10px;
-    }
-    .color-example {
-      float: left;
-      margin: 10px;
-      text-align: center;
-      width: calc(var(--circle-dim) + 10);
-      font-size: 14px;
-      font-family: 'Arial', sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    div[class*=bg-] {
-      box-sizing: border-box;
-      border-radius: 50%;
-      line-height: var(--circle-dim);
-      height: var(--circle-dim);
-      width: var(--circle-dim);
-      white-space: nowrap;
-    }
-    p {
-      margin: 0;
-    }
-    .color-code {
-      font-weight: bold;
-      margin: 5px 0;
-    }
-    .bg--white,
-    .bg--live2 {
-      border: 1px solid #000;
-      line-height: var(--circle-dim);
-      height: var(--circle-dim);
-      width: var(--circle-dim);
-    }
-  </style>
+        --circle-dim: 100px;
+            }
+            .color-example {
+              float: left;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+        width: calc(var(--circle-dim) + 10);
 
-</head>
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+            }
+            div[class*='bg-'] {
+              border-radius: 50%;
+        box-sizing: border-box;
+        line-height: var(--circle-dim);
+        white-space: nowrap;
+        width: var(--circle-dim);
+        height: var(--circle-dim);
+            }
+            p {
+              margin: 0;
+            }
+            .color-code {
+              font-weight: bold;
+        margin: 5px 0;
+            }
+            .bg--white,
+            .bg--live2 {
+              border: 1px solid #000;
+        line-height: var(--circle-dim);
+        width: var(--circle-dim);
+        height: var(--circle-dim);
+            }
+    </style>
+  </head>
 
-<body>
-
-  <div id="fnColors"></div>
-  <script src="eb-colors-classes.js"></script>
-  <script src="color-render.js"></script>
-
-</body>
-
+  <body>
+    <div id="fnColors"></div>
+    <script src="eb-colors-classes.js"></script>
+    <script src="color-render.js"></script>
+  </body>
 </html>
