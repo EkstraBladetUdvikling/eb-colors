@@ -11,6 +11,7 @@
     "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
     "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
     "build-ts-vars": "yarn parse-snippets && node handleTS",
+    "postbuild": "cpx \"dist/eb-colors-classes.css\" \"docs/\" ",
     "example": "yarn parse-snippets && node createExample",
     "prettier": "prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "yarn postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
@@ -31,12 +32,13 @@
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
     "cssparser": "^0.9.4",
-    "prettier": "^1.18.2",
-    "typescript": "^3.5.2"
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "postcss": "^7.0.17",
-    "postcss-cli": "^6.1.2",
+    "cpx": "^1.5.0",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0",
     "postcss-rgb-plz": "^2.0.2",
     "tslint-config-prettier": "^1.18.0"
   }
