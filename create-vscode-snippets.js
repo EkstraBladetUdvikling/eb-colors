@@ -36,22 +36,8 @@ function createSnippetFile(filename, scope) {
     });
 
     // Create snippet output:
-    // let snippetCode = "{";
-    // const snippetScope = scope ? `"scope": "${scope}",` : "";
-    // colorList.forEach(color => {
-    //   snippetCode += `
-    //         "color-${color.name}": {
-    //           ${snippetScope}
-    //           "prefix": "${color.name}",
-    //           "body": "${color.name}",
-    //           "description": "${color.def}"
-    //        },
-    //       `;
-    // });
-    // snippetCode += "}";
-
     const snippetCode = {};
-    // const snippetScope = scope ? `"scope": "${scope}",` : "";
+
     colorList.forEach(color => {
       snippetCode[`color-${color.name}`] = {
         prefix: color.name,
