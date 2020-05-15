@@ -18,7 +18,7 @@ function createVarName(selector) {
 }
 
 const fileContentArray = [];
-const fileContentClassesArray = [];
+
 const objectWrapper = {
   hex: {},
   rgb: {}
@@ -50,7 +50,6 @@ values.forEach(cssRule => {
 
     const newClassRule = `export const ${varName}CSSClass = '${selector}'`;
     fileContentArray.push(newClassRule);
-    fileContentClassesArray.push(newClassRule);
   }
 });
 
