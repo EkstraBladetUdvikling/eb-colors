@@ -18,6 +18,7 @@ function createVarName(selector) {
 }
 
 const fileContentArray = [];
+const fileContentClassesArray = [];
 const objectWrapper = {
   hex: {},
   rgb: {}
@@ -44,6 +45,12 @@ values.forEach(cssRule => {
       color: backgroundColor
     };
     fileContentArray.push(declaration);
+
+    const selector = cssRule.selectors[0].split(".")[1];
+
+    const newClassRule = `export const ${varName}CSSClass = '${selector}'`;
+    fileContentArray.push(newClassRule);
+    fileContentClassesArray.push(newClassRule);
   }
 });
 
@@ -75,7 +82,9 @@ const tsFileContent = `${fileContentArray.join(
 )};export const Colors = ${JSON.stringify(
   objectWrapper
 )};export const Background = ${JSON.stringify(backgroundWrapper)}; ${fileTS}`;
+
 fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
+
 const { exec } = require("child_process");
 exec(`tsc ./dist/eb-colors.ts --outDir ./dist`, err => {
   if (err) {
