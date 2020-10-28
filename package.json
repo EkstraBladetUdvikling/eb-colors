@@ -32,13 +32,13 @@
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
     "cssparser": "^0.9.4",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.5"
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
   },
   "dependencies": {
     "cpx": "^1.5.0",
-    "postcss": "^7.0.26",
-    "postcss-cli": "^7.1.0",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
     "postcss-rgb-plz": "^2.0.2",
     "tslint-config-prettier": "^1.18.0"
   }
