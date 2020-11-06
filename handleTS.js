@@ -21,7 +21,7 @@ const fileContentArray = [];
 
 const objectWrapper = {
   hex: {},
-  rgb: {}
+  rgb: {},
 };
 const backgroundWrapper = {};
 /**
@@ -31,7 +31,7 @@ const backgroundWrapper = {};
  */
 const values = JSON.parse(file).value;
 const splitter = ".bg--";
-values.forEach(cssRule => {
+values.forEach((cssRule) => {
   if (cssRule.selectors[0].indexOf(splitter) !== -1) {
     const ruleName = cssRule.selectors[0].split(splitter)[1];
     const varName = createVarName(ruleName);
@@ -39,10 +39,10 @@ values.forEach(cssRule => {
     const declaration = `export const ${varName} = '${backgroundColor}'`;
     backgroundWrapper[varName] = {
       backgroundColor,
-      color: cssRule.declarations.color
+      color: cssRule.declarations.color,
     };
     objectWrapper.hex[varName] = {
-      color: backgroundColor
+      color: backgroundColor,
     };
     fileContentArray.push(declaration);
 
@@ -61,7 +61,7 @@ values.forEach(cssRule => {
 const fileRGB = fs.readFileSync("./temp/eb-colors-vars-rgb.json", "utf8");
 const valuesRGB = JSON.parse(fileRGB).value;
 const splitterRGB = "--rgb-color--";
-valuesRGB.forEach(cssRuleRGB => {
+valuesRGB.forEach((cssRuleRGB) => {
   for (const declaration in cssRuleRGB.declarations) {
     if (declaration.indexOf(splitterRGB) === 0) {
       const ruleName = declaration.split(splitterRGB)[1];
@@ -85,11 +85,11 @@ const tsFileContent = `${fileContentArray.join(
 fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
 
 const { exec } = require("child_process");
-exec(`tsc ./dist/eb-colors.ts --outDir ./dist`, err => {
+exec(`tsc ./dist/eb-colors.ts --emitDeclarationOnly --d`, (err) => {
   if (err) {
     // node couldn't execute the command
     return;
   }
-  console.log(`typescript ./dist/eb-colors.ts -> ./dist/eb-colors.js`);
+  console.log(`typescript ./dist/eb-colors.ts -> ./dist/eb-colors.d.ts`);
 });
 // fs.writeFileSync("./dist/eb-colors.js", tsFileContent);

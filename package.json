@@ -4,21 +4,20 @@
     "dist/",
     "example/"
   ],
-  "version": "2.3.8",
+  "version": "2.4.0",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
-    "build": "yarn build-css-vars && yarn build-css-classes && yarn convert-rgb && yarn build-ts-vars && yarn lint",
-    "build-css-vars": "sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
-    "build-css-classes": "sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
+    "build": "yarn build-css-vars && yarn build-css-classes && yarn convert-rgb && yarn build-ts-vars",
+    "build-css-vars": "yarn sass \"src/all-css-vars.scss\" \"dist/eb-colors-css-vars.css\" --no-source-map",
+    "build-css-classes": "yarn sass \"src/all-with-classes.scss\" \"dist/eb-colors-classes.css\" --no-source-map",
     "build-ts-vars": "yarn parse-snippets && node handleTS",
     "postbuild": "cpx \"dist/eb-colors-classes.css\" \"docs/\" ",
     "example": "yarn parse-snippets && node createExample",
-    "prettier": "prettier \"./src/**/*.scss\" --write",
+    "prettier": "yarn prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "yarn postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
     "postconvert-rgb": "node convertrgb",
     "parse-snippets": "cssparser \"./dist/eb-colors-css-vars.css\" -o \"./temp/eb-colors-css-vars.json\" && cssparser \"./dist/eb-colors-vars-rgb.css\" -o \"./temp/eb-colors-vars-rgb.json\" && cssparser \"./dist/eb-colors-classes.css\" -o \"./temp/eb-colors-classes.json\"",
-    "build-vscode-snippets": "yarn parse-snippets && node create-vscode-snippets",
-    "lint": "tslint -c tslint.json './ts-src/**/*.ts' && tslint -c tslint.json './dist/**/*.ts'"
+    "build-vscode-snippets": "yarn parse-snippets && node create-vscode-snippets"
   },
   "repository": {
     "type": "git",
@@ -33,13 +32,13 @@
   "devDependencies": {
     "cssparser": "^0.9.4",
     "prettier": "^2.1.2",
+    "sass": "^1.29.0",
     "typescript": "^4.0.5"
   },
   "dependencies": {
     "cpx": "^1.5.0",
-    "postcss": "^8.1.4",
-    "postcss-cli": "^8.1.0",
-    "postcss-rgb-plz": "^2.0.2",
-    "tslint-config-prettier": "^1.18.0"
+    "postcss": "^8.1.6",
+    "postcss-cli": "^8.2.0",
+    "postcss-rgb-plz": "^2.0.2"
   }
 }
