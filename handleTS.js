@@ -82,10 +82,10 @@ const tsFileContent = `${fileContentArray.join(
   objectWrapper
 )};export const Background = ${JSON.stringify(backgroundWrapper)}; ${fileTS}`;
 
-fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
+fs.writeFileSync("./dist/ts/eb-colors.ts", tsFileContent);
 
 const { exec } = require("child_process");
-exec(`tsc ./dist/eb-colors.ts --emitDeclarationOnly --d`, (err) => {
+exec(`tsc ./dist/ts/eb-colors.ts --outDir ./dist/ --d`, (err) => {
   if (err) {
     // node couldn't execute the command
     return;
