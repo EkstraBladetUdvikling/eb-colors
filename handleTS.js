@@ -85,7 +85,7 @@ const tsFileContent = `${fileContentArray.join(
 fs.writeFileSync("./dist/eb-colors.ts", tsFileContent);
 
 const { exec } = require("child_process");
-exec(`tsc ./dist/eb-colors.ts --emitDeclarationOnly --d`, (err) => {
+exec(`tsc ./dist/eb-colors.ts --outDir ./dist/ --d`, (err) => {
   if (err) {
     // node couldn't execute the command
     return;
