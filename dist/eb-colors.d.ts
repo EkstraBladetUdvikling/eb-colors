@@ -746,5 +746,13 @@ export declare const Background: {
         backgroundColor: string;
         color: string;
     };
-};
-export declare const createAlpha: (color: string, alpha: number) => string;
+}; /**
+ * hexToRgb
+ * @param HEX ${string}
+ */
+/**
+ * createAlpha
+ * @param color ${string}
+ * @param alpha ${string}
+ */
+export declare function createAlpha(color: any, alpha: any): string;

@@ -9,7 +9,7 @@
   $newColor: eb-color-get($foreground, $color-to-get);
   $newPair: (
     "background": $newBackground,
-    "color": $newColor
+    "color": $newColor,
   );
 
   @return $newPair;
