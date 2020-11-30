@@ -86,13 +86,17 @@ fs.writeFileSync("./dist/eb-colors.js", tsFileContent);
 fs.writeFileSync("./ts-src/eb-colors.ts", tsFileContent);
 
 const { exec } = require("child_process");
-// exec(`yarn tsc ./ts-src/eb-colors.ts --outDir ./dist/ --d`, (err) => {
-//   if (err) {
-//     // node couldn't execute the command
-//     return;
-//   }
-//   console.log(`typescript ./dist/eb-colors.ts -> ./dist/eb-colors.d.ts`);
-// });
+exec(
+  `yarn tsc ./ts-src/eb-colors.ts --outDir ./dist/ -d --emitDeclarationOnly`,
+  (err) => {
+    if (err) {
+      // node couldn't execute the command
+      console.log(`blurg ${err}`);
+      return;
+    }
+    console.log(`typescript ./dist/eb-colors.ts -> ./dist/eb-colors.d.ts`);
+  }
+);
 
 exec(`yarn prettier ./dist/eb-colors.js --write`, (err) => {
   console.log(`prettier ./dist/eb-colors.js`);
