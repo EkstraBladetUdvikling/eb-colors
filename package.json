@@ -4,6 +4,7 @@
     "dist/",
     "example/"
   ],
+  "main": "dist/eb-colors.js",
   "version": "2.5.0",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
@@ -13,7 +14,7 @@
     "build-ts-vars": "yarn parse-snippets && node handleTS",
     "postbuild": "cpx \"dist/eb-colors-classes.css\" \"docs/\" ",
     "example": "yarn parse-snippets && node createExample",
-    "prettier": "yarn prettier \"./src/**/*.scss\" --write",
+    "prettier:scss": "yarn prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "yarn postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.js -o ./temp/eb-colors-vars-rgb.css",
     "postconvert-rgb": "node convertrgb",
     "parse-snippets": "cssparser \"./dist/eb-colors-css-vars.css\" -o \"./temp/eb-colors-css-vars.json\" && cssparser \"./dist/eb-colors-vars-rgb.css\" -o \"./temp/eb-colors-vars-rgb.json\" && cssparser \"./dist/eb-colors-classes.css\" -o \"./temp/eb-colors-classes.json\"",

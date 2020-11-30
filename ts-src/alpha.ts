@@ -1,4 +1,8 @@
-function hexToRgb(HEX: string) {
+/**
+ * hexToRgb
+ * @param HEX ${string}
+ */
+function hexToRgb(HEX) {
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
   const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
   HEX = HEX.replace(shorthandRegex, (_M, R, G, B) => {
@@ -10,12 +14,17 @@ function hexToRgb(HEX: string) {
     ? {
         b: parseInt(RESULT[3], 16),
         g: parseInt(RESULT[2], 16),
-        r: parseInt(RESULT[1], 16)
+        r: parseInt(RESULT[1], 16),
       }
     : null;
 }
 
-export const createAlpha = (color: string, alpha: number) => {
+/**
+ * createAlpha
+ * @param color ${string}
+ * @param alpha ${string}
+ */
+export function createAlpha(color, alpha) {
   let newColor = color;
   if (newColor.indexOf("#") === 0) {
     const newRgbAsObject = hexToRgb(color) || { r: 0, g: 0, b: 0 };
@@ -23,4 +32,4 @@ export const createAlpha = (color: string, alpha: number) => {
   }
   console.log(`rgba(${newColor}, ${alpha})`);
   return `rgba(${newColor}, ${alpha})`;
-};
+}

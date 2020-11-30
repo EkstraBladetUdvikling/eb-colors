@@ -5,7 +5,7 @@ $eb-color-main: (
   "bruger": map-get($eb-colors-colors, "bluelight"),
   "live": map-get($eb-colors-colors, "black"),
   "native": map-get($eb-colors-colors, "sand"),
-  "native2": map-get($eb-colors-colors, "sea")
+  "native2": map-get($eb-colors-colors, "sea"),
 );
 
 $eb-print-bg: true !default;
