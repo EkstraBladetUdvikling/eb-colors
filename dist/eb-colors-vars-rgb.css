@@ -137,13 +137,6 @@
 }
 
 :root {
-  --rgb-color--nationen: 227, 129, 33;
-  --rgb-fgcolor--nationen: 255, 255, 255;
-  --rgb-color--nationen2: 229, 173, 2;
-  --rgb-fgcolor--nationen2: 255, 255, 255;
-}
-
-:root {
   --rgb-color--nyheder: 18, 80, 123;
   --rgb-fgcolor--nyheder: 255, 255, 255;
   --rgb-color--nyheder2: 0, 0, 0;

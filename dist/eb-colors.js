@@ -94,10 +94,6 @@ export const Livescore = "#32a237";
 export const LivescoreCSSClass = "bg--livescore";
 export const Livescore2 = "#cbfe33";
 export const Livescore2CSSClass = "bg--livescore2";
-export const Nationen = "#e38121";
-export const NationenCSSClass = "bg--nationen";
-export const Nationen2 = "#e5ad02";
-export const Nationen2CSSClass = "bg--nationen2";
 export const Nyheder = "#12507b";
 export const NyhederCSSClass = "bg--nyheder";
 export const Nyheder2 = "#000";
@@ -160,8 +156,6 @@ export const FlashRGB = "229,173,2";
 export const ForbrugRGB = "49,118,155";
 export const LivescoreRGB = "50,162,55";
 export const Livescore2RGB = "203,254,51";
-export const NationenRGB = "227,129,33";
-export const Nationen2RGB = "229,173,2";
 export const NyhederRGB = "18,80,123";
 export const Nyheder2RGB = "0,0,0";
 export const SexSamlivRGB = "138,12,54";
@@ -219,8 +213,6 @@ export const Colors = {
     Forbrug: { color: "#31769b" },
     Livescore: { color: "#32a237" },
     Livescore2: { color: "#cbfe33" },
-    Nationen: { color: "#e38121" },
-    Nationen2: { color: "#e5ad02" },
     Nyheder: { color: "#12507b" },
     Nyheder2: { color: "#000" },
     SexSamliv: { color: "#8a0c36" },
@@ -278,8 +270,6 @@ export const Colors = {
     Forbrug: { color: "49,118,155" },
     Livescore: { color: "50,162,55" },
     Livescore2: { color: "203,254,51" },
-    Nationen: { color: "227,129,33" },
-    Nationen2: { color: "229,173,2" },
     Nyheder: { color: "18,80,123" },
     Nyheder2: { color: "0,0,0" },
     SexSamliv: { color: "138,12,54" },
@@ -338,8 +328,6 @@ export const Background = {
   Forbrug: { backgroundColor: "#31769b", color: "#fff" },
   Livescore: { backgroundColor: "#32a237", color: "#fff" },
   Livescore2: { backgroundColor: "#cbfe33", color: "#000" },
-  Nationen: { backgroundColor: "#e38121", color: "#fff" },
-  Nationen2: { backgroundColor: "#e5ad02", color: "#fff" },
   Nyheder: { backgroundColor: "#12507b", color: "#fff" },
   Nyheder2: { backgroundColor: "#000", color: "#fff" },
   SexSamliv: { backgroundColor: "#8a0c36", color: "#fff" },

@@ -238,16 +238,6 @@
   color: #000;
 }
 
-.bg--nationen {
-  background: #e38121;
-  color: #fff;
-}
-
-.bg--nationen2 {
-  background: #e5ad02;
-  color: #fff;
-}
-
 .bg--nyheder {
   background: #12507b;
   color: #fff;
@@ -473,14 +463,6 @@
 
 .color--livescore2 {
   color: #cbfe33;
-}
-
-.color--nationen {
-  color: #e38121;
-}
-
-.color--nationen2 {
-  color: #e5ad02;
 }
 
 .color--nyheder {

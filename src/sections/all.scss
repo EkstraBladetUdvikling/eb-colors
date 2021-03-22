@@ -1,7 +1,7 @@
 $eb-colors-cssvars: false !default;
-$eb-color-classes: false !default;
-$eb-print-bg: false !default;
-$eb-print-color: false !default;
+  $eb-color-classes: false !default;
+  $eb-print-bg: false !default;
+  $eb-print-color: false !default;
 
 @import "../functions/all";
 @import "ekstra";
@@ -9,20 +9,17 @@ $eb-print-color: false !default;
 @import "flash";
 @import "forbrug";
 @import "livescore";
-@import "nationen";
 @import "nyheder";
 @import "sex-samliv";
 @import "skolefodbold";
 @import "sport";
 @import "tv";
-
-$eb-colors-sections: map-collect(
+  $eb-colors-sections: map-collect(
   $eb-color-ekstra,
   $eb-color-filmmagasinet,
   $eb-color-flash,
   $eb-color-forbrug,
   $eb-color-livescore,
-  $eb-color-nationen,
   $eb-color-nyheder,
   $eb-color-sex-samliv,
   $eb-color-skolefodbold,

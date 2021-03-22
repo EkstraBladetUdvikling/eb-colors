@@ -94,10 +94,6 @@ export declare const Livescore = "#32a237";
 export declare const LivescoreCSSClass = "bg--livescore";
 export declare const Livescore2 = "#cbfe33";
 export declare const Livescore2CSSClass = "bg--livescore2";
-export declare const Nationen = "#e38121";
-export declare const NationenCSSClass = "bg--nationen";
-export declare const Nationen2 = "#e5ad02";
-export declare const Nationen2CSSClass = "bg--nationen2";
 export declare const Nyheder = "#12507b";
 export declare const NyhederCSSClass = "bg--nyheder";
 export declare const Nyheder2 = "#000";
@@ -160,8 +156,6 @@ export declare const FlashRGB = "229,173,2";
 export declare const ForbrugRGB = "49,118,155";
 export declare const LivescoreRGB = "50,162,55";
 export declare const Livescore2RGB = "203,254,51";
-export declare const NationenRGB = "227,129,33";
-export declare const Nationen2RGB = "229,173,2";
 export declare const NyhederRGB = "18,80,123";
 export declare const Nyheder2RGB = "0,0,0";
 export declare const SexSamlivRGB = "138,12,54";
@@ -313,12 +307,6 @@ export declare const Colors: {
             color: string;
         };
         Livescore2: {
-            color: string;
-        };
-        Nationen: {
-            color: string;
-        };
-        Nationen2: {
             color: string;
         };
         Nyheder: {
@@ -486,12 +474,6 @@ export declare const Colors: {
             color: string;
         };
         Livescore2: {
-            color: string;
-        };
-        Nationen: {
-            color: string;
-        };
-        Nationen2: {
             color: string;
         };
         Nyheder: {
@@ -707,14 +689,6 @@ export declare const Background: {
         color: string;
     };
     Livescore2: {
-        backgroundColor: string;
-        color: string;
-    };
-    Nationen: {
-        backgroundColor: string;
-        color: string;
-    };
-    Nationen2: {
         backgroundColor: string;
         color: string;
     };
