@@ -5,7 +5,7 @@
     "example/"
   ],
   "main": "dist/eb-colors.js",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "yarn build-css-vars && yarn build-css-classes && yarn convert-rgb && yarn build-ts-vars",
