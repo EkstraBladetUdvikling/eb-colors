@@ -173,6 +173,16 @@ var ebColorMap = {
             }
         },
         {
+          "type": "rule",
+          "selectors": [
+              ".bg--cyan"
+          ],
+          "declarations": {
+              "background": "#00B6D2",
+              "color": "#fff"
+          }
+      },
+        {
             "type": "rule",
             "selectors": [
                 ".bg--sea"

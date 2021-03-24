@@ -83,6 +83,11 @@
   color: #fff;
 }
 
+.bg--cyan {
+  background: #00b6d2;
+  color: #fff;
+}
+
 .bg--sea {
   background: #84a8c4;
   color: #fff;
@@ -224,7 +229,7 @@
 }
 
 .bg--forbrug {
-  background: #31769b;
+  background: #00b6d2;
   color: #fff;
 }
 
@@ -341,6 +346,10 @@
   color: #4fa8df;
 }
 
+.color--cyan {
+  color: #00b6d2;
+}
+
 .color--sea {
   color: #84a8c4;
 }
@@ -454,7 +463,7 @@
 }
 
 .color--forbrug {
-  color: #31769b;
+  color: #00b6d2;
 }
 
 .color--livescore {

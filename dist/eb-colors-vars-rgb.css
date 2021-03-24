@@ -45,6 +45,8 @@
   --rgb-fgcolor--blue: 255, 255, 255;
   --rgb-color--bluelight: 79, 168, 223;
   --rgb-fgcolor--bluelight: 255, 255, 255;
+  --rgb-color--cyan: 0, 182, 210;
+  --rgb-fgcolor--cyan: 255, 255, 255;
   --rgb-color--sea: 132, 168, 196;
   --rgb-fgcolor--sea: 255, 255, 255;
 }
@@ -125,7 +127,7 @@
 }
 
 :root {
-  --rgb-color--forbrug: 49, 118, 155;
+  --rgb-color--forbrug: 0, 182, 210;
   --rgb-fgcolor--forbrug: 255, 255, 255;
 }
 

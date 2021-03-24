@@ -32,6 +32,8 @@ export declare const Blue = "#31769b";
 export declare const BlueCSSClass = "bg--blue";
 export declare const Bluelight = "#4fa8df";
 export declare const BluelightCSSClass = "bg--bluelight";
+export declare const Cyan = "#00b6d2";
+export declare const CyanCSSClass = "bg--cyan";
 export declare const Sea = "#84a8c4";
 export declare const SeaCSSClass = "bg--sea";
 export declare const Black = "#000";
@@ -88,7 +90,7 @@ export declare const Filmmagasinet = "#650188";
 export declare const FilmmagasinetCSSClass = "bg--filmmagasinet";
 export declare const Flash = "#e5ad02";
 export declare const FlashCSSClass = "bg--flash";
-export declare const Forbrug = "#31769b";
+export declare const Forbrug = "#00b6d2";
 export declare const ForbrugCSSClass = "bg--forbrug";
 export declare const Livescore = "#32a237";
 export declare const LivescoreCSSClass = "bg--livescore";
@@ -125,6 +127,7 @@ export declare const PurpledarkRGB = "101,1,136";
 export declare const BluedarkRGB = "18,80,123";
 export declare const BlueRGB = "49,118,155";
 export declare const BluelightRGB = "79,168,223";
+export declare const CyanRGB = "0,182,210";
 export declare const SeaRGB = "132,168,196";
 export declare const BlackRGB = "0,0,0";
 export declare const Graa1RGB = "60,60,60";
@@ -153,7 +156,7 @@ export declare const TwitterRGB = "79,168,223";
 export declare const EkstraRGB = "189,17,24";
 export declare const FilmmagasinetRGB = "101,1,136";
 export declare const FlashRGB = "229,173,2";
-export declare const ForbrugRGB = "49,118,155";
+export declare const ForbrugRGB = "0,182,210";
 export declare const LivescoreRGB = "50,162,55";
 export declare const Livescore2RGB = "203,254,51";
 export declare const NyhederRGB = "18,80,123";
@@ -214,6 +217,9 @@ export declare const Colors: {
             color: string;
         };
         Bluelight: {
+            color: string;
+        };
+        Cyan: {
             color: string;
         };
         Sea: {
@@ -381,6 +387,9 @@ export declare const Colors: {
             color: string;
         };
         Bluelight: {
+            color: string;
+        };
+        Cyan: {
             color: string;
         };
         Sea: {
@@ -565,6 +574,10 @@ export declare const Background: {
         color: string;
     };
     Bluelight: {
+        backgroundColor: string;
+        color: string;
+    };
+    Cyan: {
         backgroundColor: string;
         color: string;
     };

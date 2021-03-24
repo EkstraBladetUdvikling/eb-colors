@@ -32,6 +32,8 @@ export const Blue = "#31769b";
 export const BlueCSSClass = "bg--blue";
 export const Bluelight = "#4fa8df";
 export const BluelightCSSClass = "bg--bluelight";
+export const Cyan = "#00b6d2";
+export const CyanCSSClass = "bg--cyan";
 export const Sea = "#84a8c4";
 export const SeaCSSClass = "bg--sea";
 export const Black = "#000";
@@ -88,7 +90,7 @@ export const Filmmagasinet = "#650188";
 export const FilmmagasinetCSSClass = "bg--filmmagasinet";
 export const Flash = "#e5ad02";
 export const FlashCSSClass = "bg--flash";
-export const Forbrug = "#31769b";
+export const Forbrug = "#00b6d2";
 export const ForbrugCSSClass = "bg--forbrug";
 export const Livescore = "#32a237";
 export const LivescoreCSSClass = "bg--livescore";
@@ -125,6 +127,7 @@ export const PurpledarkRGB = "101,1,136";
 export const BluedarkRGB = "18,80,123";
 export const BlueRGB = "49,118,155";
 export const BluelightRGB = "79,168,223";
+export const CyanRGB = "0,182,210";
 export const SeaRGB = "132,168,196";
 export const BlackRGB = "0,0,0";
 export const Graa1RGB = "60,60,60";
@@ -153,7 +156,7 @@ export const TwitterRGB = "79,168,223";
 export const EkstraRGB = "189,17,24";
 export const FilmmagasinetRGB = "101,1,136";
 export const FlashRGB = "229,173,2";
-export const ForbrugRGB = "49,118,155";
+export const ForbrugRGB = "0,182,210";
 export const LivescoreRGB = "50,162,55";
 export const Livescore2RGB = "203,254,51";
 export const NyhederRGB = "18,80,123";
@@ -182,6 +185,7 @@ export const Colors = {
     Bluedark: { color: "#12507b" },
     Blue: { color: "#31769b" },
     Bluelight: { color: "#4fa8df" },
+    Cyan: { color: "#00b6d2" },
     Sea: { color: "#84a8c4" },
     Black: { color: "#000" },
     Graa1: { color: "#3c3c3c" },
@@ -210,7 +214,7 @@ export const Colors = {
     Ekstra: { color: "#bd1118" },
     Filmmagasinet: { color: "#650188" },
     Flash: { color: "#e5ad02" },
-    Forbrug: { color: "#31769b" },
+    Forbrug: { color: "#00b6d2" },
     Livescore: { color: "#32a237" },
     Livescore2: { color: "#cbfe33" },
     Nyheder: { color: "#12507b" },
@@ -239,6 +243,7 @@ export const Colors = {
     Bluedark: { color: "18,80,123" },
     Blue: { color: "49,118,155" },
     Bluelight: { color: "79,168,223" },
+    Cyan: { color: "0,182,210" },
     Sea: { color: "132,168,196" },
     Black: { color: "0,0,0" },
     Graa1: { color: "60,60,60" },
@@ -267,7 +272,7 @@ export const Colors = {
     Ekstra: { color: "189,17,24" },
     Filmmagasinet: { color: "101,1,136" },
     Flash: { color: "229,173,2" },
-    Forbrug: { color: "49,118,155" },
+    Forbrug: { color: "0,182,210" },
     Livescore: { color: "50,162,55" },
     Livescore2: { color: "203,254,51" },
     Nyheder: { color: "18,80,123" },
@@ -297,6 +302,7 @@ export const Background = {
   Bluedark: { backgroundColor: "#12507b", color: "#fff" },
   Blue: { backgroundColor: "#31769b", color: "#fff" },
   Bluelight: { backgroundColor: "#4fa8df", color: "#fff" },
+  Cyan: { backgroundColor: "#00b6d2", color: "#fff" },
   Sea: { backgroundColor: "#84a8c4", color: "#fff" },
   Black: { backgroundColor: "#000", color: "#fff" },
   Graa1: { backgroundColor: "#3c3c3c", color: "#fff" },
@@ -325,7 +331,7 @@ export const Background = {
   Ekstra: { backgroundColor: "#bd1118", color: "#fff" },
   Filmmagasinet: { backgroundColor: "#650188", color: "#fff" },
   Flash: { backgroundColor: "#e5ad02", color: "#fff" },
-  Forbrug: { backgroundColor: "#31769b", color: "#fff" },
+  Forbrug: { backgroundColor: "#00b6d2", color: "#fff" },
   Livescore: { backgroundColor: "#32a237", color: "#fff" },
   Livescore2: { backgroundColor: "#cbfe33", color: "#000" },
   Nyheder: { backgroundColor: "#12507b", color: "#fff" },

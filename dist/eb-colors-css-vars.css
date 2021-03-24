@@ -45,6 +45,8 @@
   --fgcolor--blue: #fff;
   --color--bluelight: #4fa8df;
   --fgcolor--bluelight: #fff;
+  --color--cyan: #00b6d2;
+  --fgcolor--cyan: #fff;
   --color--sea: #84a8c4;
   --fgcolor--sea: #fff;
 }
@@ -125,7 +127,7 @@
 }
 
 :root {
-  --color--forbrug: #31769b;
+  --color--forbrug: #00b6d2;
   --fgcolor--forbrug: #fff;
 }
 
