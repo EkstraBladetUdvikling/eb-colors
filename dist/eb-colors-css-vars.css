@@ -5,12 +5,14 @@
   --fgcolor--reddark: #fff;
   --color--red: #bd1118;
   --fgcolor--red: #fff;
+  --color--pink: #b31e61;
+  --fgcolor--pink: #fff;
   --color--rose: #dc7095;
   --fgcolor--rose: #fff;
 }
 
 :root {
-  --color--orangedark: #e38121;
+  --color--orangedark: #e96c0d;
   --fgcolor--orangedark: #fff;
   --color--orange: #e5ad02;
   --fgcolor--orange: #fff;
@@ -28,7 +30,7 @@
 :root {
   --color--greendark: #2f7820;
   --fgcolor--greendark: #fff;
-  --color--green: #32a237;
+  --color--green: #029e5d;
   --fgcolor--green: #fff;
   --color--greenlight: #93b923;
   --fgcolor--greenlight: #fff;
@@ -37,14 +39,18 @@
 }
 
 :root {
-  --color--purpledark: #650188;
+  --color--purpledark: #51208c;
   --fgcolor--purpledark: #fff;
-  --color--bluedark: #12507b;
+  --color--bluenavy: #1a237e;
+  --fgcolor--bluenavy: #fff;
+  --color--bluedark: #1058c2;
   --fgcolor--bluedark: #fff;
   --color--blue: #31769b;
   --fgcolor--blue: #fff;
   --color--bluelight: #4fa8df;
   --fgcolor--bluelight: #fff;
+  --color--cyan: #00b6d2;
+  --fgcolor--cyan: #fff;
   --color--sea: #84a8c4;
   --fgcolor--sea: #fff;
 }
@@ -115,36 +121,36 @@
 }
 
 :root {
-  --color--filmmagasinet: #650188;
-  --fgcolor--filmmagasinet: #fff;
-}
-
-:root {
   --color--flash: #e5ad02;
   --fgcolor--flash: #fff;
 }
 
 :root {
-  --color--forbrug: #31769b;
+  --color--forbrug: #00b6d2;
   --fgcolor--forbrug: #fff;
 }
 
 :root {
-  --color--livescore: #32a237;
+  --color--leder: #1a237e;
+  --fgcolor--leder: #fff;
+}
+
+:root {
+  --color--livescore: #029e5d;
   --fgcolor--livescore: #fff;
   --color--livescore2: #cbfe33;
   --fgcolor--livescore2: #000;
 }
 
 :root {
-  --color--nyheder: #12507b;
+  --color--nyheder: #1058c2;
   --fgcolor--nyheder: #fff;
   --color--nyheder2: #000;
   --fgcolor--nyheder2: #fff;
 }
 
 :root {
-  --color--sex-samliv: #8a0c36;
+  --color--sex-samliv: #b31e61;
   --fgcolor--sex-samliv: #fff;
   --color--sex-samliv2: #dc7095;
   --fgcolor--sex-samliv2: #fff;
@@ -156,11 +162,16 @@
 }
 
 :root {
-  --color--sport: #32a237;
+  --color--sport: #029e5d;
   --fgcolor--sport: #fff;
 }
 
 :root {
   --color--tv: #bd1118;
   --fgcolor--tv: #fff;
+}
+
+:root {
+  --color--underholdning: #51208c;
+  --fgcolor--underholdning: #fff;
 }

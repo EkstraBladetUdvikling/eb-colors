@@ -1,10 +1,10 @@
-$eb-color-filmmagasinet: (
-  "filmmagasinet": map-get($eb-colors-colors, "purpledark"),
+$eb-color-underholdning: (
+  "underholdning": map-get($eb-colors-colors, "purpledark"),
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-filmmagasinet;
+$color: $eb-color-underholdning;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

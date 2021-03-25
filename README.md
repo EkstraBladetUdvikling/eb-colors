@@ -108,9 +108,9 @@ Full map of section colors `$eb-colors-sections`
 | File names            | Map names                 |
 | ---                   | ---                       |
 | _ekstra.scss          | $eb-color-ekstra          |
-| _filmmagasinet.scss   | $eb-color-filmmagasinet   |
 | _flash.scss           | $eb-color-flash           |
 | _forbrug.scss         | $eb-color-forbrug         |
+| _leder.scss           | $eb-color-leder           |
 | _livescore.scss       | $eb-color-livescore       |
 | _nationen.scss        | $eb-color-nationen        |
 | _nyheder.scss         | $eb-color-nyheder         |
@@ -118,6 +118,7 @@ Full map of section colors `$eb-colors-sections`
 | _skolefodbold.scss    | $eb-color-skolefodbold    |
 | _sport.scss           | $eb-color-sport           |
 | _tv.scss              | $eb-color-tv              |
+| _underholdning.scss   | $eb-color-underholdning   |
 
 ### Color functions
 

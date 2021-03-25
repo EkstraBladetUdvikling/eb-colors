@@ -5,12 +5,14 @@
   --rgb-fgcolor--reddark: 255, 255, 255;
   --rgb-color--red: 189, 17, 24;
   --rgb-fgcolor--red: 255, 255, 255;
+  --rgb-color--pink: 179, 30, 97;
+  --rgb-fgcolor--pink: 255, 255, 255;
   --rgb-color--rose: 220, 112, 149;
   --rgb-fgcolor--rose: 255, 255, 255;
 }
 
 :root {
-  --rgb-color--orangedark: 227, 129, 33;
+  --rgb-color--orangedark: 233, 108, 13;
   --rgb-fgcolor--orangedark: 255, 255, 255;
   --rgb-color--orange: 229, 173, 2;
   --rgb-fgcolor--orange: 255, 255, 255;
@@ -28,7 +30,7 @@
 :root {
   --rgb-color--greendark: 47, 120, 32;
   --rgb-fgcolor--greendark: 255, 255, 255;
-  --rgb-color--green: 50, 162, 55;
+  --rgb-color--green: 2, 158, 93;
   --rgb-fgcolor--green: 255, 255, 255;
   --rgb-color--greenlight: 147, 185, 35;
   --rgb-fgcolor--greenlight: 255, 255, 255;
@@ -37,14 +39,18 @@
 }
 
 :root {
-  --rgb-color--purpledark: 101, 1, 136;
+  --rgb-color--purpledark: 81, 32, 140;
   --rgb-fgcolor--purpledark: 255, 255, 255;
-  --rgb-color--bluedark: 18, 80, 123;
+  --rgb-color--bluenavy: 26, 35, 126;
+  --rgb-fgcolor--bluenavy: 255, 255, 255;
+  --rgb-color--bluedark: 16, 88, 194;
   --rgb-fgcolor--bluedark: 255, 255, 255;
   --rgb-color--blue: 49, 118, 155;
   --rgb-fgcolor--blue: 255, 255, 255;
   --rgb-color--bluelight: 79, 168, 223;
   --rgb-fgcolor--bluelight: 255, 255, 255;
+  --rgb-color--cyan: 0, 182, 210;
+  --rgb-fgcolor--cyan: 255, 255, 255;
   --rgb-color--sea: 132, 168, 196;
   --rgb-fgcolor--sea: 255, 255, 255;
 }
@@ -115,36 +121,36 @@
 }
 
 :root {
-  --rgb-color--filmmagasinet: 101, 1, 136;
-  --rgb-fgcolor--filmmagasinet: 255, 255, 255;
-}
-
-:root {
   --rgb-color--flash: 229, 173, 2;
   --rgb-fgcolor--flash: 255, 255, 255;
 }
 
 :root {
-  --rgb-color--forbrug: 49, 118, 155;
+  --rgb-color--forbrug: 0, 182, 210;
   --rgb-fgcolor--forbrug: 255, 255, 255;
 }
 
 :root {
-  --rgb-color--livescore: 50, 162, 55;
+  --rgb-color--leder: 26, 35, 126;
+  --rgb-fgcolor--leder: 255, 255, 255;
+}
+
+:root {
+  --rgb-color--livescore: 2, 158, 93;
   --rgb-fgcolor--livescore: 255, 255, 255;
   --rgb-color--livescore2: 203, 254, 51;
   --rgb-fgcolor--livescore2: 0, 0, 0;
 }
 
 :root {
-  --rgb-color--nyheder: 18, 80, 123;
+  --rgb-color--nyheder: 16, 88, 194;
   --rgb-fgcolor--nyheder: 255, 255, 255;
   --rgb-color--nyheder2: 0, 0, 0;
   --rgb-fgcolor--nyheder2: 255, 255, 255;
 }
 
 :root {
-  --rgb-color--sex-samliv: 138, 12, 54;
+  --rgb-color--sex-samliv: 179, 30, 97;
   --rgb-fgcolor--sex-samliv: 255, 255, 255;
   --rgb-color--sex-samliv2: 220, 112, 149;
   --rgb-fgcolor--sex-samliv2: 255, 255, 255;
@@ -156,11 +162,16 @@
 }
 
 :root {
-  --rgb-color--sport: 50, 162, 55;
+  --rgb-color--sport: 2, 158, 93;
   --rgb-fgcolor--sport: 255, 255, 255;
 }
 
 :root {
   --rgb-color--tv: 189, 17, 24;
   --rgb-fgcolor--tv: 255, 255, 255;
+}
+
+:root {
+  --rgb-color--underholdning: 81, 32, 140;
+  --rgb-fgcolor--underholdning: 255, 255, 255;
 }
