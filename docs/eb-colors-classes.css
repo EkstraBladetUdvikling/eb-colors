@@ -13,13 +13,18 @@
   color: #fff;
 }
 
+.bg--pink {
+  background: #b31e61;
+  color: #fff;
+}
+
 .bg--rose {
   background: #dc7095;
   color: #fff;
 }
 
 .bg--orangedark {
-  background: #e38121;
+  background: #e96c0d;
   color: #fff;
 }
 
@@ -49,7 +54,7 @@
 }
 
 .bg--green {
-  background: #32a237;
+  background: #029e5d;
   color: #fff;
 }
 
@@ -64,12 +69,17 @@
 }
 
 .bg--purpledark {
-  background: #650188;
+  background: #51208c;
+  color: #fff;
+}
+
+.bg--bluenavy {
+  background: #1a237e;
   color: #fff;
 }
 
 .bg--bluedark {
-  background: #12507b;
+  background: #1058c2;
   color: #fff;
 }
 
@@ -218,11 +228,6 @@
   color: #fff;
 }
 
-.bg--filmmagasinet {
-  background: #650188;
-  color: #fff;
-}
-
 .bg--flash {
   background: #e5ad02;
   color: #fff;
@@ -233,8 +238,13 @@
   color: #fff;
 }
 
+.bg--leder {
+  background: #1a237e;
+  color: #fff;
+}
+
 .bg--livescore {
-  background: #32a237;
+  background: #029e5d;
   color: #fff;
 }
 
@@ -244,7 +254,7 @@
 }
 
 .bg--nyheder {
-  background: #12507b;
+  background: #1058c2;
   color: #fff;
 }
 
@@ -254,7 +264,7 @@
 }
 
 .bg--sex-samliv {
-  background: #8a0c36;
+  background: #b31e61;
   color: #fff;
 }
 
@@ -269,12 +279,17 @@
 }
 
 .bg--sport {
-  background: #32a237;
+  background: #029e5d;
   color: #fff;
 }
 
 .bg--tv {
   background: #bd1118;
+  color: #fff;
+}
+
+.bg--underholdning {
+  background: #51208c;
   color: #fff;
 }
 
@@ -290,12 +305,16 @@
   color: #bd1118;
 }
 
+.color--pink {
+  color: #b31e61;
+}
+
 .color--rose {
   color: #dc7095;
 }
 
 .color--orangedark {
-  color: #e38121;
+  color: #e96c0d;
 }
 
 .color--orange {
@@ -319,7 +338,7 @@
 }
 
 .color--green {
-  color: #32a237;
+  color: #029e5d;
 }
 
 .color--greenlight {
@@ -331,11 +350,15 @@
 }
 
 .color--purpledark {
-  color: #650188;
+  color: #51208c;
+}
+
+.color--bluenavy {
+  color: #1a237e;
 }
 
 .color--bluedark {
-  color: #12507b;
+  color: #1058c2;
 }
 
 .color--blue {
@@ -454,10 +477,6 @@
   color: #bd1118;
 }
 
-.color--filmmagasinet {
-  color: #650188;
-}
-
 .color--flash {
   color: #e5ad02;
 }
@@ -466,8 +485,12 @@
   color: #00b6d2;
 }
 
+.color--leder {
+  color: #1a237e;
+}
+
 .color--livescore {
-  color: #32a237;
+  color: #029e5d;
 }
 
 .color--livescore2 {
@@ -475,7 +498,7 @@
 }
 
 .color--nyheder {
-  color: #12507b;
+  color: #1058c2;
 }
 
 .color--nyheder2 {
@@ -483,7 +506,7 @@
 }
 
 .color--sex-samliv {
-  color: #8a0c36;
+  color: #b31e61;
 }
 
 .color--sex-samliv2 {
@@ -495,11 +518,15 @@
 }
 
 .color--sport {
-  color: #32a237;
+  color: #029e5d;
 }
 
 .color--tv {
   color: #bd1118;
+}
+
+.color--underholdning {
+  color: #51208c;
 }
 
 .border--black {

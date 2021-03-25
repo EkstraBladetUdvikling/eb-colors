@@ -4,9 +4,11 @@ export const Reddark = "#900";
 export const ReddarkCSSClass = "bg--reddark";
 export const Red = "#bd1118";
 export const RedCSSClass = "bg--red";
+export const Pink = "#b31e61";
+export const PinkCSSClass = "bg--pink";
 export const Rose = "#dc7095";
 export const RoseCSSClass = "bg--rose";
-export const Orangedark = "#e38121";
+export const Orangedark = "#e96c0d";
 export const OrangedarkCSSClass = "bg--orangedark";
 export const Orange = "#e5ad02";
 export const OrangeCSSClass = "bg--orange";
@@ -18,15 +20,17 @@ export const Sand = "#cec4a6";
 export const SandCSSClass = "bg--sand";
 export const Greendark = "#2f7820";
 export const GreendarkCSSClass = "bg--greendark";
-export const Green = "#32a237";
+export const Green = "#029e5d";
 export const GreenCSSClass = "bg--green";
 export const Greenlight = "#93b923";
 export const GreenlightCSSClass = "bg--greenlight";
 export const Lime = "#cbfe33";
 export const LimeCSSClass = "bg--lime";
-export const Purpledark = "#650188";
+export const Purpledark = "#51208c";
 export const PurpledarkCSSClass = "bg--purpledark";
-export const Bluedark = "#12507b";
+export const Bluenavy = "#1a237e";
+export const BluenavyCSSClass = "bg--bluenavy";
+export const Bluedark = "#1058c2";
 export const BluedarkCSSClass = "bg--bluedark";
 export const Blue = "#31769b";
 export const BlueCSSClass = "bg--blue";
@@ -86,45 +90,49 @@ export const Twitter = "#4fa8df";
 export const TwitterCSSClass = "bg--twitter";
 export const Ekstra = "#bd1118";
 export const EkstraCSSClass = "bg--ekstra";
-export const Filmmagasinet = "#650188";
-export const FilmmagasinetCSSClass = "bg--filmmagasinet";
 export const Flash = "#e5ad02";
 export const FlashCSSClass = "bg--flash";
 export const Forbrug = "#00b6d2";
 export const ForbrugCSSClass = "bg--forbrug";
-export const Livescore = "#32a237";
+export const Leder = "#1a237e";
+export const LederCSSClass = "bg--leder";
+export const Livescore = "#029e5d";
 export const LivescoreCSSClass = "bg--livescore";
 export const Livescore2 = "#cbfe33";
 export const Livescore2CSSClass = "bg--livescore2";
-export const Nyheder = "#12507b";
+export const Nyheder = "#1058c2";
 export const NyhederCSSClass = "bg--nyheder";
 export const Nyheder2 = "#000";
 export const Nyheder2CSSClass = "bg--nyheder2";
-export const SexSamliv = "#8a0c36";
+export const SexSamliv = "#b31e61";
 export const SexSamlivCSSClass = "bg--sex-samliv";
 export const SexSamliv2 = "#dc7095";
 export const SexSamliv2CSSClass = "bg--sex-samliv2";
 export const Skolefodbold = "#93b923";
 export const SkolefodboldCSSClass = "bg--skolefodbold";
-export const Sport = "#32a237";
+export const Sport = "#029e5d";
 export const SportCSSClass = "bg--sport";
 export const Tv = "#bd1118";
 export const TvCSSClass = "bg--tv";
+export const Underholdning = "#51208c";
+export const UnderholdningCSSClass = "bg--underholdning";
 export const BordeauxRGB = "138,12,54";
 export const ReddarkRGB = "153,0,0";
 export const RedRGB = "189,17,24";
+export const PinkRGB = "179,30,97";
 export const RoseRGB = "220,112,149";
-export const OrangedarkRGB = "227,129,33";
+export const OrangedarkRGB = "233,108,13";
 export const OrangeRGB = "229,173,2";
 export const YellowRGB = "250,229,0";
 export const YellowlightRGB = "255,255,0";
 export const SandRGB = "206,196,166";
 export const GreendarkRGB = "47,120,32";
-export const GreenRGB = "50,162,55";
+export const GreenRGB = "2,158,93";
 export const GreenlightRGB = "147,185,35";
 export const LimeRGB = "203,254,51";
-export const PurpledarkRGB = "101,1,136";
-export const BluedarkRGB = "18,80,123";
+export const PurpledarkRGB = "81,32,140";
+export const BluenavyRGB = "26,35,126";
+export const BluedarkRGB = "16,88,194";
 export const BlueRGB = "49,118,155";
 export const BluelightRGB = "79,168,223";
 export const CyanRGB = "0,182,210";
@@ -154,35 +162,38 @@ export const Native2RGB = "132,168,196";
 export const FacebookRGB = "49,118,155";
 export const TwitterRGB = "79,168,223";
 export const EkstraRGB = "189,17,24";
-export const FilmmagasinetRGB = "101,1,136";
 export const FlashRGB = "229,173,2";
 export const ForbrugRGB = "0,182,210";
-export const LivescoreRGB = "50,162,55";
+export const LederRGB = "26,35,126";
+export const LivescoreRGB = "2,158,93";
 export const Livescore2RGB = "203,254,51";
-export const NyhederRGB = "18,80,123";
+export const NyhederRGB = "16,88,194";
 export const Nyheder2RGB = "0,0,0";
-export const SexSamlivRGB = "138,12,54";
+export const SexSamlivRGB = "179,30,97";
 export const SexSamliv2RGB = "220,112,149";
 export const SkolefodboldRGB = "147,185,35";
-export const SportRGB = "50,162,55";
+export const SportRGB = "2,158,93";
 export const TvRGB = "189,17,24";
+export const UnderholdningRGB = "81,32,140";
 export const Colors = {
   hex: {
     Bordeaux: { color: "#8a0c36" },
     Reddark: { color: "#900" },
     Red: { color: "#bd1118" },
+    Pink: { color: "#b31e61" },
     Rose: { color: "#dc7095" },
-    Orangedark: { color: "#e38121" },
+    Orangedark: { color: "#e96c0d" },
     Orange: { color: "#e5ad02" },
     Yellow: { color: "#fae500" },
     Yellowlight: { color: "#ff0" },
     Sand: { color: "#cec4a6" },
     Greendark: { color: "#2f7820" },
-    Green: { color: "#32a237" },
+    Green: { color: "#029e5d" },
     Greenlight: { color: "#93b923" },
     Lime: { color: "#cbfe33" },
-    Purpledark: { color: "#650188" },
-    Bluedark: { color: "#12507b" },
+    Purpledark: { color: "#51208c" },
+    Bluenavy: { color: "#1a237e" },
+    Bluedark: { color: "#1058c2" },
     Blue: { color: "#31769b" },
     Bluelight: { color: "#4fa8df" },
     Cyan: { color: "#00b6d2" },
@@ -212,35 +223,38 @@ export const Colors = {
     Facebook: { color: "#31769b" },
     Twitter: { color: "#4fa8df" },
     Ekstra: { color: "#bd1118" },
-    Filmmagasinet: { color: "#650188" },
     Flash: { color: "#e5ad02" },
     Forbrug: { color: "#00b6d2" },
-    Livescore: { color: "#32a237" },
+    Leder: { color: "#1a237e" },
+    Livescore: { color: "#029e5d" },
     Livescore2: { color: "#cbfe33" },
-    Nyheder: { color: "#12507b" },
+    Nyheder: { color: "#1058c2" },
     Nyheder2: { color: "#000" },
-    SexSamliv: { color: "#8a0c36" },
+    SexSamliv: { color: "#b31e61" },
     SexSamliv2: { color: "#dc7095" },
     Skolefodbold: { color: "#93b923" },
-    Sport: { color: "#32a237" },
+    Sport: { color: "#029e5d" },
     Tv: { color: "#bd1118" },
+    Underholdning: { color: "#51208c" },
   },
   rgb: {
     Bordeaux: { color: "138,12,54" },
     Reddark: { color: "153,0,0" },
     Red: { color: "189,17,24" },
+    Pink: { color: "179,30,97" },
     Rose: { color: "220,112,149" },
-    Orangedark: { color: "227,129,33" },
+    Orangedark: { color: "233,108,13" },
     Orange: { color: "229,173,2" },
     Yellow: { color: "250,229,0" },
     Yellowlight: { color: "255,255,0" },
     Sand: { color: "206,196,166" },
     Greendark: { color: "47,120,32" },
-    Green: { color: "50,162,55" },
+    Green: { color: "2,158,93" },
     Greenlight: { color: "147,185,35" },
     Lime: { color: "203,254,51" },
-    Purpledark: { color: "101,1,136" },
-    Bluedark: { color: "18,80,123" },
+    Purpledark: { color: "81,32,140" },
+    Bluenavy: { color: "26,35,126" },
+    Bluedark: { color: "16,88,194" },
     Blue: { color: "49,118,155" },
     Bluelight: { color: "79,168,223" },
     Cyan: { color: "0,182,210" },
@@ -270,36 +284,39 @@ export const Colors = {
     Facebook: { color: "49,118,155" },
     Twitter: { color: "79,168,223" },
     Ekstra: { color: "189,17,24" },
-    Filmmagasinet: { color: "101,1,136" },
     Flash: { color: "229,173,2" },
     Forbrug: { color: "0,182,210" },
-    Livescore: { color: "50,162,55" },
+    Leder: { color: "26,35,126" },
+    Livescore: { color: "2,158,93" },
     Livescore2: { color: "203,254,51" },
-    Nyheder: { color: "18,80,123" },
+    Nyheder: { color: "16,88,194" },
     Nyheder2: { color: "0,0,0" },
-    SexSamliv: { color: "138,12,54" },
+    SexSamliv: { color: "179,30,97" },
     SexSamliv2: { color: "220,112,149" },
     Skolefodbold: { color: "147,185,35" },
-    Sport: { color: "50,162,55" },
+    Sport: { color: "2,158,93" },
     Tv: { color: "189,17,24" },
+    Underholdning: { color: "81,32,140" },
   },
 };
 export const Background = {
   Bordeaux: { backgroundColor: "#8a0c36", color: "#fff" },
   Reddark: { backgroundColor: "#900", color: "#fff" },
   Red: { backgroundColor: "#bd1118", color: "#fff" },
+  Pink: { backgroundColor: "#b31e61", color: "#fff" },
   Rose: { backgroundColor: "#dc7095", color: "#fff" },
-  Orangedark: { backgroundColor: "#e38121", color: "#fff" },
+  Orangedark: { backgroundColor: "#e96c0d", color: "#fff" },
   Orange: { backgroundColor: "#e5ad02", color: "#fff" },
   Yellow: { backgroundColor: "#fae500", color: "#fff" },
   Yellowlight: { backgroundColor: "#ff0", color: "#000" },
   Sand: { backgroundColor: "#cec4a6", color: "#fff" },
   Greendark: { backgroundColor: "#2f7820", color: "#fff" },
-  Green: { backgroundColor: "#32a237", color: "#fff" },
+  Green: { backgroundColor: "#029e5d", color: "#fff" },
   Greenlight: { backgroundColor: "#93b923", color: "#fff" },
   Lime: { backgroundColor: "#cbfe33", color: "#000" },
-  Purpledark: { backgroundColor: "#650188", color: "#fff" },
-  Bluedark: { backgroundColor: "#12507b", color: "#fff" },
+  Purpledark: { backgroundColor: "#51208c", color: "#fff" },
+  Bluenavy: { backgroundColor: "#1a237e", color: "#fff" },
+  Bluedark: { backgroundColor: "#1058c2", color: "#fff" },
   Blue: { backgroundColor: "#31769b", color: "#fff" },
   Bluelight: { backgroundColor: "#4fa8df", color: "#fff" },
   Cyan: { backgroundColor: "#00b6d2", color: "#fff" },
@@ -329,18 +346,19 @@ export const Background = {
   Facebook: { backgroundColor: "#31769b", color: "#fff" },
   Twitter: { backgroundColor: "#4fa8df", color: "#fff" },
   Ekstra: { backgroundColor: "#bd1118", color: "#fff" },
-  Filmmagasinet: { backgroundColor: "#650188", color: "#fff" },
   Flash: { backgroundColor: "#e5ad02", color: "#fff" },
   Forbrug: { backgroundColor: "#00b6d2", color: "#fff" },
-  Livescore: { backgroundColor: "#32a237", color: "#fff" },
+  Leder: { backgroundColor: "#1a237e", color: "#fff" },
+  Livescore: { backgroundColor: "#029e5d", color: "#fff" },
   Livescore2: { backgroundColor: "#cbfe33", color: "#000" },
-  Nyheder: { backgroundColor: "#12507b", color: "#fff" },
+  Nyheder: { backgroundColor: "#1058c2", color: "#fff" },
   Nyheder2: { backgroundColor: "#000", color: "#fff" },
-  SexSamliv: { backgroundColor: "#8a0c36", color: "#fff" },
+  SexSamliv: { backgroundColor: "#b31e61", color: "#fff" },
   SexSamliv2: { backgroundColor: "#dc7095", color: "#fff" },
   Skolefodbold: { backgroundColor: "#93b923", color: "#fff" },
-  Sport: { backgroundColor: "#32a237", color: "#fff" },
+  Sport: { backgroundColor: "#029e5d", color: "#fff" },
   Tv: { backgroundColor: "#bd1118", color: "#fff" },
+  Underholdning: { backgroundColor: "#51208c", color: "#fff" },
 };
 /**
  * hexToRgb

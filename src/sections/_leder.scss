@@ -1,11 +1,10 @@
-$eb-color-sex-samliv: (
-  "sex-samliv": map-get($eb-colors-colors, "pink"),
-  "sex-samliv2": map-get($eb-colors-colors, "rose"),
+$eb-color-leder: (
+  "leder": map-get($eb-colors-colors, "bluenavy"),
 );
 
 $eb-print-bg: true !default;
 $eb-print-color: true !default;
-$color: $eb-color-sex-samliv;
+$color: $eb-color-leder;
 
 @if ($eb-color-classes == true) {
   @each $key, $value in $color {

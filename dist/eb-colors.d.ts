@@ -4,9 +4,11 @@ export declare const Reddark = "#900";
 export declare const ReddarkCSSClass = "bg--reddark";
 export declare const Red = "#bd1118";
 export declare const RedCSSClass = "bg--red";
+export declare const Pink = "#b31e61";
+export declare const PinkCSSClass = "bg--pink";
 export declare const Rose = "#dc7095";
 export declare const RoseCSSClass = "bg--rose";
-export declare const Orangedark = "#e38121";
+export declare const Orangedark = "#e96c0d";
 export declare const OrangedarkCSSClass = "bg--orangedark";
 export declare const Orange = "#e5ad02";
 export declare const OrangeCSSClass = "bg--orange";
@@ -18,15 +20,17 @@ export declare const Sand = "#cec4a6";
 export declare const SandCSSClass = "bg--sand";
 export declare const Greendark = "#2f7820";
 export declare const GreendarkCSSClass = "bg--greendark";
-export declare const Green = "#32a237";
+export declare const Green = "#029e5d";
 export declare const GreenCSSClass = "bg--green";
 export declare const Greenlight = "#93b923";
 export declare const GreenlightCSSClass = "bg--greenlight";
 export declare const Lime = "#cbfe33";
 export declare const LimeCSSClass = "bg--lime";
-export declare const Purpledark = "#650188";
+export declare const Purpledark = "#51208c";
 export declare const PurpledarkCSSClass = "bg--purpledark";
-export declare const Bluedark = "#12507b";
+export declare const Bluenavy = "#1a237e";
+export declare const BluenavyCSSClass = "bg--bluenavy";
+export declare const Bluedark = "#1058c2";
 export declare const BluedarkCSSClass = "bg--bluedark";
 export declare const Blue = "#31769b";
 export declare const BlueCSSClass = "bg--blue";
@@ -86,45 +90,49 @@ export declare const Twitter = "#4fa8df";
 export declare const TwitterCSSClass = "bg--twitter";
 export declare const Ekstra = "#bd1118";
 export declare const EkstraCSSClass = "bg--ekstra";
-export declare const Filmmagasinet = "#650188";
-export declare const FilmmagasinetCSSClass = "bg--filmmagasinet";
 export declare const Flash = "#e5ad02";
 export declare const FlashCSSClass = "bg--flash";
 export declare const Forbrug = "#00b6d2";
 export declare const ForbrugCSSClass = "bg--forbrug";
-export declare const Livescore = "#32a237";
+export declare const Leder = "#1a237e";
+export declare const LederCSSClass = "bg--leder";
+export declare const Livescore = "#029e5d";
 export declare const LivescoreCSSClass = "bg--livescore";
 export declare const Livescore2 = "#cbfe33";
 export declare const Livescore2CSSClass = "bg--livescore2";
-export declare const Nyheder = "#12507b";
+export declare const Nyheder = "#1058c2";
 export declare const NyhederCSSClass = "bg--nyheder";
 export declare const Nyheder2 = "#000";
 export declare const Nyheder2CSSClass = "bg--nyheder2";
-export declare const SexSamliv = "#8a0c36";
+export declare const SexSamliv = "#b31e61";
 export declare const SexSamlivCSSClass = "bg--sex-samliv";
 export declare const SexSamliv2 = "#dc7095";
 export declare const SexSamliv2CSSClass = "bg--sex-samliv2";
 export declare const Skolefodbold = "#93b923";
 export declare const SkolefodboldCSSClass = "bg--skolefodbold";
-export declare const Sport = "#32a237";
+export declare const Sport = "#029e5d";
 export declare const SportCSSClass = "bg--sport";
 export declare const Tv = "#bd1118";
 export declare const TvCSSClass = "bg--tv";
+export declare const Underholdning = "#51208c";
+export declare const UnderholdningCSSClass = "bg--underholdning";
 export declare const BordeauxRGB = "138,12,54";
 export declare const ReddarkRGB = "153,0,0";
 export declare const RedRGB = "189,17,24";
+export declare const PinkRGB = "179,30,97";
 export declare const RoseRGB = "220,112,149";
-export declare const OrangedarkRGB = "227,129,33";
+export declare const OrangedarkRGB = "233,108,13";
 export declare const OrangeRGB = "229,173,2";
 export declare const YellowRGB = "250,229,0";
 export declare const YellowlightRGB = "255,255,0";
 export declare const SandRGB = "206,196,166";
 export declare const GreendarkRGB = "47,120,32";
-export declare const GreenRGB = "50,162,55";
+export declare const GreenRGB = "2,158,93";
 export declare const GreenlightRGB = "147,185,35";
 export declare const LimeRGB = "203,254,51";
-export declare const PurpledarkRGB = "101,1,136";
-export declare const BluedarkRGB = "18,80,123";
+export declare const PurpledarkRGB = "81,32,140";
+export declare const BluenavyRGB = "26,35,126";
+export declare const BluedarkRGB = "16,88,194";
 export declare const BlueRGB = "49,118,155";
 export declare const BluelightRGB = "79,168,223";
 export declare const CyanRGB = "0,182,210";
@@ -154,18 +162,19 @@ export declare const Native2RGB = "132,168,196";
 export declare const FacebookRGB = "49,118,155";
 export declare const TwitterRGB = "79,168,223";
 export declare const EkstraRGB = "189,17,24";
-export declare const FilmmagasinetRGB = "101,1,136";
 export declare const FlashRGB = "229,173,2";
 export declare const ForbrugRGB = "0,182,210";
-export declare const LivescoreRGB = "50,162,55";
+export declare const LederRGB = "26,35,126";
+export declare const LivescoreRGB = "2,158,93";
 export declare const Livescore2RGB = "203,254,51";
-export declare const NyhederRGB = "18,80,123";
+export declare const NyhederRGB = "16,88,194";
 export declare const Nyheder2RGB = "0,0,0";
-export declare const SexSamlivRGB = "138,12,54";
+export declare const SexSamlivRGB = "179,30,97";
 export declare const SexSamliv2RGB = "220,112,149";
 export declare const SkolefodboldRGB = "147,185,35";
-export declare const SportRGB = "50,162,55";
+export declare const SportRGB = "2,158,93";
 export declare const TvRGB = "189,17,24";
+export declare const UnderholdningRGB = "81,32,140";
 export declare const Colors: {
     hex: {
         Bordeaux: {
@@ -175,6 +184,9 @@ export declare const Colors: {
             color: string;
         };
         Red: {
+            color: string;
+        };
+        Pink: {
             color: string;
         };
         Rose: {
@@ -208,6 +220,9 @@ export declare const Colors: {
             color: string;
         };
         Purpledark: {
+            color: string;
+        };
+        Bluenavy: {
             color: string;
         };
         Bluedark: {
@@ -300,13 +315,13 @@ export declare const Colors: {
         Ekstra: {
             color: string;
         };
-        Filmmagasinet: {
-            color: string;
-        };
         Flash: {
             color: string;
         };
         Forbrug: {
+            color: string;
+        };
+        Leder: {
             color: string;
         };
         Livescore: {
@@ -334,6 +349,9 @@ export declare const Colors: {
             color: string;
         };
         Tv: {
+            color: string;
+        };
+        Underholdning: {
             color: string;
         };
     };
@@ -347,6 +365,9 @@ export declare const Colors: {
         Red: {
             color: string;
         };
+        Pink: {
+            color: string;
+        };
         Rose: {
             color: string;
         };
@@ -378,6 +399,9 @@ export declare const Colors: {
             color: string;
         };
         Purpledark: {
+            color: string;
+        };
+        Bluenavy: {
             color: string;
         };
         Bluedark: {
@@ -470,13 +494,13 @@ export declare const Colors: {
         Ekstra: {
             color: string;
         };
-        Filmmagasinet: {
-            color: string;
-        };
         Flash: {
             color: string;
         };
         Forbrug: {
+            color: string;
+        };
+        Leder: {
             color: string;
         };
         Livescore: {
@@ -504,6 +528,9 @@ export declare const Colors: {
             color: string;
         };
         Tv: {
+            color: string;
+        };
+        Underholdning: {
             color: string;
         };
     };
@@ -518,6 +545,10 @@ export declare const Background: {
         color: string;
     };
     Red: {
+        backgroundColor: string;
+        color: string;
+    };
+    Pink: {
         backgroundColor: string;
         color: string;
     };
@@ -562,6 +593,10 @@ export declare const Background: {
         color: string;
     };
     Purpledark: {
+        backgroundColor: string;
+        color: string;
+    };
+    Bluenavy: {
         backgroundColor: string;
         color: string;
     };
@@ -685,15 +720,15 @@ export declare const Background: {
         backgroundColor: string;
         color: string;
     };
-    Filmmagasinet: {
-        backgroundColor: string;
-        color: string;
-    };
     Flash: {
         backgroundColor: string;
         color: string;
     };
     Forbrug: {
+        backgroundColor: string;
+        color: string;
+    };
+    Leder: {
         backgroundColor: string;
         color: string;
     };
@@ -730,6 +765,10 @@ export declare const Background: {
         color: string;
     };
     Tv: {
+        backgroundColor: string;
+        color: string;
+    };
+    Underholdning: {
         backgroundColor: string;
         color: string;
     };

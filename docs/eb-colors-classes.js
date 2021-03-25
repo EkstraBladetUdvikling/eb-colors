@@ -35,6 +35,16 @@ var ebColorMap = {
         {
             "type": "rule",
             "selectors": [
+                ".bg--pink"
+            ],
+            "declarations": {
+                "background": "#b31e61",
+                "color": "#fff"
+            }
+        },
+        {
+            "type": "rule",
+            "selectors": [
                 ".bg--rose"
             ],
             "declarations": {
@@ -48,7 +58,7 @@ var ebColorMap = {
                 ".bg--orangedark"
             ],
             "declarations": {
-                "background": "#e38121",
+                "background": "#e96c0d",
                 "color": "#fff"
             }
         },
@@ -108,7 +118,7 @@ var ebColorMap = {
                 ".bg--green"
             ],
             "declarations": {
-                "background": "#32a237",
+                "background": "#029e5d",
                 "color": "#fff"
             }
         },
@@ -138,9 +148,19 @@ var ebColorMap = {
                 ".bg--purpledark"
             ],
             "declarations": {
-                "background": "#650188",
+                "background": "#51208c",
                 "color": "#fff"
             }
+        },
+        {
+          "type": "rule",
+          "selectors": [
+              ".bg--bluenavy"
+          ],
+          "declarations": {
+              "background": "#1a237e",
+              "color": "#fff"
+          }
         },
         {
             "type": "rule",
@@ -148,7 +168,7 @@ var ebColorMap = {
                 ".bg--bluedark"
             ],
             "declarations": {
-                "background": "#12507b",
+                "background": "#1058c2",
                 "color": "#fff"
             }
         },
@@ -178,10 +198,10 @@ var ebColorMap = {
               ".bg--cyan"
           ],
           "declarations": {
-              "background": "#00B6D2",
+              "background": "#00b6d2",
               "color": "#fff"
           }
-      },
+        },
         {
             "type": "rule",
             "selectors": [
@@ -445,10 +465,10 @@ var ebColorMap = {
         {
             "type": "rule",
             "selectors": [
-                ".bg--filmmagasinet"
+                ".bg--underholdning"
             ],
             "declarations": {
-                "background": "#650188",
+                "background": "#51208c",
                 "color": "#fff"
             }
         },
@@ -468,9 +488,19 @@ var ebColorMap = {
                 ".bg--forbrug"
             ],
             "declarations": {
-                "background": "#31769b",
+                "background": "#00b6d2",
                 "color": "#fff"
             }
+        },
+        {
+          "type": "rule",
+          "selectors": [
+              ".bg--leder"
+          ],
+          "declarations": {
+              "background": "#1a237e",
+              "color": "#fff"
+          }
         },
         {
             "type": "rule",
@@ -478,7 +508,7 @@ var ebColorMap = {
                 ".bg--livescore"
             ],
             "declarations": {
-                "background": "#32a237",
+                "background": "#029e5d",
                 "color": "#fff"
             }
         },
@@ -498,7 +528,7 @@ var ebColorMap = {
                 ".bg--nationen"
             ],
             "declarations": {
-                "background": "#e38121",
+                "background": "#e96c0d",
                 "color": "#fff"
             }
         },
@@ -518,7 +548,7 @@ var ebColorMap = {
                 ".bg--nyheder"
             ],
             "declarations": {
-                "background": "#12507b",
+                "background": "#1058c2",
                 "color": "#fff"
             }
         },
@@ -538,7 +568,7 @@ var ebColorMap = {
                 ".bg--sex-samliv"
             ],
             "declarations": {
-                "background": "#8a0c36",
+                "background": "#b31e61",
                 "color": "#fff"
             }
         },
@@ -568,7 +598,7 @@ var ebColorMap = {
                 ".bg--sport"
             ],
             "declarations": {
-                "background": "#32a237",
+                "background": "#029e5d",
                 "color": "#fff"
             }
         },
@@ -610,6 +640,15 @@ var ebColorMap = {
             }
         },
         {
+          "type": "rule",
+          "selectors": [
+              ".color--pink"
+          ],
+          "declarations": {
+              "color": "#b31e61"
+          }
+        },
+        {
             "type": "rule",
             "selectors": [
                 ".color--rose"
@@ -624,7 +663,7 @@ var ebColorMap = {
                 ".color--orangedark"
             ],
             "declarations": {
-                "color": "#e38121"
+                "color": "#e96c0d"
             }
         },
         {
@@ -678,7 +717,7 @@ var ebColorMap = {
                 ".color--green"
             ],
             "declarations": {
-                "color": "#32a237"
+                "color": "#029e5d"
             }
         },
         {
@@ -705,8 +744,17 @@ var ebColorMap = {
                 ".color--purpledark"
             ],
             "declarations": {
-                "color": "#650188"
+                "color": "#51208c"
             }
+        },
+        {
+          "type": "rule",
+          "selectors": [
+              ".color--bluenavy"
+          ],
+          "declarations": {
+              "color": "#1a237e"
+          }
         },
         {
             "type": "rule",
@@ -714,7 +762,7 @@ var ebColorMap = {
                 ".color--bluedark"
             ],
             "declarations": {
-                "color": "#12507b"
+                "color": "#1058c2"
             }
         },
         {
@@ -744,6 +792,15 @@ var ebColorMap = {
                 "color": "#84a8c4"
             }
         },
+        {
+          "type": "rule",
+          "selectors": [
+              ".color--cyan"
+          ],
+          "declarations": {
+              "color": "#00b6d2"
+          }
+      },
         {
             "type": "rule",
             "selectors": [
@@ -972,10 +1029,10 @@ var ebColorMap = {
         {
             "type": "rule",
             "selectors": [
-                ".color--filmmagasinet"
+                ".color--underholdning"
             ],
             "declarations": {
-                "color": "#650188"
+                "color": "#51208c"
             }
         },
         {
@@ -993,8 +1050,17 @@ var ebColorMap = {
                 ".color--forbrug"
             ],
             "declarations": {
-                "color": "#31769b"
+                "color": "#00b6d2"
             }
+        },
+        {
+          "type": "rule",
+          "selectors": [
+              ".color--leder"
+          ],
+          "declarations": {
+              "color": "#1a237e"
+          }
         },
         {
             "type": "rule",
@@ -1002,7 +1068,7 @@ var ebColorMap = {
                 ".color--livescore"
             ],
             "declarations": {
-                "color": "#32a237"
+                "color": "#029e5d"
             }
         },
         {
@@ -1020,7 +1086,7 @@ var ebColorMap = {
                 ".color--nationen"
             ],
             "declarations": {
-                "color": "#e38121"
+                "color": "#e96c0d"
             }
         },
         {
@@ -1038,7 +1104,7 @@ var ebColorMap = {
                 ".color--nyheder"
             ],
             "declarations": {
-                "color": "#12507b"
+                "color": "#1058c2"
             }
         },
         {
@@ -1056,7 +1122,7 @@ var ebColorMap = {
                 ".color--sex-samliv"
             ],
             "declarations": {
-                "color": "#8a0c36"
+                "color": "#b31e61"
             }
         },
         {
@@ -1083,7 +1149,7 @@ var ebColorMap = {
                 ".color--sport"
             ],
             "declarations": {
-                "color": "#32a237"
+                "color": "#029e5d"
             }
         },
         {
