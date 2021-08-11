@@ -126,9 +126,16 @@ const colorPairsNamed = {
   underholdning: { background: colors.purpledark, color: colors.white },
 };
 
-module.exports = {
-  colors,
-  colorsNamed,
-  colorPairs,
-  colorPairsNamed,
+const borderColors = {
+  black: colors.black,
+  graa1: colors.graa1,
+  graa2: colors.graa2,
+  graa3: colors.graa3,
+  graa4: colors.graa4,
+  graa5: colors.graa5,
+  graa6: colors.graa6,
+  graa7: colors.graa7,
+  white: colors.white,
 };
+
+module.exports = { borderColors, colors, colorsNamed, colorPairs, colorPairsNamed };

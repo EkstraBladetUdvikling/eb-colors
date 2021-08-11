@@ -578,5 +578,50 @@
     "prefix": "color--underholdning",
     "body": "color--underholdning",
     "description": "{'color':'var(--color--underholdning)'}"
+  },
+  "color-border--black": {
+    "prefix": "border--black",
+    "body": "border--black",
+    "description": "{'border-color':'var(--color--black)'}"
+  },
+  "color-border--graa1": {
+    "prefix": "border--graa1",
+    "body": "border--graa1",
+    "description": "{'border-color':'var(--color--graa1)'}"
+  },
+  "color-border--graa2": {
+    "prefix": "border--graa2",
+    "body": "border--graa2",
+    "description": "{'border-color':'var(--color--graa2)'}"
+  },
+  "color-border--graa3": {
+    "prefix": "border--graa3",
+    "body": "border--graa3",
+    "description": "{'border-color':'var(--color--graa3)'}"
+  },
+  "color-border--graa4": {
+    "prefix": "border--graa4",
+    "body": "border--graa4",
+    "description": "{'border-color':'var(--color--graa4)'}"
+  },
+  "color-border--graa5": {
+    "prefix": "border--graa5",
+    "body": "border--graa5",
+    "description": "{'border-color':'var(--color--graa5)'}"
+  },
+  "color-border--graa6": {
+    "prefix": "border--graa6",
+    "body": "border--graa6",
+    "description": "{'border-color':'var(--color--graa6)'}"
+  },
+  "color-border--graa7": {
+    "prefix": "border--graa7",
+    "body": "border--graa7",
+    "description": "{'border-color':'var(--color--graa7)'}"
+  },
+  "color-border--white": {
+    "prefix": "border--white",
+    "body": "border--white",
+    "description": "{'border-color':'var(--color--white)'}"
   }
 }

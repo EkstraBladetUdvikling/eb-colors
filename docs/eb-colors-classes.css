@@ -404,3 +404,30 @@
 .color--underholdning {
   color: var(--color--underholdning);
 }
+.border--black {
+  border-color: var(--color--black);
+}
+.border--graa1 {
+  border-color: var(--color--graa1);
+}
+.border--graa2 {
+  border-color: var(--color--graa2);
+}
+.border--graa3 {
+  border-color: var(--color--graa3);
+}
+.border--graa4 {
+  border-color: var(--color--graa4);
+}
+.border--graa5 {
+  border-color: var(--color--graa5);
+}
+.border--graa6 {
+  border-color: var(--color--graa6);
+}
+.border--graa7 {
+  border-color: var(--color--graa7);
+}
+.border--white {
+  border-color: var(--color--white);
+}

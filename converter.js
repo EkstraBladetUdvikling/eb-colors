@@ -1,7 +1,7 @@
 const child_process = require('child_process');
 const fs = require('fs');
 
-const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.js');
+const { borderColors, colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.js');
 
 (() => {
   function hexToRgb(hex) {
@@ -119,6 +119,12 @@ const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.j
       className: varName,
       color: mergedColorPairs[pairName].background,
     });
+  }
+
+  for (const borderName in borderColors) {
+    cssColorsClassContent.push(`.border--${borderName} {
+      border-color: var(--color--${borderName});
+    }`);
   }
 
   // Write CSS vars file
