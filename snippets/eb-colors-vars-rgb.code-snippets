@@ -7,7 +7,7 @@
       12,
       54
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--bordeaux": {
     "prefix": "--rgb-fgcolor--bordeaux",
@@ -17,7 +17,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--reddark": {
     "prefix": "--rgb-color--reddark",
@@ -27,7 +27,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--reddark": {
     "prefix": "--rgb-fgcolor--reddark",
@@ -37,7 +37,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--red": {
     "prefix": "--rgb-color--red",
@@ -47,7 +47,7 @@
       17,
       24
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--red": {
     "prefix": "--rgb-fgcolor--red",
@@ -57,7 +57,27 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
+  },
+  "color---rgb-color--pink": {
+    "prefix": "--rgb-color--pink",
+    "body": "--rgb-color--pink",
+    "description": [
+      179,
+      30,
+      97
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--pink": {
+    "prefix": "--rgb-fgcolor--pink",
+    "body": "--rgb-fgcolor--pink",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
   },
   "color---rgb-color--rose": {
     "prefix": "--rgb-color--rose",
@@ -67,7 +87,7 @@
       112,
       149
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--rose": {
     "prefix": "--rgb-fgcolor--rose",
@@ -77,17 +97,17 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--orangedark": {
     "prefix": "--rgb-color--orangedark",
     "body": "--rgb-color--orangedark",
     "description": [
-      227,
-      129,
-      33
+      233,
+      108,
+      13
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--orangedark": {
     "prefix": "--rgb-fgcolor--orangedark",
@@ -97,7 +117,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--orange": {
     "prefix": "--rgb-color--orange",
@@ -107,7 +127,7 @@
       173,
       2
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--orange": {
     "prefix": "--rgb-fgcolor--orange",
@@ -117,7 +137,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--yellow": {
     "prefix": "--rgb-color--yellow",
@@ -127,7 +147,7 @@
       229,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--yellow": {
     "prefix": "--rgb-fgcolor--yellow",
@@ -137,7 +157,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--yellowlight": {
     "prefix": "--rgb-color--yellowlight",
@@ -147,7 +167,7 @@
       255,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--yellowlight": {
     "prefix": "--rgb-fgcolor--yellowlight",
@@ -157,7 +177,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--sand": {
     "prefix": "--rgb-color--sand",
@@ -167,7 +187,7 @@
       196,
       166
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--sand": {
     "prefix": "--rgb-fgcolor--sand",
@@ -177,7 +197,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--greendark": {
     "prefix": "--rgb-color--greendark",
@@ -187,7 +207,7 @@
       120,
       32
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--greendark": {
     "prefix": "--rgb-fgcolor--greendark",
@@ -197,17 +217,17 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--green": {
     "prefix": "--rgb-color--green",
     "body": "--rgb-color--green",
     "description": [
-      50,
-      162,
-      55
+      2,
+      158,
+      93
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--green": {
     "prefix": "--rgb-fgcolor--green",
@@ -217,7 +237,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--greenlight": {
     "prefix": "--rgb-color--greenlight",
@@ -227,7 +247,7 @@
       185,
       35
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--greenlight": {
     "prefix": "--rgb-fgcolor--greenlight",
@@ -237,7 +257,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--lime": {
     "prefix": "--rgb-color--lime",
@@ -247,7 +267,7 @@
       254,
       51
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--lime": {
     "prefix": "--rgb-fgcolor--lime",
@@ -257,17 +277,17 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--purpledark": {
     "prefix": "--rgb-color--purpledark",
     "body": "--rgb-color--purpledark",
     "description": [
-      101,
-      1,
-      136
+      81,
+      32,
+      140
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--purpledark": {
     "prefix": "--rgb-fgcolor--purpledark",
@@ -277,17 +297,37 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
+  },
+  "color---rgb-color--bluenavy": {
+    "prefix": "--rgb-color--bluenavy",
+    "body": "--rgb-color--bluenavy",
+    "description": [
+      26,
+      35,
+      126
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--bluenavy": {
+    "prefix": "--rgb-fgcolor--bluenavy",
+    "body": "--rgb-fgcolor--bluenavy",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
   },
   "color---rgb-color--bluedark": {
     "prefix": "--rgb-color--bluedark",
     "body": "--rgb-color--bluedark",
     "description": [
-      18,
-      80,
-      123
+      16,
+      88,
+      194
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--bluedark": {
     "prefix": "--rgb-fgcolor--bluedark",
@@ -297,7 +337,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--blue": {
     "prefix": "--rgb-color--blue",
@@ -307,7 +347,7 @@
       118,
       155
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--blue": {
     "prefix": "--rgb-fgcolor--blue",
@@ -317,7 +357,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--bluelight": {
     "prefix": "--rgb-color--bluelight",
@@ -327,7 +367,7 @@
       168,
       223
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--bluelight": {
     "prefix": "--rgb-fgcolor--bluelight",
@@ -337,7 +377,27 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
+  },
+  "color---rgb-color--cyan": {
+    "prefix": "--rgb-color--cyan",
+    "body": "--rgb-color--cyan",
+    "description": [
+      0,
+      182,
+      210
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--cyan": {
+    "prefix": "--rgb-fgcolor--cyan",
+    "body": "--rgb-fgcolor--cyan",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
   },
   "color---rgb-color--sea": {
     "prefix": "--rgb-color--sea",
@@ -347,7 +407,7 @@
       168,
       196
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--sea": {
     "prefix": "--rgb-fgcolor--sea",
@@ -357,7 +417,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--black": {
     "prefix": "--rgb-color--black",
@@ -367,7 +427,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--black": {
     "prefix": "--rgb-fgcolor--black",
@@ -377,7 +437,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa1": {
     "prefix": "--rgb-color--graa1",
@@ -387,7 +447,7 @@
       60,
       60
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa1": {
     "prefix": "--rgb-fgcolor--graa1",
@@ -397,7 +457,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa2": {
     "prefix": "--rgb-color--graa2",
@@ -407,7 +467,7 @@
       72,
       72
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa2": {
     "prefix": "--rgb-fgcolor--graa2",
@@ -417,7 +477,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa3": {
     "prefix": "--rgb-color--graa3",
@@ -427,7 +487,7 @@
       153,
       153
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa3": {
     "prefix": "--rgb-fgcolor--graa3",
@@ -437,7 +497,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa4": {
     "prefix": "--rgb-color--graa4",
@@ -447,7 +507,7 @@
       200,
       200
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa4": {
     "prefix": "--rgb-fgcolor--graa4",
@@ -457,7 +517,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa5": {
     "prefix": "--rgb-color--graa5",
@@ -467,7 +527,7 @@
       221,
       221
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa5": {
     "prefix": "--rgb-fgcolor--graa5",
@@ -477,7 +537,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa6": {
     "prefix": "--rgb-color--graa6",
@@ -487,7 +547,7 @@
       229,
       229
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa6": {
     "prefix": "--rgb-fgcolor--graa6",
@@ -497,7 +557,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--graa7": {
     "prefix": "--rgb-color--graa7",
@@ -507,7 +567,7 @@
       239,
       239
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--graa7": {
     "prefix": "--rgb-fgcolor--graa7",
@@ -517,7 +577,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--white": {
     "prefix": "--rgb-color--white",
@@ -527,7 +587,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--white": {
     "prefix": "--rgb-fgcolor--white",
@@ -537,7 +597,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-red": {
     "prefix": "--rgb-color--pastel-red",
@@ -547,7 +607,7 @@
       80,
       64
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-red": {
     "prefix": "--rgb-fgcolor--pastel-red",
@@ -557,7 +617,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-darkred": {
     "prefix": "--rgb-color--pastel-darkred",
@@ -567,7 +627,7 @@
       72,
       57
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-darkred": {
     "prefix": "--rgb-fgcolor--pastel-darkred",
@@ -577,7 +637,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-lightred": {
     "prefix": "--rgb-color--pastel-lightred",
@@ -587,7 +647,7 @@
       126,
       155
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-lightred": {
     "prefix": "--rgb-fgcolor--pastel-lightred",
@@ -597,7 +657,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-green": {
     "prefix": "--rgb-color--pastel-green",
@@ -607,7 +667,7 @@
       194,
       156
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-green": {
     "prefix": "--rgb-fgcolor--pastel-green",
@@ -617,7 +677,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-darkgreen": {
     "prefix": "--rgb-color--pastel-darkgreen",
@@ -627,7 +687,7 @@
       163,
       79
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-darkgreen": {
     "prefix": "--rgb-fgcolor--pastel-darkgreen",
@@ -637,7 +697,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--pastel-yellow": {
     "prefix": "--rgb-color--pastel-yellow",
@@ -647,7 +707,7 @@
       197,
       100
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--pastel-yellow": {
     "prefix": "--rgb-fgcolor--pastel-yellow",
@@ -657,7 +717,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--eb": {
     "prefix": "--rgb-color--eb",
@@ -667,7 +727,7 @@
       17,
       24
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--eb": {
     "prefix": "--rgb-fgcolor--eb",
@@ -677,7 +737,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--eb2": {
     "prefix": "--rgb-color--eb2",
@@ -687,7 +747,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--eb2": {
     "prefix": "--rgb-fgcolor--eb2",
@@ -697,7 +757,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--breaking": {
     "prefix": "--rgb-color--breaking",
@@ -707,7 +767,7 @@
       255,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--breaking": {
     "prefix": "--rgb-fgcolor--breaking",
@@ -717,7 +777,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--bruger": {
     "prefix": "--rgb-color--bruger",
@@ -727,7 +787,7 @@
       168,
       223
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--bruger": {
     "prefix": "--rgb-fgcolor--bruger",
@@ -737,7 +797,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--live": {
     "prefix": "--rgb-color--live",
@@ -747,7 +807,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--live": {
     "prefix": "--rgb-fgcolor--live",
@@ -757,7 +817,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--native": {
     "prefix": "--rgb-color--native",
@@ -767,7 +827,7 @@
       196,
       166
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--native": {
     "prefix": "--rgb-fgcolor--native",
@@ -777,7 +837,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--native2": {
     "prefix": "--rgb-color--native2",
@@ -787,7 +847,7 @@
       168,
       196
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--native2": {
     "prefix": "--rgb-fgcolor--native2",
@@ -797,7 +857,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--facebook": {
     "prefix": "--rgb-color--facebook",
@@ -807,7 +867,7 @@
       118,
       155
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--facebook": {
     "prefix": "--rgb-fgcolor--facebook",
@@ -817,7 +877,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--twitter": {
     "prefix": "--rgb-color--twitter",
@@ -827,7 +887,7 @@
       168,
       223
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--twitter": {
     "prefix": "--rgb-fgcolor--twitter",
@@ -837,47 +897,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-color--ekstra": {
-    "prefix": "--rgb-color--ekstra",
-    "body": "--rgb-color--ekstra",
-    "description": [
-      189,
-      17,
-      24
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-fgcolor--ekstra": {
-    "prefix": "--rgb-fgcolor--ekstra",
-    "body": "--rgb-fgcolor--ekstra",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-color--filmmagasinet": {
-    "prefix": "--rgb-color--filmmagasinet",
-    "body": "--rgb-color--filmmagasinet",
-    "description": [
-      101,
-      1,
-      136
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-fgcolor--filmmagasinet": {
-    "prefix": "--rgb-fgcolor--filmmagasinet",
-    "body": "--rgb-fgcolor--filmmagasinet",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--flash": {
     "prefix": "--rgb-color--flash",
@@ -887,7 +907,7 @@
       173,
       2
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--flash": {
     "prefix": "--rgb-fgcolor--flash",
@@ -897,17 +917,17 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--forbrug": {
     "prefix": "--rgb-color--forbrug",
     "body": "--rgb-color--forbrug",
     "description": [
-      49,
-      118,
-      155
+      0,
+      182,
+      210
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--forbrug": {
     "prefix": "--rgb-fgcolor--forbrug",
@@ -917,17 +937,37 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
+  },
+  "color---rgb-color--leder": {
+    "prefix": "--rgb-color--leder",
+    "body": "--rgb-color--leder",
+    "description": [
+      26,
+      35,
+      126
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--leder": {
+    "prefix": "--rgb-fgcolor--leder",
+    "body": "--rgb-fgcolor--leder",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
   },
   "color---rgb-color--livescore": {
     "prefix": "--rgb-color--livescore",
     "body": "--rgb-color--livescore",
     "description": [
-      50,
-      162,
-      55
+      2,
+      158,
+      93
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--livescore": {
     "prefix": "--rgb-fgcolor--livescore",
@@ -937,7 +977,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--livescore2": {
     "prefix": "--rgb-color--livescore2",
@@ -947,7 +987,7 @@
       254,
       51
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--livescore2": {
     "prefix": "--rgb-fgcolor--livescore2",
@@ -957,57 +997,17 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-color--nationen": {
-    "prefix": "--rgb-color--nationen",
-    "body": "--rgb-color--nationen",
-    "description": [
-      227,
-      129,
-      33
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-fgcolor--nationen": {
-    "prefix": "--rgb-fgcolor--nationen",
-    "body": "--rgb-fgcolor--nationen",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-color--nationen2": {
-    "prefix": "--rgb-color--nationen2",
-    "body": "--rgb-color--nationen2",
-    "description": [
-      229,
-      173,
-      2
-    ],
-    "scope": "css,scss,sass"
-  },
-  "color---rgb-fgcolor--nationen2": {
-    "prefix": "--rgb-fgcolor--nationen2",
-    "body": "--rgb-fgcolor--nationen2",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--nyheder": {
     "prefix": "--rgb-color--nyheder",
     "body": "--rgb-color--nyheder",
     "description": [
-      18,
-      80,
-      123
+      16,
+      88,
+      194
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--nyheder": {
     "prefix": "--rgb-fgcolor--nyheder",
@@ -1017,7 +1017,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--nyheder2": {
     "prefix": "--rgb-color--nyheder2",
@@ -1027,7 +1027,7 @@
       0,
       0
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--nyheder2": {
     "prefix": "--rgb-fgcolor--nyheder2",
@@ -1037,17 +1037,17 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--sex-samliv": {
     "prefix": "--rgb-color--sex-samliv",
     "body": "--rgb-color--sex-samliv",
     "description": [
-      138,
-      12,
-      54
+      179,
+      30,
+      97
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--sex-samliv": {
     "prefix": "--rgb-fgcolor--sex-samliv",
@@ -1057,7 +1057,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--sex-samliv2": {
     "prefix": "--rgb-color--sex-samliv2",
@@ -1067,7 +1067,7 @@
       112,
       149
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--sex-samliv2": {
     "prefix": "--rgb-fgcolor--sex-samliv2",
@@ -1077,7 +1077,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--skolefodbold": {
     "prefix": "--rgb-color--skolefodbold",
@@ -1087,7 +1087,7 @@
       185,
       35
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--skolefodbold": {
     "prefix": "--rgb-fgcolor--skolefodbold",
@@ -1097,17 +1097,17 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--sport": {
     "prefix": "--rgb-color--sport",
     "body": "--rgb-color--sport",
     "description": [
-      50,
-      162,
-      55
+      2,
+      158,
+      93
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--sport": {
     "prefix": "--rgb-fgcolor--sport",
@@ -1117,7 +1117,7 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-color--tv": {
     "prefix": "--rgb-color--tv",
@@ -1127,7 +1127,7 @@
       17,
       24
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
   },
   "color---rgb-fgcolor--tv": {
     "prefix": "--rgb-fgcolor--tv",
@@ -1137,6 +1137,26 @@
       255,
       255
     ],
-    "scope": "css,scss,sass"
+    "scope": "css"
+  },
+  "color---rgb-color--underholdning": {
+    "prefix": "--rgb-color--underholdning",
+    "body": "--rgb-color--underholdning",
+    "description": [
+      81,
+      32,
+      140
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--underholdning": {
+    "prefix": "--rgb-fgcolor--underholdning",
+    "body": "--rgb-fgcolor--underholdning",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
   }
 }

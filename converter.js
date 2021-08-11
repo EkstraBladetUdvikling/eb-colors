@@ -63,11 +63,11 @@ const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.j
   jsColorsContent.push(`export const Colors = ${JSON.stringify(ColorsObj)};`);
   jsColorsContent.push(`export const Background = ${JSON.stringify(mergedColorPairs)};`);
 
+  fs.writeFileSync('./dist/eb-colors.js', jsColorsContent.join(''));
+
   if (!fs.existsSync('./temp')) {
     fs.mkdirSync('./temp');
   }
-
-  fs.writeFileSync('./dist/eb-colors.js', jsColorsContent.join(''));
   fs.writeFileSync('./temp/eb-colors.ts', jsColorsContent.join(''));
 
   child_process.exec(`yarn tsc ./temp/eb-colors.ts --outDir ./dist/ -d --emitDeclarationOnly`);
@@ -79,6 +79,8 @@ const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.j
   const cssColorsRGBVarsContent = [];
   const cssColorsBGContent = [];
   const cssColorsClassContent = [];
+
+  const docsOutput = [];
 
   for (const pairName in mergedColorPairs) {
     const varName = getPairName(pairName);
@@ -111,6 +113,12 @@ const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.j
       background: var(--color--${varName});
       color: var(--fgcolor--${varName});
     }`);
+
+    // Add documentation information
+    docsOutput.push({
+      className: varName,
+      color: mergedColorPairs[pairName].background,
+    });
   }
 
   // Write CSS vars file
@@ -154,6 +162,9 @@ const { colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.j
     ${cssColorsClassContent.join('')}
     `
   );
+
+  // Write file with all css
+  fs.writeFileSync('./docs/eb-colors-classes.js', `var ebColors = ${JSON.stringify(docsOutput)};`);
 
   child_process.exec('yarn prettier ./dist --write');
 })();
