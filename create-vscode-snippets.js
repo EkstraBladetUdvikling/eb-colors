@@ -1,11 +1,7 @@
-var fs = require("fs");
-
-createSnippetFile("eb-colors-css-vars", "css,scss,sass");
-createSnippetFile("eb-colors-vars-rgb", "css,scss,sass");
-createSnippetFile("eb-colors-classes");
+var fs = require('fs');
 
 function createSnippetFile(filename, scope) {
-  fs.readFile("./temp/" + filename + ".json", "utf8", function(err, data) {
+  fs.readFile('./temp/' + filename + '.json', 'utf8', function (err, data) {
     if (err) {
       return console.log(err);
     }
@@ -13,8 +9,8 @@ function createSnippetFile(filename, scope) {
     const colorMap = JSON.parse(data);
     const colorList = [];
 
-    colorMap.value.forEach(root => {
-      if (root.selectors[0] === ":root") {
+    colorMap.value.forEach((root) => {
+      if (root.selectors[0] === ':root') {
         // CSS Variables
         for (const name in root.declarations) {
           if (root.declarations.hasOwnProperty(name)) {
@@ -22,15 +18,15 @@ function createSnippetFile(filename, scope) {
             const def = root.declarations[name];
             colorList.push({
               name,
-              def
+              def,
             });
           }
         }
       } else {
         // CSS Classes
         colorList.push({
-          name: root.selectors[0].replace(".", ""),
-          def: JSON.stringify(root.declarations).replace(/"/g, "'")
+          name: root.selectors[0].replace('.', ''),
+          def: JSON.stringify(root.declarations).replace(/"/g, "'"),
         });
       }
     });
@@ -38,11 +34,11 @@ function createSnippetFile(filename, scope) {
     // Create snippet output:
     const snippetCode = {};
 
-    colorList.forEach(color => {
+    colorList.forEach((color) => {
       snippetCode[`color-${color.name}`] = {
         prefix: color.name,
         body: color.name,
-        description: color.def
+        description: color.def,
       };
       if (scope) {
         snippetCode[`color-${color.name}`].scope = scope;
@@ -50,12 +46,16 @@ function createSnippetFile(filename, scope) {
     });
 
     fs.writeFile(
-      "./snippets/" + filename + ".code-snippets",
+      './snippets/' + filename + '.code-snippets',
       JSON.stringify(snippetCode, null, 2),
-      "utf8",
-      function(err) {
+      'utf8',
+      function (err) {
         if (err) return console.log(err);
       }
     );
   });
 }
+
+createSnippetFile('eb-colors-css-vars', 'css');
+createSnippetFile('eb-colors-vars-rgb', 'css');
+createSnippetFile('eb-colors-classes');
