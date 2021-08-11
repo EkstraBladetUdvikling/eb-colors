@@ -1,6 +1,0 @@
-@mixin eb-background($bg-colorname, $colorname: $bg-colorname) {
-  $colors: eb-color-pair($bg-colorname, $colorname);
-
-  background: map-get($colors, "background");
-  color: map-get($colors, "color");
-}
