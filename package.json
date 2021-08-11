@@ -10,7 +10,7 @@
   "scripts": {
     "build": "node converter.js && yarn build:snippets",
     "build:snippets": "yarn parse-snippets && node create-vscode-snippets",
-    "postbuild": "copyfiles -f \"./dist/eb-colors-classes.css\" \"./docs\"",
+    "postbuild": "copyfiles -f \"./dist/eb-colors-all.css\" \"./docs\"",
     "parse-snippets": "cssparser \"./dist/eb-colors-css-vars.css\" -o \"./temp/eb-colors-css-vars.json\" && cssparser \"./dist/eb-colors-vars-rgb.css\" -o \"./temp/eb-colors-vars-rgb.json\" && cssparser \"./dist/eb-colors-classes.css\" -o \"./temp/eb-colors-classes.json\""
   },
   "repository": {
