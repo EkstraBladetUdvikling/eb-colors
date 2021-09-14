@@ -63,15 +63,22 @@ const { borderColors, colors, colorPairs, colorPairsNamed, colorsNamed } = requi
   jsColorsContent.push(`export const Colors = ${JSON.stringify(ColorsObj)};`);
   jsColorsContent.push(`export const Background = ${JSON.stringify(mergedColorPairs)};`);
 
-  fs.writeFileSync('./dist/eb-colors.js', jsColorsContent.join(''));
+  const colorNames = {};
+  for (const colorName in colorsNamed) {
+    colorNames[colorName] = colorName;
+  }
+  console.log('colorNae', colorNames);
+  jsColorsContent.push(`export const colorNames = ${JSON.stringify(colorNames)};`);
+
+  // fs.writeFileSync('./dist/eb-colors.js', jsColorsContent.join(''));
 
   if (!fs.existsSync('./temp')) {
     fs.mkdirSync('./temp');
   }
   fs.writeFileSync('./temp/eb-colors.ts', jsColorsContent.join(''));
 
-  child_process.exec(`yarn tsc ./temp/eb-colors.ts --outDir ./dist/ -d --emitDeclarationOnly`);
-
+  child_process.exec(`yarn tsc ./temp/eb-colors.ts --outDir ./dist/ -d`); // --emitDeclarationOnly`);
+  console.log('after child process?');
   /**
    * Do CSS
    */
