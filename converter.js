@@ -65,7 +65,7 @@ const { borderColors, colors, colorPairs, colorPairsNamed, colorsNamed } = requi
 
   const colorNames = {};
   for (const colorName in colorsNamed) {
-    colorNames[colorName] = colorName;
+    colorNames[colorName] = getPairName(colorName);
   }
   console.log('colorNae', colorNames);
   jsColorsContent.push(`export const colorNames = ${JSON.stringify(colorNames)};`);
