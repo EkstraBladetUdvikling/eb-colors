@@ -3,34 +3,34 @@ const fs = require('fs');
 
 const { borderColors, colors, colorPairs, colorPairsNamed, colorsNamed } = require('./colors.js');
 
+function hexToRgb(hex) {
+  // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+  const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+  hex = hex.replace(shorthandRegex, (_M, R, G, B) => {
+    return R + R + G + G + B + B;
+  });
+
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16),
+      }
+    : null;
+}
+
+function getPairName(pairName) {
+  if (pairName.indexOf('pastel') !== -1) {
+    return pairName.replace('pastel', 'pastel-');
+  }
+  if (pairName.indexOf('sex') !== -1) {
+    return pairName.replace('sex', 'sex-');
+  }
+  return pairName;
+}
+
 (() => {
-  function hexToRgb(hex) {
-    // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
-    const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-    hex = hex.replace(shorthandRegex, (_M, R, G, B) => {
-      return R + R + G + G + B + B;
-    });
-
-    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return result
-      ? {
-          r: parseInt(result[1], 16),
-          g: parseInt(result[2], 16),
-          b: parseInt(result[3], 16),
-        }
-      : null;
-  }
-
-  function getPairName(pairName) {
-    if (pairName.indexOf('pastel') !== -1) {
-      return pairName.replace('pastel', 'pastel-');
-    }
-    if (pairName.indexOf('sex') !== -1) {
-      return pairName.replace('sex', 'sex-');
-    }
-    return pairName;
-  }
-
   const ColorsObj = { hex: {}, rgb: {} };
 
   const jsColorsContent = [];
@@ -63,22 +63,24 @@ const { borderColors, colors, colorPairs, colorPairsNamed, colorsNamed } = requi
   jsColorsContent.push(`export const Colors = ${JSON.stringify(ColorsObj)};`);
   jsColorsContent.push(`export const Background = ${JSON.stringify(mergedColorPairs)};`);
 
+  // Add color names
   const colorNames = {};
   for (const colorName in colorsNamed) {
     colorNames[colorName] = getPairName(colorName);
   }
-  console.log('colorNae', colorNames);
   jsColorsContent.push(`export const colorNames = ${JSON.stringify(colorNames)};`);
 
-  // fs.writeFileSync('./dist/eb-colors.js', jsColorsContent.join(''));
-
+  // Create temp folder
   if (!fs.existsSync('./temp')) {
     fs.mkdirSync('./temp');
   }
+
+  // Write typescript file
   fs.writeFileSync('./temp/eb-colors.ts', jsColorsContent.join(''));
 
-  child_process.exec(`yarn tsc ./temp/eb-colors.ts --outDir ./dist/ -d`); // --emitDeclarationOnly`);
-  console.log('after child process?');
+  // Convert temporary typescript and create declaration file
+  child_process.exec(`yarn tsc ./temp/eb-colors.ts --outDir ./dist/ -d`);
+
   /**
    * Do CSS
    */
