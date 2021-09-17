@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/ebudvikling/eb-colors#readme",
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
     "copyfiles": "^2.4.1",
     "cssparser": "^0.9.4",
-    "prettier": "^2.3.2"
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.3"
   }
 }
