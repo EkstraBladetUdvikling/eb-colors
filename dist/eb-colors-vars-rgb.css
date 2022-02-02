@@ -8,6 +8,9 @@
   --rgb-color--red: 189, 17, 24;
   --rgb-fgcolor--red: 255, 255, 255;
 
+  --rgb-color--redlight: 230, 0, 0;
+  --rgb-fgcolor--redlight: 255, 255, 255;
+
   --rgb-color--pink: 179, 30, 97;
   --rgb-fgcolor--pink: 255, 255, 255;
 
@@ -154,6 +157,9 @@
 
   --rgb-color--nyheder2: 0, 0, 0;
   --rgb-fgcolor--nyheder2: 255, 255, 255;
+
+  --rgb-color--opinionen: 230, 0, 0;
+  --rgb-fgcolor--opinionen: 255, 255, 255;
 
   --rgb-color--sex-samliv: 179, 30, 97;
   --rgb-fgcolor--sex-samliv: 255, 255, 255;

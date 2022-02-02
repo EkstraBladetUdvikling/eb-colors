@@ -14,6 +14,11 @@
     "body": "bg--red",
     "description": "{'background':'var(--color--red)','color':'var(--fgcolor--red)'}"
   },
+  "color-bg--redlight": {
+    "prefix": "bg--redlight",
+    "body": "bg--redlight",
+    "description": "{'background':'var(--color--redlight)','color':'var(--fgcolor--redlight)'}"
+  },
   "color-bg--pink": {
     "prefix": "bg--pink",
     "body": "bg--pink",
@@ -259,6 +264,11 @@
     "body": "bg--nyheder2",
     "description": "{'background':'var(--color--nyheder2)','color':'var(--fgcolor--nyheder2)'}"
   },
+  "color-bg--opinionen": {
+    "prefix": "bg--opinionen",
+    "body": "bg--opinionen",
+    "description": "{'background':'var(--color--opinionen)','color':'var(--fgcolor--opinionen)'}"
+  },
   "color-bg--sex-samliv": {
     "prefix": "bg--sex-samliv",
     "body": "bg--sex-samliv",
@@ -303,6 +313,11 @@
     "prefix": "color--red",
     "body": "color--red",
     "description": "{'color':'var(--color--red)'}"
+  },
+  "color-color--redlight": {
+    "prefix": "color--redlight",
+    "body": "color--redlight",
+    "description": "{'color':'var(--color--redlight)'}"
   },
   "color-color--pink": {
     "prefix": "color--pink",
@@ -548,6 +563,11 @@
     "prefix": "color--nyheder2",
     "body": "color--nyheder2",
     "description": "{'color':'var(--color--nyheder2)'}"
+  },
+  "color-color--opinionen": {
+    "prefix": "color--opinionen",
+    "body": "color--opinionen",
+    "description": "{'color':'var(--color--opinionen)'}"
   },
   "color-color--sex-samliv": {
     "prefix": "color--sex-samliv",

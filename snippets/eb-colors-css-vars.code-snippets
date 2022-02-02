@@ -35,6 +35,18 @@
     "description": "#fff",
     "scope": "css"
   },
+  "color---color--redlight": {
+    "prefix": "--color--redlight",
+    "body": "--color--redlight",
+    "description": "#e60000",
+    "scope": "css"
+  },
+  "color---fgcolor--redlight": {
+    "prefix": "--fgcolor--redlight",
+    "body": "--fgcolor--redlight",
+    "description": "#fff",
+    "scope": "css"
+  },
   "color---color--pink": {
     "prefix": "--color--pink",
     "body": "--color--pink",
@@ -620,6 +632,18 @@
   "color---fgcolor--nyheder2": {
     "prefix": "--fgcolor--nyheder2",
     "body": "--fgcolor--nyheder2",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--opinionen": {
+    "prefix": "--color--opinionen",
+    "body": "--color--opinionen",
+    "description": "#e60000",
+    "scope": "css"
+  },
+  "color---fgcolor--opinionen": {
+    "prefix": "--fgcolor--opinionen",
+    "body": "--fgcolor--opinionen",
     "description": "#fff",
     "scope": "css"
   },

@@ -10,6 +10,10 @@
   background: var(--color--red);
   color: var(--fgcolor--red);
 }
+.bg--redlight {
+  background: var(--color--redlight);
+  color: var(--fgcolor--redlight);
+}
 .bg--pink {
   background: var(--color--pink);
   color: var(--fgcolor--pink);
@@ -206,6 +210,10 @@
   background: var(--color--nyheder2);
   color: var(--fgcolor--nyheder2);
 }
+.bg--opinionen {
+  background: var(--color--opinionen);
+  color: var(--fgcolor--opinionen);
+}
 .bg--sex-samliv {
   background: var(--color--sex-samliv);
   color: var(--fgcolor--sex-samliv);
@@ -238,6 +246,9 @@
 }
 .color--red {
   color: var(--color--red);
+}
+.color--redlight {
+  color: var(--color--redlight);
 }
 .color--pink {
   color: var(--color--pink);
@@ -385,6 +396,9 @@
 }
 .color--nyheder2 {
   color: var(--color--nyheder2);
+}
+.color--opinionen {
+  color: var(--color--opinionen);
 }
 .color--sex-samliv {
   color: var(--color--sex-samliv);

@@ -10,6 +10,10 @@ export declare const red = "#bd1118";
 export declare const redRBG = "189,17,24";
 export declare const redBGClass = "bg--red";
 export declare const redColorClass = "color--red";
+export declare const redlight = "#e60000";
+export declare const redlightRBG = "230,0,0";
+export declare const redlightBGClass = "bg--redlight";
+export declare const redlightColorClass = "color--redlight";
 export declare const pink = "#b31e61";
 export declare const pinkRBG = "179,30,97";
 export declare const pinkBGClass = "bg--pink";
@@ -206,6 +210,10 @@ export declare const nyheder2 = "#000";
 export declare const nyheder2RBG = "0,0,0";
 export declare const nyheder2BGClass = "bg--nyheder2";
 export declare const nyheder2ColorClass = "color--nyheder2";
+export declare const opinionen = "#e60000";
+export declare const opinionenRBG = "230,0,0";
+export declare const opinionenBGClass = "bg--opinionen";
+export declare const opinionenColorClass = "color--opinionen";
 export declare const sexsamliv = "#b31e61";
 export declare const sexsamlivRBG = "179,30,97";
 export declare const sexsamlivBGClass = "bg--sexsamliv";
@@ -235,6 +243,7 @@ export declare const Colors: {
         bordeaux: string;
         reddark: string;
         red: string;
+        redlight: string;
         pink: string;
         rose: string;
         orangedark: string;
@@ -284,6 +293,7 @@ export declare const Colors: {
         livescore2: string;
         nyheder: string;
         nyheder2: string;
+        opinionen: string;
         sexsamliv: string;
         sexsamliv2: string;
         skolefodbold: string;
@@ -295,6 +305,7 @@ export declare const Colors: {
         bordeaux: string;
         reddark: string;
         red: string;
+        redlight: string;
         pink: string;
         rose: string;
         orangedark: string;
@@ -344,6 +355,7 @@ export declare const Colors: {
         livescore2: string;
         nyheder: string;
         nyheder2: string;
+        opinionen: string;
         sexsamliv: string;
         sexsamliv2: string;
         skolefodbold: string;
@@ -362,6 +374,10 @@ export declare const Background: {
         color: string;
     };
     red: {
+        background: string;
+        color: string;
+    };
+    redlight: {
         background: string;
         color: string;
     };
@@ -561,6 +577,10 @@ export declare const Background: {
         background: string;
         color: string;
     };
+    opinionen: {
+        background: string;
+        color: string;
+    };
     sexsamliv: {
         background: string;
         color: string;
@@ -603,6 +623,7 @@ export declare const colorNames: {
     livescore2: string;
     nyheder: string;
     nyheder2: string;
+    opinionen: string;
     sexsamliv: string;
     sexsamliv2: string;
     skolefodbold: string;

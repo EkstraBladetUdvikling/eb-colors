@@ -59,6 +59,26 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--redlight": {
+    "prefix": "--rgb-color--redlight",
+    "body": "--rgb-color--redlight",
+    "description": [
+      230,
+      0,
+      0
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--redlight": {
+    "prefix": "--rgb-fgcolor--redlight",
+    "body": "--rgb-fgcolor--redlight",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--pink": {
     "prefix": "--rgb-color--pink",
     "body": "--rgb-color--pink",
@@ -1032,6 +1052,26 @@
   "color---rgb-fgcolor--nyheder2": {
     "prefix": "--rgb-fgcolor--nyheder2",
     "body": "--rgb-fgcolor--nyheder2",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--opinionen": {
+    "prefix": "--rgb-color--opinionen",
+    "body": "--rgb-color--opinionen",
+    "description": [
+      230,
+      0,
+      0
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--opinionen": {
+    "prefix": "--rgb-fgcolor--opinionen",
+    "body": "--rgb-fgcolor--opinionen",
     "description": [
       255,
       255,

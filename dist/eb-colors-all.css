@@ -8,6 +8,9 @@
   --color--red: #bd1118;
   --fgcolor--red: #fff;
 
+  --color--redlight: #e60000;
+  --fgcolor--redlight: #fff;
+
   --color--pink: #b31e61;
   --fgcolor--pink: #fff;
 
@@ -155,6 +158,9 @@
   --color--nyheder2: #000;
   --fgcolor--nyheder2: #fff;
 
+  --color--opinionen: #e60000;
+  --fgcolor--opinionen: #fff;
+
   --color--sex-samliv: #b31e61;
   --fgcolor--sex-samliv: #fff;
 
@@ -181,6 +187,9 @@
 
   --rgb-color--red: 189, 17, 24;
   --rgb-fgcolor--red: 255, 255, 255;
+
+  --rgb-color--redlight: 230, 0, 0;
+  --rgb-fgcolor--redlight: 255, 255, 255;
 
   --rgb-color--pink: 179, 30, 97;
   --rgb-fgcolor--pink: 255, 255, 255;
@@ -329,6 +338,9 @@
   --rgb-color--nyheder2: 0, 0, 0;
   --rgb-fgcolor--nyheder2: 255, 255, 255;
 
+  --rgb-color--opinionen: 230, 0, 0;
+  --rgb-fgcolor--opinionen: 255, 255, 255;
+
   --rgb-color--sex-samliv: 179, 30, 97;
   --rgb-fgcolor--sex-samliv: 255, 255, 255;
 
@@ -358,6 +370,10 @@
 .bg--red {
   background: var(--color--red);
   color: var(--fgcolor--red);
+}
+.bg--redlight {
+  background: var(--color--redlight);
+  color: var(--fgcolor--redlight);
 }
 .bg--pink {
   background: var(--color--pink);
@@ -555,6 +571,10 @@
   background: var(--color--nyheder2);
   color: var(--fgcolor--nyheder2);
 }
+.bg--opinionen {
+  background: var(--color--opinionen);
+  color: var(--fgcolor--opinionen);
+}
 .bg--sex-samliv {
   background: var(--color--sex-samliv);
   color: var(--fgcolor--sex-samliv);
@@ -587,6 +607,9 @@
 }
 .color--red {
   color: var(--color--red);
+}
+.color--redlight {
+  color: var(--color--redlight);
 }
 .color--pink {
   color: var(--color--pink);
@@ -734,6 +757,9 @@
 }
 .color--nyheder2 {
   color: var(--color--nyheder2);
+}
+.color--opinionen {
+  color: var(--color--opinionen);
 }
 .color--sex-samliv {
   color: var(--color--sex-samliv);
