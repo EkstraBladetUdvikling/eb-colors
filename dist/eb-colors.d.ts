@@ -86,6 +86,10 @@ export declare const black = "#000";
 export declare const blackRBG = "0,0,0";
 export declare const blackBGClass = "bg--black";
 export declare const blackColorClass = "color--black";
+export declare const graa0 = "#1b1b1b";
+export declare const graa0RBG = "27,27,27";
+export declare const graa0BGClass = "bg--graa0";
+export declare const graa0ColorClass = "color--graa0";
 export declare const graa1 = "#3c3c3c";
 export declare const graa1RBG = "60,60,60";
 export declare const graa1BGClass = "bg--graa1";
@@ -254,6 +258,7 @@ export declare const Colors: {
         cyan: string;
         sea: string;
         black: string;
+        graa0: string;
         graa1: string;
         graa2: string;
         graa3: string;
@@ -314,6 +319,7 @@ export declare const Colors: {
         cyan: string;
         sea: string;
         black: string;
+        graa0: string;
         graa1: string;
         graa2: string;
         graa3: string;
@@ -438,6 +444,10 @@ export declare const Background: {
         color: string;
     };
     black: {
+        background: string;
+        color: string;
+    };
+    graa0: {
         background: string;
         color: string;
     };

@@ -109,6 +109,11 @@
     "body": "bg--black",
     "description": "{'background':'var(--color--black)','color':'var(--fgcolor--black)'}"
   },
+  "color-bg--graa0": {
+    "prefix": "bg--graa0",
+    "body": "bg--graa0",
+    "description": "{'background':'var(--color--graa0)','color':'var(--fgcolor--graa0)'}"
+  },
   "color-bg--graa1": {
     "prefix": "bg--graa1",
     "body": "bg--graa1",
@@ -398,6 +403,11 @@
     "prefix": "color--black",
     "body": "color--black",
     "description": "{'color':'var(--color--black)'}"
+  },
+  "color-color--graa0": {
+    "prefix": "color--graa0",
+    "body": "color--graa0",
+    "description": "{'color':'var(--color--graa0)'}"
   },
   "color-color--graa1": {
     "prefix": "color--graa1",
