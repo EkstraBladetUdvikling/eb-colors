@@ -263,6 +263,18 @@
     "description": "#fff",
     "scope": "css"
   },
+  "color---color--graa0": {
+    "prefix": "--color--graa0",
+    "body": "--color--graa0",
+    "description": "#1b1b1b",
+    "scope": "css"
+  },
+  "color---fgcolor--graa0": {
+    "prefix": "--fgcolor--graa0",
+    "body": "--fgcolor--graa0",
+    "description": "#efefef",
+    "scope": "css"
+  },
   "color---color--graa1": {
     "prefix": "--color--graa1",
     "body": "--color--graa1",

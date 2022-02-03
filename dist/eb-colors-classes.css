@@ -86,6 +86,10 @@
   background: var(--color--black);
   color: var(--fgcolor--black);
 }
+.bg--graa0 {
+  background: var(--color--graa0);
+  color: var(--fgcolor--graa0);
+}
 .bg--graa1 {
   background: var(--color--graa1);
   color: var(--fgcolor--graa1);
@@ -295,6 +299,9 @@
 }
 .color--black {
   color: var(--color--black);
+}
+.color--graa0 {
+  color: var(--color--graa0);
 }
 .color--graa1 {
   color: var(--color--graa1);

@@ -439,6 +439,26 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--graa0": {
+    "prefix": "--rgb-color--graa0",
+    "body": "--rgb-color--graa0",
+    "description": [
+      27,
+      27,
+      27
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--graa0": {
+    "prefix": "--rgb-fgcolor--graa0",
+    "body": "--rgb-fgcolor--graa0",
+    "description": [
+      239,
+      239,
+      239
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--graa1": {
     "prefix": "--rgb-color--graa1",
     "body": "--rgb-color--graa1",
