@@ -92,7 +92,7 @@
   "color---fgcolor--yellow": {
     "prefix": "--fgcolor--yellow",
     "body": "--fgcolor--yellow",
-    "description": "#fff",
+    "description": "#000",
     "scope": "css"
   },
   "color---color--yellowlight": {

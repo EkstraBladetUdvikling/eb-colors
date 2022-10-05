@@ -153,9 +153,9 @@
     "prefix": "--rgb-fgcolor--yellow",
     "body": "--rgb-fgcolor--yellow",
     "description": [
-      255,
-      255,
-      255
+      0,
+      0,
+      0
     ],
     "scope": "css"
   },

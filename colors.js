@@ -71,7 +71,7 @@ const colorPairs = {
   rose: { background: colors.rose, color: colors.white },
   orangedark: { background: colors.orangedark, color: colors.white },
   orange: { background: colors.orange, color: colors.white },
-  yellow: { background: colors.yellow, color: colors.white },
+  yellow: { background: colors.yellow, color: colors.black },
   yellowlight: { background: colors.yellowlight, color: colors.black },
   sand: { background: colors.sand, color: colors.white },
   greendark: { background: colors.greendark, color: colors.white },
