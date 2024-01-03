@@ -26,7 +26,7 @@
   "color---color--red": {
     "prefix": "--color--red",
     "body": "--color--red",
-    "description": "#bd1118",
+    "description": "#e3141d",
     "scope": "css"
   },
   "color---fgcolor--red": {
@@ -446,7 +446,7 @@
   "color---color--eb": {
     "prefix": "--color--eb",
     "body": "--color--eb",
-    "description": "#bd1118",
+    "description": "#e3141d",
     "scope": "css"
   },
   "color---fgcolor--eb": {
@@ -686,7 +686,7 @@
   "color---color--tv": {
     "prefix": "--color--tv",
     "body": "--color--tv",
-    "description": "#bd1118",
+    "description": "#e3141d",
     "scope": "css"
   },
   "color---fgcolor--tv": {
