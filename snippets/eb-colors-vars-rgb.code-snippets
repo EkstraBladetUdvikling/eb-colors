@@ -43,9 +43,9 @@
     "prefix": "--rgb-color--red",
     "body": "--rgb-color--red",
     "description": [
-      189,
-      17,
-      24
+      227,
+      20,
+      29
     ],
     "scope": "css"
   },
@@ -743,9 +743,9 @@
     "prefix": "--rgb-color--eb",
     "body": "--rgb-color--eb",
     "description": [
-      189,
-      17,
-      24
+      227,
+      20,
+      29
     ],
     "scope": "css"
   },
@@ -1143,9 +1143,9 @@
     "prefix": "--rgb-color--tv",
     "body": "--rgb-color--tv",
     "description": [
-      189,
-      17,
-      24
+      227,
+      20,
+      29
     ],
     "scope": "css"
   },

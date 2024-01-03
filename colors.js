@@ -1,7 +1,7 @@
 const colors = {
   bordeaux: '#8a0c36',
   reddark: '#900',
-  red: '#bd1118',
+  red: '#e3141d',
   pink: '#b31e61',
   rose: '#dc7095',
   orangedark: '#e96c0d',
