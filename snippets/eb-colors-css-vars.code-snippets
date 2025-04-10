@@ -1,28 +1,4 @@
 {
-  "color---color--bordeaux": {
-    "prefix": "--color--bordeaux",
-    "body": "--color--bordeaux",
-    "description": "#8a0c36",
-    "scope": "css"
-  },
-  "color---fgcolor--bordeaux": {
-    "prefix": "--fgcolor--bordeaux",
-    "body": "--fgcolor--bordeaux",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--reddark": {
-    "prefix": "--color--reddark",
-    "body": "--color--reddark",
-    "description": "#900",
-    "scope": "css"
-  },
-  "color---fgcolor--reddark": {
-    "prefix": "--fgcolor--reddark",
-    "body": "--fgcolor--reddark",
-    "description": "#fff",
-    "scope": "css"
-  },
   "color---color--red": {
     "prefix": "--color--red",
     "body": "--color--red",
@@ -35,58 +11,10 @@
     "description": "#fff",
     "scope": "css"
   },
-  "color---color--rose": {
-    "prefix": "--color--rose",
-    "body": "--color--rose",
-    "description": "#dc7095",
-    "scope": "css"
-  },
-  "color---fgcolor--rose": {
-    "prefix": "--fgcolor--rose",
-    "body": "--fgcolor--rose",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--burntorange": {
-    "prefix": "--color--burntorange",
-    "body": "--color--burntorange",
-    "description": "#f45531",
-    "scope": "css"
-  },
-  "color---fgcolor--burntorange": {
-    "prefix": "--fgcolor--burntorange",
-    "body": "--fgcolor--burntorange",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--burntorange2": {
-    "prefix": "--color--burntorange2",
-    "body": "--color--burntorange2",
-    "description": "#d73c1a",
-    "scope": "css"
-  },
-  "color---fgcolor--burntorange2": {
-    "prefix": "--fgcolor--burntorange2",
-    "body": "--fgcolor--burntorange2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--orangedark": {
-    "prefix": "--color--orangedark",
-    "body": "--color--orangedark",
-    "description": "#e96c0d",
-    "scope": "css"
-  },
-  "color---fgcolor--orangedark": {
-    "prefix": "--fgcolor--orangedark",
-    "body": "--fgcolor--orangedark",
-    "description": "#fff",
-    "scope": "css"
-  },
   "color---color--orange": {
     "prefix": "--color--orange",
     "body": "--color--orange",
-    "description": "#e5ad02",
+    "description": "#f45531",
     "scope": "css"
   },
   "color---fgcolor--orange": {
@@ -95,27 +23,27 @@
     "description": "#fff",
     "scope": "css"
   },
+  "color---color--orangedark": {
+    "prefix": "--color--orangedark",
+    "body": "--color--orangedark",
+    "description": "#d73c1a",
+    "scope": "css"
+  },
+  "color---fgcolor--orangedark": {
+    "prefix": "--fgcolor--orangedark",
+    "body": "--fgcolor--orangedark",
+    "description": "#fff",
+    "scope": "css"
+  },
   "color---color--yellow": {
     "prefix": "--color--yellow",
     "body": "--color--yellow",
-    "description": "#fae500",
+    "description": "#ffff00",
     "scope": "css"
   },
   "color---fgcolor--yellow": {
     "prefix": "--fgcolor--yellow",
     "body": "--fgcolor--yellow",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---color--yellowlight": {
-    "prefix": "--color--yellowlight",
-    "body": "--color--yellowlight",
-    "description": "#ffff00",
-    "scope": "css"
-  },
-  "color---fgcolor--yellowlight": {
-    "prefix": "--fgcolor--yellowlight",
-    "body": "--fgcolor--yellowlight",
     "description": "#000",
     "scope": "css"
   },
@@ -131,30 +59,6 @@
     "description": "#000",
     "scope": "css"
   },
-  "color---color--sand": {
-    "prefix": "--color--sand",
-    "body": "--color--sand",
-    "description": "#cec4a6",
-    "scope": "css"
-  },
-  "color---fgcolor--sand": {
-    "prefix": "--fgcolor--sand",
-    "body": "--fgcolor--sand",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--greendark": {
-    "prefix": "--color--greendark",
-    "body": "--color--greendark",
-    "description": "#2f7820",
-    "scope": "css"
-  },
-  "color---fgcolor--greendark": {
-    "prefix": "--fgcolor--greendark",
-    "body": "--fgcolor--greendark",
-    "description": "#fff",
-    "scope": "css"
-  },
   "color---color--green": {
     "prefix": "--color--green",
     "body": "--color--green",
@@ -167,171 +71,15 @@
     "description": "#fff",
     "scope": "css"
   },
-  "color---color--green2": {
-    "prefix": "--color--green2",
-    "body": "--color--green2",
+  "color---color--greendark": {
+    "prefix": "--color--greendark",
+    "body": "--color--greendark",
     "description": "#00995a",
     "scope": "css"
   },
-  "color---fgcolor--green2": {
-    "prefix": "--fgcolor--green2",
-    "body": "--fgcolor--green2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--greenlight": {
-    "prefix": "--color--greenlight",
-    "body": "--color--greenlight",
-    "description": "#93b923",
-    "scope": "css"
-  },
-  "color---fgcolor--greenlight": {
-    "prefix": "--fgcolor--greenlight",
-    "body": "--fgcolor--greenlight",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--lime": {
-    "prefix": "--color--lime",
-    "body": "--color--lime",
-    "description": "#cbfe33",
-    "scope": "css"
-  },
-  "color---fgcolor--lime": {
-    "prefix": "--fgcolor--lime",
-    "body": "--fgcolor--lime",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---color--purpledark": {
-    "prefix": "--color--purpledark",
-    "body": "--color--purpledark",
-    "description": "#6f00de",
-    "scope": "css"
-  },
-  "color---fgcolor--purpledark": {
-    "prefix": "--fgcolor--purpledark",
-    "body": "--fgcolor--purpledark",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--purpledark2": {
-    "prefix": "--color--purpledark2",
-    "body": "--color--purpledark2",
-    "description": "#5300a6",
-    "scope": "css"
-  },
-  "color---fgcolor--purpledark2": {
-    "prefix": "--fgcolor--purpledark2",
-    "body": "--fgcolor--purpledark2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--royalblue": {
-    "prefix": "--color--royalblue",
-    "body": "--color--royalblue",
-    "description": "#0059db",
-    "scope": "css"
-  },
-  "color---fgcolor--royalblue": {
-    "prefix": "--fgcolor--royalblue",
-    "body": "--fgcolor--royalblue",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--royalblue2": {
-    "prefix": "--color--royalblue2",
-    "body": "--color--royalblue2",
-    "description": "#0041a0",
-    "scope": "css"
-  },
-  "color---fgcolor--royalblue2": {
-    "prefix": "--fgcolor--royalblue2",
-    "body": "--fgcolor--royalblue2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--blue": {
-    "prefix": "--color--blue",
-    "body": "--color--blue",
-    "description": "#31769b",
-    "scope": "css"
-  },
-  "color---fgcolor--blue": {
-    "prefix": "--fgcolor--blue",
-    "body": "--fgcolor--blue",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--bluegrey": {
-    "prefix": "--color--bluegrey",
-    "body": "--color--bluegrey",
-    "description": "#3d4352",
-    "scope": "css"
-  },
-  "color---fgcolor--bluegrey": {
-    "prefix": "--fgcolor--bluegrey",
-    "body": "--fgcolor--bluegrey",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--bluegrey2": {
-    "prefix": "--color--bluegrey2",
-    "body": "--color--bluegrey2",
-    "description": "#262c39",
-    "scope": "css"
-  },
-  "color---fgcolor--bluegrey2": {
-    "prefix": "--fgcolor--bluegrey2",
-    "body": "--fgcolor--bluegrey2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--bluelight": {
-    "prefix": "--color--bluelight",
-    "body": "--color--bluelight",
-    "description": "#4fa8df",
-    "scope": "css"
-  },
-  "color---fgcolor--bluelight": {
-    "prefix": "--fgcolor--bluelight",
-    "body": "--fgcolor--bluelight",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sky": {
-    "prefix": "--color--sky",
-    "body": "--color--sky",
-    "description": "#45aedc",
-    "scope": "css"
-  },
-  "color---fgcolor--sky": {
-    "prefix": "--fgcolor--sky",
-    "body": "--fgcolor--sky",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sky2": {
-    "prefix": "--color--sky2",
-    "body": "--color--sky2",
-    "description": "#268fbc",
-    "scope": "css"
-  },
-  "color---fgcolor--sky2": {
-    "prefix": "--fgcolor--sky2",
-    "body": "--fgcolor--sky2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sea": {
-    "prefix": "--color--sea",
-    "body": "--color--sea",
-    "description": "#84a8c4",
-    "scope": "css"
-  },
-  "color---fgcolor--sea": {
-    "prefix": "--fgcolor--sea",
-    "body": "--fgcolor--sea",
+  "color---fgcolor--greendark": {
+    "prefix": "--fgcolor--greendark",
+    "body": "--fgcolor--greendark",
     "description": "#fff",
     "scope": "css"
   },
@@ -347,15 +95,111 @@
     "description": "#fff",
     "scope": "css"
   },
-  "color---color--viridian2": {
-    "prefix": "--color--viridian2",
-    "body": "--color--viridian2",
+  "color---color--viridiandark": {
+    "prefix": "--color--viridiandark",
+    "body": "--color--viridiandark",
     "description": "#0a5a52",
     "scope": "css"
   },
-  "color---fgcolor--viridian2": {
-    "prefix": "--fgcolor--viridian2",
-    "body": "--fgcolor--viridian2",
+  "color---fgcolor--viridiandark": {
+    "prefix": "--fgcolor--viridiandark",
+    "body": "--fgcolor--viridiandark",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--blue": {
+    "prefix": "--color--blue",
+    "body": "--color--blue",
+    "description": "#0059db",
+    "scope": "css"
+  },
+  "color---fgcolor--blue": {
+    "prefix": "--fgcolor--blue",
+    "body": "--fgcolor--blue",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--bluedark": {
+    "prefix": "--color--bluedark",
+    "body": "--color--bluedark",
+    "description": "#0041a0",
+    "scope": "css"
+  },
+  "color---fgcolor--bluedark": {
+    "prefix": "--fgcolor--bluedark",
+    "body": "--fgcolor--bluedark",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--lightblue": {
+    "prefix": "--color--lightblue",
+    "body": "--color--lightblue",
+    "description": "#45aedc",
+    "scope": "css"
+  },
+  "color---fgcolor--lightblue": {
+    "prefix": "--fgcolor--lightblue",
+    "body": "--fgcolor--lightblue",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--lightbluedark": {
+    "prefix": "--color--lightbluedark",
+    "body": "--color--lightbluedark",
+    "description": "#268fbc",
+    "scope": "css"
+  },
+  "color---fgcolor--lightbluedark": {
+    "prefix": "--fgcolor--lightbluedark",
+    "body": "--fgcolor--lightbluedark",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--bluegrey": {
+    "prefix": "--color--bluegrey",
+    "body": "--color--bluegrey",
+    "description": "#3d4352",
+    "scope": "css"
+  },
+  "color---fgcolor--bluegrey": {
+    "prefix": "--fgcolor--bluegrey",
+    "body": "--fgcolor--bluegrey",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--bluegreydark": {
+    "prefix": "--color--bluegreydark",
+    "body": "--color--bluegreydark",
+    "description": "#262c39",
+    "scope": "css"
+  },
+  "color---fgcolor--bluegreydark": {
+    "prefix": "--fgcolor--bluegreydark",
+    "body": "--fgcolor--bluegreydark",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--purple": {
+    "prefix": "--color--purple",
+    "body": "--color--purple",
+    "description": "#6f00de",
+    "scope": "css"
+  },
+  "color---fgcolor--purple": {
+    "prefix": "--fgcolor--purple",
+    "body": "--fgcolor--purple",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--purpledark": {
+    "prefix": "--color--purpledark",
+    "body": "--color--purpledark",
+    "description": "#5300a6",
+    "scope": "css"
+  },
+  "color---fgcolor--purpledark": {
+    "prefix": "--fgcolor--purpledark",
+    "body": "--fgcolor--purpledark",
     "description": "#fff",
     "scope": "css"
   },
@@ -479,126 +323,6 @@
     "description": "#000",
     "scope": "css"
   },
-  "color---color--pastel-red": {
-    "prefix": "--color--pastel-red",
-    "body": "--color--pastel-red",
-    "description": "#db5040",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-red": {
-    "prefix": "--fgcolor--pastel-red",
-    "body": "--fgcolor--pastel-red",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--pastel-darkred": {
-    "prefix": "--color--pastel-darkred",
-    "body": "--color--pastel-darkred",
-    "description": "#954839",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-darkred": {
-    "prefix": "--fgcolor--pastel-darkred",
-    "body": "--fgcolor--pastel-darkred",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--pastel-lightred": {
-    "prefix": "--color--pastel-lightred",
-    "body": "--color--pastel-lightred",
-    "description": "#d67e9b",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-lightred": {
-    "prefix": "--fgcolor--pastel-lightred",
-    "body": "--fgcolor--pastel-lightred",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--pastel-green": {
-    "prefix": "--color--pastel-green",
-    "body": "--color--pastel-green",
-    "description": "#9fc29c",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-green": {
-    "prefix": "--fgcolor--pastel-green",
-    "body": "--fgcolor--pastel-green",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--pastel-darkgreen": {
-    "prefix": "--color--pastel-darkgreen",
-    "body": "--color--pastel-darkgreen",
-    "description": "#91a34f",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-darkgreen": {
-    "prefix": "--fgcolor--pastel-darkgreen",
-    "body": "--fgcolor--pastel-darkgreen",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--pastel-yellow": {
-    "prefix": "--color--pastel-yellow",
-    "body": "--color--pastel-yellow",
-    "description": "#d4c564",
-    "scope": "css"
-  },
-  "color---fgcolor--pastel-yellow": {
-    "prefix": "--fgcolor--pastel-yellow",
-    "body": "--fgcolor--pastel-yellow",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--eb": {
-    "prefix": "--color--eb",
-    "body": "--color--eb",
-    "description": "#ff0000",
-    "scope": "css"
-  },
-  "color---fgcolor--eb": {
-    "prefix": "--fgcolor--eb",
-    "body": "--fgcolor--eb",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--eb2": {
-    "prefix": "--color--eb2",
-    "body": "--color--eb2",
-    "description": "#900",
-    "scope": "css"
-  },
-  "color---fgcolor--eb2": {
-    "prefix": "--fgcolor--eb2",
-    "body": "--fgcolor--eb2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--breaking": {
-    "prefix": "--color--breaking",
-    "body": "--color--breaking",
-    "description": "#ffff00",
-    "scope": "css"
-  },
-  "color---fgcolor--breaking": {
-    "prefix": "--fgcolor--breaking",
-    "body": "--fgcolor--breaking",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---color--bruger": {
-    "prefix": "--color--bruger",
-    "body": "--color--bruger",
-    "description": "#4fa8df",
-    "scope": "css"
-  },
-  "color---fgcolor--bruger": {
-    "prefix": "--fgcolor--bruger",
-    "body": "--fgcolor--bruger",
-    "description": "#fff",
-    "scope": "css"
-  },
   "color---color--live": {
     "prefix": "--color--live",
     "body": "--color--live",
@@ -608,90 +332,6 @@
   "color---fgcolor--live": {
     "prefix": "--fgcolor--live",
     "body": "--fgcolor--live",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--native": {
-    "prefix": "--color--native",
-    "body": "--color--native",
-    "description": "#cec4a6",
-    "scope": "css"
-  },
-  "color---fgcolor--native": {
-    "prefix": "--fgcolor--native",
-    "body": "--fgcolor--native",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--native2": {
-    "prefix": "--color--native2",
-    "body": "--color--native2",
-    "description": "#84a8c4",
-    "scope": "css"
-  },
-  "color---fgcolor--native2": {
-    "prefix": "--fgcolor--native2",
-    "body": "--fgcolor--native2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--facebook": {
-    "prefix": "--color--facebook",
-    "body": "--color--facebook",
-    "description": "#31769b",
-    "scope": "css"
-  },
-  "color---fgcolor--facebook": {
-    "prefix": "--fgcolor--facebook",
-    "body": "--fgcolor--facebook",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--twitter": {
-    "prefix": "--color--twitter",
-    "body": "--color--twitter",
-    "description": "#4fa8df",
-    "scope": "css"
-  },
-  "color---fgcolor--twitter": {
-    "prefix": "--fgcolor--twitter",
-    "body": "--fgcolor--twitter",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--flash": {
-    "prefix": "--color--flash",
-    "body": "--color--flash",
-    "description": "#e5ad02",
-    "scope": "css"
-  },
-  "color---fgcolor--flash": {
-    "prefix": "--fgcolor--flash",
-    "body": "--fgcolor--flash",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--forbrug": {
-    "prefix": "--color--forbrug",
-    "body": "--color--forbrug",
-    "description": "#19736a",
-    "scope": "css"
-  },
-  "color---fgcolor--forbrug": {
-    "prefix": "--fgcolor--forbrug",
-    "body": "--fgcolor--forbrug",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--krimi": {
-    "prefix": "--color--krimi",
-    "body": "--color--krimi",
-    "description": "#3d4352",
-    "scope": "css"
-  },
-  "color---fgcolor--krimi": {
-    "prefix": "--fgcolor--krimi",
-    "body": "--fgcolor--krimi",
     "description": "#fff",
     "scope": "css"
   },
@@ -707,135 +347,15 @@
     "description": "#fff",
     "scope": "css"
   },
-  "color---color--penge": {
-    "prefix": "--color--penge",
-    "body": "--color--penge",
-    "description": "#19736a",
+  "color---color--eb": {
+    "prefix": "--color--eb",
+    "body": "--color--eb",
+    "description": "#ff0000",
     "scope": "css"
   },
-  "color---fgcolor--penge": {
-    "prefix": "--fgcolor--penge",
-    "body": "--fgcolor--penge",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--livescore": {
-    "prefix": "--color--livescore",
-    "body": "--color--livescore",
-    "description": "#00b66b",
-    "scope": "css"
-  },
-  "color---fgcolor--livescore": {
-    "prefix": "--fgcolor--livescore",
-    "body": "--fgcolor--livescore",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--livescore2": {
-    "prefix": "--color--livescore2",
-    "body": "--color--livescore2",
-    "description": "#cbfe33",
-    "scope": "css"
-  },
-  "color---fgcolor--livescore2": {
-    "prefix": "--fgcolor--livescore2",
-    "body": "--fgcolor--livescore2",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---color--nyheder": {
-    "prefix": "--color--nyheder",
-    "body": "--color--nyheder",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---fgcolor--nyheder": {
-    "prefix": "--fgcolor--nyheder",
-    "body": "--fgcolor--nyheder",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---color--nyheder2": {
-    "prefix": "--color--nyheder2",
-    "body": "--color--nyheder2",
-    "description": "#000",
-    "scope": "css"
-  },
-  "color---fgcolor--nyheder2": {
-    "prefix": "--fgcolor--nyheder2",
-    "body": "--fgcolor--nyheder2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--politik": {
-    "prefix": "--color--politik",
-    "body": "--color--politik",
-    "description": "#0059db",
-    "scope": "css"
-  },
-  "color---fgcolor--politik": {
-    "prefix": "--fgcolor--politik",
-    "body": "--fgcolor--politik",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sex-samliv": {
-    "prefix": "--color--sex-samliv",
-    "body": "--color--sex-samliv",
-    "description": "#f45531",
-    "scope": "css"
-  },
-  "color---fgcolor--sex-samliv": {
-    "prefix": "--fgcolor--sex-samliv",
-    "body": "--fgcolor--sex-samliv",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sex-samliv2": {
-    "prefix": "--color--sex-samliv2",
-    "body": "--color--sex-samliv2",
-    "description": "#dc7095",
-    "scope": "css"
-  },
-  "color---fgcolor--sex-samliv2": {
-    "prefix": "--fgcolor--sex-samliv2",
-    "body": "--fgcolor--sex-samliv2",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--skolefodbold": {
-    "prefix": "--color--skolefodbold",
-    "body": "--color--skolefodbold",
-    "description": "#93b923",
-    "scope": "css"
-  },
-  "color---fgcolor--skolefodbold": {
-    "prefix": "--fgcolor--skolefodbold",
-    "body": "--fgcolor--skolefodbold",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sport": {
-    "prefix": "--color--sport",
-    "body": "--color--sport",
-    "description": "#00b66b",
-    "scope": "css"
-  },
-  "color---fgcolor--sport": {
-    "prefix": "--fgcolor--sport",
-    "body": "--fgcolor--sport",
-    "description": "#fff",
-    "scope": "css"
-  },
-  "color---color--sundhed": {
-    "prefix": "--color--sundhed",
-    "body": "--color--sundhed",
-    "description": "#45aedc",
-    "scope": "css"
-  },
-  "color---fgcolor--sundhed": {
-    "prefix": "--fgcolor--sundhed",
-    "body": "--fgcolor--sundhed",
+  "color---fgcolor--eb": {
+    "prefix": "--fgcolor--eb",
+    "body": "--fgcolor--eb",
     "description": "#fff",
     "scope": "css"
   },
@@ -851,6 +371,90 @@
     "description": "#fff",
     "scope": "css"
   },
+  "color---color--breaking": {
+    "prefix": "--color--breaking",
+    "body": "--color--breaking",
+    "description": "#ffff00",
+    "scope": "css"
+  },
+  "color---fgcolor--breaking": {
+    "prefix": "--fgcolor--breaking",
+    "body": "--fgcolor--breaking",
+    "description": "#000",
+    "scope": "css"
+  },
+  "color---color--native": {
+    "prefix": "--color--native",
+    "body": "--color--native",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---fgcolor--native": {
+    "prefix": "--fgcolor--native",
+    "body": "--fgcolor--native",
+    "description": "#000",
+    "scope": "css"
+  },
+  "color---color--nyheder": {
+    "prefix": "--color--nyheder",
+    "body": "--color--nyheder",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---fgcolor--nyheder": {
+    "prefix": "--fgcolor--nyheder",
+    "body": "--fgcolor--nyheder",
+    "description": "#000",
+    "scope": "css"
+  },
+  "color---color--sport": {
+    "prefix": "--color--sport",
+    "body": "--color--sport",
+    "description": "#00b66b",
+    "scope": "css"
+  },
+  "color---fgcolor--sport": {
+    "prefix": "--fgcolor--sport",
+    "body": "--fgcolor--sport",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--penge": {
+    "prefix": "--color--penge",
+    "body": "--color--penge",
+    "description": "#19736a",
+    "scope": "css"
+  },
+  "color---fgcolor--penge": {
+    "prefix": "--fgcolor--penge",
+    "body": "--fgcolor--penge",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--forbrug": {
+    "prefix": "--color--forbrug",
+    "body": "--color--forbrug",
+    "description": "#19736a",
+    "scope": "css"
+  },
+  "color---fgcolor--forbrug": {
+    "prefix": "--fgcolor--forbrug",
+    "body": "--fgcolor--forbrug",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--sundhed": {
+    "prefix": "--color--sundhed",
+    "body": "--color--sundhed",
+    "description": "#45aedc",
+    "scope": "css"
+  },
+  "color---fgcolor--sundhed": {
+    "prefix": "--fgcolor--sundhed",
+    "body": "--fgcolor--sundhed",
+    "description": "#fff",
+    "scope": "css"
+  },
   "color---color--underholdning": {
     "prefix": "--color--underholdning",
     "body": "--color--underholdning",
@@ -860,6 +464,42 @@
   "color---fgcolor--underholdning": {
     "prefix": "--fgcolor--underholdning",
     "body": "--fgcolor--underholdning",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--sex-samliv": {
+    "prefix": "--color--sex-samliv",
+    "body": "--color--sex-samliv",
+    "description": "#f45531",
+    "scope": "css"
+  },
+  "color---fgcolor--sex-samliv": {
+    "prefix": "--fgcolor--sex-samliv",
+    "body": "--fgcolor--sex-samliv",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--krimi": {
+    "prefix": "--color--krimi",
+    "body": "--color--krimi",
+    "description": "#3d4352",
+    "scope": "css"
+  },
+  "color---fgcolor--krimi": {
+    "prefix": "--fgcolor--krimi",
+    "body": "--fgcolor--krimi",
+    "description": "#fff",
+    "scope": "css"
+  },
+  "color---color--politik": {
+    "prefix": "--color--politik",
+    "body": "--color--politik",
+    "description": "#0059db",
+    "scope": "css"
+  },
+  "color---fgcolor--politik": {
+    "prefix": "--fgcolor--politik",
+    "body": "--fgcolor--politik",
     "description": "#fff",
     "scope": "css"
   }

@@ -1,93 +1,54 @@
 :root {
-  --color--bordeaux: #8a0c36;
-  --fgcolor--bordeaux: #fff;
-
-  --color--reddark: #900;
-  --fgcolor--reddark: #fff;
-
   --color--red: #ff0000;
   --fgcolor--red: #fff;
 
-  --color--rose: #dc7095;
-  --fgcolor--rose: #fff;
-
-  --color--burntorange: #f45531;
-  --fgcolor--burntorange: #fff;
-
-  --color--burntorange2: #d73c1a;
-  --fgcolor--burntorange2: #fff;
-
-  --color--orangedark: #e96c0d;
-  --fgcolor--orangedark: #fff;
-
-  --color--orange: #e5ad02;
+  --color--orange: #f45531;
   --fgcolor--orange: #fff;
 
-  --color--yellow: #fae500;
-  --fgcolor--yellow: #000;
+  --color--orangedark: #d73c1a;
+  --fgcolor--orangedark: #fff;
 
-  --color--yellowlight: #ffff00;
-  --fgcolor--yellowlight: #000;
+  --color--yellow: #ffff00;
+  --fgcolor--yellow: #000;
 
   --color--yellowtint: #f7f700;
   --fgcolor--yellowtint: #000;
 
-  --color--sand: #cec4a6;
-  --fgcolor--sand: #fff;
-
-  --color--greendark: #2f7820;
-  --fgcolor--greendark: #fff;
-
   --color--green: #00b66b;
   --fgcolor--green: #fff;
 
-  --color--green2: #00995a;
-  --fgcolor--green2: #fff;
-
-  --color--greenlight: #93b923;
-  --fgcolor--greenlight: #fff;
-
-  --color--lime: #cbfe33;
-  --fgcolor--lime: #000;
-
-  --color--purpledark: #6f00de;
-  --fgcolor--purpledark: #fff;
-
-  --color--purpledark2: #5300a6;
-  --fgcolor--purpledark2: #fff;
-
-  --color--royalblue: #0059db;
-  --fgcolor--royalblue: #fff;
-
-  --color--royalblue2: #0041a0;
-  --fgcolor--royalblue2: #fff;
-
-  --color--blue: #31769b;
-  --fgcolor--blue: #fff;
-
-  --color--bluegrey: #3d4352;
-  --fgcolor--bluegrey: #fff;
-
-  --color--bluegrey2: #262c39;
-  --fgcolor--bluegrey2: #fff;
-
-  --color--bluelight: #4fa8df;
-  --fgcolor--bluelight: #fff;
-
-  --color--sky: #45aedc;
-  --fgcolor--sky: #fff;
-
-  --color--sky2: #268fbc;
-  --fgcolor--sky2: #fff;
-
-  --color--sea: #84a8c4;
-  --fgcolor--sea: #fff;
+  --color--greendark: #00995a;
+  --fgcolor--greendark: #fff;
 
   --color--viridian: #19736a;
   --fgcolor--viridian: #fff;
 
-  --color--viridian2: #0a5a52;
-  --fgcolor--viridian2: #fff;
+  --color--viridiandark: #0a5a52;
+  --fgcolor--viridiandark: #fff;
+
+  --color--blue: #0059db;
+  --fgcolor--blue: #fff;
+
+  --color--bluedark: #0041a0;
+  --fgcolor--bluedark: #fff;
+
+  --color--lightblue: #45aedc;
+  --fgcolor--lightblue: #fff;
+
+  --color--lightbluedark: #268fbc;
+  --fgcolor--lightbluedark: #fff;
+
+  --color--bluegrey: #3d4352;
+  --fgcolor--bluegrey: #fff;
+
+  --color--bluegreydark: #262c39;
+  --fgcolor--bluegreydark: #fff;
+
+  --color--purple: #6f00de;
+  --fgcolor--purple: #fff;
+
+  --color--purpledark: #5300a6;
+  --fgcolor--purpledark: #fff;
 
   --color--black: #000;
   --fgcolor--black: #fff;
@@ -119,99 +80,48 @@
   --color--white: #fff;
   --fgcolor--white: #000;
 
-  --color--pastel-red: #db5040;
-  --fgcolor--pastel-red: #fff;
-
-  --color--pastel-darkred: #954839;
-  --fgcolor--pastel-darkred: #fff;
-
-  --color--pastel-lightred: #d67e9b;
-  --fgcolor--pastel-lightred: #fff;
-
-  --color--pastel-green: #9fc29c;
-  --fgcolor--pastel-green: #fff;
-
-  --color--pastel-darkgreen: #91a34f;
-  --fgcolor--pastel-darkgreen: #fff;
-
-  --color--pastel-yellow: #d4c564;
-  --fgcolor--pastel-yellow: #fff;
-
-  --color--eb: #ff0000;
-  --fgcolor--eb: #fff;
-
-  --color--eb2: #900;
-  --fgcolor--eb2: #fff;
-
-  --color--breaking: #ffff00;
-  --fgcolor--breaking: #000;
-
-  --color--bruger: #4fa8df;
-  --fgcolor--bruger: #fff;
-
   --color--live: #000;
   --fgcolor--live: #fff;
-
-  --color--native: #cec4a6;
-  --fgcolor--native: #fff;
-
-  --color--native2: #84a8c4;
-  --fgcolor--native2: #fff;
-
-  --color--facebook: #31769b;
-  --fgcolor--facebook: #fff;
-
-  --color--twitter: #4fa8df;
-  --fgcolor--twitter: #fff;
-
-  --color--flash: #e5ad02;
-  --fgcolor--flash: #fff;
-
-  --color--forbrug: #19736a;
-  --fgcolor--forbrug: #fff;
-
-  --color--krimi: #3d4352;
-  --fgcolor--krimi: #fff;
 
   --color--leder: #000;
   --fgcolor--leder: #fff;
 
-  --color--penge: #19736a;
-  --fgcolor--penge: #fff;
-
-  --color--livescore: #00b66b;
-  --fgcolor--livescore: #fff;
-
-  --color--livescore2: #cbfe33;
-  --fgcolor--livescore2: #000;
-
-  --color--nyheder: #fff;
-  --fgcolor--nyheder: #000;
-
-  --color--nyheder2: #000;
-  --fgcolor--nyheder2: #fff;
-
-  --color--politik: #0059db;
-  --fgcolor--politik: #fff;
-
-  --color--sex-samliv: #f45531;
-  --fgcolor--sex-samliv: #fff;
-
-  --color--sex-samliv2: #dc7095;
-  --fgcolor--sex-samliv2: #fff;
-
-  --color--skolefodbold: #93b923;
-  --fgcolor--skolefodbold: #fff;
-
-  --color--sport: #00b66b;
-  --fgcolor--sport: #fff;
-
-  --color--sundhed: #45aedc;
-  --fgcolor--sundhed: #fff;
+  --color--eb: #ff0000;
+  --fgcolor--eb: #fff;
 
   --color--tv: #ff0000;
   --fgcolor--tv: #fff;
 
+  --color--breaking: #ffff00;
+  --fgcolor--breaking: #000;
+
+  --color--native: #fff;
+  --fgcolor--native: #000;
+
+  --color--nyheder: #fff;
+  --fgcolor--nyheder: #000;
+
+  --color--sport: #00b66b;
+  --fgcolor--sport: #fff;
+
+  --color--penge: #19736a;
+  --fgcolor--penge: #fff;
+
+  --color--forbrug: #19736a;
+  --fgcolor--forbrug: #fff;
+
+  --color--sundhed: #45aedc;
+  --fgcolor--sundhed: #fff;
+
   --color--underholdning: #6f00de;
   --fgcolor--underholdning: #fff;
+
+  --color--sex-samliv: #f45531;
+  --fgcolor--sex-samliv: #fff;
+
+  --color--krimi: #3d4352;
+  --fgcolor--krimi: #fff;
+
+  --color--politik: #0059db;
+  --fgcolor--politik: #fff;
 }

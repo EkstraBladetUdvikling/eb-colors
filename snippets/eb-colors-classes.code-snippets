@@ -1,153 +1,88 @@
 {
-  "color-bg--bordeaux": {
-    "prefix": "bg--bordeaux",
-    "body": "bg--bordeaux",
-    "description": "{'background':'var(--color--bordeaux)','color':'var(--fgcolor--bordeaux)'}"
-  },
-  "color-bg--reddark": {
-    "prefix": "bg--reddark",
-    "body": "bg--reddark",
-    "description": "{'background':'var(--color--reddark)','color':'var(--fgcolor--reddark)'}"
-  },
   "color-bg--red": {
     "prefix": "bg--red",
     "body": "bg--red",
     "description": "{'background':'var(--color--red)','color':'var(--fgcolor--red)'}"
-  },
-  "color-bg--rose": {
-    "prefix": "bg--rose",
-    "body": "bg--rose",
-    "description": "{'background':'var(--color--rose)','color':'var(--fgcolor--rose)'}"
-  },
-  "color-bg--burntorange": {
-    "prefix": "bg--burntorange",
-    "body": "bg--burntorange",
-    "description": "{'background':'var(--color--burntorange)','color':'var(--fgcolor--burntorange)'}"
-  },
-  "color-bg--burntorange2": {
-    "prefix": "bg--burntorange2",
-    "body": "bg--burntorange2",
-    "description": "{'background':'var(--color--burntorange2)','color':'var(--fgcolor--burntorange2)'}"
-  },
-  "color-bg--orangedark": {
-    "prefix": "bg--orangedark",
-    "body": "bg--orangedark",
-    "description": "{'background':'var(--color--orangedark)','color':'var(--fgcolor--orangedark)'}"
   },
   "color-bg--orange": {
     "prefix": "bg--orange",
     "body": "bg--orange",
     "description": "{'background':'var(--color--orange)','color':'var(--fgcolor--orange)'}"
   },
+  "color-bg--orangedark": {
+    "prefix": "bg--orangedark",
+    "body": "bg--orangedark",
+    "description": "{'background':'var(--color--orangedark)','color':'var(--fgcolor--orangedark)'}"
+  },
   "color-bg--yellow": {
     "prefix": "bg--yellow",
     "body": "bg--yellow",
     "description": "{'background':'var(--color--yellow)','color':'var(--fgcolor--yellow)'}"
-  },
-  "color-bg--yellowlight": {
-    "prefix": "bg--yellowlight",
-    "body": "bg--yellowlight",
-    "description": "{'background':'var(--color--yellowlight)','color':'var(--fgcolor--yellowlight)'}"
   },
   "color-bg--yellowtint": {
     "prefix": "bg--yellowtint",
     "body": "bg--yellowtint",
     "description": "{'background':'var(--color--yellowtint)','color':'var(--fgcolor--yellowtint)'}"
   },
-  "color-bg--sand": {
-    "prefix": "bg--sand",
-    "body": "bg--sand",
-    "description": "{'background':'var(--color--sand)','color':'var(--fgcolor--sand)'}"
+  "color-bg--green": {
+    "prefix": "bg--green",
+    "body": "bg--green",
+    "description": "{'background':'var(--color--green)','color':'var(--fgcolor--green)'}"
   },
   "color-bg--greendark": {
     "prefix": "bg--greendark",
     "body": "bg--greendark",
     "description": "{'background':'var(--color--greendark)','color':'var(--fgcolor--greendark)'}"
   },
-  "color-bg--green": {
-    "prefix": "bg--green",
-    "body": "bg--green",
-    "description": "{'background':'var(--color--green)','color':'var(--fgcolor--green)'}"
+  "color-bg--viridian": {
+    "prefix": "bg--viridian",
+    "body": "bg--viridian",
+    "description": "{'background':'var(--color--viridian)','color':'var(--fgcolor--viridian)'}"
   },
-  "color-bg--green2": {
-    "prefix": "bg--green2",
-    "body": "bg--green2",
-    "description": "{'background':'var(--color--green2)','color':'var(--fgcolor--green2)'}"
-  },
-  "color-bg--greenlight": {
-    "prefix": "bg--greenlight",
-    "body": "bg--greenlight",
-    "description": "{'background':'var(--color--greenlight)','color':'var(--fgcolor--greenlight)'}"
-  },
-  "color-bg--lime": {
-    "prefix": "bg--lime",
-    "body": "bg--lime",
-    "description": "{'background':'var(--color--lime)','color':'var(--fgcolor--lime)'}"
-  },
-  "color-bg--purpledark": {
-    "prefix": "bg--purpledark",
-    "body": "bg--purpledark",
-    "description": "{'background':'var(--color--purpledark)','color':'var(--fgcolor--purpledark)'}"
-  },
-  "color-bg--purpledark2": {
-    "prefix": "bg--purpledark2",
-    "body": "bg--purpledark2",
-    "description": "{'background':'var(--color--purpledark2)','color':'var(--fgcolor--purpledark2)'}"
-  },
-  "color-bg--royalblue": {
-    "prefix": "bg--royalblue",
-    "body": "bg--royalblue",
-    "description": "{'background':'var(--color--royalblue)','color':'var(--fgcolor--royalblue)'}"
-  },
-  "color-bg--royalblue2": {
-    "prefix": "bg--royalblue2",
-    "body": "bg--royalblue2",
-    "description": "{'background':'var(--color--royalblue2)','color':'var(--fgcolor--royalblue2)'}"
+  "color-bg--viridiandark": {
+    "prefix": "bg--viridiandark",
+    "body": "bg--viridiandark",
+    "description": "{'background':'var(--color--viridiandark)','color':'var(--fgcolor--viridiandark)'}"
   },
   "color-bg--blue": {
     "prefix": "bg--blue",
     "body": "bg--blue",
     "description": "{'background':'var(--color--blue)','color':'var(--fgcolor--blue)'}"
   },
+  "color-bg--bluedark": {
+    "prefix": "bg--bluedark",
+    "body": "bg--bluedark",
+    "description": "{'background':'var(--color--bluedark)','color':'var(--fgcolor--bluedark)'}"
+  },
+  "color-bg--lightblue": {
+    "prefix": "bg--lightblue",
+    "body": "bg--lightblue",
+    "description": "{'background':'var(--color--lightblue)','color':'var(--fgcolor--lightblue)'}"
+  },
+  "color-bg--lightbluedark": {
+    "prefix": "bg--lightbluedark",
+    "body": "bg--lightbluedark",
+    "description": "{'background':'var(--color--lightbluedark)','color':'var(--fgcolor--lightbluedark)'}"
+  },
   "color-bg--bluegrey": {
     "prefix": "bg--bluegrey",
     "body": "bg--bluegrey",
     "description": "{'background':'var(--color--bluegrey)','color':'var(--fgcolor--bluegrey)'}"
   },
-  "color-bg--bluegrey2": {
-    "prefix": "bg--bluegrey2",
-    "body": "bg--bluegrey2",
-    "description": "{'background':'var(--color--bluegrey2)','color':'var(--fgcolor--bluegrey2)'}"
+  "color-bg--bluegreydark": {
+    "prefix": "bg--bluegreydark",
+    "body": "bg--bluegreydark",
+    "description": "{'background':'var(--color--bluegreydark)','color':'var(--fgcolor--bluegreydark)'}"
   },
-  "color-bg--bluelight": {
-    "prefix": "bg--bluelight",
-    "body": "bg--bluelight",
-    "description": "{'background':'var(--color--bluelight)','color':'var(--fgcolor--bluelight)'}"
+  "color-bg--purple": {
+    "prefix": "bg--purple",
+    "body": "bg--purple",
+    "description": "{'background':'var(--color--purple)','color':'var(--fgcolor--purple)'}"
   },
-  "color-bg--sky": {
-    "prefix": "bg--sky",
-    "body": "bg--sky",
-    "description": "{'background':'var(--color--sky)','color':'var(--fgcolor--sky)'}"
-  },
-  "color-bg--sky2": {
-    "prefix": "bg--sky2",
-    "body": "bg--sky2",
-    "description": "{'background':'var(--color--sky2)','color':'var(--fgcolor--sky2)'}"
-  },
-  "color-bg--sea": {
-    "prefix": "bg--sea",
-    "body": "bg--sea",
-    "description": "{'background':'var(--color--sea)','color':'var(--fgcolor--sea)'}"
-  },
-  "color-bg--viridian": {
-    "prefix": "bg--viridian",
-    "body": "bg--viridian",
-    "description": "{'background':'var(--color--viridian)','color':'var(--fgcolor--viridian)'}"
-  },
-  "color-bg--viridian2": {
-    "prefix": "bg--viridian2",
-    "body": "bg--viridian2",
-    "description": "{'background':'var(--color--viridian2)','color':'var(--fgcolor--viridian2)'}"
+  "color-bg--purpledark": {
+    "prefix": "bg--purpledark",
+    "body": "bg--purpledark",
+    "description": "{'background':'var(--color--purpledark)','color':'var(--fgcolor--purpledark)'}"
   },
   "color-bg--black": {
     "prefix": "bg--black",
@@ -199,315 +134,165 @@
     "body": "bg--white",
     "description": "{'background':'var(--color--white)','color':'var(--fgcolor--white)'}"
   },
-  "color-bg--pastel-red": {
-    "prefix": "bg--pastel-red",
-    "body": "bg--pastel-red",
-    "description": "{'background':'var(--color--pastel-red)','color':'var(--fgcolor--pastel-red)'}"
-  },
-  "color-bg--pastel-darkred": {
-    "prefix": "bg--pastel-darkred",
-    "body": "bg--pastel-darkred",
-    "description": "{'background':'var(--color--pastel-darkred)','color':'var(--fgcolor--pastel-darkred)'}"
-  },
-  "color-bg--pastel-lightred": {
-    "prefix": "bg--pastel-lightred",
-    "body": "bg--pastel-lightred",
-    "description": "{'background':'var(--color--pastel-lightred)','color':'var(--fgcolor--pastel-lightred)'}"
-  },
-  "color-bg--pastel-green": {
-    "prefix": "bg--pastel-green",
-    "body": "bg--pastel-green",
-    "description": "{'background':'var(--color--pastel-green)','color':'var(--fgcolor--pastel-green)'}"
-  },
-  "color-bg--pastel-darkgreen": {
-    "prefix": "bg--pastel-darkgreen",
-    "body": "bg--pastel-darkgreen",
-    "description": "{'background':'var(--color--pastel-darkgreen)','color':'var(--fgcolor--pastel-darkgreen)'}"
-  },
-  "color-bg--pastel-yellow": {
-    "prefix": "bg--pastel-yellow",
-    "body": "bg--pastel-yellow",
-    "description": "{'background':'var(--color--pastel-yellow)','color':'var(--fgcolor--pastel-yellow)'}"
-  },
-  "color-bg--eb": {
-    "prefix": "bg--eb",
-    "body": "bg--eb",
-    "description": "{'background':'var(--color--eb)','color':'var(--fgcolor--eb)'}"
-  },
-  "color-bg--eb2": {
-    "prefix": "bg--eb2",
-    "body": "bg--eb2",
-    "description": "{'background':'var(--color--eb2)','color':'var(--fgcolor--eb2)'}"
-  },
-  "color-bg--breaking": {
-    "prefix": "bg--breaking",
-    "body": "bg--breaking",
-    "description": "{'background':'var(--color--breaking)','color':'var(--fgcolor--breaking)'}"
-  },
-  "color-bg--bruger": {
-    "prefix": "bg--bruger",
-    "body": "bg--bruger",
-    "description": "{'background':'var(--color--bruger)','color':'var(--fgcolor--bruger)'}"
-  },
   "color-bg--live": {
     "prefix": "bg--live",
     "body": "bg--live",
     "description": "{'background':'var(--color--live)','color':'var(--fgcolor--live)'}"
-  },
-  "color-bg--native": {
-    "prefix": "bg--native",
-    "body": "bg--native",
-    "description": "{'background':'var(--color--native)','color':'var(--fgcolor--native)'}"
-  },
-  "color-bg--native2": {
-    "prefix": "bg--native2",
-    "body": "bg--native2",
-    "description": "{'background':'var(--color--native2)','color':'var(--fgcolor--native2)'}"
-  },
-  "color-bg--facebook": {
-    "prefix": "bg--facebook",
-    "body": "bg--facebook",
-    "description": "{'background':'var(--color--facebook)','color':'var(--fgcolor--facebook)'}"
-  },
-  "color-bg--twitter": {
-    "prefix": "bg--twitter",
-    "body": "bg--twitter",
-    "description": "{'background':'var(--color--twitter)','color':'var(--fgcolor--twitter)'}"
-  },
-  "color-bg--flash": {
-    "prefix": "bg--flash",
-    "body": "bg--flash",
-    "description": "{'background':'var(--color--flash)','color':'var(--fgcolor--flash)'}"
-  },
-  "color-bg--forbrug": {
-    "prefix": "bg--forbrug",
-    "body": "bg--forbrug",
-    "description": "{'background':'var(--color--forbrug)','color':'var(--fgcolor--forbrug)'}"
-  },
-  "color-bg--krimi": {
-    "prefix": "bg--krimi",
-    "body": "bg--krimi",
-    "description": "{'background':'var(--color--krimi)','color':'var(--fgcolor--krimi)'}"
   },
   "color-bg--leder": {
     "prefix": "bg--leder",
     "body": "bg--leder",
     "description": "{'background':'var(--color--leder)','color':'var(--fgcolor--leder)'}"
   },
-  "color-bg--penge": {
-    "prefix": "bg--penge",
-    "body": "bg--penge",
-    "description": "{'background':'var(--color--penge)','color':'var(--fgcolor--penge)'}"
-  },
-  "color-bg--livescore": {
-    "prefix": "bg--livescore",
-    "body": "bg--livescore",
-    "description": "{'background':'var(--color--livescore)','color':'var(--fgcolor--livescore)'}"
-  },
-  "color-bg--livescore2": {
-    "prefix": "bg--livescore2",
-    "body": "bg--livescore2",
-    "description": "{'background':'var(--color--livescore2)','color':'var(--fgcolor--livescore2)'}"
-  },
-  "color-bg--nyheder": {
-    "prefix": "bg--nyheder",
-    "body": "bg--nyheder",
-    "description": "{'background':'var(--color--nyheder)','color':'var(--fgcolor--nyheder)'}"
-  },
-  "color-bg--nyheder2": {
-    "prefix": "bg--nyheder2",
-    "body": "bg--nyheder2",
-    "description": "{'background':'var(--color--nyheder2)','color':'var(--fgcolor--nyheder2)'}"
-  },
-  "color-bg--politik": {
-    "prefix": "bg--politik",
-    "body": "bg--politik",
-    "description": "{'background':'var(--color--politik)','color':'var(--fgcolor--politik)'}"
-  },
-  "color-bg--sex-samliv": {
-    "prefix": "bg--sex-samliv",
-    "body": "bg--sex-samliv",
-    "description": "{'background':'var(--color--sex-samliv)','color':'var(--fgcolor--sex-samliv)'}"
-  },
-  "color-bg--sex-samliv2": {
-    "prefix": "bg--sex-samliv2",
-    "body": "bg--sex-samliv2",
-    "description": "{'background':'var(--color--sex-samliv2)','color':'var(--fgcolor--sex-samliv2)'}"
-  },
-  "color-bg--skolefodbold": {
-    "prefix": "bg--skolefodbold",
-    "body": "bg--skolefodbold",
-    "description": "{'background':'var(--color--skolefodbold)','color':'var(--fgcolor--skolefodbold)'}"
-  },
-  "color-bg--sport": {
-    "prefix": "bg--sport",
-    "body": "bg--sport",
-    "description": "{'background':'var(--color--sport)','color':'var(--fgcolor--sport)'}"
-  },
-  "color-bg--sundhed": {
-    "prefix": "bg--sundhed",
-    "body": "bg--sundhed",
-    "description": "{'background':'var(--color--sundhed)','color':'var(--fgcolor--sundhed)'}"
+  "color-bg--eb": {
+    "prefix": "bg--eb",
+    "body": "bg--eb",
+    "description": "{'background':'var(--color--eb)','color':'var(--fgcolor--eb)'}"
   },
   "color-bg--tv": {
     "prefix": "bg--tv",
     "body": "bg--tv",
     "description": "{'background':'var(--color--tv)','color':'var(--fgcolor--tv)'}"
   },
+  "color-bg--breaking": {
+    "prefix": "bg--breaking",
+    "body": "bg--breaking",
+    "description": "{'background':'var(--color--breaking)','color':'var(--fgcolor--breaking)'}"
+  },
+  "color-bg--native": {
+    "prefix": "bg--native",
+    "body": "bg--native",
+    "description": "{'background':'var(--color--native)','color':'var(--fgcolor--native)'}"
+  },
+  "color-bg--nyheder": {
+    "prefix": "bg--nyheder",
+    "body": "bg--nyheder",
+    "description": "{'background':'var(--color--nyheder)','color':'var(--fgcolor--nyheder)'}"
+  },
+  "color-bg--sport": {
+    "prefix": "bg--sport",
+    "body": "bg--sport",
+    "description": "{'background':'var(--color--sport)','color':'var(--fgcolor--sport)'}"
+  },
+  "color-bg--penge": {
+    "prefix": "bg--penge",
+    "body": "bg--penge",
+    "description": "{'background':'var(--color--penge)','color':'var(--fgcolor--penge)'}"
+  },
+  "color-bg--forbrug": {
+    "prefix": "bg--forbrug",
+    "body": "bg--forbrug",
+    "description": "{'background':'var(--color--forbrug)','color':'var(--fgcolor--forbrug)'}"
+  },
+  "color-bg--sundhed": {
+    "prefix": "bg--sundhed",
+    "body": "bg--sundhed",
+    "description": "{'background':'var(--color--sundhed)','color':'var(--fgcolor--sundhed)'}"
+  },
   "color-bg--underholdning": {
     "prefix": "bg--underholdning",
     "body": "bg--underholdning",
     "description": "{'background':'var(--color--underholdning)','color':'var(--fgcolor--underholdning)'}"
   },
-  "color-color--bordeaux": {
-    "prefix": "color--bordeaux",
-    "body": "color--bordeaux",
-    "description": "{'color':'var(--color--bordeaux)'}"
+  "color-bg--sex-samliv": {
+    "prefix": "bg--sex-samliv",
+    "body": "bg--sex-samliv",
+    "description": "{'background':'var(--color--sex-samliv)','color':'var(--fgcolor--sex-samliv)'}"
   },
-  "color-color--reddark": {
-    "prefix": "color--reddark",
-    "body": "color--reddark",
-    "description": "{'color':'var(--color--reddark)'}"
+  "color-bg--krimi": {
+    "prefix": "bg--krimi",
+    "body": "bg--krimi",
+    "description": "{'background':'var(--color--krimi)','color':'var(--fgcolor--krimi)'}"
+  },
+  "color-bg--politik": {
+    "prefix": "bg--politik",
+    "body": "bg--politik",
+    "description": "{'background':'var(--color--politik)','color':'var(--fgcolor--politik)'}"
   },
   "color-color--red": {
     "prefix": "color--red",
     "body": "color--red",
     "description": "{'color':'var(--color--red)'}"
   },
-  "color-color--rose": {
-    "prefix": "color--rose",
-    "body": "color--rose",
-    "description": "{'color':'var(--color--rose)'}"
-  },
-  "color-color--burntorange": {
-    "prefix": "color--burntorange",
-    "body": "color--burntorange",
-    "description": "{'color':'var(--color--burntorange)'}"
-  },
-  "color-color--burntorange2": {
-    "prefix": "color--burntorange2",
-    "body": "color--burntorange2",
-    "description": "{'color':'var(--color--burntorange2)'}"
+  "color-color--orange": {
+    "prefix": "color--orange",
+    "body": "color--orange",
+    "description": "{'color':'var(--color--orange)'}"
   },
   "color-color--orangedark": {
     "prefix": "color--orangedark",
     "body": "color--orangedark",
     "description": "{'color':'var(--color--orangedark)'}"
   },
-  "color-color--orange": {
-    "prefix": "color--orange",
-    "body": "color--orange",
-    "description": "{'color':'var(--color--orange)'}"
-  },
   "color-color--yellow": {
     "prefix": "color--yellow",
     "body": "color--yellow",
     "description": "{'color':'var(--color--yellow)'}"
-  },
-  "color-color--yellowlight": {
-    "prefix": "color--yellowlight",
-    "body": "color--yellowlight",
-    "description": "{'color':'var(--color--yellowlight)'}"
   },
   "color-color--yellowtint": {
     "prefix": "color--yellowtint",
     "body": "color--yellowtint",
     "description": "{'color':'var(--color--yellowtint)'}"
   },
-  "color-color--sand": {
-    "prefix": "color--sand",
-    "body": "color--sand",
-    "description": "{'color':'var(--color--sand)'}"
+  "color-color--green": {
+    "prefix": "color--green",
+    "body": "color--green",
+    "description": "{'color':'var(--color--green)'}"
   },
   "color-color--greendark": {
     "prefix": "color--greendark",
     "body": "color--greendark",
     "description": "{'color':'var(--color--greendark)'}"
   },
-  "color-color--green": {
-    "prefix": "color--green",
-    "body": "color--green",
-    "description": "{'color':'var(--color--green)'}"
+  "color-color--viridian": {
+    "prefix": "color--viridian",
+    "body": "color--viridian",
+    "description": "{'color':'var(--color--viridian)'}"
   },
-  "color-color--green2": {
-    "prefix": "color--green2",
-    "body": "color--green2",
-    "description": "{'color':'var(--color--green2)'}"
-  },
-  "color-color--greenlight": {
-    "prefix": "color--greenlight",
-    "body": "color--greenlight",
-    "description": "{'color':'var(--color--greenlight)'}"
-  },
-  "color-color--lime": {
-    "prefix": "color--lime",
-    "body": "color--lime",
-    "description": "{'color':'var(--color--lime)'}"
-  },
-  "color-color--purpledark": {
-    "prefix": "color--purpledark",
-    "body": "color--purpledark",
-    "description": "{'color':'var(--color--purpledark)'}"
-  },
-  "color-color--purpledark2": {
-    "prefix": "color--purpledark2",
-    "body": "color--purpledark2",
-    "description": "{'color':'var(--color--purpledark2)'}"
-  },
-  "color-color--royalblue": {
-    "prefix": "color--royalblue",
-    "body": "color--royalblue",
-    "description": "{'color':'var(--color--royalblue)'}"
-  },
-  "color-color--royalblue2": {
-    "prefix": "color--royalblue2",
-    "body": "color--royalblue2",
-    "description": "{'color':'var(--color--royalblue2)'}"
+  "color-color--viridiandark": {
+    "prefix": "color--viridiandark",
+    "body": "color--viridiandark",
+    "description": "{'color':'var(--color--viridiandark)'}"
   },
   "color-color--blue": {
     "prefix": "color--blue",
     "body": "color--blue",
     "description": "{'color':'var(--color--blue)'}"
   },
+  "color-color--bluedark": {
+    "prefix": "color--bluedark",
+    "body": "color--bluedark",
+    "description": "{'color':'var(--color--bluedark)'}"
+  },
+  "color-color--lightblue": {
+    "prefix": "color--lightblue",
+    "body": "color--lightblue",
+    "description": "{'color':'var(--color--lightblue)'}"
+  },
+  "color-color--lightbluedark": {
+    "prefix": "color--lightbluedark",
+    "body": "color--lightbluedark",
+    "description": "{'color':'var(--color--lightbluedark)'}"
+  },
   "color-color--bluegrey": {
     "prefix": "color--bluegrey",
     "body": "color--bluegrey",
     "description": "{'color':'var(--color--bluegrey)'}"
   },
-  "color-color--bluegrey2": {
-    "prefix": "color--bluegrey2",
-    "body": "color--bluegrey2",
-    "description": "{'color':'var(--color--bluegrey2)'}"
+  "color-color--bluegreydark": {
+    "prefix": "color--bluegreydark",
+    "body": "color--bluegreydark",
+    "description": "{'color':'var(--color--bluegreydark)'}"
   },
-  "color-color--bluelight": {
-    "prefix": "color--bluelight",
-    "body": "color--bluelight",
-    "description": "{'color':'var(--color--bluelight)'}"
+  "color-color--purple": {
+    "prefix": "color--purple",
+    "body": "color--purple",
+    "description": "{'color':'var(--color--purple)'}"
   },
-  "color-color--sky": {
-    "prefix": "color--sky",
-    "body": "color--sky",
-    "description": "{'color':'var(--color--sky)'}"
-  },
-  "color-color--sky2": {
-    "prefix": "color--sky2",
-    "body": "color--sky2",
-    "description": "{'color':'var(--color--sky2)'}"
-  },
-  "color-color--sea": {
-    "prefix": "color--sea",
-    "body": "color--sea",
-    "description": "{'color':'var(--color--sea)'}"
-  },
-  "color-color--viridian": {
-    "prefix": "color--viridian",
-    "body": "color--viridian",
-    "description": "{'color':'var(--color--viridian)'}"
-  },
-  "color-color--viridian2": {
-    "prefix": "color--viridian2",
-    "body": "color--viridian2",
-    "description": "{'color':'var(--color--viridian2)'}"
+  "color-color--purpledark": {
+    "prefix": "color--purpledark",
+    "body": "color--purpledark",
+    "description": "{'color':'var(--color--purpledark)'}"
   },
   "color-color--black": {
     "prefix": "color--black",
@@ -559,165 +344,80 @@
     "body": "color--white",
     "description": "{'color':'var(--color--white)'}"
   },
-  "color-color--pastel-red": {
-    "prefix": "color--pastel-red",
-    "body": "color--pastel-red",
-    "description": "{'color':'var(--color--pastel-red)'}"
-  },
-  "color-color--pastel-darkred": {
-    "prefix": "color--pastel-darkred",
-    "body": "color--pastel-darkred",
-    "description": "{'color':'var(--color--pastel-darkred)'}"
-  },
-  "color-color--pastel-lightred": {
-    "prefix": "color--pastel-lightred",
-    "body": "color--pastel-lightred",
-    "description": "{'color':'var(--color--pastel-lightred)'}"
-  },
-  "color-color--pastel-green": {
-    "prefix": "color--pastel-green",
-    "body": "color--pastel-green",
-    "description": "{'color':'var(--color--pastel-green)'}"
-  },
-  "color-color--pastel-darkgreen": {
-    "prefix": "color--pastel-darkgreen",
-    "body": "color--pastel-darkgreen",
-    "description": "{'color':'var(--color--pastel-darkgreen)'}"
-  },
-  "color-color--pastel-yellow": {
-    "prefix": "color--pastel-yellow",
-    "body": "color--pastel-yellow",
-    "description": "{'color':'var(--color--pastel-yellow)'}"
-  },
-  "color-color--eb": {
-    "prefix": "color--eb",
-    "body": "color--eb",
-    "description": "{'color':'var(--color--eb)'}"
-  },
-  "color-color--eb2": {
-    "prefix": "color--eb2",
-    "body": "color--eb2",
-    "description": "{'color':'var(--color--eb2)'}"
-  },
-  "color-color--breaking": {
-    "prefix": "color--breaking",
-    "body": "color--breaking",
-    "description": "{'color':'var(--color--breaking)'}"
-  },
-  "color-color--bruger": {
-    "prefix": "color--bruger",
-    "body": "color--bruger",
-    "description": "{'color':'var(--color--bruger)'}"
-  },
   "color-color--live": {
     "prefix": "color--live",
     "body": "color--live",
     "description": "{'color':'var(--color--live)'}"
-  },
-  "color-color--native": {
-    "prefix": "color--native",
-    "body": "color--native",
-    "description": "{'color':'var(--color--native)'}"
-  },
-  "color-color--native2": {
-    "prefix": "color--native2",
-    "body": "color--native2",
-    "description": "{'color':'var(--color--native2)'}"
-  },
-  "color-color--facebook": {
-    "prefix": "color--facebook",
-    "body": "color--facebook",
-    "description": "{'color':'var(--color--facebook)'}"
-  },
-  "color-color--twitter": {
-    "prefix": "color--twitter",
-    "body": "color--twitter",
-    "description": "{'color':'var(--color--twitter)'}"
-  },
-  "color-color--flash": {
-    "prefix": "color--flash",
-    "body": "color--flash",
-    "description": "{'color':'var(--color--flash)'}"
-  },
-  "color-color--forbrug": {
-    "prefix": "color--forbrug",
-    "body": "color--forbrug",
-    "description": "{'color':'var(--color--forbrug)'}"
-  },
-  "color-color--krimi": {
-    "prefix": "color--krimi",
-    "body": "color--krimi",
-    "description": "{'color':'var(--color--krimi)'}"
   },
   "color-color--leder": {
     "prefix": "color--leder",
     "body": "color--leder",
     "description": "{'color':'var(--color--leder)'}"
   },
-  "color-color--penge": {
-    "prefix": "color--penge",
-    "body": "color--penge",
-    "description": "{'color':'var(--color--penge)'}"
-  },
-  "color-color--livescore": {
-    "prefix": "color--livescore",
-    "body": "color--livescore",
-    "description": "{'color':'var(--color--livescore)'}"
-  },
-  "color-color--livescore2": {
-    "prefix": "color--livescore2",
-    "body": "color--livescore2",
-    "description": "{'color':'var(--color--livescore2)'}"
-  },
-  "color-color--nyheder": {
-    "prefix": "color--nyheder",
-    "body": "color--nyheder",
-    "description": "{'color':'var(--color--nyheder)'}"
-  },
-  "color-color--nyheder2": {
-    "prefix": "color--nyheder2",
-    "body": "color--nyheder2",
-    "description": "{'color':'var(--color--nyheder2)'}"
-  },
-  "color-color--politik": {
-    "prefix": "color--politik",
-    "body": "color--politik",
-    "description": "{'color':'var(--color--politik)'}"
-  },
-  "color-color--sex-samliv": {
-    "prefix": "color--sex-samliv",
-    "body": "color--sex-samliv",
-    "description": "{'color':'var(--color--sex-samliv)'}"
-  },
-  "color-color--sex-samliv2": {
-    "prefix": "color--sex-samliv2",
-    "body": "color--sex-samliv2",
-    "description": "{'color':'var(--color--sex-samliv2)'}"
-  },
-  "color-color--skolefodbold": {
-    "prefix": "color--skolefodbold",
-    "body": "color--skolefodbold",
-    "description": "{'color':'var(--color--skolefodbold)'}"
-  },
-  "color-color--sport": {
-    "prefix": "color--sport",
-    "body": "color--sport",
-    "description": "{'color':'var(--color--sport)'}"
-  },
-  "color-color--sundhed": {
-    "prefix": "color--sundhed",
-    "body": "color--sundhed",
-    "description": "{'color':'var(--color--sundhed)'}"
+  "color-color--eb": {
+    "prefix": "color--eb",
+    "body": "color--eb",
+    "description": "{'color':'var(--color--eb)'}"
   },
   "color-color--tv": {
     "prefix": "color--tv",
     "body": "color--tv",
     "description": "{'color':'var(--color--tv)'}"
   },
+  "color-color--breaking": {
+    "prefix": "color--breaking",
+    "body": "color--breaking",
+    "description": "{'color':'var(--color--breaking)'}"
+  },
+  "color-color--native": {
+    "prefix": "color--native",
+    "body": "color--native",
+    "description": "{'color':'var(--color--native)'}"
+  },
+  "color-color--nyheder": {
+    "prefix": "color--nyheder",
+    "body": "color--nyheder",
+    "description": "{'color':'var(--color--nyheder)'}"
+  },
+  "color-color--sport": {
+    "prefix": "color--sport",
+    "body": "color--sport",
+    "description": "{'color':'var(--color--sport)'}"
+  },
+  "color-color--penge": {
+    "prefix": "color--penge",
+    "body": "color--penge",
+    "description": "{'color':'var(--color--penge)'}"
+  },
+  "color-color--forbrug": {
+    "prefix": "color--forbrug",
+    "body": "color--forbrug",
+    "description": "{'color':'var(--color--forbrug)'}"
+  },
+  "color-color--sundhed": {
+    "prefix": "color--sundhed",
+    "body": "color--sundhed",
+    "description": "{'color':'var(--color--sundhed)'}"
+  },
   "color-color--underholdning": {
     "prefix": "color--underholdning",
     "body": "color--underholdning",
     "description": "{'color':'var(--color--underholdning)'}"
+  },
+  "color-color--sex-samliv": {
+    "prefix": "color--sex-samliv",
+    "body": "color--sex-samliv",
+    "description": "{'color':'var(--color--sex-samliv)'}"
+  },
+  "color-color--krimi": {
+    "prefix": "color--krimi",
+    "body": "color--krimi",
+    "description": "{'color':'var(--color--krimi)'}"
+  },
+  "color-color--politik": {
+    "prefix": "color--politik",
+    "body": "color--politik",
+    "description": "{'color':'var(--color--politik)'}"
   },
   "color-border--black": {
     "prefix": "border--black",
