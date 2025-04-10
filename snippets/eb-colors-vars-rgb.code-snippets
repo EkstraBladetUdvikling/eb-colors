@@ -1,51 +1,11 @@
 {
-  "color---rgb-color--bordeaux": {
-    "prefix": "--rgb-color--bordeaux",
-    "body": "--rgb-color--bordeaux",
-    "description": [
-      138,
-      12,
-      54
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--bordeaux": {
-    "prefix": "--rgb-fgcolor--bordeaux",
-    "body": "--rgb-fgcolor--bordeaux",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--reddark": {
-    "prefix": "--rgb-color--reddark",
-    "body": "--rgb-color--reddark",
-    "description": [
-      153,
-      0,
-      0
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--reddark": {
-    "prefix": "--rgb-fgcolor--reddark",
-    "body": "--rgb-fgcolor--reddark",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
   "color---rgb-color--red": {
     "prefix": "--rgb-color--red",
     "body": "--rgb-color--red",
     "description": [
-      227,
-      20,
-      29
+      255,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -59,73 +19,13 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--pink": {
-    "prefix": "--rgb-color--pink",
-    "body": "--rgb-color--pink",
-    "description": [
-      179,
-      30,
-      97
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pink": {
-    "prefix": "--rgb-fgcolor--pink",
-    "body": "--rgb-fgcolor--pink",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--rose": {
-    "prefix": "--rgb-color--rose",
-    "body": "--rgb-color--rose",
-    "description": [
-      220,
-      112,
-      149
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--rose": {
-    "prefix": "--rgb-fgcolor--rose",
-    "body": "--rgb-fgcolor--rose",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--orangedark": {
-    "prefix": "--rgb-color--orangedark",
-    "body": "--rgb-color--orangedark",
-    "description": [
-      233,
-      108,
-      13
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--orangedark": {
-    "prefix": "--rgb-fgcolor--orangedark",
-    "body": "--rgb-fgcolor--orangedark",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
   "color---rgb-color--orange": {
     "prefix": "--rgb-color--orange",
     "body": "--rgb-color--orange",
     "description": [
-      229,
-      173,
-      2
+      244,
+      85,
+      49
     ],
     "scope": "css"
   },
@@ -139,12 +39,32 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--orangedark": {
+    "prefix": "--rgb-color--orangedark",
+    "body": "--rgb-color--orangedark",
+    "description": [
+      215,
+      60,
+      26
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--orangedark": {
+    "prefix": "--rgb-fgcolor--orangedark",
+    "body": "--rgb-fgcolor--orangedark",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--yellow": {
     "prefix": "--rgb-color--yellow",
     "body": "--rgb-color--yellow",
     "description": [
-      250,
-      229,
+      255,
+      255,
       0
     ],
     "scope": "css"
@@ -159,63 +79,23 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--yellowlight": {
-    "prefix": "--rgb-color--yellowlight",
-    "body": "--rgb-color--yellowlight",
+  "color---rgb-color--yellowtint": {
+    "prefix": "--rgb-color--yellowtint",
+    "body": "--rgb-color--yellowtint",
     "description": [
-      255,
-      255,
+      247,
+      247,
       0
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--yellowlight": {
-    "prefix": "--rgb-fgcolor--yellowlight",
-    "body": "--rgb-fgcolor--yellowlight",
+  "color---rgb-fgcolor--yellowtint": {
+    "prefix": "--rgb-fgcolor--yellowtint",
+    "body": "--rgb-fgcolor--yellowtint",
     "description": [
       0,
       0,
       0
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--sand": {
-    "prefix": "--rgb-color--sand",
-    "body": "--rgb-color--sand",
-    "description": [
-      206,
-      196,
-      166
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--sand": {
-    "prefix": "--rgb-fgcolor--sand",
-    "body": "--rgb-fgcolor--sand",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--greendark": {
-    "prefix": "--rgb-color--greendark",
-    "body": "--rgb-color--greendark",
-    "description": [
-      47,
-      120,
-      32
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--greendark": {
-    "prefix": "--rgb-fgcolor--greendark",
-    "body": "--rgb-fgcolor--greendark",
-    "description": [
-      255,
-      255,
-      255
     ],
     "scope": "css"
   },
@@ -223,9 +103,9 @@
     "prefix": "--rgb-color--green",
     "body": "--rgb-color--green",
     "description": [
-      2,
-      158,
-      93
+      0,
+      182,
+      107
     ],
     "scope": "css"
   },
@@ -239,59 +119,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--greenlight": {
-    "prefix": "--rgb-color--greenlight",
-    "body": "--rgb-color--greenlight",
-    "description": [
-      147,
-      185,
-      35
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--greenlight": {
-    "prefix": "--rgb-fgcolor--greenlight",
-    "body": "--rgb-fgcolor--greenlight",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--lime": {
-    "prefix": "--rgb-color--lime",
-    "body": "--rgb-color--lime",
-    "description": [
-      203,
-      254,
-      51
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--lime": {
-    "prefix": "--rgb-fgcolor--lime",
-    "body": "--rgb-fgcolor--lime",
+  "color---rgb-color--greendark": {
+    "prefix": "--rgb-color--greendark",
+    "body": "--rgb-color--greendark",
     "description": [
       0,
-      0,
-      0
+      153,
+      90
     ],
     "scope": "css"
   },
-  "color---rgb-color--purpledark": {
-    "prefix": "--rgb-color--purpledark",
-    "body": "--rgb-color--purpledark",
-    "description": [
-      81,
-      32,
-      140
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--purpledark": {
-    "prefix": "--rgb-fgcolor--purpledark",
-    "body": "--rgb-fgcolor--purpledark",
+  "color---rgb-fgcolor--greendark": {
+    "prefix": "--rgb-fgcolor--greendark",
+    "body": "--rgb-fgcolor--greendark",
     "description": [
       255,
       255,
@@ -299,19 +139,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bluenavy": {
-    "prefix": "--rgb-color--bluenavy",
-    "body": "--rgb-color--bluenavy",
+  "color---rgb-color--viridian": {
+    "prefix": "--rgb-color--viridian",
+    "body": "--rgb-color--viridian",
     "description": [
-      26,
-      35,
-      126
+      25,
+      115,
+      106
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--bluenavy": {
-    "prefix": "--rgb-fgcolor--bluenavy",
-    "body": "--rgb-fgcolor--bluenavy",
+  "color---rgb-fgcolor--viridian": {
+    "prefix": "--rgb-fgcolor--viridian",
+    "body": "--rgb-fgcolor--viridian",
     "description": [
       255,
       255,
@@ -319,19 +159,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bluedark": {
-    "prefix": "--rgb-color--bluedark",
-    "body": "--rgb-color--bluedark",
+  "color---rgb-color--viridiandark": {
+    "prefix": "--rgb-color--viridiandark",
+    "body": "--rgb-color--viridiandark",
     "description": [
-      16,
-      88,
-      194
+      10,
+      90,
+      82
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--bluedark": {
-    "prefix": "--rgb-fgcolor--bluedark",
-    "body": "--rgb-fgcolor--bluedark",
+  "color---rgb-fgcolor--viridiandark": {
+    "prefix": "--rgb-fgcolor--viridiandark",
+    "body": "--rgb-fgcolor--viridiandark",
     "description": [
       255,
       255,
@@ -343,9 +183,9 @@
     "prefix": "--rgb-color--blue",
     "body": "--rgb-color--blue",
     "description": [
-      49,
-      118,
-      155
+      0,
+      89,
+      219
     ],
     "scope": "css"
   },
@@ -359,39 +199,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bluelight": {
-    "prefix": "--rgb-color--bluelight",
-    "body": "--rgb-color--bluelight",
-    "description": [
-      79,
-      168,
-      223
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--bluelight": {
-    "prefix": "--rgb-fgcolor--bluelight",
-    "body": "--rgb-fgcolor--bluelight",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--cyan": {
-    "prefix": "--rgb-color--cyan",
-    "body": "--rgb-color--cyan",
+  "color---rgb-color--bluedark": {
+    "prefix": "--rgb-color--bluedark",
+    "body": "--rgb-color--bluedark",
     "description": [
       0,
-      182,
-      210
+      65,
+      160
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--cyan": {
-    "prefix": "--rgb-fgcolor--cyan",
-    "body": "--rgb-fgcolor--cyan",
+  "color---rgb-fgcolor--bluedark": {
+    "prefix": "--rgb-fgcolor--bluedark",
+    "body": "--rgb-fgcolor--bluedark",
     "description": [
       255,
       255,
@@ -399,19 +219,119 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--sea": {
-    "prefix": "--rgb-color--sea",
-    "body": "--rgb-color--sea",
+  "color---rgb-color--lightblue": {
+    "prefix": "--rgb-color--lightblue",
+    "body": "--rgb-color--lightblue",
     "description": [
-      132,
-      168,
-      196
+      69,
+      174,
+      220
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--sea": {
-    "prefix": "--rgb-fgcolor--sea",
-    "body": "--rgb-fgcolor--sea",
+  "color---rgb-fgcolor--lightblue": {
+    "prefix": "--rgb-fgcolor--lightblue",
+    "body": "--rgb-fgcolor--lightblue",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--lightbluedark": {
+    "prefix": "--rgb-color--lightbluedark",
+    "body": "--rgb-color--lightbluedark",
+    "description": [
+      38,
+      143,
+      188
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--lightbluedark": {
+    "prefix": "--rgb-fgcolor--lightbluedark",
+    "body": "--rgb-fgcolor--lightbluedark",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--bluegrey": {
+    "prefix": "--rgb-color--bluegrey",
+    "body": "--rgb-color--bluegrey",
+    "description": [
+      61,
+      67,
+      82
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--bluegrey": {
+    "prefix": "--rgb-fgcolor--bluegrey",
+    "body": "--rgb-fgcolor--bluegrey",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--bluegreydark": {
+    "prefix": "--rgb-color--bluegreydark",
+    "body": "--rgb-color--bluegreydark",
+    "description": [
+      38,
+      44,
+      57
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--bluegreydark": {
+    "prefix": "--rgb-fgcolor--bluegreydark",
+    "body": "--rgb-fgcolor--bluegreydark",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--purple": {
+    "prefix": "--rgb-color--purple",
+    "body": "--rgb-color--purple",
+    "description": [
+      111,
+      0,
+      222
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--purple": {
+    "prefix": "--rgb-fgcolor--purple",
+    "body": "--rgb-fgcolor--purple",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--purpledark": {
+    "prefix": "--rgb-color--purpledark",
+    "body": "--rgb-color--purpledark",
+    "description": [
+      83,
+      0,
+      166
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--purpledark": {
+    "prefix": "--rgb-fgcolor--purpledark",
+    "body": "--rgb-fgcolor--purpledark",
     "description": [
       255,
       255,
@@ -443,9 +363,9 @@
     "prefix": "--rgb-color--graa0",
     "body": "--rgb-color--graa0",
     "description": [
-      27,
-      27,
-      27
+      49,
+      55,
+      60
     ],
     "scope": "css"
   },
@@ -453,9 +373,9 @@
     "prefix": "--rgb-fgcolor--graa0",
     "body": "--rgb-fgcolor--graa0",
     "description": [
-      239,
-      239,
-      239
+      246,
+      246,
+      246
     ],
     "scope": "css"
   },
@@ -463,9 +383,9 @@
     "prefix": "--rgb-color--graa1",
     "body": "--rgb-color--graa1",
     "description": [
-      60,
-      60,
-      60
+      81,
+      95,
+      105
     ],
     "scope": "css"
   },
@@ -483,9 +403,9 @@
     "prefix": "--rgb-color--graa2",
     "body": "--rgb-color--graa2",
     "description": [
-      72,
-      72,
-      72
+      81,
+      95,
+      105
     ],
     "scope": "css"
   },
@@ -503,9 +423,9 @@
     "prefix": "--rgb-color--graa3",
     "body": "--rgb-color--graa3",
     "description": [
-      153,
-      153,
-      153
+      133,
+      143,
+      150
     ],
     "scope": "css"
   },
@@ -523,9 +443,9 @@
     "prefix": "--rgb-color--graa4",
     "body": "--rgb-color--graa4",
     "description": [
-      200,
-      200,
-      200
+      220,
+      223,
+      225
     ],
     "scope": "css"
   },
@@ -543,9 +463,9 @@
     "prefix": "--rgb-color--graa5",
     "body": "--rgb-color--graa5",
     "description": [
-      221,
-      221,
-      221
+      235,
+      235,
+      235
     ],
     "scope": "css"
   },
@@ -563,9 +483,9 @@
     "prefix": "--rgb-color--graa6",
     "body": "--rgb-color--graa6",
     "description": [
-      229,
-      229,
-      229
+      235,
+      235,
+      235
     ],
     "scope": "css"
   },
@@ -583,9 +503,9 @@
     "prefix": "--rgb-color--graa7",
     "body": "--rgb-color--graa7",
     "description": [
-      239,
-      239,
-      239
+      246,
+      246,
+      246
     ],
     "scope": "css"
   },
@@ -619,39 +539,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--pastel-red": {
-    "prefix": "--rgb-color--pastel-red",
-    "body": "--rgb-color--pastel-red",
+  "color---rgb-color--live": {
+    "prefix": "--rgb-color--live",
+    "body": "--rgb-color--live",
     "description": [
-      219,
-      80,
-      64
+      0,
+      0,
+      0
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--pastel-red": {
-    "prefix": "--rgb-fgcolor--pastel-red",
-    "body": "--rgb-fgcolor--pastel-red",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--pastel-darkred": {
-    "prefix": "--rgb-color--pastel-darkred",
-    "body": "--rgb-color--pastel-darkred",
-    "description": [
-      149,
-      72,
-      57
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pastel-darkred": {
-    "prefix": "--rgb-fgcolor--pastel-darkred",
-    "body": "--rgb-fgcolor--pastel-darkred",
+  "color---rgb-fgcolor--live": {
+    "prefix": "--rgb-fgcolor--live",
+    "body": "--rgb-fgcolor--live",
     "description": [
       255,
       255,
@@ -659,79 +559,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--pastel-lightred": {
-    "prefix": "--rgb-color--pastel-lightred",
-    "body": "--rgb-color--pastel-lightred",
+  "color---rgb-color--leder": {
+    "prefix": "--rgb-color--leder",
+    "body": "--rgb-color--leder",
     "description": [
-      214,
-      126,
-      155
+      0,
+      0,
+      0
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--pastel-lightred": {
-    "prefix": "--rgb-fgcolor--pastel-lightred",
-    "body": "--rgb-fgcolor--pastel-lightred",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--pastel-green": {
-    "prefix": "--rgb-color--pastel-green",
-    "body": "--rgb-color--pastel-green",
-    "description": [
-      159,
-      194,
-      156
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pastel-green": {
-    "prefix": "--rgb-fgcolor--pastel-green",
-    "body": "--rgb-fgcolor--pastel-green",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--pastel-darkgreen": {
-    "prefix": "--rgb-color--pastel-darkgreen",
-    "body": "--rgb-color--pastel-darkgreen",
-    "description": [
-      145,
-      163,
-      79
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pastel-darkgreen": {
-    "prefix": "--rgb-fgcolor--pastel-darkgreen",
-    "body": "--rgb-fgcolor--pastel-darkgreen",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--pastel-yellow": {
-    "prefix": "--rgb-color--pastel-yellow",
-    "body": "--rgb-color--pastel-yellow",
-    "description": [
-      212,
-      197,
-      100
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pastel-yellow": {
-    "prefix": "--rgb-fgcolor--pastel-yellow",
-    "body": "--rgb-fgcolor--pastel-yellow",
+  "color---rgb-fgcolor--leder": {
+    "prefix": "--rgb-fgcolor--leder",
+    "body": "--rgb-fgcolor--leder",
     "description": [
       255,
       255,
@@ -743,9 +583,9 @@
     "prefix": "--rgb-color--eb",
     "body": "--rgb-color--eb",
     "description": [
-      227,
-      20,
-      29
+      255,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -759,19 +599,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--eb2": {
-    "prefix": "--rgb-color--eb2",
-    "body": "--rgb-color--eb2",
+  "color---rgb-color--tv": {
+    "prefix": "--rgb-color--tv",
+    "body": "--rgb-color--tv",
     "description": [
-      153,
+      255,
       0,
       0
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--eb2": {
-    "prefix": "--rgb-fgcolor--eb2",
-    "body": "--rgb-fgcolor--eb2",
+  "color---rgb-fgcolor--tv": {
+    "prefix": "--rgb-fgcolor--tv",
+    "body": "--rgb-fgcolor--tv",
     "description": [
       255,
       255,
@@ -799,219 +639,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bruger": {
-    "prefix": "--rgb-color--bruger",
-    "body": "--rgb-color--bruger",
-    "description": [
-      79,
-      168,
-      223
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--bruger": {
-    "prefix": "--rgb-fgcolor--bruger",
-    "body": "--rgb-fgcolor--bruger",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--live": {
-    "prefix": "--rgb-color--live",
-    "body": "--rgb-color--live",
-    "description": [
-      0,
-      0,
-      0
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--live": {
-    "prefix": "--rgb-fgcolor--live",
-    "body": "--rgb-fgcolor--live",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
   "color---rgb-color--native": {
     "prefix": "--rgb-color--native",
     "body": "--rgb-color--native",
     "description": [
-      206,
-      196,
-      166
+      255,
+      255,
+      255
     ],
     "scope": "css"
   },
   "color---rgb-fgcolor--native": {
     "prefix": "--rgb-fgcolor--native",
     "body": "--rgb-fgcolor--native",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--native2": {
-    "prefix": "--rgb-color--native2",
-    "body": "--rgb-color--native2",
-    "description": [
-      132,
-      168,
-      196
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--native2": {
-    "prefix": "--rgb-fgcolor--native2",
-    "body": "--rgb-fgcolor--native2",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--facebook": {
-    "prefix": "--rgb-color--facebook",
-    "body": "--rgb-color--facebook",
-    "description": [
-      49,
-      118,
-      155
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--facebook": {
-    "prefix": "--rgb-fgcolor--facebook",
-    "body": "--rgb-fgcolor--facebook",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--twitter": {
-    "prefix": "--rgb-color--twitter",
-    "body": "--rgb-color--twitter",
-    "description": [
-      79,
-      168,
-      223
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--twitter": {
-    "prefix": "--rgb-fgcolor--twitter",
-    "body": "--rgb-fgcolor--twitter",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--flash": {
-    "prefix": "--rgb-color--flash",
-    "body": "--rgb-color--flash",
-    "description": [
-      229,
-      173,
-      2
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--flash": {
-    "prefix": "--rgb-fgcolor--flash",
-    "body": "--rgb-fgcolor--flash",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--forbrug": {
-    "prefix": "--rgb-color--forbrug",
-    "body": "--rgb-color--forbrug",
-    "description": [
-      0,
-      182,
-      210
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--forbrug": {
-    "prefix": "--rgb-fgcolor--forbrug",
-    "body": "--rgb-fgcolor--forbrug",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--leder": {
-    "prefix": "--rgb-color--leder",
-    "body": "--rgb-color--leder",
-    "description": [
-      26,
-      35,
-      126
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--leder": {
-    "prefix": "--rgb-fgcolor--leder",
-    "body": "--rgb-fgcolor--leder",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--livescore": {
-    "prefix": "--rgb-color--livescore",
-    "body": "--rgb-color--livescore",
-    "description": [
-      2,
-      158,
-      93
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--livescore": {
-    "prefix": "--rgb-fgcolor--livescore",
-    "body": "--rgb-fgcolor--livescore",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--livescore2": {
-    "prefix": "--rgb-color--livescore2",
-    "body": "--rgb-color--livescore2",
-    "description": [
-      203,
-      254,
-      51
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--livescore2": {
-    "prefix": "--rgb-fgcolor--livescore2",
-    "body": "--rgb-fgcolor--livescore2",
     "description": [
       0,
       0,
@@ -1023,9 +663,9 @@
     "prefix": "--rgb-color--nyheder",
     "body": "--rgb-color--nyheder",
     "description": [
-      16,
-      88,
-      194
+      255,
+      255,
+      255
     ],
     "scope": "css"
   },
@@ -1033,89 +673,9 @@
     "prefix": "--rgb-fgcolor--nyheder",
     "body": "--rgb-fgcolor--nyheder",
     "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--nyheder2": {
-    "prefix": "--rgb-color--nyheder2",
-    "body": "--rgb-color--nyheder2",
-    "description": [
       0,
       0,
       0
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--nyheder2": {
-    "prefix": "--rgb-fgcolor--nyheder2",
-    "body": "--rgb-fgcolor--nyheder2",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--sex-samliv": {
-    "prefix": "--rgb-color--sex-samliv",
-    "body": "--rgb-color--sex-samliv",
-    "description": [
-      179,
-      30,
-      97
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--sex-samliv": {
-    "prefix": "--rgb-fgcolor--sex-samliv",
-    "body": "--rgb-fgcolor--sex-samliv",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--sex-samliv2": {
-    "prefix": "--rgb-color--sex-samliv2",
-    "body": "--rgb-color--sex-samliv2",
-    "description": [
-      220,
-      112,
-      149
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--sex-samliv2": {
-    "prefix": "--rgb-fgcolor--sex-samliv2",
-    "body": "--rgb-fgcolor--sex-samliv2",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--skolefodbold": {
-    "prefix": "--rgb-color--skolefodbold",
-    "body": "--rgb-color--skolefodbold",
-    "description": [
-      147,
-      185,
-      35
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--skolefodbold": {
-    "prefix": "--rgb-fgcolor--skolefodbold",
-    "body": "--rgb-fgcolor--skolefodbold",
-    "description": [
-      255,
-      255,
-      255
     ],
     "scope": "css"
   },
@@ -1123,9 +683,9 @@
     "prefix": "--rgb-color--sport",
     "body": "--rgb-color--sport",
     "description": [
-      2,
-      158,
-      93
+      0,
+      182,
+      107
     ],
     "scope": "css"
   },
@@ -1139,19 +699,59 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--tv": {
-    "prefix": "--rgb-color--tv",
-    "body": "--rgb-color--tv",
+  "color---rgb-color--penge": {
+    "prefix": "--rgb-color--penge",
+    "body": "--rgb-color--penge",
     "description": [
-      227,
-      20,
-      29
+      25,
+      115,
+      106
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--tv": {
-    "prefix": "--rgb-fgcolor--tv",
-    "body": "--rgb-fgcolor--tv",
+  "color---rgb-fgcolor--penge": {
+    "prefix": "--rgb-fgcolor--penge",
+    "body": "--rgb-fgcolor--penge",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--forbrug": {
+    "prefix": "--rgb-color--forbrug",
+    "body": "--rgb-color--forbrug",
+    "description": [
+      25,
+      115,
+      106
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--forbrug": {
+    "prefix": "--rgb-fgcolor--forbrug",
+    "body": "--rgb-fgcolor--forbrug",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--sundhed": {
+    "prefix": "--rgb-color--sundhed",
+    "body": "--rgb-color--sundhed",
+    "description": [
+      69,
+      174,
+      220
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--sundhed": {
+    "prefix": "--rgb-fgcolor--sundhed",
+    "body": "--rgb-fgcolor--sundhed",
     "description": [
       255,
       255,
@@ -1163,15 +763,75 @@
     "prefix": "--rgb-color--underholdning",
     "body": "--rgb-color--underholdning",
     "description": [
-      81,
-      32,
-      140
+      111,
+      0,
+      222
     ],
     "scope": "css"
   },
   "color---rgb-fgcolor--underholdning": {
     "prefix": "--rgb-fgcolor--underholdning",
     "body": "--rgb-fgcolor--underholdning",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--sex-samliv": {
+    "prefix": "--rgb-color--sex-samliv",
+    "body": "--rgb-color--sex-samliv",
+    "description": [
+      244,
+      85,
+      49
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--sex-samliv": {
+    "prefix": "--rgb-fgcolor--sex-samliv",
+    "body": "--rgb-fgcolor--sex-samliv",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--krimi": {
+    "prefix": "--rgb-color--krimi",
+    "body": "--rgb-color--krimi",
+    "description": [
+      61,
+      67,
+      82
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--krimi": {
+    "prefix": "--rgb-fgcolor--krimi",
+    "body": "--rgb-fgcolor--krimi",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--politik": {
+    "prefix": "--rgb-color--politik",
+    "body": "--rgb-color--politik",
+    "description": [
+      0,
+      89,
+      219
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--politik": {
+    "prefix": "--rgb-fgcolor--politik",
+    "body": "--rgb-fgcolor--politik",
     "description": [
       255,
       255,
