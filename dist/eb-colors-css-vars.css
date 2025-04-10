@@ -5,14 +5,17 @@
   --color--reddark: #900;
   --fgcolor--reddark: #fff;
 
-  --color--red: #e3141d;
+  --color--red: #ff0000;
   --fgcolor--red: #fff;
-
-  --color--pink: #b31e61;
-  --fgcolor--pink: #fff;
 
   --color--rose: #dc7095;
   --fgcolor--rose: #fff;
+
+  --color--burntorange: #f45531;
+  --fgcolor--burntorange: #fff;
+
+  --color--burntorange2: #d73c1a;
+  --fgcolor--burntorange2: #fff;
 
   --color--orangedark: #e96c0d;
   --fgcolor--orangedark: #fff;
@@ -23,8 +26,11 @@
   --color--yellow: #fae500;
   --fgcolor--yellow: #000;
 
-  --color--yellowlight: #ff0;
+  --color--yellowlight: #ffff00;
   --fgcolor--yellowlight: #000;
+
+  --color--yellowtint: #f7f700;
+  --fgcolor--yellowtint: #000;
 
   --color--sand: #cec4a6;
   --fgcolor--sand: #fff;
@@ -32,8 +38,11 @@
   --color--greendark: #2f7820;
   --fgcolor--greendark: #fff;
 
-  --color--green: #029e5d;
+  --color--green: #00b66b;
   --fgcolor--green: #fff;
+
+  --color--green2: #00995a;
+  --fgcolor--green2: #fff;
 
   --color--greenlight: #93b923;
   --fgcolor--greenlight: #fff;
@@ -41,52 +50,70 @@
   --color--lime: #cbfe33;
   --fgcolor--lime: #000;
 
-  --color--purpledark: #51208c;
+  --color--purpledark: #6f00de;
   --fgcolor--purpledark: #fff;
 
-  --color--bluenavy: #1a237e;
-  --fgcolor--bluenavy: #fff;
+  --color--purpledark2: #5300a6;
+  --fgcolor--purpledark2: #fff;
 
-  --color--bluedark: #1058c2;
-  --fgcolor--bluedark: #fff;
+  --color--royalblue: #0059db;
+  --fgcolor--royalblue: #fff;
+
+  --color--royalblue2: #0041a0;
+  --fgcolor--royalblue2: #fff;
 
   --color--blue: #31769b;
   --fgcolor--blue: #fff;
 
+  --color--bluegrey: #3d4352;
+  --fgcolor--bluegrey: #fff;
+
+  --color--bluegrey2: #262c39;
+  --fgcolor--bluegrey2: #fff;
+
   --color--bluelight: #4fa8df;
   --fgcolor--bluelight: #fff;
 
-  --color--cyan: #00b6d2;
-  --fgcolor--cyan: #fff;
+  --color--sky: #45aedc;
+  --fgcolor--sky: #fff;
+
+  --color--sky2: #268fbc;
+  --fgcolor--sky2: #fff;
 
   --color--sea: #84a8c4;
   --fgcolor--sea: #fff;
 
+  --color--viridian: #19736a;
+  --fgcolor--viridian: #fff;
+
+  --color--viridian2: #0a5a52;
+  --fgcolor--viridian2: #fff;
+
   --color--black: #000;
   --fgcolor--black: #fff;
 
-  --color--graa0: #1b1b1b;
-  --fgcolor--graa0: #efefef;
+  --color--graa0: #31373c;
+  --fgcolor--graa0: #f6f6f6;
 
-  --color--graa1: #3c3c3c;
+  --color--graa1: #515f69;
   --fgcolor--graa1: #fff;
 
-  --color--graa2: #484848;
+  --color--graa2: #515f69;
   --fgcolor--graa2: #fff;
 
-  --color--graa3: #999;
+  --color--graa3: #858f96;
   --fgcolor--graa3: #fff;
 
-  --color--graa4: #c8c8c8;
+  --color--graa4: #dcdfe1;
   --fgcolor--graa4: #000;
 
-  --color--graa5: #ddd;
+  --color--graa5: #ebebeb;
   --fgcolor--graa5: #000;
 
-  --color--graa6: #e5e5e5;
+  --color--graa6: #ebebeb;
   --fgcolor--graa6: #000;
 
-  --color--graa7: #efefef;
+  --color--graa7: #f6f6f6;
   --fgcolor--graa7: #000;
 
   --color--white: #fff;
@@ -110,13 +137,13 @@
   --color--pastel-yellow: #d4c564;
   --fgcolor--pastel-yellow: #fff;
 
-  --color--eb: #e3141d;
+  --color--eb: #ff0000;
   --fgcolor--eb: #fff;
 
   --color--eb2: #900;
   --fgcolor--eb2: #fff;
 
-  --color--breaking: #ff0;
+  --color--breaking: #ffff00;
   --fgcolor--breaking: #000;
 
   --color--bruger: #4fa8df;
@@ -140,25 +167,34 @@
   --color--flash: #e5ad02;
   --fgcolor--flash: #fff;
 
-  --color--forbrug: #00b6d2;
+  --color--forbrug: #19736a;
   --fgcolor--forbrug: #fff;
 
-  --color--leder: #1a237e;
+  --color--krimi: #3d4352;
+  --fgcolor--krimi: #fff;
+
+  --color--leder: #000;
   --fgcolor--leder: #fff;
 
-  --color--livescore: #029e5d;
+  --color--penge: #19736a;
+  --fgcolor--penge: #fff;
+
+  --color--livescore: #00b66b;
   --fgcolor--livescore: #fff;
 
   --color--livescore2: #cbfe33;
   --fgcolor--livescore2: #000;
 
-  --color--nyheder: #1058c2;
-  --fgcolor--nyheder: #fff;
+  --color--nyheder: #fff;
+  --fgcolor--nyheder: #000;
 
   --color--nyheder2: #000;
   --fgcolor--nyheder2: #fff;
 
-  --color--sex-samliv: #b31e61;
+  --color--politik: #0059db;
+  --fgcolor--politik: #fff;
+
+  --color--sex-samliv: #f45531;
   --fgcolor--sex-samliv: #fff;
 
   --color--sex-samliv2: #dc7095;
@@ -167,12 +203,15 @@
   --color--skolefodbold: #93b923;
   --fgcolor--skolefodbold: #fff;
 
-  --color--sport: #029e5d;
+  --color--sport: #00b66b;
   --fgcolor--sport: #fff;
 
-  --color--tv: #e3141d;
+  --color--sundhed: #45aedc;
+  --fgcolor--sundhed: #fff;
+
+  --color--tv: #ff0000;
   --fgcolor--tv: #fff;
 
-  --color--underholdning: #51208c;
+  --color--underholdning: #6f00de;
   --fgcolor--underholdning: #fff;
 }

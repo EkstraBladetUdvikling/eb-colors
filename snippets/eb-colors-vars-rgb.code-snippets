@@ -43,35 +43,15 @@
     "prefix": "--rgb-color--red",
     "body": "--rgb-color--red",
     "description": [
-      227,
-      20,
-      29
+      255,
+      0,
+      0
     ],
     "scope": "css"
   },
   "color---rgb-fgcolor--red": {
     "prefix": "--rgb-fgcolor--red",
     "body": "--rgb-fgcolor--red",
-    "description": [
-      255,
-      255,
-      255
-    ],
-    "scope": "css"
-  },
-  "color---rgb-color--pink": {
-    "prefix": "--rgb-color--pink",
-    "body": "--rgb-color--pink",
-    "description": [
-      179,
-      30,
-      97
-    ],
-    "scope": "css"
-  },
-  "color---rgb-fgcolor--pink": {
-    "prefix": "--rgb-fgcolor--pink",
-    "body": "--rgb-fgcolor--pink",
     "description": [
       255,
       255,
@@ -92,6 +72,46 @@
   "color---rgb-fgcolor--rose": {
     "prefix": "--rgb-fgcolor--rose",
     "body": "--rgb-fgcolor--rose",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--burntorange": {
+    "prefix": "--rgb-color--burntorange",
+    "body": "--rgb-color--burntorange",
+    "description": [
+      244,
+      85,
+      49
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--burntorange": {
+    "prefix": "--rgb-fgcolor--burntorange",
+    "body": "--rgb-fgcolor--burntorange",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--burntorange2": {
+    "prefix": "--rgb-color--burntorange2",
+    "body": "--rgb-color--burntorange2",
+    "description": [
+      215,
+      60,
+      26
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--burntorange2": {
+    "prefix": "--rgb-fgcolor--burntorange2",
+    "body": "--rgb-fgcolor--burntorange2",
     "description": [
       255,
       255,
@@ -179,6 +199,26 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--yellowtint": {
+    "prefix": "--rgb-color--yellowtint",
+    "body": "--rgb-color--yellowtint",
+    "description": [
+      247,
+      247,
+      0
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--yellowtint": {
+    "prefix": "--rgb-fgcolor--yellowtint",
+    "body": "--rgb-fgcolor--yellowtint",
+    "description": [
+      0,
+      0,
+      0
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--sand": {
     "prefix": "--rgb-color--sand",
     "body": "--rgb-color--sand",
@@ -223,15 +263,35 @@
     "prefix": "--rgb-color--green",
     "body": "--rgb-color--green",
     "description": [
-      2,
-      158,
-      93
+      0,
+      182,
+      107
     ],
     "scope": "css"
   },
   "color---rgb-fgcolor--green": {
     "prefix": "--rgb-fgcolor--green",
     "body": "--rgb-fgcolor--green",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--green2": {
+    "prefix": "--rgb-color--green2",
+    "body": "--rgb-color--green2",
+    "description": [
+      0,
+      153,
+      90
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--green2": {
+    "prefix": "--rgb-fgcolor--green2",
+    "body": "--rgb-fgcolor--green2",
     "description": [
       255,
       255,
@@ -283,9 +343,9 @@
     "prefix": "--rgb-color--purpledark",
     "body": "--rgb-color--purpledark",
     "description": [
-      81,
-      32,
-      140
+      111,
+      0,
+      222
     ],
     "scope": "css"
   },
@@ -299,19 +359,19 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bluenavy": {
-    "prefix": "--rgb-color--bluenavy",
-    "body": "--rgb-color--bluenavy",
+  "color---rgb-color--purpledark2": {
+    "prefix": "--rgb-color--purpledark2",
+    "body": "--rgb-color--purpledark2",
     "description": [
-      26,
-      35,
-      126
+      83,
+      0,
+      166
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--bluenavy": {
-    "prefix": "--rgb-fgcolor--bluenavy",
-    "body": "--rgb-fgcolor--bluenavy",
+  "color---rgb-fgcolor--purpledark2": {
+    "prefix": "--rgb-fgcolor--purpledark2",
+    "body": "--rgb-fgcolor--purpledark2",
     "description": [
       255,
       255,
@@ -319,19 +379,39 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--bluedark": {
-    "prefix": "--rgb-color--bluedark",
-    "body": "--rgb-color--bluedark",
+  "color---rgb-color--royalblue": {
+    "prefix": "--rgb-color--royalblue",
+    "body": "--rgb-color--royalblue",
     "description": [
-      16,
-      88,
-      194
+      0,
+      89,
+      219
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--bluedark": {
-    "prefix": "--rgb-fgcolor--bluedark",
-    "body": "--rgb-fgcolor--bluedark",
+  "color---rgb-fgcolor--royalblue": {
+    "prefix": "--rgb-fgcolor--royalblue",
+    "body": "--rgb-fgcolor--royalblue",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--royalblue2": {
+    "prefix": "--rgb-color--royalblue2",
+    "body": "--rgb-color--royalblue2",
+    "description": [
+      0,
+      65,
+      160
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--royalblue2": {
+    "prefix": "--rgb-fgcolor--royalblue2",
+    "body": "--rgb-fgcolor--royalblue2",
     "description": [
       255,
       255,
@@ -359,6 +439,46 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--bluegrey": {
+    "prefix": "--rgb-color--bluegrey",
+    "body": "--rgb-color--bluegrey",
+    "description": [
+      61,
+      67,
+      82
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--bluegrey": {
+    "prefix": "--rgb-fgcolor--bluegrey",
+    "body": "--rgb-fgcolor--bluegrey",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--bluegrey2": {
+    "prefix": "--rgb-color--bluegrey2",
+    "body": "--rgb-color--bluegrey2",
+    "description": [
+      38,
+      44,
+      57
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--bluegrey2": {
+    "prefix": "--rgb-fgcolor--bluegrey2",
+    "body": "--rgb-fgcolor--bluegrey2",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--bluelight": {
     "prefix": "--rgb-color--bluelight",
     "body": "--rgb-color--bluelight",
@@ -379,19 +499,39 @@
     ],
     "scope": "css"
   },
-  "color---rgb-color--cyan": {
-    "prefix": "--rgb-color--cyan",
-    "body": "--rgb-color--cyan",
+  "color---rgb-color--sky": {
+    "prefix": "--rgb-color--sky",
+    "body": "--rgb-color--sky",
     "description": [
-      0,
-      182,
-      210
+      69,
+      174,
+      220
     ],
     "scope": "css"
   },
-  "color---rgb-fgcolor--cyan": {
-    "prefix": "--rgb-fgcolor--cyan",
-    "body": "--rgb-fgcolor--cyan",
+  "color---rgb-fgcolor--sky": {
+    "prefix": "--rgb-fgcolor--sky",
+    "body": "--rgb-fgcolor--sky",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--sky2": {
+    "prefix": "--rgb-color--sky2",
+    "body": "--rgb-color--sky2",
+    "description": [
+      38,
+      143,
+      188
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--sky2": {
+    "prefix": "--rgb-fgcolor--sky2",
+    "body": "--rgb-fgcolor--sky2",
     "description": [
       255,
       255,
@@ -412,6 +552,46 @@
   "color---rgb-fgcolor--sea": {
     "prefix": "--rgb-fgcolor--sea",
     "body": "--rgb-fgcolor--sea",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--viridian": {
+    "prefix": "--rgb-color--viridian",
+    "body": "--rgb-color--viridian",
+    "description": [
+      25,
+      115,
+      106
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--viridian": {
+    "prefix": "--rgb-fgcolor--viridian",
+    "body": "--rgb-fgcolor--viridian",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
+  "color---rgb-color--viridian2": {
+    "prefix": "--rgb-color--viridian2",
+    "body": "--rgb-color--viridian2",
+    "description": [
+      10,
+      90,
+      82
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--viridian2": {
+    "prefix": "--rgb-fgcolor--viridian2",
+    "body": "--rgb-fgcolor--viridian2",
     "description": [
       255,
       255,
@@ -443,9 +623,9 @@
     "prefix": "--rgb-color--graa0",
     "body": "--rgb-color--graa0",
     "description": [
-      27,
-      27,
-      27
+      49,
+      55,
+      60
     ],
     "scope": "css"
   },
@@ -453,9 +633,9 @@
     "prefix": "--rgb-fgcolor--graa0",
     "body": "--rgb-fgcolor--graa0",
     "description": [
-      239,
-      239,
-      239
+      246,
+      246,
+      246
     ],
     "scope": "css"
   },
@@ -463,9 +643,9 @@
     "prefix": "--rgb-color--graa1",
     "body": "--rgb-color--graa1",
     "description": [
-      60,
-      60,
-      60
+      81,
+      95,
+      105
     ],
     "scope": "css"
   },
@@ -483,9 +663,9 @@
     "prefix": "--rgb-color--graa2",
     "body": "--rgb-color--graa2",
     "description": [
-      72,
-      72,
-      72
+      81,
+      95,
+      105
     ],
     "scope": "css"
   },
@@ -503,9 +683,9 @@
     "prefix": "--rgb-color--graa3",
     "body": "--rgb-color--graa3",
     "description": [
-      153,
-      153,
-      153
+      133,
+      143,
+      150
     ],
     "scope": "css"
   },
@@ -523,9 +703,9 @@
     "prefix": "--rgb-color--graa4",
     "body": "--rgb-color--graa4",
     "description": [
-      200,
-      200,
-      200
+      220,
+      223,
+      225
     ],
     "scope": "css"
   },
@@ -543,9 +723,9 @@
     "prefix": "--rgb-color--graa5",
     "body": "--rgb-color--graa5",
     "description": [
-      221,
-      221,
-      221
+      235,
+      235,
+      235
     ],
     "scope": "css"
   },
@@ -563,9 +743,9 @@
     "prefix": "--rgb-color--graa6",
     "body": "--rgb-color--graa6",
     "description": [
-      229,
-      229,
-      229
+      235,
+      235,
+      235
     ],
     "scope": "css"
   },
@@ -583,9 +763,9 @@
     "prefix": "--rgb-color--graa7",
     "body": "--rgb-color--graa7",
     "description": [
-      239,
-      239,
-      239
+      246,
+      246,
+      246
     ],
     "scope": "css"
   },
@@ -743,9 +923,9 @@
     "prefix": "--rgb-color--eb",
     "body": "--rgb-color--eb",
     "description": [
-      227,
-      20,
-      29
+      255,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -943,9 +1123,9 @@
     "prefix": "--rgb-color--forbrug",
     "body": "--rgb-color--forbrug",
     "description": [
-      0,
-      182,
-      210
+      25,
+      115,
+      106
     ],
     "scope": "css"
   },
@@ -959,13 +1139,33 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--krimi": {
+    "prefix": "--rgb-color--krimi",
+    "body": "--rgb-color--krimi",
+    "description": [
+      61,
+      67,
+      82
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--krimi": {
+    "prefix": "--rgb-fgcolor--krimi",
+    "body": "--rgb-fgcolor--krimi",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--leder": {
     "prefix": "--rgb-color--leder",
     "body": "--rgb-color--leder",
     "description": [
-      26,
-      35,
-      126
+      0,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -979,13 +1179,33 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--penge": {
+    "prefix": "--rgb-color--penge",
+    "body": "--rgb-color--penge",
+    "description": [
+      25,
+      115,
+      106
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--penge": {
+    "prefix": "--rgb-fgcolor--penge",
+    "body": "--rgb-fgcolor--penge",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--livescore": {
     "prefix": "--rgb-color--livescore",
     "body": "--rgb-color--livescore",
     "description": [
-      2,
-      158,
-      93
+      0,
+      182,
+      107
     ],
     "scope": "css"
   },
@@ -1023,9 +1243,9 @@
     "prefix": "--rgb-color--nyheder",
     "body": "--rgb-color--nyheder",
     "description": [
-      16,
-      88,
-      194
+      255,
+      255,
+      255
     ],
     "scope": "css"
   },
@@ -1033,9 +1253,9 @@
     "prefix": "--rgb-fgcolor--nyheder",
     "body": "--rgb-fgcolor--nyheder",
     "description": [
-      255,
-      255,
-      255
+      0,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -1059,13 +1279,33 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--politik": {
+    "prefix": "--rgb-color--politik",
+    "body": "--rgb-color--politik",
+    "description": [
+      0,
+      89,
+      219
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--politik": {
+    "prefix": "--rgb-fgcolor--politik",
+    "body": "--rgb-fgcolor--politik",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--sex-samliv": {
     "prefix": "--rgb-color--sex-samliv",
     "body": "--rgb-color--sex-samliv",
     "description": [
-      179,
-      30,
-      97
+      244,
+      85,
+      49
     ],
     "scope": "css"
   },
@@ -1123,9 +1363,9 @@
     "prefix": "--rgb-color--sport",
     "body": "--rgb-color--sport",
     "description": [
-      2,
-      158,
-      93
+      0,
+      182,
+      107
     ],
     "scope": "css"
   },
@@ -1139,13 +1379,33 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--sundhed": {
+    "prefix": "--rgb-color--sundhed",
+    "body": "--rgb-color--sundhed",
+    "description": [
+      69,
+      174,
+      220
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--sundhed": {
+    "prefix": "--rgb-fgcolor--sundhed",
+    "body": "--rgb-fgcolor--sundhed",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--tv": {
     "prefix": "--rgb-color--tv",
     "body": "--rgb-color--tv",
     "description": [
-      227,
-      20,
-      29
+      255,
+      0,
+      0
     ],
     "scope": "css"
   },
@@ -1163,9 +1423,9 @@
     "prefix": "--rgb-color--underholdning",
     "body": "--rgb-color--underholdning",
     "description": [
-      81,
-      32,
-      140
+      111,
+      0,
+      222
     ],
     "scope": "css"
   },

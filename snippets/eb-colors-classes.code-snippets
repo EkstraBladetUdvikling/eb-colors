@@ -14,15 +14,20 @@
     "body": "bg--red",
     "description": "{'background':'var(--color--red)','color':'var(--fgcolor--red)'}"
   },
-  "color-bg--pink": {
-    "prefix": "bg--pink",
-    "body": "bg--pink",
-    "description": "{'background':'var(--color--pink)','color':'var(--fgcolor--pink)'}"
-  },
   "color-bg--rose": {
     "prefix": "bg--rose",
     "body": "bg--rose",
     "description": "{'background':'var(--color--rose)','color':'var(--fgcolor--rose)'}"
+  },
+  "color-bg--burntorange": {
+    "prefix": "bg--burntorange",
+    "body": "bg--burntorange",
+    "description": "{'background':'var(--color--burntorange)','color':'var(--fgcolor--burntorange)'}"
+  },
+  "color-bg--burntorange2": {
+    "prefix": "bg--burntorange2",
+    "body": "bg--burntorange2",
+    "description": "{'background':'var(--color--burntorange2)','color':'var(--fgcolor--burntorange2)'}"
   },
   "color-bg--orangedark": {
     "prefix": "bg--orangedark",
@@ -44,6 +49,11 @@
     "body": "bg--yellowlight",
     "description": "{'background':'var(--color--yellowlight)','color':'var(--fgcolor--yellowlight)'}"
   },
+  "color-bg--yellowtint": {
+    "prefix": "bg--yellowtint",
+    "body": "bg--yellowtint",
+    "description": "{'background':'var(--color--yellowtint)','color':'var(--fgcolor--yellowtint)'}"
+  },
   "color-bg--sand": {
     "prefix": "bg--sand",
     "body": "bg--sand",
@@ -58,6 +68,11 @@
     "prefix": "bg--green",
     "body": "bg--green",
     "description": "{'background':'var(--color--green)','color':'var(--fgcolor--green)'}"
+  },
+  "color-bg--green2": {
+    "prefix": "bg--green2",
+    "body": "bg--green2",
+    "description": "{'background':'var(--color--green2)','color':'var(--fgcolor--green2)'}"
   },
   "color-bg--greenlight": {
     "prefix": "bg--greenlight",
@@ -74,35 +89,65 @@
     "body": "bg--purpledark",
     "description": "{'background':'var(--color--purpledark)','color':'var(--fgcolor--purpledark)'}"
   },
-  "color-bg--bluenavy": {
-    "prefix": "bg--bluenavy",
-    "body": "bg--bluenavy",
-    "description": "{'background':'var(--color--bluenavy)','color':'var(--fgcolor--bluenavy)'}"
+  "color-bg--purpledark2": {
+    "prefix": "bg--purpledark2",
+    "body": "bg--purpledark2",
+    "description": "{'background':'var(--color--purpledark2)','color':'var(--fgcolor--purpledark2)'}"
   },
-  "color-bg--bluedark": {
-    "prefix": "bg--bluedark",
-    "body": "bg--bluedark",
-    "description": "{'background':'var(--color--bluedark)','color':'var(--fgcolor--bluedark)'}"
+  "color-bg--royalblue": {
+    "prefix": "bg--royalblue",
+    "body": "bg--royalblue",
+    "description": "{'background':'var(--color--royalblue)','color':'var(--fgcolor--royalblue)'}"
+  },
+  "color-bg--royalblue2": {
+    "prefix": "bg--royalblue2",
+    "body": "bg--royalblue2",
+    "description": "{'background':'var(--color--royalblue2)','color':'var(--fgcolor--royalblue2)'}"
   },
   "color-bg--blue": {
     "prefix": "bg--blue",
     "body": "bg--blue",
     "description": "{'background':'var(--color--blue)','color':'var(--fgcolor--blue)'}"
   },
+  "color-bg--bluegrey": {
+    "prefix": "bg--bluegrey",
+    "body": "bg--bluegrey",
+    "description": "{'background':'var(--color--bluegrey)','color':'var(--fgcolor--bluegrey)'}"
+  },
+  "color-bg--bluegrey2": {
+    "prefix": "bg--bluegrey2",
+    "body": "bg--bluegrey2",
+    "description": "{'background':'var(--color--bluegrey2)','color':'var(--fgcolor--bluegrey2)'}"
+  },
   "color-bg--bluelight": {
     "prefix": "bg--bluelight",
     "body": "bg--bluelight",
     "description": "{'background':'var(--color--bluelight)','color':'var(--fgcolor--bluelight)'}"
   },
-  "color-bg--cyan": {
-    "prefix": "bg--cyan",
-    "body": "bg--cyan",
-    "description": "{'background':'var(--color--cyan)','color':'var(--fgcolor--cyan)'}"
+  "color-bg--sky": {
+    "prefix": "bg--sky",
+    "body": "bg--sky",
+    "description": "{'background':'var(--color--sky)','color':'var(--fgcolor--sky)'}"
+  },
+  "color-bg--sky2": {
+    "prefix": "bg--sky2",
+    "body": "bg--sky2",
+    "description": "{'background':'var(--color--sky2)','color':'var(--fgcolor--sky2)'}"
   },
   "color-bg--sea": {
     "prefix": "bg--sea",
     "body": "bg--sea",
     "description": "{'background':'var(--color--sea)','color':'var(--fgcolor--sea)'}"
+  },
+  "color-bg--viridian": {
+    "prefix": "bg--viridian",
+    "body": "bg--viridian",
+    "description": "{'background':'var(--color--viridian)','color':'var(--fgcolor--viridian)'}"
+  },
+  "color-bg--viridian2": {
+    "prefix": "bg--viridian2",
+    "body": "bg--viridian2",
+    "description": "{'background':'var(--color--viridian2)','color':'var(--fgcolor--viridian2)'}"
   },
   "color-bg--black": {
     "prefix": "bg--black",
@@ -239,10 +284,20 @@
     "body": "bg--forbrug",
     "description": "{'background':'var(--color--forbrug)','color':'var(--fgcolor--forbrug)'}"
   },
+  "color-bg--krimi": {
+    "prefix": "bg--krimi",
+    "body": "bg--krimi",
+    "description": "{'background':'var(--color--krimi)','color':'var(--fgcolor--krimi)'}"
+  },
   "color-bg--leder": {
     "prefix": "bg--leder",
     "body": "bg--leder",
     "description": "{'background':'var(--color--leder)','color':'var(--fgcolor--leder)'}"
+  },
+  "color-bg--penge": {
+    "prefix": "bg--penge",
+    "body": "bg--penge",
+    "description": "{'background':'var(--color--penge)','color':'var(--fgcolor--penge)'}"
   },
   "color-bg--livescore": {
     "prefix": "bg--livescore",
@@ -264,6 +319,11 @@
     "body": "bg--nyheder2",
     "description": "{'background':'var(--color--nyheder2)','color':'var(--fgcolor--nyheder2)'}"
   },
+  "color-bg--politik": {
+    "prefix": "bg--politik",
+    "body": "bg--politik",
+    "description": "{'background':'var(--color--politik)','color':'var(--fgcolor--politik)'}"
+  },
   "color-bg--sex-samliv": {
     "prefix": "bg--sex-samliv",
     "body": "bg--sex-samliv",
@@ -283,6 +343,11 @@
     "prefix": "bg--sport",
     "body": "bg--sport",
     "description": "{'background':'var(--color--sport)','color':'var(--fgcolor--sport)'}"
+  },
+  "color-bg--sundhed": {
+    "prefix": "bg--sundhed",
+    "body": "bg--sundhed",
+    "description": "{'background':'var(--color--sundhed)','color':'var(--fgcolor--sundhed)'}"
   },
   "color-bg--tv": {
     "prefix": "bg--tv",
@@ -309,15 +374,20 @@
     "body": "color--red",
     "description": "{'color':'var(--color--red)'}"
   },
-  "color-color--pink": {
-    "prefix": "color--pink",
-    "body": "color--pink",
-    "description": "{'color':'var(--color--pink)'}"
-  },
   "color-color--rose": {
     "prefix": "color--rose",
     "body": "color--rose",
     "description": "{'color':'var(--color--rose)'}"
+  },
+  "color-color--burntorange": {
+    "prefix": "color--burntorange",
+    "body": "color--burntorange",
+    "description": "{'color':'var(--color--burntorange)'}"
+  },
+  "color-color--burntorange2": {
+    "prefix": "color--burntorange2",
+    "body": "color--burntorange2",
+    "description": "{'color':'var(--color--burntorange2)'}"
   },
   "color-color--orangedark": {
     "prefix": "color--orangedark",
@@ -339,6 +409,11 @@
     "body": "color--yellowlight",
     "description": "{'color':'var(--color--yellowlight)'}"
   },
+  "color-color--yellowtint": {
+    "prefix": "color--yellowtint",
+    "body": "color--yellowtint",
+    "description": "{'color':'var(--color--yellowtint)'}"
+  },
   "color-color--sand": {
     "prefix": "color--sand",
     "body": "color--sand",
@@ -353,6 +428,11 @@
     "prefix": "color--green",
     "body": "color--green",
     "description": "{'color':'var(--color--green)'}"
+  },
+  "color-color--green2": {
+    "prefix": "color--green2",
+    "body": "color--green2",
+    "description": "{'color':'var(--color--green2)'}"
   },
   "color-color--greenlight": {
     "prefix": "color--greenlight",
@@ -369,35 +449,65 @@
     "body": "color--purpledark",
     "description": "{'color':'var(--color--purpledark)'}"
   },
-  "color-color--bluenavy": {
-    "prefix": "color--bluenavy",
-    "body": "color--bluenavy",
-    "description": "{'color':'var(--color--bluenavy)'}"
+  "color-color--purpledark2": {
+    "prefix": "color--purpledark2",
+    "body": "color--purpledark2",
+    "description": "{'color':'var(--color--purpledark2)'}"
   },
-  "color-color--bluedark": {
-    "prefix": "color--bluedark",
-    "body": "color--bluedark",
-    "description": "{'color':'var(--color--bluedark)'}"
+  "color-color--royalblue": {
+    "prefix": "color--royalblue",
+    "body": "color--royalblue",
+    "description": "{'color':'var(--color--royalblue)'}"
+  },
+  "color-color--royalblue2": {
+    "prefix": "color--royalblue2",
+    "body": "color--royalblue2",
+    "description": "{'color':'var(--color--royalblue2)'}"
   },
   "color-color--blue": {
     "prefix": "color--blue",
     "body": "color--blue",
     "description": "{'color':'var(--color--blue)'}"
   },
+  "color-color--bluegrey": {
+    "prefix": "color--bluegrey",
+    "body": "color--bluegrey",
+    "description": "{'color':'var(--color--bluegrey)'}"
+  },
+  "color-color--bluegrey2": {
+    "prefix": "color--bluegrey2",
+    "body": "color--bluegrey2",
+    "description": "{'color':'var(--color--bluegrey2)'}"
+  },
   "color-color--bluelight": {
     "prefix": "color--bluelight",
     "body": "color--bluelight",
     "description": "{'color':'var(--color--bluelight)'}"
   },
-  "color-color--cyan": {
-    "prefix": "color--cyan",
-    "body": "color--cyan",
-    "description": "{'color':'var(--color--cyan)'}"
+  "color-color--sky": {
+    "prefix": "color--sky",
+    "body": "color--sky",
+    "description": "{'color':'var(--color--sky)'}"
+  },
+  "color-color--sky2": {
+    "prefix": "color--sky2",
+    "body": "color--sky2",
+    "description": "{'color':'var(--color--sky2)'}"
   },
   "color-color--sea": {
     "prefix": "color--sea",
     "body": "color--sea",
     "description": "{'color':'var(--color--sea)'}"
+  },
+  "color-color--viridian": {
+    "prefix": "color--viridian",
+    "body": "color--viridian",
+    "description": "{'color':'var(--color--viridian)'}"
+  },
+  "color-color--viridian2": {
+    "prefix": "color--viridian2",
+    "body": "color--viridian2",
+    "description": "{'color':'var(--color--viridian2)'}"
   },
   "color-color--black": {
     "prefix": "color--black",
@@ -534,10 +644,20 @@
     "body": "color--forbrug",
     "description": "{'color':'var(--color--forbrug)'}"
   },
+  "color-color--krimi": {
+    "prefix": "color--krimi",
+    "body": "color--krimi",
+    "description": "{'color':'var(--color--krimi)'}"
+  },
   "color-color--leder": {
     "prefix": "color--leder",
     "body": "color--leder",
     "description": "{'color':'var(--color--leder)'}"
+  },
+  "color-color--penge": {
+    "prefix": "color--penge",
+    "body": "color--penge",
+    "description": "{'color':'var(--color--penge)'}"
   },
   "color-color--livescore": {
     "prefix": "color--livescore",
@@ -559,6 +679,11 @@
     "body": "color--nyheder2",
     "description": "{'color':'var(--color--nyheder2)'}"
   },
+  "color-color--politik": {
+    "prefix": "color--politik",
+    "body": "color--politik",
+    "description": "{'color':'var(--color--politik)'}"
+  },
   "color-color--sex-samliv": {
     "prefix": "color--sex-samliv",
     "body": "color--sex-samliv",
@@ -578,6 +703,11 @@
     "prefix": "color--sport",
     "body": "color--sport",
     "description": "{'color':'var(--color--sport)'}"
+  },
+  "color-color--sundhed": {
+    "prefix": "color--sundhed",
+    "body": "color--sundhed",
+    "description": "{'color':'var(--color--sundhed)'}"
   },
   "color-color--tv": {
     "prefix": "color--tv",

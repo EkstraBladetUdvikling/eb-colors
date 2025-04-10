@@ -5,14 +5,17 @@
   --color--reddark: #900;
   --fgcolor--reddark: #fff;
 
-  --color--red: #e3141d;
+  --color--red: #ff0000;
   --fgcolor--red: #fff;
-
-  --color--pink: #b31e61;
-  --fgcolor--pink: #fff;
 
   --color--rose: #dc7095;
   --fgcolor--rose: #fff;
+
+  --color--burntorange: #f45531;
+  --fgcolor--burntorange: #fff;
+
+  --color--burntorange2: #d73c1a;
+  --fgcolor--burntorange2: #fff;
 
   --color--orangedark: #e96c0d;
   --fgcolor--orangedark: #fff;
@@ -23,8 +26,11 @@
   --color--yellow: #fae500;
   --fgcolor--yellow: #000;
 
-  --color--yellowlight: #ff0;
+  --color--yellowlight: #ffff00;
   --fgcolor--yellowlight: #000;
+
+  --color--yellowtint: #f7f700;
+  --fgcolor--yellowtint: #000;
 
   --color--sand: #cec4a6;
   --fgcolor--sand: #fff;
@@ -32,8 +38,11 @@
   --color--greendark: #2f7820;
   --fgcolor--greendark: #fff;
 
-  --color--green: #029e5d;
+  --color--green: #00b66b;
   --fgcolor--green: #fff;
+
+  --color--green2: #00995a;
+  --fgcolor--green2: #fff;
 
   --color--greenlight: #93b923;
   --fgcolor--greenlight: #fff;
@@ -41,52 +50,70 @@
   --color--lime: #cbfe33;
   --fgcolor--lime: #000;
 
-  --color--purpledark: #51208c;
+  --color--purpledark: #6f00de;
   --fgcolor--purpledark: #fff;
 
-  --color--bluenavy: #1a237e;
-  --fgcolor--bluenavy: #fff;
+  --color--purpledark2: #5300a6;
+  --fgcolor--purpledark2: #fff;
 
-  --color--bluedark: #1058c2;
-  --fgcolor--bluedark: #fff;
+  --color--royalblue: #0059db;
+  --fgcolor--royalblue: #fff;
+
+  --color--royalblue2: #0041a0;
+  --fgcolor--royalblue2: #fff;
 
   --color--blue: #31769b;
   --fgcolor--blue: #fff;
 
+  --color--bluegrey: #3d4352;
+  --fgcolor--bluegrey: #fff;
+
+  --color--bluegrey2: #262c39;
+  --fgcolor--bluegrey2: #fff;
+
   --color--bluelight: #4fa8df;
   --fgcolor--bluelight: #fff;
 
-  --color--cyan: #00b6d2;
-  --fgcolor--cyan: #fff;
+  --color--sky: #45aedc;
+  --fgcolor--sky: #fff;
+
+  --color--sky2: #268fbc;
+  --fgcolor--sky2: #fff;
 
   --color--sea: #84a8c4;
   --fgcolor--sea: #fff;
 
+  --color--viridian: #19736a;
+  --fgcolor--viridian: #fff;
+
+  --color--viridian2: #0a5a52;
+  --fgcolor--viridian2: #fff;
+
   --color--black: #000;
   --fgcolor--black: #fff;
 
-  --color--graa0: #1b1b1b;
-  --fgcolor--graa0: #efefef;
+  --color--graa0: #31373c;
+  --fgcolor--graa0: #f6f6f6;
 
-  --color--graa1: #3c3c3c;
+  --color--graa1: #515f69;
   --fgcolor--graa1: #fff;
 
-  --color--graa2: #484848;
+  --color--graa2: #515f69;
   --fgcolor--graa2: #fff;
 
-  --color--graa3: #999;
+  --color--graa3: #858f96;
   --fgcolor--graa3: #fff;
 
-  --color--graa4: #c8c8c8;
+  --color--graa4: #dcdfe1;
   --fgcolor--graa4: #000;
 
-  --color--graa5: #ddd;
+  --color--graa5: #ebebeb;
   --fgcolor--graa5: #000;
 
-  --color--graa6: #e5e5e5;
+  --color--graa6: #ebebeb;
   --fgcolor--graa6: #000;
 
-  --color--graa7: #efefef;
+  --color--graa7: #f6f6f6;
   --fgcolor--graa7: #000;
 
   --color--white: #fff;
@@ -110,13 +137,13 @@
   --color--pastel-yellow: #d4c564;
   --fgcolor--pastel-yellow: #fff;
 
-  --color--eb: #e3141d;
+  --color--eb: #ff0000;
   --fgcolor--eb: #fff;
 
   --color--eb2: #900;
   --fgcolor--eb2: #fff;
 
-  --color--breaking: #ff0;
+  --color--breaking: #ffff00;
   --fgcolor--breaking: #000;
 
   --color--bruger: #4fa8df;
@@ -140,25 +167,34 @@
   --color--flash: #e5ad02;
   --fgcolor--flash: #fff;
 
-  --color--forbrug: #00b6d2;
+  --color--forbrug: #19736a;
   --fgcolor--forbrug: #fff;
 
-  --color--leder: #1a237e;
+  --color--krimi: #3d4352;
+  --fgcolor--krimi: #fff;
+
+  --color--leder: #000;
   --fgcolor--leder: #fff;
 
-  --color--livescore: #029e5d;
+  --color--penge: #19736a;
+  --fgcolor--penge: #fff;
+
+  --color--livescore: #00b66b;
   --fgcolor--livescore: #fff;
 
   --color--livescore2: #cbfe33;
   --fgcolor--livescore2: #000;
 
-  --color--nyheder: #1058c2;
-  --fgcolor--nyheder: #fff;
+  --color--nyheder: #fff;
+  --fgcolor--nyheder: #000;
 
   --color--nyheder2: #000;
   --fgcolor--nyheder2: #fff;
 
-  --color--sex-samliv: #b31e61;
+  --color--politik: #0059db;
+  --fgcolor--politik: #fff;
+
+  --color--sex-samliv: #f45531;
   --fgcolor--sex-samliv: #fff;
 
   --color--sex-samliv2: #dc7095;
@@ -167,13 +203,16 @@
   --color--skolefodbold: #93b923;
   --fgcolor--skolefodbold: #fff;
 
-  --color--sport: #029e5d;
+  --color--sport: #00b66b;
   --fgcolor--sport: #fff;
 
-  --color--tv: #e3141d;
+  --color--sundhed: #45aedc;
+  --fgcolor--sundhed: #fff;
+
+  --color--tv: #ff0000;
   --fgcolor--tv: #fff;
 
-  --color--underholdning: #51208c;
+  --color--underholdning: #6f00de;
   --fgcolor--underholdning: #fff;
 
   --rgb-color--bordeaux: 138, 12, 54;
@@ -182,14 +221,17 @@
   --rgb-color--reddark: 153, 0, 0;
   --rgb-fgcolor--reddark: 255, 255, 255;
 
-  --rgb-color--red: 227, 20, 29;
+  --rgb-color--red: 255, 0, 0;
   --rgb-fgcolor--red: 255, 255, 255;
-
-  --rgb-color--pink: 179, 30, 97;
-  --rgb-fgcolor--pink: 255, 255, 255;
 
   --rgb-color--rose: 220, 112, 149;
   --rgb-fgcolor--rose: 255, 255, 255;
+
+  --rgb-color--burntorange: 244, 85, 49;
+  --rgb-fgcolor--burntorange: 255, 255, 255;
+
+  --rgb-color--burntorange2: 215, 60, 26;
+  --rgb-fgcolor--burntorange2: 255, 255, 255;
 
   --rgb-color--orangedark: 233, 108, 13;
   --rgb-fgcolor--orangedark: 255, 255, 255;
@@ -203,14 +245,20 @@
   --rgb-color--yellowlight: 255, 255, 0;
   --rgb-fgcolor--yellowlight: 0, 0, 0;
 
+  --rgb-color--yellowtint: 247, 247, 0;
+  --rgb-fgcolor--yellowtint: 0, 0, 0;
+
   --rgb-color--sand: 206, 196, 166;
   --rgb-fgcolor--sand: 255, 255, 255;
 
   --rgb-color--greendark: 47, 120, 32;
   --rgb-fgcolor--greendark: 255, 255, 255;
 
-  --rgb-color--green: 2, 158, 93;
+  --rgb-color--green: 0, 182, 107;
   --rgb-fgcolor--green: 255, 255, 255;
+
+  --rgb-color--green2: 0, 153, 90;
+  --rgb-fgcolor--green2: 255, 255, 255;
 
   --rgb-color--greenlight: 147, 185, 35;
   --rgb-fgcolor--greenlight: 255, 255, 255;
@@ -218,52 +266,70 @@
   --rgb-color--lime: 203, 254, 51;
   --rgb-fgcolor--lime: 0, 0, 0;
 
-  --rgb-color--purpledark: 81, 32, 140;
+  --rgb-color--purpledark: 111, 0, 222;
   --rgb-fgcolor--purpledark: 255, 255, 255;
 
-  --rgb-color--bluenavy: 26, 35, 126;
-  --rgb-fgcolor--bluenavy: 255, 255, 255;
+  --rgb-color--purpledark2: 83, 0, 166;
+  --rgb-fgcolor--purpledark2: 255, 255, 255;
 
-  --rgb-color--bluedark: 16, 88, 194;
-  --rgb-fgcolor--bluedark: 255, 255, 255;
+  --rgb-color--royalblue: 0, 89, 219;
+  --rgb-fgcolor--royalblue: 255, 255, 255;
+
+  --rgb-color--royalblue2: 0, 65, 160;
+  --rgb-fgcolor--royalblue2: 255, 255, 255;
 
   --rgb-color--blue: 49, 118, 155;
   --rgb-fgcolor--blue: 255, 255, 255;
 
+  --rgb-color--bluegrey: 61, 67, 82;
+  --rgb-fgcolor--bluegrey: 255, 255, 255;
+
+  --rgb-color--bluegrey2: 38, 44, 57;
+  --rgb-fgcolor--bluegrey2: 255, 255, 255;
+
   --rgb-color--bluelight: 79, 168, 223;
   --rgb-fgcolor--bluelight: 255, 255, 255;
 
-  --rgb-color--cyan: 0, 182, 210;
-  --rgb-fgcolor--cyan: 255, 255, 255;
+  --rgb-color--sky: 69, 174, 220;
+  --rgb-fgcolor--sky: 255, 255, 255;
+
+  --rgb-color--sky2: 38, 143, 188;
+  --rgb-fgcolor--sky2: 255, 255, 255;
 
   --rgb-color--sea: 132, 168, 196;
   --rgb-fgcolor--sea: 255, 255, 255;
 
+  --rgb-color--viridian: 25, 115, 106;
+  --rgb-fgcolor--viridian: 255, 255, 255;
+
+  --rgb-color--viridian2: 10, 90, 82;
+  --rgb-fgcolor--viridian2: 255, 255, 255;
+
   --rgb-color--black: 0, 0, 0;
   --rgb-fgcolor--black: 255, 255, 255;
 
-  --rgb-color--graa0: 27, 27, 27;
-  --rgb-fgcolor--graa0: 239, 239, 239;
+  --rgb-color--graa0: 49, 55, 60;
+  --rgb-fgcolor--graa0: 246, 246, 246;
 
-  --rgb-color--graa1: 60, 60, 60;
+  --rgb-color--graa1: 81, 95, 105;
   --rgb-fgcolor--graa1: 255, 255, 255;
 
-  --rgb-color--graa2: 72, 72, 72;
+  --rgb-color--graa2: 81, 95, 105;
   --rgb-fgcolor--graa2: 255, 255, 255;
 
-  --rgb-color--graa3: 153, 153, 153;
+  --rgb-color--graa3: 133, 143, 150;
   --rgb-fgcolor--graa3: 255, 255, 255;
 
-  --rgb-color--graa4: 200, 200, 200;
+  --rgb-color--graa4: 220, 223, 225;
   --rgb-fgcolor--graa4: 0, 0, 0;
 
-  --rgb-color--graa5: 221, 221, 221;
+  --rgb-color--graa5: 235, 235, 235;
   --rgb-fgcolor--graa5: 0, 0, 0;
 
-  --rgb-color--graa6: 229, 229, 229;
+  --rgb-color--graa6: 235, 235, 235;
   --rgb-fgcolor--graa6: 0, 0, 0;
 
-  --rgb-color--graa7: 239, 239, 239;
+  --rgb-color--graa7: 246, 246, 246;
   --rgb-fgcolor--graa7: 0, 0, 0;
 
   --rgb-color--white: 255, 255, 255;
@@ -287,7 +353,7 @@
   --rgb-color--pastel-yellow: 212, 197, 100;
   --rgb-fgcolor--pastel-yellow: 255, 255, 255;
 
-  --rgb-color--eb: 227, 20, 29;
+  --rgb-color--eb: 255, 0, 0;
   --rgb-fgcolor--eb: 255, 255, 255;
 
   --rgb-color--eb2: 153, 0, 0;
@@ -317,25 +383,34 @@
   --rgb-color--flash: 229, 173, 2;
   --rgb-fgcolor--flash: 255, 255, 255;
 
-  --rgb-color--forbrug: 0, 182, 210;
+  --rgb-color--forbrug: 25, 115, 106;
   --rgb-fgcolor--forbrug: 255, 255, 255;
 
-  --rgb-color--leder: 26, 35, 126;
+  --rgb-color--krimi: 61, 67, 82;
+  --rgb-fgcolor--krimi: 255, 255, 255;
+
+  --rgb-color--leder: 0, 0, 0;
   --rgb-fgcolor--leder: 255, 255, 255;
 
-  --rgb-color--livescore: 2, 158, 93;
+  --rgb-color--penge: 25, 115, 106;
+  --rgb-fgcolor--penge: 255, 255, 255;
+
+  --rgb-color--livescore: 0, 182, 107;
   --rgb-fgcolor--livescore: 255, 255, 255;
 
   --rgb-color--livescore2: 203, 254, 51;
   --rgb-fgcolor--livescore2: 0, 0, 0;
 
-  --rgb-color--nyheder: 16, 88, 194;
-  --rgb-fgcolor--nyheder: 255, 255, 255;
+  --rgb-color--nyheder: 255, 255, 255;
+  --rgb-fgcolor--nyheder: 0, 0, 0;
 
   --rgb-color--nyheder2: 0, 0, 0;
   --rgb-fgcolor--nyheder2: 255, 255, 255;
 
-  --rgb-color--sex-samliv: 179, 30, 97;
+  --rgb-color--politik: 0, 89, 219;
+  --rgb-fgcolor--politik: 255, 255, 255;
+
+  --rgb-color--sex-samliv: 244, 85, 49;
   --rgb-fgcolor--sex-samliv: 255, 255, 255;
 
   --rgb-color--sex-samliv2: 220, 112, 149;
@@ -344,13 +419,16 @@
   --rgb-color--skolefodbold: 147, 185, 35;
   --rgb-fgcolor--skolefodbold: 255, 255, 255;
 
-  --rgb-color--sport: 2, 158, 93;
+  --rgb-color--sport: 0, 182, 107;
   --rgb-fgcolor--sport: 255, 255, 255;
 
-  --rgb-color--tv: 227, 20, 29;
+  --rgb-color--sundhed: 69, 174, 220;
+  --rgb-fgcolor--sundhed: 255, 255, 255;
+
+  --rgb-color--tv: 255, 0, 0;
   --rgb-fgcolor--tv: 255, 255, 255;
 
-  --rgb-color--underholdning: 81, 32, 140;
+  --rgb-color--underholdning: 111, 0, 222;
   --rgb-fgcolor--underholdning: 255, 255, 255;
 }
 .bg--bordeaux {
@@ -365,13 +443,17 @@
   background: var(--color--red);
   color: var(--fgcolor--red);
 }
-.bg--pink {
-  background: var(--color--pink);
-  color: var(--fgcolor--pink);
-}
 .bg--rose {
   background: var(--color--rose);
   color: var(--fgcolor--rose);
+}
+.bg--burntorange {
+  background: var(--color--burntorange);
+  color: var(--fgcolor--burntorange);
+}
+.bg--burntorange2 {
+  background: var(--color--burntorange2);
+  color: var(--fgcolor--burntorange2);
 }
 .bg--orangedark {
   background: var(--color--orangedark);
@@ -389,6 +471,10 @@
   background: var(--color--yellowlight);
   color: var(--fgcolor--yellowlight);
 }
+.bg--yellowtint {
+  background: var(--color--yellowtint);
+  color: var(--fgcolor--yellowtint);
+}
 .bg--sand {
   background: var(--color--sand);
   color: var(--fgcolor--sand);
@@ -400,6 +486,10 @@
 .bg--green {
   background: var(--color--green);
   color: var(--fgcolor--green);
+}
+.bg--green2 {
+  background: var(--color--green2);
+  color: var(--fgcolor--green2);
 }
 .bg--greenlight {
   background: var(--color--greenlight);
@@ -413,29 +503,53 @@
   background: var(--color--purpledark);
   color: var(--fgcolor--purpledark);
 }
-.bg--bluenavy {
-  background: var(--color--bluenavy);
-  color: var(--fgcolor--bluenavy);
+.bg--purpledark2 {
+  background: var(--color--purpledark2);
+  color: var(--fgcolor--purpledark2);
 }
-.bg--bluedark {
-  background: var(--color--bluedark);
-  color: var(--fgcolor--bluedark);
+.bg--royalblue {
+  background: var(--color--royalblue);
+  color: var(--fgcolor--royalblue);
+}
+.bg--royalblue2 {
+  background: var(--color--royalblue2);
+  color: var(--fgcolor--royalblue2);
 }
 .bg--blue {
   background: var(--color--blue);
   color: var(--fgcolor--blue);
 }
+.bg--bluegrey {
+  background: var(--color--bluegrey);
+  color: var(--fgcolor--bluegrey);
+}
+.bg--bluegrey2 {
+  background: var(--color--bluegrey2);
+  color: var(--fgcolor--bluegrey2);
+}
 .bg--bluelight {
   background: var(--color--bluelight);
   color: var(--fgcolor--bluelight);
 }
-.bg--cyan {
-  background: var(--color--cyan);
-  color: var(--fgcolor--cyan);
+.bg--sky {
+  background: var(--color--sky);
+  color: var(--fgcolor--sky);
+}
+.bg--sky2 {
+  background: var(--color--sky2);
+  color: var(--fgcolor--sky2);
 }
 .bg--sea {
   background: var(--color--sea);
   color: var(--fgcolor--sea);
+}
+.bg--viridian {
+  background: var(--color--viridian);
+  color: var(--fgcolor--viridian);
+}
+.bg--viridian2 {
+  background: var(--color--viridian2);
+  color: var(--fgcolor--viridian2);
 }
 .bg--black {
   background: var(--color--black);
@@ -545,9 +659,17 @@
   background: var(--color--forbrug);
   color: var(--fgcolor--forbrug);
 }
+.bg--krimi {
+  background: var(--color--krimi);
+  color: var(--fgcolor--krimi);
+}
 .bg--leder {
   background: var(--color--leder);
   color: var(--fgcolor--leder);
+}
+.bg--penge {
+  background: var(--color--penge);
+  color: var(--fgcolor--penge);
 }
 .bg--livescore {
   background: var(--color--livescore);
@@ -565,6 +687,10 @@
   background: var(--color--nyheder2);
   color: var(--fgcolor--nyheder2);
 }
+.bg--politik {
+  background: var(--color--politik);
+  color: var(--fgcolor--politik);
+}
 .bg--sex-samliv {
   background: var(--color--sex-samliv);
   color: var(--fgcolor--sex-samliv);
@@ -580,6 +706,10 @@
 .bg--sport {
   background: var(--color--sport);
   color: var(--fgcolor--sport);
+}
+.bg--sundhed {
+  background: var(--color--sundhed);
+  color: var(--fgcolor--sundhed);
 }
 .bg--tv {
   background: var(--color--tv);
@@ -598,11 +728,14 @@
 .color--red {
   color: var(--color--red);
 }
-.color--pink {
-  color: var(--color--pink);
-}
 .color--rose {
   color: var(--color--rose);
+}
+.color--burntorange {
+  color: var(--color--burntorange);
+}
+.color--burntorange2 {
+  color: var(--color--burntorange2);
 }
 .color--orangedark {
   color: var(--color--orangedark);
@@ -616,6 +749,9 @@
 .color--yellowlight {
   color: var(--color--yellowlight);
 }
+.color--yellowtint {
+  color: var(--color--yellowtint);
+}
 .color--sand {
   color: var(--color--sand);
 }
@@ -624,6 +760,9 @@
 }
 .color--green {
   color: var(--color--green);
+}
+.color--green2 {
+  color: var(--color--green2);
 }
 .color--greenlight {
   color: var(--color--greenlight);
@@ -634,23 +773,41 @@
 .color--purpledark {
   color: var(--color--purpledark);
 }
-.color--bluenavy {
-  color: var(--color--bluenavy);
+.color--purpledark2 {
+  color: var(--color--purpledark2);
 }
-.color--bluedark {
-  color: var(--color--bluedark);
+.color--royalblue {
+  color: var(--color--royalblue);
+}
+.color--royalblue2 {
+  color: var(--color--royalblue2);
 }
 .color--blue {
   color: var(--color--blue);
 }
+.color--bluegrey {
+  color: var(--color--bluegrey);
+}
+.color--bluegrey2 {
+  color: var(--color--bluegrey2);
+}
 .color--bluelight {
   color: var(--color--bluelight);
 }
-.color--cyan {
-  color: var(--color--cyan);
+.color--sky {
+  color: var(--color--sky);
+}
+.color--sky2 {
+  color: var(--color--sky2);
 }
 .color--sea {
   color: var(--color--sea);
+}
+.color--viridian {
+  color: var(--color--viridian);
+}
+.color--viridian2 {
+  color: var(--color--viridian2);
 }
 .color--black {
   color: var(--color--black);
@@ -733,8 +890,14 @@
 .color--forbrug {
   color: var(--color--forbrug);
 }
+.color--krimi {
+  color: var(--color--krimi);
+}
 .color--leder {
   color: var(--color--leder);
+}
+.color--penge {
+  color: var(--color--penge);
 }
 .color--livescore {
   color: var(--color--livescore);
@@ -748,6 +911,9 @@
 .color--nyheder2 {
   color: var(--color--nyheder2);
 }
+.color--politik {
+  color: var(--color--politik);
+}
 .color--sex-samliv {
   color: var(--color--sex-samliv);
 }
@@ -759,6 +925,9 @@
 }
 .color--sport {
   color: var(--color--sport);
+}
+.color--sundhed {
+  color: var(--color--sundhed);
 }
 .color--tv {
   color: var(--color--tv);

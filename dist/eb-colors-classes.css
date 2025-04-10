@@ -10,13 +10,17 @@
   background: var(--color--red);
   color: var(--fgcolor--red);
 }
-.bg--pink {
-  background: var(--color--pink);
-  color: var(--fgcolor--pink);
-}
 .bg--rose {
   background: var(--color--rose);
   color: var(--fgcolor--rose);
+}
+.bg--burntorange {
+  background: var(--color--burntorange);
+  color: var(--fgcolor--burntorange);
+}
+.bg--burntorange2 {
+  background: var(--color--burntorange2);
+  color: var(--fgcolor--burntorange2);
 }
 .bg--orangedark {
   background: var(--color--orangedark);
@@ -34,6 +38,10 @@
   background: var(--color--yellowlight);
   color: var(--fgcolor--yellowlight);
 }
+.bg--yellowtint {
+  background: var(--color--yellowtint);
+  color: var(--fgcolor--yellowtint);
+}
 .bg--sand {
   background: var(--color--sand);
   color: var(--fgcolor--sand);
@@ -45,6 +53,10 @@
 .bg--green {
   background: var(--color--green);
   color: var(--fgcolor--green);
+}
+.bg--green2 {
+  background: var(--color--green2);
+  color: var(--fgcolor--green2);
 }
 .bg--greenlight {
   background: var(--color--greenlight);
@@ -58,29 +70,53 @@
   background: var(--color--purpledark);
   color: var(--fgcolor--purpledark);
 }
-.bg--bluenavy {
-  background: var(--color--bluenavy);
-  color: var(--fgcolor--bluenavy);
+.bg--purpledark2 {
+  background: var(--color--purpledark2);
+  color: var(--fgcolor--purpledark2);
 }
-.bg--bluedark {
-  background: var(--color--bluedark);
-  color: var(--fgcolor--bluedark);
+.bg--royalblue {
+  background: var(--color--royalblue);
+  color: var(--fgcolor--royalblue);
+}
+.bg--royalblue2 {
+  background: var(--color--royalblue2);
+  color: var(--fgcolor--royalblue2);
 }
 .bg--blue {
   background: var(--color--blue);
   color: var(--fgcolor--blue);
 }
+.bg--bluegrey {
+  background: var(--color--bluegrey);
+  color: var(--fgcolor--bluegrey);
+}
+.bg--bluegrey2 {
+  background: var(--color--bluegrey2);
+  color: var(--fgcolor--bluegrey2);
+}
 .bg--bluelight {
   background: var(--color--bluelight);
   color: var(--fgcolor--bluelight);
 }
-.bg--cyan {
-  background: var(--color--cyan);
-  color: var(--fgcolor--cyan);
+.bg--sky {
+  background: var(--color--sky);
+  color: var(--fgcolor--sky);
+}
+.bg--sky2 {
+  background: var(--color--sky2);
+  color: var(--fgcolor--sky2);
 }
 .bg--sea {
   background: var(--color--sea);
   color: var(--fgcolor--sea);
+}
+.bg--viridian {
+  background: var(--color--viridian);
+  color: var(--fgcolor--viridian);
+}
+.bg--viridian2 {
+  background: var(--color--viridian2);
+  color: var(--fgcolor--viridian2);
 }
 .bg--black {
   background: var(--color--black);
@@ -190,9 +226,17 @@
   background: var(--color--forbrug);
   color: var(--fgcolor--forbrug);
 }
+.bg--krimi {
+  background: var(--color--krimi);
+  color: var(--fgcolor--krimi);
+}
 .bg--leder {
   background: var(--color--leder);
   color: var(--fgcolor--leder);
+}
+.bg--penge {
+  background: var(--color--penge);
+  color: var(--fgcolor--penge);
 }
 .bg--livescore {
   background: var(--color--livescore);
@@ -210,6 +254,10 @@
   background: var(--color--nyheder2);
   color: var(--fgcolor--nyheder2);
 }
+.bg--politik {
+  background: var(--color--politik);
+  color: var(--fgcolor--politik);
+}
 .bg--sex-samliv {
   background: var(--color--sex-samliv);
   color: var(--fgcolor--sex-samliv);
@@ -225,6 +273,10 @@
 .bg--sport {
   background: var(--color--sport);
   color: var(--fgcolor--sport);
+}
+.bg--sundhed {
+  background: var(--color--sundhed);
+  color: var(--fgcolor--sundhed);
 }
 .bg--tv {
   background: var(--color--tv);
@@ -243,11 +295,14 @@
 .color--red {
   color: var(--color--red);
 }
-.color--pink {
-  color: var(--color--pink);
-}
 .color--rose {
   color: var(--color--rose);
+}
+.color--burntorange {
+  color: var(--color--burntorange);
+}
+.color--burntorange2 {
+  color: var(--color--burntorange2);
 }
 .color--orangedark {
   color: var(--color--orangedark);
@@ -261,6 +316,9 @@
 .color--yellowlight {
   color: var(--color--yellowlight);
 }
+.color--yellowtint {
+  color: var(--color--yellowtint);
+}
 .color--sand {
   color: var(--color--sand);
 }
@@ -269,6 +327,9 @@
 }
 .color--green {
   color: var(--color--green);
+}
+.color--green2 {
+  color: var(--color--green2);
 }
 .color--greenlight {
   color: var(--color--greenlight);
@@ -279,23 +340,41 @@
 .color--purpledark {
   color: var(--color--purpledark);
 }
-.color--bluenavy {
-  color: var(--color--bluenavy);
+.color--purpledark2 {
+  color: var(--color--purpledark2);
 }
-.color--bluedark {
-  color: var(--color--bluedark);
+.color--royalblue {
+  color: var(--color--royalblue);
+}
+.color--royalblue2 {
+  color: var(--color--royalblue2);
 }
 .color--blue {
   color: var(--color--blue);
 }
+.color--bluegrey {
+  color: var(--color--bluegrey);
+}
+.color--bluegrey2 {
+  color: var(--color--bluegrey2);
+}
 .color--bluelight {
   color: var(--color--bluelight);
 }
-.color--cyan {
-  color: var(--color--cyan);
+.color--sky {
+  color: var(--color--sky);
+}
+.color--sky2 {
+  color: var(--color--sky2);
 }
 .color--sea {
   color: var(--color--sea);
+}
+.color--viridian {
+  color: var(--color--viridian);
+}
+.color--viridian2 {
+  color: var(--color--viridian2);
 }
 .color--black {
   color: var(--color--black);
@@ -378,8 +457,14 @@
 .color--forbrug {
   color: var(--color--forbrug);
 }
+.color--krimi {
+  color: var(--color--krimi);
+}
 .color--leder {
   color: var(--color--leder);
+}
+.color--penge {
+  color: var(--color--penge);
 }
 .color--livescore {
   color: var(--color--livescore);
@@ -393,6 +478,9 @@
 .color--nyheder2 {
   color: var(--color--nyheder2);
 }
+.color--politik {
+  color: var(--color--politik);
+}
 .color--sex-samliv {
   color: var(--color--sex-samliv);
 }
@@ -404,6 +492,9 @@
 }
 .color--sport {
   color: var(--color--sport);
+}
+.color--sundhed {
+  color: var(--color--sundhed);
 }
 .color--tv {
   color: var(--color--tv);
