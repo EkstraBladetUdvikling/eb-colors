@@ -158,6 +158,10 @@
   background: var(--color--sex-samliv);
   color: var(--fgcolor--sex-samliv);
 }
+.bg--side9 {
+  background: var(--color--side9);
+  color: var(--fgcolor--side9);
+}
 .bg--krimi {
   background: var(--color--krimi);
   color: var(--fgcolor--krimi);
@@ -285,6 +289,9 @@
 }
 .color--sex-samliv {
   color: var(--color--sex-samliv);
+}
+.color--side9 {
+  color: var(--color--side9);
 }
 .color--krimi {
   color: var(--color--krimi);

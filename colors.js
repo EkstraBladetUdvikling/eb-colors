@@ -40,6 +40,7 @@ const colorsNamed = {
   nyheder: colors.white,
   politik: colors.blue,
   sexsamliv: colors.orange,
+  side9: colors.orange,
   sport: colors.green,
   sundhed: colors.lightblue,
   tv: colors.red,
@@ -90,6 +91,7 @@ const colorPairsNamed = {
   sundhed: { background: colors.lightblue, color: colors.white },
   underholdning: { background: colors.purple, color: colors.white },
   sexsamliv: { background: colors.orange, color: colors.white },
+  side9: { background: colors.orange, color: colors.white },
   krimi: { background: colors.bluegrey, color: colors.white },
   politik: { background: colors.blue, color: colors.white },
 };

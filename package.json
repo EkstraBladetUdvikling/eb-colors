@@ -5,7 +5,7 @@
     "example/"
   ],
   "main": "dist/eb-colors.js",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "node converter.js && yarn build:snippets",
