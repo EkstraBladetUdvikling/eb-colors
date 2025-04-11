@@ -479,6 +479,18 @@
     "description": "#fff",
     "scope": "css"
   },
+  "color---color--side9": {
+    "prefix": "--color--side9",
+    "body": "--color--side9",
+    "description": "#f45531",
+    "scope": "css"
+  },
+  "color---fgcolor--side9": {
+    "prefix": "--fgcolor--side9",
+    "body": "--fgcolor--side9",
+    "description": "#fff",
+    "scope": "css"
+  },
   "color---color--krimi": {
     "prefix": "--color--krimi",
     "body": "--color--krimi",

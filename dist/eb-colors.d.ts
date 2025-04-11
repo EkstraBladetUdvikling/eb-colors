@@ -150,6 +150,10 @@ export declare const sexsamliv = "#f45531";
 export declare const sexsamlivRBG = "244,85,49";
 export declare const sexsamlivBGClass = "bg--sexsamliv";
 export declare const sexsamlivColorClass = "color--sexsamliv";
+export declare const side9 = "#f45531";
+export declare const side9RBG = "244,85,49";
+export declare const side9BGClass = "bg--side9";
+export declare const side9ColorClass = "color--side9";
 export declare const sport = "#00b66b";
 export declare const sportRBG = "0,182,107";
 export declare const sportBGClass = "bg--sport";
@@ -206,6 +210,7 @@ export declare const Colors: {
         nyheder: string;
         politik: string;
         sexsamliv: string;
+        side9: string;
         sport: string;
         sundhed: string;
         tv: string;
@@ -250,6 +255,7 @@ export declare const Colors: {
         nyheder: string;
         politik: string;
         sexsamliv: string;
+        side9: string;
         sport: string;
         sundhed: string;
         tv: string;
@@ -417,6 +423,10 @@ export declare const Background: {
         background: string;
         color: string;
     };
+    side9: {
+        background: string;
+        color: string;
+    };
     krimi: {
         background: string;
         color: string;
@@ -438,6 +448,7 @@ export declare const colorNames: {
     nyheder: string;
     politik: string;
     sexsamliv: string;
+    side9: string;
     sport: string;
     sundhed: string;
     tv: string;

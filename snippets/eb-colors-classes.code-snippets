@@ -199,6 +199,11 @@
     "body": "bg--sex-samliv",
     "description": "{'background':'var(--color--sex-samliv)','color':'var(--fgcolor--sex-samliv)'}"
   },
+  "color-bg--side9": {
+    "prefix": "bg--side9",
+    "body": "bg--side9",
+    "description": "{'background':'var(--color--side9)','color':'var(--fgcolor--side9)'}"
+  },
   "color-bg--krimi": {
     "prefix": "bg--krimi",
     "body": "bg--krimi",
@@ -408,6 +413,11 @@
     "prefix": "color--sex-samliv",
     "body": "color--sex-samliv",
     "description": "{'color':'var(--color--sex-samliv)'}"
+  },
+  "color-color--side9": {
+    "prefix": "color--side9",
+    "body": "color--side9",
+    "description": "{'color':'var(--color--side9)'}"
   },
   "color-color--krimi": {
     "prefix": "color--krimi",

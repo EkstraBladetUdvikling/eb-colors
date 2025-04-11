@@ -799,6 +799,26 @@
     ],
     "scope": "css"
   },
+  "color---rgb-color--side9": {
+    "prefix": "--rgb-color--side9",
+    "body": "--rgb-color--side9",
+    "description": [
+      244,
+      85,
+      49
+    ],
+    "scope": "css"
+  },
+  "color---rgb-fgcolor--side9": {
+    "prefix": "--rgb-fgcolor--side9",
+    "body": "--rgb-fgcolor--side9",
+    "description": [
+      255,
+      255,
+      255
+    ],
+    "scope": "css"
+  },
   "color---rgb-color--krimi": {
     "prefix": "--rgb-color--krimi",
     "body": "--rgb-color--krimi",
